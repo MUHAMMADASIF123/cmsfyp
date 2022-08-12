@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import uniqid from "uniqid";
 import axios from "axios";
-import { Link, useNavigate } from "react-router-dom";
+import { Link, } from "react-router-dom";
 function Adduser() {
   const [user, setUser] = useState({
     name: "",
@@ -11,8 +11,8 @@ function Adduser() {
     
   });
 
-  const history = useNavigate();
-  const { name, email, password, cpassword, userid } = user;
+  // const history = useNavigate();
+  const { name, email, password, cpassword } = user;
   const onInputChange = (e) => {
     setUser({ ...user, [e.target.name]: e.target.value });
   };

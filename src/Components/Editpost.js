@@ -10,7 +10,7 @@ function Editpost() {
     imgurl: "",
     description: "",
   });
-  const { title, imgurl, description, postid } = post;
+  const { title, imgurl, description} = post;
   // const onInputChange = (e) => {
   //   setPost({ ...post, [e.target.name]: e.target.value });
   // }

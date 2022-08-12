@@ -14,7 +14,7 @@ function Addpost() {
 
 
   const history=useNavigate();
-  const { title,imgurl,description,postid } = post;
+  const { title,imgurl,description} = post;
   const onInputChange = (e) => {
     setPost({ ...post, [e.target.name]: e.target.value });
   };
@@ -28,8 +28,8 @@ function Addpost() {
           }
           console.log(posts)
     e.preventDefault();
-    await axios.post("/api/post/addnewpost", posts).
-    then(res=>{
+    await axios.post("/api/post/addnewpost", posts)
+    .then(res=>{
       // alert(res.data)
       history('/')
     }).catch(err=>{
