@@ -4,7 +4,7 @@ import Addpost from "./Components/Addpost";
 import Editpost from "./Components/Editpost";
 import Postlist from "./Components/Postlist";
 import './App.css'
-import Adduser from "./Components/Adduser";
+import RegisterUser from "./Components/RegisterUser";
 import Login from "./Components/Login";
 import ContactUs from "./Components/ContactUs";
 import Header from "./Components/Header";
@@ -18,7 +18,7 @@ function App() {
 <Route path="/" element={<Postlist/>}></Route>
 <Route path='/addpost' element={<Addpost/>}></Route>
 <Route path='/editpost/:postid' element={<Editpost/>}></Route>
-<Route path='/adduser' element={<Adduser/>}></Route>
+<Route path='/registeruser' element={<RegisterUser/>}></Route>
 <Route path='/login' element={<Login/>}></Route>
 <Route path='/contactus' element={<ContactUs/>}></Route>
 

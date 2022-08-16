@@ -16,7 +16,8 @@ function Header() {
         </li>
        
       </ul>
-      <Link to={'/addpost'} className="btn btn-primary"> Add post</Link>
+      <Link to={'/registeruser'} className="btn btn-primary me-2"> Register</Link>
+      <Link to={'/login'} className="btn btn-primary"> Login </Link>
     </div>
   </div>
 </nav>

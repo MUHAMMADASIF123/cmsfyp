@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import uniqid from "uniqid";
 import axios from "axios";
-import { Link, } from "react-router-dom";
-function Adduser() {
+import { useNavigate } from "react-router-dom";
+function RegisterUser () {
   const [user, setUser] = useState({
     name: "",
     email: "",
@@ -11,7 +11,7 @@ function Adduser() {
     
   });
 
-  // const history = useNavigate();
+  const history = useNavigate();
   const { name, email, password, cpassword } = user;
   const onInputChange = (e) => {
     setUser({ ...user, [e.target.name]: e.target.value });
@@ -28,25 +28,24 @@ function Adduser() {
     console.log(users);
     e.preventDefault();
     await axios
-      .post("/api/post/adduser", users)
+      .post("/api/post/registeruser", users)
       .then((res) => {
         alert(res.data);
+        
           // history('/')
+          history("/login");
       })
       .catch((err) => {
         console.log(err);
       });
     // history.push("/");
-    // history("/home");
+  
   };
 
   return (
     <div className="row justify-content-center">
       <div className="col-md-6">
-        <Link to={"/"} className="btn btn-primary">
-          {" "}
-          back to home
-        </Link>
+       
         <div>
           <input
             type="text"
@@ -94,4 +93,4 @@ function Adduser() {
   );
 }
 
-export default Adduser;
+export default RegisterUser;

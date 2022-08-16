@@ -1,8 +1,10 @@
 import React, { useState } from "react";
 // import uniqid from "uniqid";
 import axios from "axios";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
+import {useNavigate} from "react-router-dom"
 function Login() {
+  const history=useNavigate();
   const [user, setUser] = useState({
     email: "",
     password: "",
@@ -34,15 +36,12 @@ function Login() {
         console.log(err);
       });
     // history.push("/");
-    // history("/home");
+    history("/");
   };
   return (
     <div className="row justify-content-center">
       <div className="col-md-6">
-        <Link to={"/"} className="btn btn-primary">
-          {" "}
-          back to home
-        </Link>
+       \
         <div>
          
           <input
@@ -68,7 +67,7 @@ function Login() {
             className="mt-2  btn btn-success"
           >
             {" "}
-            signup
+            Login
           </button>
         </div>
       </div>
