@@ -1,0 +1,25 @@
+.custom_heading{
+    margin-bottom: -70px;
+}
+form{
+    margin-top: -70px;
+    /* width: 500px; */
+height: 500px;
+}
+
+input{
+    height: 40px;
+    border: 2px solid blue;
+    border-radius: 10px;
+}
+textarea{
+   
+    border: 2px solid blue;
+    border-radius: 10px;
+}
+button{
+    
+     height: 40px;
+    border: 2px solid blue;
+    border-radius: 10px;
+}

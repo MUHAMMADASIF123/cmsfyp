@@ -3,10 +3,10 @@ import  uniqid from 'uniqid';
 import axios from 'axios'
 import {Link,useNavigate} from 'react-router-dom'
 function Addpost() {
-  const[post,setPost]=useState({
-    title:"",
-    imgurl:"",
-    description:""
+  const[student,setStudent]=useState({
+    name:"",
+    email:"",
+    cnic:""
     
 
 
@@ -14,21 +14,21 @@ function Addpost() {
 
 
   const history=useNavigate();
-  const { title,imgurl,description} = post;
+  const { name,email,cnic} = student;
   const onInputChange = (e) => {
-    setPost({ ...post, [e.target.name]: e.target.value });
+    setStudent({ ...student, [e.target.name]: e.target.value });
   };
 
   const handlepost = async (e) => {
-    var posts={
-      title:title,
-      imgurl:imgurl,
-      description:description,
+    var studentData={
+      name:name,
+      email:email,
+      cnic:cnic,
       postid:uniqid()
           }
-          console.log(posts)
+          console.log(studentData)
     e.preventDefault();
-    await axios.post("/api/post/addnewpost", posts)
+    await axios.post("/api/post/addnewpost", studentData)
     .then(res=>{
       // alert(res.data)
       history('/')
@@ -45,10 +45,10 @@ function Addpost() {
       <div className='col-md-6'>
       <Link to={'/'} className="btn btn-primary"> back to home</Link>
         <div>
-        <input type='text' placeholder='title' name='title' value={title} onChange={onInputChange} className='form-control mt-2' />
-        <input type='text' placeholder='imgurl' name='imgurl' value={imgurl} onChange={onInputChange} className='form-control mt-2' />
-        <textarea rows='10' cols='30' placeholder='descripion'  name='description' value={description} onChange={onInputChange} className='form-control mt-2'></textarea>
-        <button type='submit' onClick={handlepost} className='mt-2  btn btn-success'> addpost</button>
+        <input type='text' placeholder='title' name='name' value={name} onChange={onInputChange} className='form-control mt-2' />
+        <input type='email' placeholder='email' name='email' value={email} onChange={onInputChange} className='form-control mt-2' />
+        <input type="Number" placeholder='cnic'  name='cnic' value={cnic} onChange={onInputChange} className='form-control mt-2'/>
+        <button type='submit' onClick={handlepost} className='mt-2  btn btn-success'> AddStudent</button>
         
         </div>
       </div>

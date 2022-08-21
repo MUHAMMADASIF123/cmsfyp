@@ -42,12 +42,14 @@ function Postlist() {
          
           {post.map((val, index) => (
             <div className="card  mt-2" key={index}>
-              <h5 className="card-title text-black mt-2">{val.title}</h5>
+              <h5 className="card-title text-black mt-2">{val.name}</h5>
+              
 
               <div className="card-body">
-                <img src={val.imgurl} className="card-img-top" alt="..." />
+                {/* <img src={val.email} className="card-img-top" alt="..." /> */}
+                <h5 className="card-title text-black mt-2">{val.email}</h5>
                 <h5 className="card-title text-black mt-2">
-                  {val.description}
+                  {val.cnic}
                 </h5>
                 <div className=" d-flex justify-content-end mt-2">
                   <Link
