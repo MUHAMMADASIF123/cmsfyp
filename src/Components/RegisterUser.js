@@ -27,7 +27,7 @@ function RegisterUser () {
     };
     console.log(users);
     e.preventDefault();
-    const result=await axios
+    await axios
       .post("/api/post/registeruser", users)
       .then((res) => {
         alert(res.data);
