@@ -8,6 +8,7 @@ import RegisterUser from "./Components/RegisterUser";
 import Login from "./Components/Login";
 import ContactUs from "./Components/ContactUs";
 import Header from "./Components/Header";
+import RegistrationForm from "./Components/RegistrationForm";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
 <Route path='/registeruser' element={<RegisterUser/>}></Route>
 <Route path='/login' element={<Login/>}></Route>
 <Route path='/contactus' element={<ContactUs/>}></Route>
+<Route path='/apply' element={<RegistrationForm/>}></Route>
 
 
 

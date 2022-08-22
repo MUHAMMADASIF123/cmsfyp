@@ -41,6 +41,7 @@ function Header() {
       <>
       <Link to={'/login'} className="btn btn-primary me-2"> Login </Link>
       <Link to={'/registeruser'} className="btn btn-primary me-2"> Register</Link>
+      <Link to={'/apply'} className="btn btn-primary me-2"> Apply Now</Link>
       
       </>
     
