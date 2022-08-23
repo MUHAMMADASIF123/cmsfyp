@@ -61,9 +61,9 @@ function RegistrationForm () {
     <h6>Group For Intermediate</h6>
     
   </div>
-  <select class="custom-select" id="inputGroupSelect01" style={{width:200}}>
+  <select class="custom-select" id="inputGroupSelect01" style={{width:220}}>
     <option selected>F.Sc(Pre-Medical)</option>
-    <option value="1">F.Sc(Pre-engineering)</option>
+    <option value="1">F.Sc(Pre-Engineering)</option>
     <option value="2">F.A</option>
     <option value="2">I.Com</option>
     <option value="2">I.C.S</option>
@@ -126,89 +126,103 @@ function RegistrationForm () {
 </div>
         <div class="row g-3">
   <div className="col">
-    <input type="text" class="form-control" placeholder="Student name" aria-label="First name"/>
+  <label className="d-flex justify-content-start" for="exampleInputName">Student Name:</label>
+  {/* <h6 className="ms-0">name</h6> */}
+    <input type="text" class="form-control" id="exampleInputName" placeholder="Enter Your Name" aria-label="First name"/>
   </div>
   <div className="col">
-    <input type="text" class="form-control" placeholder="Phone" aria-label="Last name"/>
+  <label className="d-flex justify-content-start" for="exampleInputPhone">Student's Phone Number:</label>
+    <input type="number" class="form-control" id="exampleInputPhone" placeholder="Enter Your Phone Number" aria-label="Last name"/>
   </div>
 </div>
-<div class="row g-3">
+<div class="row g-3 mt-2">
   <div className="col">
-    <input type="text" class="form-control" placeholder="Father name" aria-label="First name"/>
+  <label className="d-flex justify-content-start" for="exampleInputName">Student's Father Name:</label>
+    <input type="text" class="form-control" placeholder="Enter Your Father Name" id="exampleInputName"  aria-label="First name"/>
   </div>
   <div className="col">
-    <input type="text" class="form-control" placeholder="Phone" aria-label="Last name"/>
+  <label className="d-flex justify-content-start" for="exampleInputPhone">Student's Father Phone Number:</label>
+    <input type="text" class="form-control" id="exampleInputPhone" placeholder="Phone" aria-label="Last name"/>
   </div>
 </div>
 <div className="row">
 <div className="col-md-4">
-    <label for="inputCity" class="form-label">Cnic</label>
-    <input type="number" class="form-control" id="inputCity"/>
+<label className="d-flex justify-content-start" for="exampleInputCnic">Student's Cnic Number:</label>
+    <input type="number" class="form-control" id="exampleInputCnic"/>
   </div>
   <div className="col-md-4">
-    <label for="inputState" class="form-label">Relign</label>
-    <select id="inputState" class="form-select">
-      <option selected>Relgin</option>
-      <option>islam</option>
+    <label for="inputState" className="form-label d-flex justify-content-start mb-0">Religion</label>
+    <select id="inputState" class="form-select ">
+      <option selected>Islam</option>
+      <option>Chrision</option>
     </select>
   </div>
   <div className="col-md-4">
-    <label for="inputZip" class="form-label">Zip</label>
+    <label for="inputZip" className="form-label d-flex justify-content-start mb-0">Domicile</label>
     <input type="text" class="form-control" id="inputZip"/>
   </div>
   </div>
   {/* address section */}
   <div class="row g-3">
   <div class="col-md-6">
-    <label for="inputEmail4" class="form-label">Date Of Birth</label>
-    <input type="email" class="form-control" id="inputEmail4"/>
+    <label for="inputEmail4" className="form-label d-flex justify-content-start">Date Of Birth</label>
+    <input type="date" class="form-control" id="inputEmail4"/>
   </div>
   <div class="col-md-6">
-    <label for="inputPassword4" class="form-label">Email</label>
+    <label for="inputPassword4" className="form-label d-flex justify-content-start">Email</label>
     <input type="email" class="form-control" id="inputPassword4"/>
   </div>
   <div className="row">
   <div className="col-md-6">
-    <input type="text" class="form-control" placeholder="Father Occupation" aria-label="First name"/>
+  <label for="inputOccupation4" className="form-label d-flex justify-content-start">Father Occupation</label>
+    <input type="text" class="form-control" id="inputOccupation4" placeholder="Enter Father Occupation" aria-label="First name"/>
   </div>
 
   <div className="col-md-6">
-    <input type="number" class="form-control" placeholder="Father's Cnic Number" aria-label="First name"/>
+  <label for="inputCnic" className="form-label d-flex justify-content-start"> Father's Cnic Number</label>
+    <input type="number" class="form-control" id="inputCnic" placeholder="Enter Father's Cnic Number" aria-label="First name"/>
   </div>
   </div>
   <div className="row">
   <div className="col-md-4">
-    <input type="text" class="form-control" placeholder="Gradian's Name" aria-label="First name"/>
+  <label for="inputOccupation4" className="form-label d-flex justify-content-start">Gradian's Name</label>
+    <input type="text" class="form-control" id="inputOccupation4" placeholder="Enter Gradian's Name" aria-label="First name"/>
   </div>
 
   <div className="col-md-4">
-    <input type="number" class="form-control" placeholder="Occupation" aria-label="First name"/>
+  <label for="inputOccupation4" className="form-label d-flex justify-content-start">Gradian's Occupation</label>
+    <input type="number" class="form-control" placeholder="Enter gardian's Occupation" aria-label=" First name"/>
   </div>
   <div className="col-md-4">
-    <input type="number" class="form-control" placeholder="phone" aria-label="First name"/>
+  <label for="inputOccupation4" className="form-label d-flex justify-content-start">Gardian's Phone Number</label>
+    <input type="number" class="form-control" placeholder="Enter Gradian's phone Number" aria-label="First name"/>
   </div>
   </div>
   <div class="col-12">
-    <label for="inputAddress" class="form-label">Address</label>
+    <label for="inputAddress" className="form-label d-flex justify-content-start">Address</label>
     <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St"/>
   </div>
   <div class="col-12">
-    <label for="inputAddress2" class="form-label">Address 2</label>
+    <label for="inputAddress2" className="d-flex justify-content-start form-label">Address 2</label>
     <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor"/>
   </div>
   <div class="col-md-6">
-    <label for="inputCity" class="form-label">City</label>
+    <label for="inputCity" className=" d-flex justify-content-start form-label">City</label>
     <input type="text" class="form-control" id="inputCity"/>
   </div>
   <div class="col-md-4">
-    <label for="inputState" class="form-label">State</label>
+    <label for="inputState" className=" d-flex justify-content-start form-label">State</label>
     <select id="inputState" class="form-select">
-      <option selected>Choose...</option>
-      <option>...</option>
+      <option selected>Punjab</option>
+      <option >Balochistan</option>
+      <option >Sindh</option>
+      <option >Khyber Pakhtunkhwa</option>
+      <option>
+Gilgit-Baltistan</option>
     </select>
   </div>
   <div class="col-md-2">
-    <label for="inputZip" class="form-label">Zip</label>
+    <label for="inputZip" className="form-label d-flex justify-content-start ">Zip</label>
     <input type="text" class="form-control" id="inputZip"/>
   </div>
 
@@ -229,35 +243,34 @@ function RegistrationForm () {
   <tbody>
     <tr>
       <th scope="row">Matric</th>
-      <td>Mark</td>
-      <td>Otto</td>
-      <td>@mdo</td>
-      <td>@mdo</td>
-      <td>@mdo</td>
-      <td>@mdo</td>
-      <td>@mdo</td>
-    
+      <td ><input  type='number' style={{width:80}}></input></td>
+      <td ><input  type='number' style={{width:80}}></input></td>
+      <td ><input  type='number' style={{width:80}}></input></td>
+      <td ><input  type='number' style={{width:80}}></input></td>
+      <td><input type='text'></input></td>
+      <td><input type='text'></input></td>
+      <td><input type='text'></input></td>
     </tr>
     <tr>
       <th scope="row">Intermediate</th>
-      <td>Jacob</td>
-      <td>Thornton</td>
-      <td>@fat</td>
-      <td>@fat</td>
-      <td>@fat</td>
-      <td>@fat</td>
-      <td>@fat</td>
+      <td ><input  type='number' style={{width:80}}></input></td>
+      <td ><input  type='number' style={{width:80}}></input></td>
+      <td ><input  type='number' style={{width:80}}></input></td>
+      <td ><input  type='number' style={{width:80}}></input></td>
+      <td><input type='text'></input></td>
+      <td><input type='text'></input></td>
+      <td><input type='text'></input></td>
       
     </tr>
     <tr>
       <th scope="row">BA/B.SC</th>
-      <td >Larry the Bird</td>
-      <td>@twitter</td>
-      <td>@twitter</td>
-      <td>@twitter</td>
-      <td>@twitter</td>
-      <td>@twitter</td>
-      <td>@twitter</td>
+      <td ><input  type='number' style={{width:80}}></input></td>
+      <td ><input  type='number' style={{width:80}}></input></td>
+      <td ><input  type='number' style={{width:80}}></input></td>
+      <td ><input  type='number' style={{width:80}}></input></td>
+      <td><input type='text'></input></td>
+      <td><input type='text'></input></td>
+      <td><input type='text'></input></td>
     </tr>
   </tbody>
 </table>
@@ -270,7 +283,7 @@ function RegistrationForm () {
             className="mt-2  btn btn-primary w-100"
           >
             {" "}
-            Signup
+            Submit
           </button>
 
         </form>
