@@ -27,13 +27,10 @@ function RegisterUser () {
     };
     console.log(users);
     e.preventDefault();
-    await axios
-      .post("/api/post/registeruser", users)
+    await axios.post("/api/post/registeruser", users)
       .then((res) => {
-        alert(res.data);
-        // localStorage.getItem("user",JSON.stringify(result));
-        // localStorage.setItem('token-info', JSON.stringify(users));
-        
+        // alert(res.data);
+        console.log(res.data)
           history('/login')
       })
       .catch((err) => {

@@ -50,7 +50,7 @@ function RegistrationForm () {
 <div class="container">
     <div class=" text-center">
         <h1>Government Graduate Science College Wahdat Road Lahore</h1>
-        <h1 className="border rounded-pill h-25 w-75 d-inline-block" >Application For Admission-2022</h1>
+        <h1 className="border rounded-pill h-25 w-75 d-inline-block" >Application For Addmission-2022</h1>
 
         <form class="rounded shadow p-5 mt-5 h-100">
         <div className="row">
