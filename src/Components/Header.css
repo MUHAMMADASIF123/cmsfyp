@@ -1,0 +1,25 @@
+.logo{
+
+    height: 80px;
+    width: 75px;
+    margin-left: 50px;
+}
+.item{
+
+    margin-left: 10px;
+    font-weight: bold;
+}
+.menu{
+    margin-top: 50px;
+    margin-left:100px ;
+}
+.nav-item{
+    font-size:x-large;
+    background-color: white;
+}
+.navbar{
+    background-color: blue;
+}
+.btn btn-primary me-2{
+    color: white;
+}
