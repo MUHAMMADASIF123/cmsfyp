@@ -9,6 +9,7 @@ import Login from "./Components/Login";
 import ContactUs from "./Components/ContactUs";
 import Header from "./Components/Header";
 import RegistrationForm from "./Components/RegistrationForm";
+import Home from "./Components/Home";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
      <Routes>
       
 <Route path="/" element={<Postlist/>}></Route>
+<Route path="/home" element={<Home/>}></Route>
 <Route path='/addpost' element={<Addpost/>}></Route>
 <Route path='/editpost/:postid' element={<Editpost/>}></Route>
 <Route path='/registeruser' element={<RegisterUser/>}></Route>
