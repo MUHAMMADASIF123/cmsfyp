@@ -11,9 +11,9 @@ import Slider from "react-slick";
       slidesToScroll: 1
     };
     return (
-      <div className="container">
+      <div >
         <h2> Single Item</h2>
-        <Slider className=" " {...settings}>
+        <Slider  {...settings}>
           <div>
             <h3>1</h3>
           </div>
