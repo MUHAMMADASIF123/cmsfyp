@@ -124,7 +124,7 @@ function Login() {
 <button
             type="submit"
             onClick={handleuser}
-            className="mt-4 btn btn-primary w-100 "
+            className="mt-4 shadow w-100 "
           >
             {" "}
             Login
