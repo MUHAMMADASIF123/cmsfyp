@@ -7,7 +7,7 @@ function RegisterUser () {
     name: "",
     email: "",
     password: "",
-    cpassword: "",
+    cpassword: ""
     
   });
 
@@ -29,8 +29,8 @@ function RegisterUser () {
     e.preventDefault();
     await axios.post("/api/post/registeruser", users)
       .then((res) => {
-        // alert(res.data);
-        console.log(res.data)
+        alert(res.data);
+        // console.log(res.data)
           history('/login')
       })
       .catch((err) => {

@@ -7,17 +7,19 @@ import './App.css'
 import RegisterUser from "./Components/RegisterUser";
 import Login from "./Components/Login";
 import ContactUs from "./Components/ContactUs";
-import Header from "./Components/Header";
+import Newheader from "./Components/Newheader";
 import RegistrationForm from "./Components/RegistrationForm";
 import Home from "./Components/Home";
+import Footer from "./Components/Footer";
+
 
 function App() {
   return (
     <div className="App">
-     <Header/>
+     {/* <Newheader/> */}
      <Routes>
       
-<Route path="/" element={<Postlist/>}></Route>
+<Route path="/" element={<Newheader/>}></Route>
 <Route path="/home" element={<Home/>}></Route>
 <Route path='/addpost' element={<Addpost/>}></Route>
 <Route path='/editpost/:postid' element={<Editpost/>}></Route>
@@ -25,6 +27,7 @@ function App() {
 <Route path='/login' element={<Login/>}></Route>
 <Route path='/contactus' element={<ContactUs/>}></Route>
 <Route path='/apply' element={<RegistrationForm/>}></Route>
+<Route path='/footer' element={<Footer/>}></Route>
 
 
 

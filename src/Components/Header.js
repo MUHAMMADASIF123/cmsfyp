@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link,useNavigate } from 'react-router-dom'
-import './header.css'
+import './Header.css'
 
 function Header() {
   const history=useNavigate();
@@ -13,47 +13,41 @@ function Header() {
   var auth = JSON.parse(localStorage.getItem("token-info"));
   console.log(auth);
   return (
-<div>
-    <nav className="navbar navbar-expand-lg ">
+<div className='main shadow-lg container rounded '>
+    <nav className="navbar navbar-expand-lg  ">
   <div className="container-fluid">
+    <div className=''>
     <a className="navbar-brand" href="/"><img  className="logo" src="./images/colglogo.png"/></a>
+     <a className='text-white text-decoration-none font-weight-bold'> GOVERNMENT GRADUATE COLLEGE OF SCIENCE | GCS</a></div>
+    
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span className="navbar-toggler-icon"></span>
     </button>
-    <div className="collapse navbar-collapse " id="navbarSupportedContent">
-      <ul className="navbar-nav me-auto menu mb-2 mb-lg-0">
-        <li className="nav-item ">
-          <a className="nav-link active item" aria-current="page" href="/">Home</a>
-        </li>
-        <li className="nav-item">
-          <a className="nav-link active item" aria-current="page" href="/contactus">Contact Us</a>
-        </li>
-
-       
-      </ul>
-    
+  
+  </div>
+  <div className="collapse navbar-collapse " id="navbarSupportedContent">
     {
         localStorage.getItem("token-info") ?
         <>
-      <button onClick={logout} className="btn btn-primary me-2"> logout </button>
+      <button onClick={logout} className=" hbtn me-2 text-white"> logout </button>
       {/* <Link to={'/login'} className="btn btn-primary me-2"> Login </Link> */}
-      <Link to={'/profile'} className="btn btn-primary me-2"> {auth.email}</Link>
+     <button> <Link to={'/profile'} className="hbtn text-white me-2"> {auth.email}</Link></button>
       </> :
       <>
-      <Link to={'/login'} className="btn me-2"> Login </Link>
-      <Link to={'/registeruser'} className="btn btn-primary me-2">SignUp</Link>
-      <Link to={'/apply'} className="btn btn-primary me-2"> Apply Now</Link>
-      
-      </>
-    
+      <button>< Link to={'/login'} className=" hbtn text-white "> Login </Link></button>
+      <button>  <Link to={'/registeruser'} className="hbtn me-3 text-white  ">SignUp</Link></button>
+      <button><Link to={'/apply'} className="hbtn w-100 apply text-white "> Apply</Link></button>
+
+      </>   
 }
-    
+
 
     </div>
-  </div>
-
+   
 </nav>
 </div>
+
+
   )
 }
 

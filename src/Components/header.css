@@ -1,24 +1,72 @@
-.logo{
-
-    height: 80px;
-    width: 75px;
-    margin-left: 50px;
+.main{
+background-color:#172540;
+display: flex;
+justify-content: space-between;
+/* justify-content: center; */
+/* justify-items: center; */
+align-items: center;
+height: 140px;
+/* border-radius: 222px; */
 }
-.item{
+.logo img{
+    height: 110px;
+    width: 110px;
+    margin-left:20px ;
+    /* margin-top: 5px; */
+    align-items: center;
+    
+}
+.main .logo{
+    margin-left:20px ;
+   color: aliceblue;
+   font-weight: bold;
+   font-size: 20px;
+   /* padding-right: 50px; */
+}
+.main .logo a{
+margin-left: 20px;
+text-decoration: none;
+color: aliceblue;
+}
 
-    margin-left: 10px;
+.newbtn{
+    margin-right: 50px;
+}
+
+.newbtn button{
+    /* margin-right: 20px; */
+    margin-left: 15px;
+    padding:  4px 20px;
+    
+    border-radius: 12px;
+    border: none;
     font-weight: bold;
+   border: 2px solid white;
 }
-.menu{
-    margin-top: 50px;
-    margin-left:100px ;
+.menu {
+    display: flex;
+    flex-direction: column;
+    padding:  4px 20px;
+    border: none;
+    font-weight: bold;
+    background-color: #172540;
+    color: aliceblue;
+    border-top: 4px solid yellow;
+    height: 60px;
+    line-height: 40px;
 }
-.nav-item{
-    font-size:x-large;
+.menu a{
+    color: aliceblue;
+    text-decoration: none;
+    padding:  4px 20px;
+    align-items: center;
+    text-align: center;
+    /* vertical-align: middle; 
+    */
+
+    font-size: larger;    
 }
-.navbar{
-    background-color: brown;
-}
-.btn{
-    background-color: aqua;
+.menu a:hover{
+    color: yellow;
+    border-bottom: 4px solid yellow;
 }
