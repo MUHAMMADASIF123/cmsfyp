@@ -76,8 +76,8 @@ function Login() {
       </div>
     </div> */}
     <section class="Wraper  " >
-      <div class="container ">
-        <div class="col-sm-8 offset-sm-2  col-lg-6 offset-lg-3 text-center mt-5">
+      <div class="container " >
+        <div class="col-sm-8 offset-sm-2  col-lg-6 offset-lg-3 text-center mt-5 vh-100" >
           <div class="logo">
             {/* <img
               class="w-25 h-25"
@@ -85,25 +85,25 @@ function Login() {
               alt="image"
             /> */}
           </div>
-          <form class="rounded bg-white shadow p-5 mt-5">
-            <h3 class="text-dark fw-bolder fs-4 mb-2">Login to here</h3>
-<div class="fw-normal text-muted mb-4">
-    New here ? <a href="#" class="text-decoration-none text-primary fw-bolder">create a account</a>
+          <form class="rounded-circle  shadow p-5 mt-5 " style={{backgroundColor:"#172540"}} >
+            <h3 class="text-white fw-bolder fs-4 mb-2">Login to Here !</h3>
+<div class="fw-normal text-white mb-4">
+    New here ? <a href="#" class="text-decoration-none text-warning fw-bolder">create a account</a>
 </div>
-<div class="form-floating mb-3">
+<div class="form-floating mb-3 d-flex justify-content-center ">
     {/* <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com"/> */}
     <input
             type="email"
-            id="floatingInput"
-            placeholder="email"
+            // id="floatingInput"
+            placeholder="Enter Your Email"
             name="email"
             value={email}
             onChange={onInputChange}
-            className="form-control mt-2"
+            className="form-control w-75 text-center mt-2 border-warning"
           />
-    <label for="floatingInput">Email address</label>
+    <label  for="floatingInput">Email address</label>
   </div>
-  <div class="form-floating">
+  <div class="form-floating d-flex justify-content-center">
     {/* <input type="password" class="form-control" id="floatingPassword" placeholder="Password"/>
      */}
       <input
@@ -113,18 +113,18 @@ function Login() {
             name="password"
             value={password}
             onChange={onInputChange}
-            className="form-control mt-2"
+            className="form-control w-75 text-center mt-2 border-warning"
           />
     <label for="floatingPassword">Password</label>
   </div>
   <div class="mt-2 text-end">
-    <a href="#" class="fw-bold text-primary text-decoration-none "> Forget password ?</a>
+    <a href="#" class="fw-bold text-primary text-decoration-none me-5 text-warning "> Forget password ?</a>
   </div>
 {/* <button type="submit" class="btn btn-primary w-100 my-4">Continue</button> */}
 <button
             type="submit"
             onClick={handleuser}
-            className="mt-4 shadow w-100 "
+            className="mt-4 font-weight-bold text-uppercase text-bold shadow w-75 border-0 rounded-pill "
           >
             {" "}
             Login

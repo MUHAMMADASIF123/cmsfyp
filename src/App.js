@@ -16,23 +16,20 @@ import Footer from "./Components/Footer";
 function App() {
   return (
     <div className="App">
-     {/* <Newheader/> */}
+     <Newheader/>
      <Routes>
       
-<Route path="/" element={<Newheader/>}></Route>
-<Route path="/home" element={<Home/>}></Route>
+{/* <Route path="/" element={<Newheader/>}></Route> */}
+<Route path="/" element={<Home/>}></Route>
 <Route path='/addpost' element={<Addpost/>}></Route>
 <Route path='/editpost/:postid' element={<Editpost/>}></Route>
 <Route path='/registeruser' element={<RegisterUser/>}></Route>
 <Route path='/login' element={<Login/>}></Route>
-<Route path='/contactus' element={<ContactUs/>}></Route>
+<Route path='/contactUs' element={<ContactUs/>}></Route>
 <Route path='/apply' element={<RegistrationForm/>}></Route>
-<Route path='/footer' element={<Footer/>}></Route>
-
-
-
-
+{/* <Route path='/footer' element={<Footer/>}></Route> */}
      </Routes>
+     <Footer></Footer>
     </div>
   );
 }
