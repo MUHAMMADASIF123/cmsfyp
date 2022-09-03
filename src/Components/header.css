@@ -28,9 +28,12 @@ margin-left: 20px;
 text-decoration: none;
 color: aliceblue;
 }
-
+.hbtn{
+    text-decoration: none;
+}
 .newbtn{
     margin-right: 50px;
+    /* text-decoration: none; */
 }
 
 .newbtn button{

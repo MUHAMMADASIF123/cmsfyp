@@ -1,0 +1,42 @@
+.foter{
+    display: flex;
+    justify-content: space-between;
+    background-color:#172540;
+    height: 60px;
+    align-items: center;
+    /* justify-content: center; */
+    color: white;
+}
+.foter p{
+    align-items: center;
+}
+.txt{
+color: white;
+margin-left:20px ;
+}
+.icons{
+    margin-right:20px ;  
+    color: yellow; 
+    /* padding: 0 10px; */
+    /* margin: 0 0 10px 0; */
+    width: 200px;
+    
+
+}
+
+.icons li{
+    align-items: center;
+    /* padding: 0 10px; */
+    /* margin: 0 0 100px 0; */
+    
+}
+.IMG{
+    width: 500px;
+    height: 250px;
+    margin-bottom: 5;
+    /* margin-left: ; */
+}
+.footer2{
+    background-color: #172540;
+    border-bottom: 4px solid yellow;
+}

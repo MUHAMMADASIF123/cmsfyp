@@ -41,18 +41,16 @@ function RegisterUser () {
 
   return (
     <div>
-    
-   
-    <section class="mt-5  wraper ">
-<div class="container">
+    <section class="mt-5 wraper ">
+<div class="container vh-100">
     <div class="col-sm-8 offset-sm-2  col-lg-6 offset-lg-3 text-center">
         <div class="logo ">
             {/* <img class="w-25 h-25" src="/images/1218776_company_logo_apple_ipad_iphone_icon.png"/> */}
         </div>
-        <form class="rounded shadow p-5 mt-5">
-         <h1 className="mb-2">Register Here !</h1>
+        <form class="rounded-circle shadow p-5 w-100 mt-5" style={{backgroundColor:"#172540"}}>
+         <h1 className="mb-2 text-white">Register Here !</h1>
             
-              <div class="form-floating">
+              <div class="form-floating d-flex justify-content-center">
                 {/* <input type="text" class="form-control" id="floatingPassword" placeholder="Last Name"/> */}
                 <input
             type="text"
@@ -61,11 +59,11 @@ function RegisterUser () {
             name="name"
             value={name}
             onChange={onInputChange}
-            className="form-control mt-2"
+            className="form-control mt-2 w-75 " style={{height:"40px"}}
           />
                 <label for="floatingPassword">Your Name</label>
               </div>
-              <div class="form-floating  mt-2 mb-3">
+              <div class="form-floating  d-flex justify-content-center mt-2 mb-3">
                 {/* <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com"/> */}
                 <input
             type="email"
@@ -74,11 +72,11 @@ function RegisterUser () {
             name="email"
             value={email}
             onChange={onInputChange}
-            className="form-control mt-2"
+            className="form-control mt-2 w-75" style={{height:"40px"}}
           />
                 <label for="floatingInput">Email address</label>
               </div>
-              <div class="form-floating">
+              <div class="form-floating d-flex justify-content-center">
               <input
             type="password"
             id="floatingPassword"
@@ -86,15 +84,15 @@ function RegisterUser () {
             name="password"
             value={password}
             onChange={onInputChange}
-            className="form-control mt-2"
+            className="form-control w-75 mt-2" style={{height:"40px"}}
           />
                 {/* <input type="password" class="form-control" id="floatingPassword" placeholder="Password"/> */}
                 <label for="floatingPassword">Password</label>
               </div>
-              <div class="information mt-1 d-inline-block ">
-                <h6>Use 0 or more characters with a mix of letters,numbers </h6>
+              <div class="information mt-1 text-white d-inline-block ">
+                <p>Use 0 or more characters with a mix of letters,numbers </p>
               </div>
-              <div class="form-floating">
+              <div class="form-floating d-flex justify-content-center">
 
                 {/* <input type="password" class="form-control" id="floatingPassword" placeholder="Password"/> */}
                 <input
@@ -104,23 +102,17 @@ function RegisterUser () {
             name="cpassword"
             value={cpassword}
             onChange={onInputChange}
-            className="form-control mt-2"
+            className="form-control mt-2 w-75" style={{height:"40px"}}
           />
                 <label for="floatingPassword"> Conform Password</label>
               </div>
-              <div class="policy">
-                <div class="form-check ms-5 mt-2">
-                    <input class="form-check-input  rediobtn " type="checkbox" value=""/>
-                   I Agree <a href="#">Term and Conditions</a>
-                  </div>
-                  
-              </div>
+            
               {/* <button type="submit" class="btn btn-primary w-100 my-4">Continue</button>
                */}
                 <button
             type="submit"
             onClick={handleuser}
-            className="mt-2  btn btn-primary w-100"
+            className="mt-4 font-weight-bold text-uppercase text-bold shadow w-75 border-0 rounded-pill "
           >
             {" "}
             Signup
