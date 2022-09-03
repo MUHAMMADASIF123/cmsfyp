@@ -4,23 +4,26 @@ function Footer() {
   return (
     <>
     <div className='d-flex footer2' >
-
   <div className='row'>
-    <div className=' col-md-4 text-white '>
-    <h6>Information</h6>
-    <p>Government College Of Science <br/>Wahdat Road, Lahore Pakistan</p>
-    <p>Phone No:  +92 - +42-99260039-40</p>
-    <p>Fax No:       +92 - +42-99260041</p>
-    <p>Official Facebook Page:    <a href='/'> www.facebook.com/gcswrlahore </a></p>
-  </div>
   <div className='text-white col-md-4'>
-    <h6>Government Graduate College of Science</h6>
-    <p>Our has built a level of trust<br/> and confidence among its existing <br/>and aspiring students due 
-      to <br/>the launch of innovative but <br/>effective study and work plans.</p>
+    <a><img className='logimg d-flex mt-2 ms-2 mb-2' src='/images/colglogo.png'></img></a>
+    <p className='text-align w-50 text_space'>Our has built a level of trust and confidence among its existing and aspiring students due 
+      to the launch of innovative but effective study and work plans.</p>
+  </div>
+  <div className='col-md-4 text-white '>
+  <h1 className='info'> Information</h1>
+    <div className='address'>
+    
+      {/* GCS Wahdat Road,Lahore  */}
+      <h6 class="align-baseline me-4"><i class="fa-solid fa-location-dot text-warning me-2"></i>GCS Wahdat Road,Lahore </h6>
+       <h6 class="align-baseline"><i className="fa-solid fa-phone text-warning me-2"></i>Phone No +42-99260039-40 </h6>
+      <h6 class="align-baseline me-5"><i className="fa-solid fa-envelope text-warning me-2"></i> Email:abc@gmail.com</h6>
+      
+      </div>
   </div>
   <div className='col-md-4 '>
     {/* <h6 className='text-white '>Map</h6> */}
-   <a href='https://bit.ly/3RdWnox'> <img className='IMG' src='./images/gcsMap.PNG'/> </a>
+   <a href='https://bit.ly/3RdWnox' target="_blank"> <img className='IMG' src='./images/gcsMap.PNG' /> </a>
   </div>
   </div>
   </div>

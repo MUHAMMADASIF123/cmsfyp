@@ -8,36 +8,37 @@ import './Home.css'
   
   const settings = {
     dots: true,
+    autoplay: true,
     infinite: true,
     speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1
   };
     return (<>
-      <div className="conatiner">
+      <div className="container ">
       <Slider {...settings}>
-      <div className="justify">
+
+      <div className=" d-inline">
         {/* <h3>1</h3> */}
-        
         <img src="./images/colglogo.png"/>
       </div>
-      <div className="justify">
+      <div className="">
         {/* <h3>2</h3> */}
         <img src="./images/colglogo.png"/>
       </div>
-      <div className="justify">
+      <div className="">
         {/* <h3>3</h3> */}
         <img src="./images/colglogo.png"/>
       </div>
-      <div className="justify">
+      <div className="">
         {/* <h3>4</h3> */}
         <img src="./images/colglogo.png"/>
       </div>
-      <div className="justify">
+      <div className="">
         {/* <h3>5</h3> */}
         <img src="./images/colglogo.png"/>
       </div>
-     
+      
     </Slider>
   <div>
     <p>

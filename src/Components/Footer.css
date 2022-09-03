@@ -33,10 +33,34 @@ margin-left:20px ;
 .IMG{
     width: 500px;
     height: 250px;
-    margin-bottom: 5;
+    margin-left: -210px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+
     /* margin-left: ; */
 }
 .footer2{
     background-color: #172540;
     border-bottom: 4px solid yellow;
+}
+.text-align{
+    text-align: justify;
+    margin-left: 20px;
+}
+.logimg{
+    width: 100px;
+    height: 100px;
+}
+.text_space{
+    font-size: medium;
+}
+.address{
+    width: 400px;
+    /* margin-top: 70px; */
+    margin-left: -200px;
+    margin-top: 30px;
+}
+.info{
+    margin-left: -480px;
+    margin-top: 40px;
 }
