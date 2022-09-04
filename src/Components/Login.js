@@ -85,7 +85,7 @@ function Login() {
               alt="image"
             /> */}
           </div>
-          <form class="rounded-circle  shadow p-5 mt-5 " style={{backgroundColor:"#172540"}} >
+          <form class="  shadow p-5 mt-5 " style={{backgroundColor:"#172540"}} >
             <h3 class="text-white fw-bolder fs-4 mb-2">Login to Here !</h3>
 <div class="fw-normal text-white mb-4">
     New here ? <a href="#" class="text-decoration-none text-warning fw-bolder">create a account</a>
