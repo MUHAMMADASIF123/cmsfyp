@@ -111,7 +111,7 @@ function Home() {
         </section>
 
         <section>
-          <h1>Bs Departements</h1>
+          <h1>Bs Departement</h1>
           <div className='d-flex'>
             <div className='col-md-3 bg-primary h-75'>
               Intermediate Programs
