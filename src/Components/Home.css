@@ -1,42 +1,43 @@
-.justify{
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    
-    
+.justify {
+  display: flex;
+  justify-content: center;
+  width: 100%;
 }
-.slider{
-    margin-top: 5px;
-    width: 100%;
-    margin-bottom: 50px;
+.slider {
+  margin-top: 5px;
+  width: 100%;
+  margin-bottom: 50px;
 }
-.slick-slide img{
-    display: inline;
+.slick-slide img {
+  display: inline;
 }
-.programs{
-    background-color: #172540;
-    color: white;
+.programs {
+  background-color: #172540;
+  color: white;
 }
-.textp{
-    color: aliceblue
+.textp {
+  color: aliceblue;
 }
-.card_title{
-    color:aliceblue;
-    font-weight: bolder;
+.card_title {
+  color: aliceblue;
+  font-weight: bolder;
 }
-.button_programs{
-    margin-left: 15px;
-    padding:  4px 20px;
-    /* background-color: orange; */
-    border-radius: 12px;
-    border: none;
-    text-decoration: none;
-    font-weight: bold;
-   border: 2px solid white;
-   color: aliceblue;
+.button_programs {
+  margin-left: 15px;
+  padding: 4px 20px;
+  /* background-color: orange; */
+  border-radius: 12px;
+  border: none;
+  text-decoration: none;
+  font-weight: bold;
+  border: 2px solid white;
+  color: aliceblue;
 }
-.programs1{
-    border-radius: 100px;
+.button_programs:hover {
+  color: #172540;
+}
+.programs1 {
+  border-radius: 100px;
 }
 /* .principleImg{
     height: 150px;
@@ -49,3 +50,9 @@
     color: #001F43;
 
 } */
+.program_border {
+  border-radius: 4px;
+  color: aliceblue;
+  height: 55px;
+  background-color: #172540;
+}
