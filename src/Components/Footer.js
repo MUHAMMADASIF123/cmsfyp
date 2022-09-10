@@ -19,6 +19,7 @@ function Footer() {
               plans.
             </p>
           </div>
+          <div className='col-md-4 text-white '>
           <div className='col-md-4 text-white'>
             <h1 className='info'> Information</h1>
             <div className='address'>
