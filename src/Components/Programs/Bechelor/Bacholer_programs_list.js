@@ -24,12 +24,12 @@ function Bacholer_programs_list() {
         <hr />
         <br />
         <li>
-          <a href='/bscs'> BS Botony Program</a>
+          <a href='/BsBotany'> BS Botany Program</a>
         </li>
         <hr />
         <br />
         <li>
-          <a href='/bscs'> BS Zoology Program</a>
+          <a href='/bsZoology'> BS Zoology Program</a>
         </li>
         <hr />
         <br />
