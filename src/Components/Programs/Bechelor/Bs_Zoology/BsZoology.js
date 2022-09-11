@@ -1,44 +1,35 @@
 import React from 'react';
-import './Bschemistry.css';
+import './BsZoology.css';
 
-function Bschemistry() {
+function BsZoology() {
   return (
     <div>
       <div className='d-flex justify-content-center mt-5 me-5 ms-5 p-5'>
         <div className='shadow p-5 w-100 rounded-top ms-5 me-5 bg-white '>
-          <h2>Bachelor of Science in Chemisty (Hons)</h2>
+          <h2>Bachelor Of Science In Zoology (Hons)</h2>
           <hr />
           <h4 className='paragraph'>Course Object</h4>
           <hr />
           <p className='paragraph'>
-            A Chemistry degree allows you to maximise your
-            employment potential whether or not you exploit your
-            qualifications explicitly. It furnishes much of the
-            material base of modern civilisation, and chemists
-            are a constant source of innovation for its further
-            benefit. Chemistry is a practical discipline,
-            throughout the course the key elements of Physical,
-            Inorganic, Organic and Analytical Chemistry are
-            strongly underpinned by laboratory classes. Chemistry
-            based research is focused on Materials Chemistry,
-            with the Centre for Materials Science being awarded a
-            Grade 4 in the last research assessment.
+            The courses in this major are a mixture of basic
+            science courses, designed to introduce students to
+            the concepts of environmental biology, and applied
+            courses, where those concepts are used to unravel
+            problems associated with the natural environment.
+            These classes help students prepare for careers in
+            which they apply ecological principles to practical
+            problems. Potential spheres of employment include
+            various governmental agencies (local, state or
+            federal), industry and private environmental firms as
+            well as self-employment as a private consultant.
           </p>
         </div>
         <div className='shadow p-5 w-100 rounded-top ms-5 me-5 bg-white'>
           <h3>Eligibility Criteria</h3>
           <hr />
           <ul>
-            <li>
-              Scored 50% or above marks in Inter part 1 and have
-              60% or above marks in matriculation
-            </li>
-            <li>You have a B average in your O Level.</li>
-            <li>
-              You have passed the American High School Diploma
-              within the previous two years and secured a “C”
-              average.
-            </li>
+            <li>Intermediate</li>
+            <li>A level or Equivalent</li>
           </ul>
           <h4 className='paragraph '>Available Seats </h4>
           <hr />
@@ -67,30 +58,35 @@ function Bschemistry() {
                 <td>3</td>
               </tr>
               <tr>
-                <td>COMP-111 </td>
+                <td>CMP-111 </td>
                 <td>Computer (Intro & App) </td>
                 <td>3</td>
               </tr>
               <tr>
-                <td>MATH-101 </td>
-                <td>Mathematics A-I </td>
-                <td>4</td>
+                <td>BOT-101 </td>
+                <td>Botany-I (Plan diversity) </td>
+                <td>3</td>
               </tr>
               <tr>
-                <td>PHY-111 </td>
-                <td>Physics-I (Mechanics & Optics) </td>
-                <td>3</td>
-              </tr>{' '}
+                <td>BOT-102 </td>
+                <td>Botany Lab-1(Plant) </td>
+                <td>1</td>
+              </tr>
               <tr>
-                <td>PHY-112 </td>
-                <td>Physics Lab-I (Mechanics & Optics) </td>
+                <td>ZOOL-101 </td>
+                <td>Zoology-I (Invertebrate Diversity) </td>
+                <td>3</td>
+              </tr>
+              <tr>
+                <td>ZOOL-102 </td>
+                <td>Zoology Lab-I (Invertebrate Diversity) </td>
                 <td>1</td>
               </tr>
               <tr>
                 <td>CHEM-101 </td>
                 <td>Chemistry-I (Physical Chemistry) </td>
                 <td>3</td>
-              </tr>{' '}
+              </tr>
               <tr>
                 <td>CHEM-102 </td>
                 <td>Chemistry Lab-I (Physical Chemistry) </td>
@@ -120,18 +116,29 @@ function Bschemistry() {
                 <td>3</td>
               </tr>
               <tr>
-                <td>MATH-103 </td>
-                <td> Mathematics A-II </td>
-                <td>4</td>
-              </tr>
-              <tr>
-                <td>PHY-113 </td>
-                <td>Physics-II (Waves & Oscillation) </td>
+                <td>BOT-103 </td>
+                <td>
+                  Botany-II (Plant Systematic Anatomy &
+                  Development Theory)
+                </td>
                 <td>3</td>
               </tr>
               <tr>
-                <td>PHY-114 </td>
-                <td> Physics Lab-II (Waves & Oscillation) </td>
+                <td>BOT-104 </td>
+                <td>
+                  Botany Lab-II (Plant Systematic Anatomy &
+                  Development Theory)
+                </td>
+                <td>1</td>
+              </tr>
+              <tr>
+                <td>ZOOL-103 </td>
+                <td> Zoology-II (Chordate Diversity) </td>
+                <td>3</td>
+              </tr>
+              <tr>
+                <td>ZOOL-104 </td>
+                <td> Zoology Lab-II (Chordate Diversity) </td>
                 <td>1</td>
               </tr>
               <tr>
@@ -145,8 +152,8 @@ function Bschemistry() {
                 <td>1</td>
               </tr>
               <tr>
-                <td>BIO-111 </td>
-                <td>Biology-I </td>
+                <td>MATH-111 </td>
+                <td> Elementary Mathematics-I (Algebra) </td>
                 <td>3</td>
               </tr>
             </tbody>
@@ -170,35 +177,44 @@ function Bschemistry() {
                 <td>3</td>
               </tr>
               <tr>
-                <td>MATH-201 </td>
-                <td>Mathematics A-III </td>
-                <td>4</td>
-              </tr>
-              <tr>
-                <td>PHY-211 </td>
-                <td> Physics-III (Electricity & Magnetism) </td>
+                <td>BOT-201 </td>
+                <td>
+                  Botany-III (Cell Biology, Genetics and
+                  Evolution)
+                </td>
                 <td>3</td>
               </tr>
               <tr>
-                <td>PHY-212 </td>
+                <td>BOT-202 </td>
                 <td>
-                  Physics-III (Electricity & Magnetism) Lab{' '}
+                  Botany Lab-III (Cell Biology, Genetics and
+                  Evolution)
                 </td>
                 <td>1</td>
               </tr>
               <tr>
-                <td>CHEM-201 </td>
-                <td> Chemistry-III (Organic Chemistry)</td>
+                <td>ZOOL-201 </td>
+                <td>Zoology-III (Biochemistry) </td>
+                <td>3</td>
+              </tr>
+              <tr>
+                <td>ZOOL-202 </td>
+                <td> Zoology Lab-III (Biochemistry) </td>
                 <td>1</td>
+              </tr>
+              <tr>
+                <td>CHEM-201 </td>
+                <td> Chemistry-III (Organic Chemistry) </td>
+                <td>3</td>
               </tr>
               <tr>
                 <td>CHEM-202 </td>
-                <td> Chemistry Lab-III (Organic Chemistry) </td>
+                <td>Chemistry Lab-III (Organic Chemistry) </td>
                 <td>1</td>
               </tr>
               <tr>
-                <td>BIO-211 </td>
-                <td> Biology-II </td>
+                <td>MATH-211 </td>
+                <td> Elementary Mathematics-II (Calculus) </td>
                 <td>3</td>
               </tr>
             </tbody>
@@ -220,23 +236,25 @@ function Bschemistry() {
                 <td>3</td>
               </tr>
               <tr>
-                <td>MATH-203 </td>
-                <td>Mathematics A-IV </td>
-                <td>4</td>
-              </tr>
-              <tr>
-                <td>PHY-213 </td>
-                <td>
-                  {' '}
-                  Physics-IV (Concepts of Modern Physics){' '}
-                </td>
+                <td>BOT-203 </td>
+                <td>Botany-IV (Plant Physiology and Ecology)</td>
                 <td>3</td>
               </tr>
               <tr>
-                <td>PHY-214 </td>
+                <td>BOT-204 </td>
                 <td>
-                  Physics Lab-IV (Concepts of Modern Physics){' '}
+                  Botany Lab-IV (Plant Physiology and Ecology)
                 </td>
+                <td>1</td>
+              </tr>
+              <tr>
+                <td>ZOOL-203 </td>
+                <td>Zoology-IV(Physiology) </td>
+                <td>3</td>
+              </tr>
+              <tr>
+                <td>ZOOL-204 </td>
+                <td>Zoology Lab-IV(Physiology) </td>
                 <td>1</td>
               </tr>
               <tr>
@@ -270,34 +288,46 @@ function Bschemistry() {
                 <th>Course ID</th>
               </tr>
               <tr>
-                <td>CHEM-301 </td>
-                <td>Physical Chemistry </td>
-                <td>4</td>
+                <td>BOT-301 </td>
+                <td>Higher Fungi </td>
+                <td>3</td>
               </tr>
               <tr>
-                <td>CHEM-302 </td>
-                <td>Physical Chemistry Lab </td>
-                <td>2</td>
+                <td>BOT-302 </td>
+                <td>Higher Fungi Lab </td>
+                <td>1</td>
               </tr>
               <tr>
-                <td>CHEM-303 </td>
-                <td> Inorganic Chemistry </td>
-                <td>4</td>
+                <td>BOT-303 </td>
+                <td>Microbial and Molecular Genetics </td>
+                <td>3</td>
               </tr>
               <tr>
-                <td>CHEM-304 </td>
-                <td>Inorganic Chemistry Lab </td>
-                <td>2</td>
+                <td>BOT-304 </td>
+                <td>Microbial and Molecular Genetics Lab </td>
+                <td>1</td>
               </tr>
               <tr>
-                <td>CHEM-305 </td>
-                <td> Organic Chemistry </td>
-                <td>4</td>
+                <td>BOT-305 </td>
+                <td> Evolutionary Trends in Trachaeophytes </td>
+                <td>3</td>
               </tr>
               <tr>
-                <td>CHEM-306 </td>
-                <td> Organic Chemistry Lab </td>
-                <td>2</td>
+                <td>BOT-306 </td>
+                <td>
+                  Evolutionary Trends in Trachaeophytes Lab
+                </td>
+                <td>1</td>
+              </tr>
+              <tr>
+                <td>BOT-307 </td>
+                <td>Environmental Biology</td>
+                <td>3</td>
+              </tr>
+              <tr>
+                <td>BOT-308 </td>
+                <td>Environmental Biology Lab</td>
+                <td>1</td>
               </tr>
             </tbody>
           </table>
@@ -313,33 +343,66 @@ function Bschemistry() {
                 <th>Course ID</th>
               </tr>
               <tr>
-                <td>CHEM-313 </td>
-                <td>Physical Chemistry </td>
-                <td>4</td>
+                <td>BOT-309 </td>
+                <td>Bioinformatics </td>
+                <td>3</td>
               </tr>
               <tr>
-                <td>CHEM-314 </td>
-                <td>Physical Chemistry Lab </td>
+                <td>BOT-310 </td>
+                <td>Bioinformatics Lab </td>
+                <td>1</td>
+              </tr>
+              <tr>
+                <td>BOT-311 </td>
+                <td> Plant Anatomy (Advance Course) </td>
+                <td>3</td>
+              </tr>
+              <tr>
+                <td>BOT-312 </td>
+                <td>Plant Anatomy (Advance Course) Lab </td>
+                <td>1</td>
+              </tr>
+              <tr>
+                <td>BOT-313 </td>
+                <td>Gene Cloning (Advance Course) </td>
+                <td>3</td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>BOT-314 </td>
+                <td> Gene Cloning (Advance Course) Lab </td>
+                <td>1</td>
+              </tr>
+              <tr>
+                <td>BOT-315 </td>
+                <td> Plant Tissue Culture (Advance course) </td>
+                <td>3</td>
+              </tr>
+              <tr>
+                <td>BOT-316 </td>
+                <td>
+                  Plant Tissue Culture (Advance course) Lab
+                </td>
+                <td>1</td>
+              </tr>
+              <tr>
+                <td>BOT-317 </td>
+                <td> Palynology (Advance course) </td>
+                <td>3</td>
+              </tr>
+              <tr>
+                <td>BOT-318</td>
+                <td> Palynology (Advance course) Lab </td>
+                <td>1</td>
+              </tr>
+              <tr>
+                <td>BOT-319</td>
+                <td> Laboratory Techniques </td>
                 <td>2</td>
               </tr>
               <tr>
-                <td>CHEM-315 </td>
-                <td> Inorganic Chemistry </td>
-                <td>4</td>
-              </tr>
-              <tr>
-                <td>CHEM-316 </td>
-                <td>Inorganic Chemistry Lab </td>
-                <td>2</td>
-              </tr>
-              <tr>
-                <td>CHEM-317 </td>
-                <td> Organic Chemistry </td>
-                <td>4</td>
-              </tr>
-              <tr>
-                <td>CHEM-318 </td>
-                <td> Organic Chemistry Lab </td>
+                <td>BOT-320</td>
+                <td> Seminar </td>
                 <td>2</td>
               </tr>
             </tbody>
@@ -350,4 +413,4 @@ function Bschemistry() {
   );
 }
 
-export default Bschemistry;
+export default BsZoology;

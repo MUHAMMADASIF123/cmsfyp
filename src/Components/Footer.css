@@ -1,66 +1,63 @@
-.foter{
-    display: flex;
-    justify-content: space-between;
-    background-color:#172540;
-    height: 60px;
-    align-items: center;
-    /* justify-content: center; */
-    color: white;
+.foter {
+  display: flex;
+  justify-content: space-between;
+  background-color: #172540;
+  height: 60px;
+  align-items: center;
+  /* justify-content: center; */
+  color: white;
 }
-.foter p{
-    align-items: center;
+.foter p {
+  align-items: center;
 }
-.txt{
-color: white;
-margin-left:20px ;
+.txt {
+  color: white;
+  margin-left: 20px;
 }
-.icons{
-    margin-right:20px ;  
-    color: yellow; 
-    /* padding: 0 10px; */
-    /* margin: 0 0 10px 0; */
-    width: 200px;
-    
-
+.icons {
+  margin-right: 20px;
+  color: yellow;
+  /* padding: 0 10px; */
+  /* margin: 0 0 10px 0; */
+  width: 200px;
 }
 
-.icons li{
-    align-items: center;
-    /* padding: 0 10px; */
-    /* margin: 0 0 100px 0; */
-    
+.icons li {
+  align-items: center;
+  /* padding: 0 10px; */
+  /* margin: 0 0 100px 0; */
 }
-.IMG{
-    width: 500px;
-    height: 250px;
-    margin-left: -210px;
-    margin-bottom: 5px;
-    margin-top: 5px;
+.IMG {
+  width: 500px;
+  height: 250px;
+  margin-left: -210px;
+  margin-bottom: 5px;
+  margin-top: 5px;
 
-    /* margin-left: ; */
+  /* margin-left: ; */
 }
-.footer2{
-    background-color: #172540;
-    border-bottom: 4px solid yellow;
+.footer2 {
+  background-color: #172540;
+  border-bottom: 4px solid yellow;
 }
-.text-align{
-    text-align: justify;
-    margin-left: 20px;
+.text-align {
+  text-align: justify;
+  margin-left: 20px;
 }
-.logimg{
-    width: 100px;
-    height: 100px;
+.logimg {
+  width: 100px;
+  height: 100px;
 }
-.text_space{
-    font-size: medium;
+.text_space {
+  font-size: medium;
 }
-.address{
-    width: 400px;
-    /* margin-top: 70px; */
-    margin-left: -200px;
-    margin-top: 30px;
+.address {
+  width: 400px;
+  /* margin-top: 70px; */
+  margin-left: -200px;
+  margin-top: 30px;
 }
-.info{
-    margin-left: -480px;
-    margin-top: 40px;
+.info {
+  margin-left: -480px;
+  margin-top: 40px;
 }
