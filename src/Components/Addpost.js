@@ -42,7 +42,7 @@ function Addpost() {
     <div className='row justify-content-center'>
       <div className='col-md-6'>
         <Link to={'/'} className='btn btn-primary'>
-          {'comment '}
+          {' '}
           back to home
         </Link>
         <div>

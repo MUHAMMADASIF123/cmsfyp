@@ -11,15 +11,11 @@ import Newheader from './Components/Newheader';
 import RegistrationForm from './Components/RegistrationForm';
 import Home from './Components/Home';
 import Footer from './Components/Footer';
-
 import Intermediate from './Components/Programs/Intermediate_Programs/Intermediate';
 import Bscs from './Components/Programs/Bechelor/BsCS/Bscs';
 import Bschemistry from './Components/Programs/Bechelor/BsChemistry/Bschemistry';
 import BsPhysics from './Components/Programs/Bechelor/Bs_Physics/BsPhysics';
-import BsBotany from './Components/Programs/Bechelor/Bs_Botany/BsBotany';
-import BsZoology from './Components/Programs/Bechelor/Bs_Zoology/BsZoology';
 import Bacholer_programs_list from './Components/Programs/Bechelor/Bacholer_programs_list';
-
 
 function App() {
   return (
@@ -43,10 +39,7 @@ function App() {
           path='/apply'
           element={<RegistrationForm />}
         ></Route>
-
-        {/* <Route path='/footer' element={<Footer/>}></Route> */}
-      </Routes>
-      <Route
+        <Route
           path='/intermediate'
           element={<Intermediate />}
         ></Route>
@@ -60,8 +53,6 @@ function App() {
           element={<Bacholer_programs_list />}
         ></Route>
         <Route path='/BsPhysics' element={<BsPhysics />}></Route>
-        <Route path='/BsBotany' element={<BsBotany />}></Route>
-        <Route path='/BsZoology' element={<BsZoology />}></Route>
         {/* <Route path='/footer' element={<Footer/>}></Route> */}
       </Routes>
 

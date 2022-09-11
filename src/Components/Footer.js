@@ -2,24 +2,22 @@ import React from 'react';
 import './Footer.css';
 function Footer() {
   return (
-    <>
-      <div className='d-flex footer2'>
-        <div className='row'>
-          <div className='text-white col-md-4'>
-            <a>
-              <img
-                className='logimg d-flex mt-2 ms-2 mb-2'
-                src='/images/colglogo.png'
-              ></img>
-            </a>
-            <p className='text-align w-50 text_space'>
-              Our has built a level of trust and confidence among
-              its existing and aspiring students due to the
-              launch of innovative but effective study and work
-              plans.
-            </p>
-          </div>
-          <div className='col-md-4 text-white '>
+    <div className='d-flex footer2'>
+      <div className='row'>
+        <div className='text-white col-md-4'>
+          <a>
+            <img
+              className='logimg d-flex mt-2 ms-2 mb-2'
+              src='/images/colglogo.png'
+            ></img>
+          </a>
+          <p className='text-align w-50 text_space'>
+            We have built a level of trust and confidence among
+            its existing and aspiring students due to the launch
+            of innovative but effective study and work plans.
+          </p>
+        </div>
+        <div className='col-md-4 text-white '>
           <div className='col-md-4 text-white'>
             <h1 className='info'> Information</h1>
             <div className='address'>
@@ -61,7 +59,7 @@ function Footer() {
           <i class='fa-brands fa-twitter'></i>
         </div>
       </div>
-    </>
+    </div>
   );
 }
 
