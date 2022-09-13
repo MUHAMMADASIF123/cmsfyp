@@ -1,12 +1,12 @@
-import React, { useState } from "react";
-import uniqid from "uniqid";
-import axios from "axios";
-import { Link, useNavigate } from "react-router-dom";
+import React, { useState } from 'react';
+import uniqid from 'uniqid';
+import axios from 'axios';
+import { Link, useNavigate } from 'react-router-dom';
 function Addpost() {
   const [student, setStudent] = useState({
-    name: "",
-    email: "",
-    cnic: "",
+    name: '',
+    email: '',
+    cnic: '',
   });
 
   const history = useNavigate();
@@ -25,11 +25,11 @@ function Addpost() {
     console.log(studentData);
     e.preventDefault();
     await axios
-      .post("/api/post/addnewpost", studentData)
+      .post('/api/post/addnewpost', studentData)
       .then((res) => {
         // alert(res.data)
         console.log(res.data);
-        history("/");
+        history('/');
       })
       .catch((err) => {
         console.log(err);
@@ -39,43 +39,43 @@ function Addpost() {
   };
 
   return (
-    <div className="row justify-content-center">
-      <div className="col-md-6">
-        <Link to={"/"} className="btn btn-primary">
-          {" "}
+    <div className='row justify-content-center'>
+      <div className='col-md-6'>
+        <Link to={'/'} className='btn btn-primary'>
+          {' '}
           back to home
         </Link>
         <div>
           <input
-            type="text"
-            placeholder="title"
-            name="name"
+            type='text'
+            placeholder='title'
+            name='name'
             value={name}
             onChange={onInputChange}
-            className="form-control mt-2"
+            className='form-control mt-2'
           />
           <input
-            type="email"
-            placeholder="email"
-            name="email"
+            type='email'
+            placeholder='email'
+            name='email'
             value={email}
             onChange={onInputChange}
-            className="form-control mt-2"
+            className='form-control mt-2'
           />
           <input
-            type="text"
-            placeholder="cnic"
-            name="cnic"
+            type='text'
+            placeholder='cnic'
+            name='cnic'
             value={cnic}
             onChange={onInputChange}
-            className="form-control mt-2"
+            className='form-control mt-2'
           />
           <button
-            type="submit"
+            type='submit'
             onClick={handlepost}
-            className="mt-2  btn btn-success"
+            className='mt-2  btn btn-success'
           >
-            {" "}
+            {' '}
             AddStudent
           </button>
         </div>

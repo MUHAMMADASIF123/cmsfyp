@@ -1,45 +1,77 @@
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 import { useNavigate } from 'react-router-dom';
-import './contactus.css'
+import './contactus.css';
 
-
- const ContactUs = () => {
+const ContactUs = () => {
   const form = useRef();
-const history=useNavigate();
+  const history = useNavigate();
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('service_gyo59t8', 'template_nnn72km', form.current, '-mhcSLqHKxDPHScGn')
-      .then((result) => {
+    emailjs
+      .sendForm(
+        'service_gyo59t8',
+        'template_nnn72km',
+        form.current,
+        '-mhcSLqHKxDPHScGn'
+      )
+      .then(
+        (result) => {
           console.log(result.text);
-history('/')
-      }, (error) => {
+          history('/');
+        },
+        (error) => {
           console.log(error.text);
-      });
+        }
+      );
   };
-
   return (
-  <div className="row d-flex justify-content-center  vh-100  ">
-   
-    <div className='col-md-6  w-50 text-center mb-5 '>
-    <form ref={form} onSubmit={sendEmail} className=" rounded-circle shadow d-flex justify-content-center mt-5 ">
-    
-   
-    
-      {/* <h1 className=''>Name</h1> */}
-      <div className='w-75  '>
-      <h1 className='custom_heading text-white'>Get in Touch !</h1>
-      <input type='text' placeholder='Enter your name '  className=' w-75 text-center mt-2 border-warning rounded ' name="from_name"  />
-      {/* <label className='ms-0'>Email</label> */}
-      <input type='email' placeholder='Enter your email' className=' w-75 text-center mt-2 border-warning rounded '  name="email" />
-      {/* <label className='ms-0'>Message</label> */}
-      <textarea cols='5' rows='5' type='textarea' placeholder=' Enter your mesaage'  className=' w-75 text-center mt-2 border-warning rounded ' name="message" />
-      <button   className="mt-4 font-weight-bold text-uppercase text-bold shadow w-75 border-0 rounded-pill " type="submit" value="Send" >Send Message</button>
+    <div className='row d-flex justify-content-center  vh-100  '>
+      <div className='col-md-6  w-50 text-center mb-5 '>
+        <form
+          ref={form}
+          onSubmit={sendEmail}
+          className=' shadow d-flex justify-content-center mt-5 '
+        >
+          {/* <h1 className=''>Name</h1> */}
+          <div className='w-75  '>
+            <h1 className='custom_heading text-white'>
+              Get in Touch !
+            </h1>
+            <input
+              type='text'
+              placeholder='Enter your name '
+              className=' w-75 text-center mt-2 border-warning rounded '
+              name='from_name'
+            />
+            {/* <label className='ms-0'>Email</label> */}
+            <input
+              type='email'
+              placeholder='Enter your email'
+              className=' w-75 text-center mt-2 border-warning rounded '
+              name='email'
+            />
+            {/* <label className='ms-0'>Message</label> */}
+            <textarea
+              cols='5'
+              rows='5'
+              type='textarea'
+              placeholder=' Enter your mesaage'
+              className=' w-75 text-center mt-2 border-warning rounded '
+              name='message'
+            />
+            <button
+              className='mt-4 font-weight-bold text-uppercase text-bold shadow w-75 border-0 rounded-pill '
+              type='submit'
+              value='Send'
+            >
+              Send Message
+            </button>
+          </div>
+        </form>
       </div>
-    </form>
-    </div>
     </div>
   );
 };
-export default ContactUs
+export default ContactUs;

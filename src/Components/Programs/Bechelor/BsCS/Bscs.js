@@ -3,7 +3,7 @@ import './Bscs.css';
 
 function BSCS() {
   return (
-    <div className=''>
+    <div>
       <div className='d-flex justify-content-center mt-5 me-5 ms-5 p-5'>
         <div className='shadow p-5 w-100 rounded-top ms-5 me-5 bg-white '>
           <h2>

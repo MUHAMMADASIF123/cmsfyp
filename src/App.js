@@ -11,6 +11,11 @@ import Newheader from './Components/Newheader';
 import RegistrationForm from './Components/RegistrationForm';
 import Home from './Components/Home';
 import Footer from './Components/Footer';
+import Intermediate from './Components/Programs/Intermediate_Programs/Intermediate';
+import Bscs from './Components/Programs/Bechelor/BsCS/Bscs';
+import Bschemistry from './Components/Programs/Bechelor/BsChemistry/Bschemistry';
+import BsPhysics from './Components/Programs/Bechelor/Bs_Physics/BsPhysics';
+import Bacholer_programs_list from './Components/Programs/Bechelor/Bacholer_programs_list';
 
 function App() {
   return (
@@ -34,8 +39,23 @@ function App() {
           path='/apply'
           element={<RegistrationForm />}
         ></Route>
+        <Route
+          path='/intermediate'
+          element={<Intermediate />}
+        ></Route>
+        <Route path='/bscs' element={<Bscs />}></Route>
+        <Route
+          path='/Bschemistry'
+          element={<Bschemistry />}
+        ></Route>
+        <Route
+          path='/Bacholer_programs_list'
+          element={<Bacholer_programs_list />}
+        ></Route>
+        <Route path='/BsPhysics' element={<BsPhysics />}></Route>
         {/* <Route path='/footer' element={<Footer/>}></Route> */}
       </Routes>
+
       <Footer></Footer>
     </div>
   );
