@@ -1,27 +1,25 @@
 import React from 'react';
-import './BsPhysics.css';
+import './BsSociology.css';
 
-function BsPhysics() {
+function BsSociology() {
   return (
     <div>
       <div className='d-flex justify-content-center mt-5 me-5 ms-5 p-5'>
         <div className='shadow p-5 w-100 rounded-top ms-5 me-5 bg-white '>
-          <h2>Bachelor of Science In Physics (Hons)</h2>
+          <h2>Bachelor of Science In Sociology (Hons)</h2>
           <hr />
           <h4 className='paragraph'>Course Object</h4>
           <hr />
           <p className='paragraph'>
-            Physics is the scientific basis for technologies that
-            continue to have a profound influence on almost all
-            aspects of modern life. Applied Physics seeks to
-            develop new technologies and practical applications
-            through the use and improvement of our understanding
-            of physical systems. Physics has been invaluable in
-            the development of technologies such as the
-            microchip, information technology, data storage,
-            fibre optic communications, satellite navigation and
-            mobile phones which are transforming the
-            infrastructure of society.
+            Sociology is the study of people in groups – from the
+            family to whole societies. It investigates how
+            individual and group behaviour shapes groups and
+            society, and in turn, how behaviour is shaped by
+            society and its institutions. Studying sociology
+            equips students with specialised knowledge of social
+            processes and cultivates creative and critical
+            thinking skills highly sought after by employers in
+            the public, private and community sectors.
           </p>
         </div>
         <div className='shadow p-5 w-100 rounded-top ms-5 me-5 bg-white'>
@@ -58,28 +56,23 @@ function BsPhysics() {
                 <td>3</td>
               </tr>
               <tr>
-                <td>PHY-101 </td>
-                <td>Elementary Mechanics </td>
+                <td>COMP-111 </td>
+                <td>Computer (Intro & App) </td>
                 <td>3</td>
               </tr>
               <tr>
-                <td>PHY-102 </td>
-                <td>Waves, Oscillations and Optics </td>
-                <td>4</td>
-              </tr>
-              <tr>
-                <td>MATH-121 </td>
-                <td>Calculus-I </td>
+                <td>BBA-101 </td>
+                <td>Introduction to Business </td>
                 <td>3</td>
               </tr>
               <tr>
-                <td>MATH-122 </td>
-                <td>Applied Mathematics </td>
+                <td>MTH-111 </td>
+                <td>Elementary math-1 </td>
                 <td>3</td>
               </tr>
               <tr>
-                <td>CHM-111 </td>
-                <td>Fundamentals of Chemistry </td>
+                <td>ECON-101 </td>
+                <td>Micro Economics </td>
                 <td>3</td>
               </tr>
             </tbody>
@@ -106,23 +99,23 @@ function BsPhysics() {
                 <td>3</td>
               </tr>
               <tr>
-                <td>PHY-103 </td>
-                <td>Electricity and Magnetism </td>
+                <td>BBA-102 </td>
+                <td>Principles of Managment </td>
                 <td>3</td>
               </tr>
               <tr>
-                <td>PHY-104 </td>
-                <td>Thermodynamics ans Kinetic Theory </td>
+                <td>BBA-103 </td>
+                <td>Principles of Accounting (Basic) </td>
                 <td>3</td>
               </tr>
               <tr>
-                <td>MATH-123 </td>
-                <td> Calculus-II </td>
+                <td>BBA-104 </td>
+                <td> Introduction to Psychology </td>
                 <td>3</td>
               </tr>
               <tr>
-                <td>ECON-124 </td>
-                <td> Analytical Geometry </td>
+                <td>ECON-102 </td>
+                <td> Macro Economics </td>
                 <td>3</td>
               </tr>
             </tbody>
@@ -141,34 +134,34 @@ function BsPhysics() {
                 <th>Course ID</th>
               </tr>
               <tr>
-                <td>ENG-211 </td>
-                <td>English III (Communication Skills) </td>
+                <td>ENG-221 </td>
+                <td>English III (Bus. Communication I) </td>
                 <td>3</td>
               </tr>
               <tr>
-                <td>PHY-201 </td>
-                <td>Concepts of Modern Physics </td>
+                <td>BBA-201 </td>
+                <td>Principles of Marketing </td>
                 <td>3</td>
               </tr>
               <tr>
-                <td>PHY-202 </td>
-                <td> General Physics Lab-I </td>
-                <td>2</td>
-              </tr>
-              <tr>
-                <td>MATH-221 </td>
-                <td>Differential Equations-I</td>
+                <td>BBA-202 </td>
+                <td> Financial Accounting (Basic) </td>
                 <td>3</td>
               </tr>
               <tr>
-                <td>MATH-222 </td>
-                <td> Pure Mathematics </td>
+                <td>BBA-203 </td>
+                <td>Cost Accounting </td>
                 <td>3</td>
               </tr>
               <tr>
-                <td>COMP-211 </td>
-                <td> Computer Science </td>
-                <td>4</td>
+                <td>BBA-204 </td>
+                <td>Database Management System </td>
+                <td>3</td>
+              </tr>
+              <tr>
+                <td>STAT-211 </td>
+                <td>Elementary Stats </td>
+                <td>3</td>
               </tr>
             </tbody>
           </table>
@@ -184,34 +177,34 @@ function BsPhysics() {
                 <th>Course ID</th>
               </tr>
               <tr>
-                <td>ENG-212 </td>
-                <td>English-IV (English for Practical Aims) </td>
+                <td>ENG-222 </td>
+                <td>English IV (Bus. Communication II)</td>
                 <td>3</td>
               </tr>
               <tr>
-                <td>PHY-203 </td>
-                <td>Basic Electronics </td>
+                <td>SOC-211 </td>
+                <td>Introduction to Sociology</td>
                 <td>3</td>
               </tr>
               <tr>
-                <td>PHY-204 </td>
-                <td>General Physics Lab-II</td>
-                <td>2</td>
-              </tr>
-              <tr>
-                <td>MATH-223 </td>
-                <td>Differential Equation-II</td>
+                <td>BBA-205 </td>
+                <td>Financial Accounting (Advance)</td>
                 <td>3</td>
               </tr>
               <tr>
-                <td>MATH-224 </td>
-                <td>Linear Algebra </td>
+                <td>BBA-206 </td>
+                <td>Mercantail Law </td>
                 <td>3</td>
               </tr>
               <tr>
-                <td>COMP-212 </td>
-                <td>Computer Science-II </td>
-                <td>4</td>
+                <td>BBA-207 </td>
+                <td>Money and Banking </td>
+                <td>3</td>
+              </tr>
+              <tr>
+                <td>BBA-208 </td>
+                <td>Visual Programming Concept </td>
+                <td>3</td>
               </tr>
             </tbody>
           </table>
@@ -229,34 +222,34 @@ function BsPhysics() {
                 <th>Course ID</th>
               </tr>
               <tr>
-                <td>PHY-301 </td>
-                <td>Classical Mechanics </td>
+                <td>ENG-222 </td>
+                <td>English IV (Bus. Communication II) </td>
                 <td>3</td>
               </tr>
               <tr>
-                <td>PHY-302 </td>
-                <td>Mathematical Method of Physics-I </td>
+                <td>SOC-211 </td>
+                <td>Introduction to Sociology </td>
                 <td>3</td>
               </tr>
               <tr>
-                <td>PHY-303 </td>
-                <td> Solid State Physics-I </td>
+                <td>BBA-205 </td>
+                <td> Financial Accounting (Advance) </td>
                 <td>3</td>
               </tr>
               <tr>
-                <td>PHY-304 </td>
-                <td>Electronic Device and Circuits </td>
-                <td>4</td>
+                <td>BBA-206 </td>
+                <td>Mercantail Law </td>
+                <td>3</td>
               </tr>
               <tr>
-                <td>PHY-305 </td>
-                <td> Quantum Mechanics-I </td>
-                <td>4</td>
+                <td>BBA-207 </td>
+                <td> Money and Banking </td>
+                <td>3</td>
               </tr>
               <tr>
-                <td>PHY-306 </td>
-                <td> Physics Lab-III(Modern Physics) </td>
-                <td>4</td>
+                <td>BBA-208 </td>
+                <td> Visual Programming Concept </td>
+                <td>3</td>
               </tr>
             </tbody>
           </table>
@@ -272,34 +265,34 @@ function BsPhysics() {
                 <th>Course ID</th>
               </tr>
               <tr>
-                <td>PHY-307 </td>
-                <td>Mathematical Method of Physics-II </td>
+                <td>ENG-222 </td>
+                <td>English IV (Bus. Communication II) </td>
                 <td>3</td>
               </tr>
               <tr>
-                <td>PHY-308 </td>
-                <td>Solid State Physics-II </td>
+                <td>SOC-211 </td>
+                <td>Introduction to Sociology </td>
                 <td>3</td>
               </tr>
               <tr>
-                <td>PHY-309 </td>
-                <td> Quantum Mechanics-II </td>
+                <td>BBA-205 </td>
+                <td>Financial Accounting (Advance) </td>
                 <td>3</td>
               </tr>
               <tr>
-                <td>PHY-310 </td>
-                <td>Digital Electronics </td>
+                <td>BBA-206 </td>
+                <td>Mercantail Law </td>
                 <td>3</td>
               </tr>
               <tr>
-                <td>PHY-311 </td>
-                <td>Computational Physics-I </td>
+                <td>BBA-207 </td>
+                <td>Money and Banking </td>
                 <td>3</td>
               </tr>
               <tr>
-                <td>PHY-312 </td>
-                <td> Physics Lab-IV </td>
-                <td>4</td>
+                <td>BBA-208 </td>
+                <td>Visual Programming Concept </td>
+                <td>3</td>
               </tr>
             </tbody>
           </table>
@@ -309,4 +302,4 @@ function BsPhysics() {
   );
 }
 
-export default BsPhysics;
+export default BsSociology;

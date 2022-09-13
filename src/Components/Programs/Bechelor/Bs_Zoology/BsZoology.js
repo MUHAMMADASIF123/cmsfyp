@@ -288,45 +288,48 @@ function BsZoology() {
                 <th>Course ID</th>
               </tr>
               <tr>
-                <td>BOT-301 </td>
-                <td>Higher Fungi </td>
+                <td>ZOOL-301	 </td>
+                <td>Cell and Molecular Biology II	 </td>
                 <td>3</td>
               </tr>
               <tr>
-                <td>BOT-302 </td>
-                <td>Higher Fungi Lab </td>
+                <td>ZOOL-302	 </td>
+                <td>Cell and Molecular Biology II Lab	 </td>
                 <td>1</td>
               </tr>
               <tr>
-                <td>BOT-303 </td>
-                <td>Microbial and Molecular Genetics </td>
+                <td>ZOOL-303	 </td>
+                <td>Biochemistry II	 </td>
                 <td>3</td>
               </tr>
               <tr>
-                <td>BOT-304 </td>
-                <td>Microbial and Molecular Genetics Lab </td>
+                <td>ZOOL-304	 </td>
+                <td>Biochemistry II Lab	 </td>
                 <td>1</td>
               </tr>
               <tr>
-                <td>BOT-305 </td>
-                <td> Evolutionary Trends in Trachaeophytes </td>
+                <td>ZOOL-205	 </td>
+                <td> Animal Physiology II	 </td>
                 <td>3</td>
               </tr>
               <tr>
-                <td>BOT-306 </td>
+                <td>ZOOL-206	 </td>
                 <td>
-                  Evolutionary Trends in Trachaeophytes Lab
-                </td>
+Animal Physiology II Lab	                </td>
                 <td>1</td>
               </tr>
               <tr>
-                <td>BOT-307 </td>
-                <td>Environmental Biology</td>
-                <td>3</td>
+                <td>ZOOL-207	 </td>
+                <td>Biostatistics</td>
+                <td>2</td>
               </tr>
               <tr>
-                <td>BOT-308 </td>
-                <td>Environmental Biology Lab</td>
+                <td>ZOOL-208	 </td>
+                <td>Evolution</td>
+                <td>2</td>
+              </tr> <tr>
+                <td>ZOOL-209		 </td>
+                <td>Evolution Lab</td>
                 <td>1</td>
               </tr>
             </tbody>
@@ -343,67 +346,57 @@ function BsZoology() {
                 <th>Course ID</th>
               </tr>
               <tr>
-                <td>BOT-309 </td>
-                <td>Bioinformatics </td>
+                <td>ZOOL-310	</td>
+                <td>Molecular Genetics II	 </td>
                 <td>3</td>
               </tr>
               <tr>
-                <td>BOT-310 </td>
-                <td>Bioinformatics Lab </td>
+                <td>ZOOL-311	 </td>
+                <td>Molecular Genetics II	 </td>
                 <td>1</td>
               </tr>
               <tr>
-                <td>BOT-311 </td>
-                <td> Plant Anatomy (Advance Course) </td>
-                <td>3</td>
+                <td>ZOOL-312	 </td>
+                <td> Analysis of Development	 </td>
+                <td>2</td>
               </tr>
               <tr>
-                <td>BOT-312 </td>
-                <td>Plant Anatomy (Advance Course) Lab </td>
+                <td>ZOOL-313	 </td>
+                <td>Analysis of Development Lab </td>
                 <td>1</td>
               </tr>
               <tr>
-                <td>BOT-313 </td>
-                <td>Gene Cloning (Advance Course) </td>
-                <td>3</td>
+                <td>ZOOL-314	 </td>
+                <td>Widlife </td>
+                <td>2</td>
                 <td></td>
               </tr>
               <tr>
-                <td>BOT-314 </td>
-                <td> Gene Cloning (Advance Course) Lab </td>
+                <td>ZOOL-315	 </td>
+                <td> Widlife Lab </td>
                 <td>1</td>
               </tr>
               <tr>
-                <td>BOT-315 </td>
-                <td> Plant Tissue Culture (Advance course) </td>
+                <td>ZOOL-316	 </td>
+                <td> Envirnmental Biology	 </td>
                 <td>3</td>
               </tr>
               <tr>
-                <td>BOT-316 </td>
+                <td>ZOOL-317	 </td>
                 <td>
-                  Plant Tissue Culture (Advance course) Lab
+                  Envirnmental Biology	 Lab
                 </td>
                 <td>1</td>
               </tr>
               <tr>
-                <td>BOT-317 </td>
-                <td> Palynology (Advance course) </td>
-                <td>3</td>
+                <td>ZOOL-318	 </td>
+                <td> Animal Behaviour	</td>
+                <td>2</td>
               </tr>
               <tr>
-                <td>BOT-318</td>
-                <td> Palynology (Advance course) Lab </td>
+                <td>ZOOL-319</td>
+                <td> Animal Behaviour Lab	 </td>
                 <td>1</td>
-              </tr>
-              <tr>
-                <td>BOT-319</td>
-                <td> Laboratory Techniques </td>
-                <td>2</td>
-              </tr>
-              <tr>
-                <td>BOT-320</td>
-                <td> Seminar </td>
-                <td>2</td>
               </tr>
             </tbody>
           </table>

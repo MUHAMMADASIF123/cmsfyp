@@ -1,27 +1,23 @@
 import React from 'react';
-import './BsPhysics.css';
+import './BsEconomics.css';
 
-function BsPhysics() {
+function BsEconomics() {
   return (
     <div>
       <div className='d-flex justify-content-center mt-5 me-5 ms-5 p-5'>
         <div className='shadow p-5 w-100 rounded-top ms-5 me-5 bg-white '>
-          <h2>Bachelor of Science In Physics (Hons)</h2>
+          <h2>Bachelor of Science In Economics (Hons)</h2>
           <hr />
           <h4 className='paragraph'>Course Object</h4>
           <hr />
           <p className='paragraph'>
-            Physics is the scientific basis for technologies that
-            continue to have a profound influence on almost all
-            aspects of modern life. Applied Physics seeks to
-            develop new technologies and practical applications
-            through the use and improvement of our understanding
-            of physical systems. Physics has been invaluable in
-            the development of technologies such as the
-            microchip, information technology, data storage,
-            fibre optic communications, satellite navigation and
-            mobile phones which are transforming the
-            infrastructure of society.
+            The Bachelor of Science in Economics program provides
+            a strong foundation of knowledge and skills to
+            students in understanding the theories and concepts
+            of economics and economic trends. This program
+            spreads over 8 semesters and covers 132 credit hours
+            in 4 years. This program will lead to M.Sc 1.5 years
+            program.
           </p>
         </div>
         <div className='shadow p-5 w-100 rounded-top ms-5 me-5 bg-white'>
@@ -58,28 +54,28 @@ function BsPhysics() {
                 <td>3</td>
               </tr>
               <tr>
-                <td>PHY-101 </td>
-                <td>Elementary Mechanics </td>
+                <td>COMP-111 </td>
+                <td>Computer (Intro & App) </td>
                 <td>3</td>
               </tr>
               <tr>
-                <td>PHY-102 </td>
-                <td>Waves, Oscillations and Optics </td>
-                <td>4</td>
-              </tr>
-              <tr>
-                <td>MATH-121 </td>
-                <td>Calculus-I </td>
+                <td>STAT-101 </td>
+                <td>Statistic-I </td>
                 <td>3</td>
               </tr>
               <tr>
-                <td>MATH-122 </td>
-                <td>Applied Mathematics </td>
-                <td>3</td>
+                <td>STAT-102 </td>
+                <td>Statistics Lab-I </td>
+                <td>1</td>
               </tr>
               <tr>
-                <td>CHM-111 </td>
-                <td>Fundamentals of Chemistry </td>
+                <td>ECON-101 </td>
+                <td>Micro EConomics </td>
+                <td>3</td>
+              </tr>{' '}
+              <tr>
+                <td>MATH-111 </td>
+                <td>Elementary Math </td>
                 <td>3</td>
               </tr>
             </tbody>
@@ -106,23 +102,28 @@ function BsPhysics() {
                 <td>3</td>
               </tr>
               <tr>
-                <td>PHY-103 </td>
-                <td>Electricity and Magnetism </td>
+                <td>STAT-103 </td>
+                <td>Statistics-II </td>
                 <td>3</td>
               </tr>
               <tr>
-                <td>PHY-104 </td>
-                <td>Thermodynamics ans Kinetic Theory </td>
+                <td>STAT-104 </td>
+                <td>Statistics Lab-II </td>
+                <td>1</td>
+              </tr>
+              <tr>
+                <td>ECON-102 </td>
+                <td> Macro Economics </td>
                 <td>3</td>
               </tr>
               <tr>
-                <td>MATH-123 </td>
-                <td> Calculus-II </td>
+                <td>MASS-111 </td>
+                <td> Mass Communication </td>
                 <td>3</td>
               </tr>
               <tr>
-                <td>ECON-124 </td>
-                <td> Analytical Geometry </td>
+                <td>IR-111 </td>
+                <td> International Relations </td>
                 <td>3</td>
               </tr>
             </tbody>
@@ -141,34 +142,34 @@ function BsPhysics() {
                 <th>Course ID</th>
               </tr>
               <tr>
-                <td>ENG-211 </td>
-                <td>English III (Communication Skills) </td>
+                <td>ENG-221 </td>
+                <td>English III (Bus. Communication I) </td>
                 <td>3</td>
               </tr>
               <tr>
-                <td>PHY-201 </td>
-                <td>Concepts of Modern Physics </td>
+                <td>MATH-211 </td>
+                <td>Elementary Math-II </td>
                 <td>3</td>
               </tr>
               <tr>
-                <td>PHY-202 </td>
-                <td> General Physics Lab-I </td>
-                <td>2</td>
-              </tr>
-              <tr>
-                <td>MATH-221 </td>
-                <td>Differential Equations-I</td>
+                <td>ECON-201 </td>
+                <td> Intermediate Micro Economics </td>
                 <td>3</td>
               </tr>
               <tr>
-                <td>MATH-222 </td>
-                <td> Pure Mathematics </td>
+                <td>ECON-202 </td>
+                <td>Development Economics </td>
                 <td>3</td>
               </tr>
               <tr>
-                <td>COMP-211 </td>
-                <td> Computer Science </td>
-                <td>4</td>
+                <td>HR-212 </td>
+                <td>Human Resource Development </td>
+                <td>3</td>
+              </tr>
+              <tr>
+                <td>PHIL-211 </td>
+                <td>Introduction to Philosophy </td>
+                <td>3</td>
               </tr>
             </tbody>
           </table>
@@ -184,34 +185,34 @@ function BsPhysics() {
                 <th>Course ID</th>
               </tr>
               <tr>
-                <td>ENG-212 </td>
-                <td>English-IV (English for Practical Aims) </td>
+                <td>ENG-222 </td>
+                <td>English IV (Bus. Communication II)</td>
                 <td>3</td>
               </tr>
               <tr>
-                <td>PHY-203 </td>
-                <td>Basic Electronics </td>
+                <td>POL-211 </td>
+                <td>Introduction to Political Science </td>
                 <td>3</td>
               </tr>
               <tr>
-                <td>PHY-204 </td>
-                <td>General Physics Lab-II</td>
-                <td>2</td>
-              </tr>
-              <tr>
-                <td>MATH-223 </td>
-                <td>Differential Equation-II</td>
+                <td>ECON-204 </td>
+                <td>Intermediate Macro Economics </td>
                 <td>3</td>
               </tr>
               <tr>
-                <td>MATH-224 </td>
-                <td>Linear Algebra </td>
+                <td>ECON-204 </td>
+                <td>Agriculture Economics </td>
                 <td>3</td>
               </tr>
               <tr>
-                <td>COMP-212 </td>
-                <td>Computer Science-II </td>
-                <td>4</td>
+                <td>GEOG-211 </td>
+                <td>Introduction to Geography </td>
+                <td>3</td>
+              </tr>
+              <tr>
+                <td>SOC-211 </td>
+                <td>Introduction to Socilogoy </td>
+                <td>3</td>
               </tr>
             </tbody>
           </table>
@@ -229,34 +230,36 @@ function BsPhysics() {
                 <th>Course ID</th>
               </tr>
               <tr>
-                <td>PHY-301 </td>
-                <td>Classical Mechanics </td>
+                <td>ECON-301 </td>
+                <td>Micro Economics </td>
                 <td>3</td>
               </tr>
               <tr>
-                <td>PHY-302 </td>
-                <td>Mathematical Method of Physics-I </td>
+                <td>ECON-302 </td>
+                <td>Econometrics I </td>
                 <td>3</td>
               </tr>
               <tr>
-                <td>PHY-303 </td>
-                <td> Solid State Physics-I </td>
+                <td>ECON-303 </td>
+                <td> Mathematics Economics I </td>
                 <td>3</td>
               </tr>
               <tr>
-                <td>PHY-304 </td>
-                <td>Electronic Device and Circuits </td>
-                <td>4</td>
+                <td>ECON-304 </td>
+                <td>
+                  Genral Equilibrium and Welfare Economics{' '}
+                </td>
+                <td>3</td>
               </tr>
               <tr>
-                <td>PHY-305 </td>
-                <td> Quantum Mechanics-I </td>
-                <td>4</td>
+                <td>ECON-305 </td>
+                <td>Labor Economics </td>
+                <td>3</td>
               </tr>
               <tr>
-                <td>PHY-306 </td>
-                <td> Physics Lab-III(Modern Physics) </td>
-                <td>4</td>
+                <td>Urdu-311 </td>
+                <td> Functional Urdu </td>
+                <td>3</td>
               </tr>
             </tbody>
           </table>
@@ -272,34 +275,34 @@ function BsPhysics() {
                 <th>Course ID</th>
               </tr>
               <tr>
-                <td>PHY-307 </td>
-                <td>Mathematical Method of Physics-II </td>
+                <td>ECON-306 </td>
+                <td>Macro Economics </td>
                 <td>3</td>
               </tr>
               <tr>
-                <td>PHY-308 </td>
-                <td>Solid State Physics-II </td>
+                <td>ECON-307 </td>
+                <td>Econometrics II </td>
                 <td>3</td>
               </tr>
               <tr>
-                <td>PHY-309 </td>
-                <td> Quantum Mechanics-II </td>
+                <td>ECON-308 </td>
+                <td> Mathematical Economics II </td>
                 <td>3</td>
               </tr>
               <tr>
-                <td>PHY-310 </td>
-                <td>Digital Electronics </td>
+                <td>ECON-309 </td>
+                <td>Population Economics </td>
                 <td>3</td>
               </tr>
               <tr>
-                <td>PHY-311 </td>
-                <td>Computational Physics-I </td>
+                <td>ECON-310 </td>
+                <td> Major Issues in Pakistan Economy </td>
                 <td>3</td>
               </tr>
               <tr>
-                <td>PHY-312 </td>
-                <td> Physics Lab-IV </td>
-                <td>4</td>
+                <td>BBA-208 </td>
+                <td> Visual Programming Concept </td>
+                <td>3</td>
               </tr>
             </tbody>
           </table>
@@ -309,4 +312,4 @@ function BsPhysics() {
   );
 }
 
-export default BsPhysics;
+export default BsEconomics;

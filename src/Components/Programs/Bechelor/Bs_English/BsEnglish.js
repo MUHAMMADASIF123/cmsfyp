@@ -1,27 +1,25 @@
-import React from 'react';
-import './BsPhysics.css';
 
-function BsPhysics() {
+import React from 'react';
+import './BsEnglish.css';
+
+function BsEnglish() {
   return (
     <div>
       <div className='d-flex justify-content-center mt-5 me-5 ms-5 p-5'>
         <div className='shadow p-5 w-100 rounded-top ms-5 me-5 bg-white '>
-          <h2>Bachelor of Science In Physics (Hons)</h2>
+          <h2>Bachelor of Science in English (Hons)
+</h2>
           <hr />
           <h4 className='paragraph'>Course Object</h4>
           <hr />
           <p className='paragraph'>
-            Physics is the scientific basis for technologies that
-            continue to have a profound influence on almost all
-            aspects of modern life. Applied Physics seeks to
-            develop new technologies and practical applications
-            through the use and improvement of our understanding
-            of physical systems. Physics has been invaluable in
-            the development of technologies such as the
-            microchip, information technology, data storage,
-            fibre optic communications, satellite navigation and
-            mobile phones which are transforming the
-            infrastructure of society.
+           Bachelor of Science in English programs tend to include professional
+            writing courses, like expository or critical writing, in lieu of 
+            the foreign language requirements found in a Bachelor of Arts program. 
+            They may also include elective courses in creative writing, grant
+             writing or technical writing.
+
+
           </p>
         </div>
         <div className='shadow p-5 w-100 rounded-top ms-5 me-5 bg-white'>
@@ -58,30 +56,26 @@ function BsPhysics() {
                 <td>3</td>
               </tr>
               <tr>
-                <td>PHY-101 </td>
-                <td>Elementary Mechanics </td>
+                <td>COMP-111		 </td>
+                <td>Computer (Intro & App)			</td>
                 <td>3</td>
               </tr>
               <tr>
-                <td>PHY-102 </td>
-                <td>Waves, Oscillations and Optics </td>
-                <td>4</td>
-              </tr>
-              <tr>
-                <td>MATH-121 </td>
-                <td>Calculus-I </td>
+                <td>ENG-101			 </td>
+                <td>Fundamentals of Psychology		 </td>
                 <td>3</td>
               </tr>
               <tr>
-                <td>MATH-122 </td>
-                <td>Applied Mathematics </td>
+                <td>ENG-102		 </td>
+                <td>Political Science-I			</td>
                 <td>3</td>
               </tr>
               <tr>
-                <td>CHM-111 </td>
-                <td>Fundamentals of Chemistry </td>
+                <td>ASPY-111			 </td>
+                <td>Logic and Critical Thinking		 </td>
                 <td>3</td>
               </tr>
+             
             </tbody>
           </table>
         </div>
@@ -106,25 +100,26 @@ function BsPhysics() {
                 <td>3</td>
               </tr>
               <tr>
-                <td>PHY-103 </td>
-                <td>Electricity and Magnetism </td>
+                <td>ENG-103	 </td>
+                <td>Introduction to Linguistics-III (Phonetics and English Phonology)	</td>
                 <td>3</td>
               </tr>
               <tr>
-                <td>PHY-104 </td>
-                <td>Thermodynamics ans Kinetic Theory </td>
+                <td>ENG-104		 </td>
+                <td>Introduction to Linguistics-II			 </td>
                 <td>3</td>
               </tr>
               <tr>
-                <td>MATH-123 </td>
-                <td> Calculus-II </td>
+                <td>BSCS-111		 </td>
+                <td> Mass Communication		</td>
                 <td>3</td>
               </tr>
               <tr>
-                <td>ECON-124 </td>
-                <td> Analytical Geometry </td>
+                <td>IR-111			 </td>
+                <td> International Relations		 </td>
                 <td>3</td>
               </tr>
+             
             </tbody>
           </table>
         </div>
@@ -141,34 +136,34 @@ function BsPhysics() {
                 <th>Course ID</th>
               </tr>
               <tr>
-                <td>ENG-211 </td>
-                <td>English III (Communication Skills) </td>
+                <td>ENG-201	 </td>
+                <td>English III ( Communication Skills)		</td>
                 <td>3</td>
               </tr>
               <tr>
-                <td>PHY-201 </td>
-                <td>Concepts of Modern Physics </td>
+                <td>ENG-202		 </td>
+                <td>Introduction to Literature-III (Fiction and Non-Fiction)	 </td>
                 <td>3</td>
               </tr>
               <tr>
-                <td>PHY-202 </td>
-                <td> General Physics Lab-I </td>
-                <td>2</td>
-              </tr>
-              <tr>
-                <td>MATH-221 </td>
-                <td>Differential Equations-I</td>
+                <td>ENG-203	 </td>
+                <td> Introduction to Linguistics-III (Phonetics and English Phonology)		</td>
                 <td>3</td>
               </tr>
               <tr>
-                <td>MATH-222 </td>
-                <td> Pure Mathematics </td>
+                <td>BBA-211	</td>
+                <td>Entrepreneurship		</td>
                 <td>3</td>
               </tr>
               <tr>
-                <td>COMP-211 </td>
-                <td> Computer Science </td>
-                <td>4</td>
+                <td>HR-211	 </td>
+                <td>Human Resource Management		 </td>
+                <td>3</td>
+              </tr>
+              <tr>
+                <td>PHIL-211		 </td>
+                <td>Introduction to Philosophy		 </td>
+                <td>3</td>
               </tr>
             </tbody>
           </table>
@@ -184,35 +179,36 @@ function BsPhysics() {
                 <th>Course ID</th>
               </tr>
               <tr>
-                <td>ENG-212 </td>
-                <td>English-IV (English for Practical Aims) </td>
+                <td>ENG-204	 </td>
+                <td>English-IV (Advance Academic Reading and Writing)	 </td>
                 <td>3</td>
               </tr>
               <tr>
-                <td>PHY-203 </td>
-                <td>Basic Electronics </td>
+                <td>ENG-205	 </td>
+                <td>Introduction to Literature-IV (History of Literature-II)	 </td>
                 <td>3</td>
               </tr>
               <tr>
-                <td>PHY-204 </td>
-                <td>General Physics Lab-II</td>
-                <td>2</td>
-              </tr>
-              <tr>
-                <td>MATH-223 </td>
-                <td>Differential Equation-II</td>
+                <td>ENG-206		 </td>
+                <td>Introduction to Linguistics-IV (The Structure of English)	</td>
                 <td>3</td>
               </tr>
               <tr>
-                <td>MATH-224 </td>
-                <td>Linear Algebra </td>
+                <td>HR-213	 </td>
+                <td>Citizenship Education (Human Rights)		</td>
                 <td>3</td>
               </tr>
               <tr>
-                <td>COMP-212 </td>
-                <td>Computer Science-II </td>
-                <td>4</td>
+                <td>GEOG-211	</td>
+                <td>Introduction to Geography		 </td>
+                <td>3</td>
               </tr>
+              <tr>
+                <td>SOC-211		 </td>
+                <td>Introduction to Sociology		</td>
+                <td>3</td>
+              </tr>
+               
             </tbody>
           </table>
         </div>
@@ -229,34 +225,34 @@ function BsPhysics() {
                 <th>Course ID</th>
               </tr>
               <tr>
-                <td>PHY-301 </td>
-                <td>Classical Mechanics </td>
+                <td>ENG-301		 </td>
+                <td>Literary Criticism		</td>
                 <td>3</td>
               </tr>
               <tr>
-                <td>PHY-302 </td>
-                <td>Mathematical Method of Physics-I </td>
+                <td>ENG-302		</td>
+                <td>Poetry ( 14th to 18th Century)	</td>
                 <td>3</td>
               </tr>
               <tr>
-                <td>PHY-303 </td>
-                <td> Solid State Physics-I </td>
+                <td>ENG-303		 </td>
+                <td> Novel (18th & 19th Century)	</td>
                 <td>3</td>
               </tr>
               <tr>
-                <td>PHY-304 </td>
-                <td>Electronic Device and Circuits </td>
-                <td>4</td>
+                <td>ENG-304		</td>
+                <td>Journalistic Discourse	 </td>
+                <td>3</td>
               </tr>
               <tr>
-                <td>PHY-305 </td>
-                <td> Quantum Mechanics-I </td>
-                <td>4</td>
+                <td>ENG-305		 </td>
+                <td> Sociolinguistics		</td>
+                <td>3</td>
               </tr>
               <tr>
-                <td>PHY-306 </td>
-                <td> Physics Lab-III(Modern Physics) </td>
-                <td>4</td>
+                <td>ENG-306		</td>
+                <td> Visionary Discourse		 </td>
+                <td>3</td>
               </tr>
             </tbody>
           </table>
@@ -272,35 +268,31 @@ function BsPhysics() {
                 <th>Course ID</th>
               </tr>
               <tr>
-                <td>PHY-307 </td>
-                <td>Mathematical Method of Physics-II </td>
+                <td>ENG-307		 </td>
+                <td>Literary Criticism and Theory		</td>
                 <td>3</td>
               </tr>
               <tr>
-                <td>PHY-308 </td>
-                <td>Solid State Physics-II </td>
+                <td>ENG-308		 </td>
+                <td>Classics in Drama		 </td>
                 <td>3</td>
               </tr>
               <tr>
-                <td>PHY-309 </td>
-                <td> Quantum Mechanics-II </td>
+                <td>ENG-309		 </td>
+                <td>19th Century Poetry		 </td>
                 <td>3</td>
               </tr>
               <tr>
-                <td>PHY-310 </td>
-                <td>Digital Electronics </td>
+                <td>ENG-310		 </td>
+                <td>Fantasy	 </td>
                 <td>3</td>
               </tr>
               <tr>
-                <td>PHY-311 </td>
-                <td>Computational Physics-I </td>
+                <td>ENG-311		 </td>
+                <td>Translation Studies		</td>
                 <td>3</td>
               </tr>
-              <tr>
-                <td>PHY-312 </td>
-                <td> Physics Lab-IV </td>
-                <td>4</td>
-              </tr>
+              
             </tbody>
           </table>
         </div>
@@ -309,4 +301,4 @@ function BsPhysics() {
   );
 }
 
-export default BsPhysics;
+export default BsEnglish;
