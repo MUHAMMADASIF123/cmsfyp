@@ -1,27 +1,22 @@
 import React from 'react';
-import './BsPhysics.css';
+import './BsMath.css';
 
-function BsPhysics() {
+function BsMath() {
   return (
     <div>
       <div className='d-flex justify-content-center mt-5 me-5 ms-5 p-5'>
         <div className='shadow p-5 w-100 rounded-top ms-5 me-5 bg-white '>
-          <h2>Bachelor of Science In Physics (Hons)</h2>
+          <h2>Bachelor of Science In Mathematics (Hons)
+</h2>
           <hr />
           <h4 className='paragraph'>Course Object</h4>
           <hr />
           <p className='paragraph'>
-            Physics is the scientific basis for technologies that
-            continue to have a profound influence on almost all
-            aspects of modern life. Applied Physics seeks to
-            develop new technologies and practical applications
-            through the use and improvement of our understanding
-            of physical systems. Physics has been invaluable in
-            the development of technologies such as the
-            microchip, information technology, data storage,
-            fibre optic communications, satellite navigation and
-            mobile phones which are transforming the
-            infrastructure of society.
+            A Bachelor of Mathematics is an undergraduate academic degree
+             awarded for successfully completing a program of study in 
+             mathematics or related disciplines, such as computer science 
+             or statistics.This program spreads over 8 semesters and
+              covers 132 credit hours in 4 years.
           </p>
         </div>
         <div className='shadow p-5 w-100 rounded-top ms-5 me-5 bg-white'>
@@ -58,29 +53,29 @@ function BsPhysics() {
                 <td>3</td>
               </tr>
               <tr>
-                <td>PHY-101 </td>
-                <td>Elementary Mechanics </td>
+                <td>CMP-111	 </td>
+                <td>Computer (Intro & App)	</td>
                 <td>3</td>
               </tr>
               <tr>
-                <td>PHY-102 </td>
-                <td>Waves, Oscillations and Optics </td>
+                <td>MATH-101	 </td>
+                <td>Mathematics A-I [Calculus (I)]	 </td>
                 <td>4</td>
               </tr>
               <tr>
-                <td>MATH-121 </td>
-                <td>Calculus-I </td>
+                <td>MTH-102	 </td>
+                <td>Mathematics B-I [Vectors & Mechanics (I)]	</td>
+                <td>4</td>
+              </tr>
+              <tr>
+                <td>PHY-111	 </td>
+                <td>Physics-I (Mechanics & Optics)	 </td>
                 <td>3</td>
               </tr>
               <tr>
-                <td>MATH-122 </td>
-                <td>Applied Mathematics </td>
-                <td>3</td>
-              </tr>
-              <tr>
-                <td>CHM-111 </td>
-                <td>Fundamentals of Chemistry </td>
-                <td>3</td>
+                <td>PHY-112	</td>
+                <td>Physics Lab-I (Mechanics & Optics)	 </td>
+                <td>1</td>
               </tr>
             </tbody>
           </table>
@@ -106,24 +101,29 @@ function BsPhysics() {
                 <td>3</td>
               </tr>
               <tr>
-                <td>PHY-103 </td>
-                <td>Electricity and Magnetism </td>
+                <td>MATH-103	 </td>
+                <td>Mathematics A-II [Plane Curves & Analytic Geometry]	</td>
+                <td>4</td>
+              </tr>
+              <tr>
+                <td>MATH-104	 </td>
+                <td>Mathematics B-II [Mechanics (II)]	 </td>
+                <td>4</td>
+              </tr>
+              <tr>
+                <td>PHY-113	 </td>
+                <td> Physics-II (Waves & Oscillation) </td>
                 <td>3</td>
               </tr>
               <tr>
-                <td>PHY-104 </td>
-                <td>Thermodynamics ans Kinetic Theory </td>
-                <td>3</td>
+                <td>PHY-114	 </td>
+                <td> Physics Lab-II (Waves & Oscillation)	 </td>
+                <td>1</td>
               </tr>
               <tr>
-                <td>MATH-123 </td>
-                <td> Calculus-II </td>
-                <td>3</td>
-              </tr>
-              <tr>
-                <td>ECON-124 </td>
-                <td> Analytical Geometry </td>
-                <td>3</td>
+                <td>MATH-105	 </td>
+                <td> Discrete Mathematics		 </td>
+                <td>2</td>
               </tr>
             </tbody>
           </table>
@@ -141,34 +141,34 @@ function BsPhysics() {
                 <th>Course ID</th>
               </tr>
               <tr>
-                <td>ENG-211 </td>
-                <td>English III (Communication Skills) </td>
+                <td>ENG-221 </td>
+                <td>English III (Bus. Communication I)	</td>
                 <td>3</td>
               </tr>
               <tr>
-                <td>PHY-201 </td>
-                <td>Concepts of Modern Physics </td>
-                <td>3</td>
-              </tr>
-              <tr>
-                <td>PHY-202 </td>
-                <td> General Physics Lab-I </td>
-                <td>2</td>
-              </tr>
-              <tr>
-                <td>MATH-221 </td>
-                <td>Differential Equations-I</td>
-                <td>3</td>
-              </tr>
-              <tr>
-                <td>MATH-222 </td>
-                <td> Pure Mathematics </td>
-                <td>3</td>
-              </tr>
-              <tr>
-                <td>COMP-211 </td>
-                <td> Computer Science </td>
+                <td>MATH-201	 </td>
+                <td>Mathematics A-III [Linear Algebra]	 </td>
                 <td>4</td>
+              </tr>
+              <tr>
+                <td>MATH-202	 </td>
+                <td> Mathematics B-III [Calculus (II)]	</td>
+                <td>4</td>
+              </tr>
+              <tr>
+                <td>PHY-211	</td>
+                <td>Physics-III (Electricity & Magnetism)	</td>
+                <td>3</td>
+              </tr>
+              <tr>
+                <td>PHY-212	 </td>
+                <td>Physics Lab-III (Electricity & Magnetism)	 </td>
+                <td>1</td>
+              </tr>
+              <tr>
+                <td>MATH-205	 </td>
+                <td> Graph Theory	 </td>
+                <td>2</td>
               </tr>
             </tbody>
           </table>
@@ -189,29 +189,34 @@ function BsPhysics() {
                 <td>3</td>
               </tr>
               <tr>
-                <td>PHY-203 </td>
-                <td>Basic Electronics </td>
+                <td>MATH-203	 </td>
+                <td>Mathematics A-IV [Ordinary Differential Equations]	 </td>
+                <td>4</td>
+              </tr>
+              <tr>
+                <td>MATH-204	 </td>
+                <td>Mathematics B-IV [Metric Spaces & Group Theory]	</td>
+                <td>4</td>
+              </tr>
+              <tr>
+                <td>PHY-213	 </td>
+                <td>Physics-IV (Concepts of Modern Physics)	</td>
                 <td>3</td>
               </tr>
               <tr>
-                <td>PHY-204 </td>
-                <td>General Physics Lab-II</td>
+                <td>PHY-214	</td>
+                <td>Physics Lab-IV (Concepts Modern Physics)	 </td>
+                <td>1</td>
+              </tr>
+              <tr>
+                <td>MATH-206	 </td>
+                <td>Elementary Number Theory	</td>
                 <td>2</td>
               </tr>
-              <tr>
-                <td>MATH-223 </td>
-                <td>Differential Equation-II</td>
+               <tr>
+                <td>SOC-211		 </td>
+                <td>Introduction to Sociology		</td>
                 <td>3</td>
-              </tr>
-              <tr>
-                <td>MATH-224 </td>
-                <td>Linear Algebra </td>
-                <td>3</td>
-              </tr>
-              <tr>
-                <td>COMP-212 </td>
-                <td>Computer Science-II </td>
-                <td>4</td>
               </tr>
             </tbody>
           </table>
@@ -229,34 +234,34 @@ function BsPhysics() {
                 <th>Course ID</th>
               </tr>
               <tr>
-                <td>PHY-301 </td>
-                <td>Classical Mechanics </td>
+                <td>MATH-301	 </td>
+                <td>Real Analysis –I	</td>
                 <td>3</td>
               </tr>
               <tr>
-                <td>PHY-302 </td>
-                <td>Mathematical Method of Physics-I </td>
+                <td>MATH-302	</td>
+                <td>Group Theory-I	</td>
                 <td>3</td>
               </tr>
               <tr>
-                <td>PHY-303 </td>
-                <td> Solid State Physics-I </td>
+                <td>MATH-303	 </td>
+                <td> Complex Analysis-I	</td>
                 <td>3</td>
               </tr>
               <tr>
-                <td>PHY-304 </td>
-                <td>Electronic Device and Circuits </td>
-                <td>4</td>
+                <td>MATH-304	</td>
+                <td>Vector and Tensor Analysis	 </td>
+                <td>3</td>
               </tr>
               <tr>
-                <td>PHY-305 </td>
-                <td> Quantum Mechanics-I </td>
-                <td>4</td>
+                <td>MATH-305	 </td>
+                <td> Topology	</td>
+                <td>3</td>
               </tr>
               <tr>
-                <td>PHY-306 </td>
-                <td> Physics Lab-III(Modern Physics) </td>
-                <td>4</td>
+                <td>MATH-306	</td>
+                <td> Differential Geometry	 </td>
+                <td>3</td>
               </tr>
             </tbody>
           </table>
@@ -272,34 +277,34 @@ function BsPhysics() {
                 <th>Course ID</th>
               </tr>
               <tr>
-                <td>PHY-307 </td>
-                <td>Mathematical Method of Physics-II </td>
+                <td>MATH-307	 </td>
+                <td>Real Analysis –II	</td>
                 <td>3</td>
               </tr>
               <tr>
-                <td>PHY-308 </td>
-                <td>Solid State Physics-II </td>
+                <td>MATH-308	 </td>
+                <td>Rings and Vector Spaces	 </td>
                 <td>3</td>
               </tr>
               <tr>
-                <td>PHY-309 </td>
-                <td> Quantum Mechanics-II </td>
+                <td>MATH-309	 </td>
+                <td> Complex Analysis – II	 </td>
                 <td>3</td>
               </tr>
               <tr>
-                <td>PHY-310 </td>
-                <td>Digital Electronics </td>
+                <td>MATH-310	 </td>
+                <td>Mechanics	 </td>
                 <td>3</td>
               </tr>
               <tr>
-                <td>PHY-311 </td>
-                <td>Computational Physics-I </td>
+                <td>MATH-311	 </td>
+                <td>Functional Analysis-I	</td>
                 <td>3</td>
               </tr>
               <tr>
-                <td>PHY-312 </td>
-                <td> Physics Lab-IV </td>
-                <td>4</td>
+                <td>MATH-312	 </td>
+                <td> Ordinary Differential Equations	 </td>
+                <td>3</td>
               </tr>
             </tbody>
           </table>
@@ -309,4 +314,4 @@ function BsPhysics() {
   );
 }
 
-export default BsPhysics;
+export default BsMath;

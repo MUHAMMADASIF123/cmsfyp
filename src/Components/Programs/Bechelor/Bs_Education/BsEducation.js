@@ -1,27 +1,20 @@
 import React from 'react';
-import './BsPhysics.css';
+import './BsEducation.css';
 
-function BsPhysics() {
+function BsEducation() {
   return (
     <div>
       <div className='d-flex justify-content-center mt-5 me-5 ms-5 p-5'>
         <div className='shadow p-5 w-100 rounded-top ms-5 me-5 bg-white '>
-          <h2>Bachelor of Science In Physics (Hons)</h2>
+          <h2>Bachelor of Science in Education( Hons)
+</h2>
           <hr />
           <h4 className='paragraph'>Course Object</h4>
           <hr />
           <p className='paragraph'>
-            Physics is the scientific basis for technologies that
-            continue to have a profound influence on almost all
-            aspects of modern life. Applied Physics seeks to
-            develop new technologies and practical applications
-            through the use and improvement of our understanding
-            of physical systems. Physics has been invaluable in
-            the development of technologies such as the
-            microchip, information technology, data storage,
-            fibre optic communications, satellite navigation and
-            mobile phones which are transforming the
-            infrastructure of society.
+            The education industry is growing at a fast rate in Pakistan and international educational institutions offer rewarding career options. This course allows for specialization in physical education, creativity and the arts, home economics, humanities and social sciences, mathematics teaching, outdoor education and science. The course is a partnership based teacher education course. Partnerships between schools and the university provide the context in which you will learn the practice and theory of education. This program spreads over 8 semesters and covers 132 credit hours in 4 years.
+
+
           </p>
         </div>
         <div className='shadow p-5 w-100 rounded-top ms-5 me-5 bg-white'>
@@ -58,30 +51,31 @@ function BsPhysics() {
                 <td>3</td>
               </tr>
               <tr>
-                <td>PHY-101 </td>
-                <td>Elementary Mechanics </td>
+                <td>CMP-111 </td>
+                <td>Computer (Intro & App) </td>
                 <td>3</td>
               </tr>
               <tr>
-                <td>PHY-102 </td>
-                <td>Waves, Oscillations and Optics </td>
-                <td>4</td>
-              </tr>
-              <tr>
-                <td>MATH-121 </td>
-                <td>Calculus-I </td>
+                <td>EDU-101	 </td>
+                <td>General Methods of Teaching	</td>
                 <td>3</td>
               </tr>
               <tr>
-                <td>MATH-122 </td>
-                <td>Applied Mathematics </td>
+                <td>EDU-102	 </td>
+                <td>Foundations of Education	 </td>
                 <td>3</td>
               </tr>
               <tr>
-                <td>CHM-111 </td>
-                <td>Fundamentals of Chemistry </td>
+                <td>EDU-105	 </td>
+                <td>Child Development	 </td>
                 <td>3</td>
               </tr>
+              <tr>
+                <td>URDU-111	</td>
+                <td>Functional Urdu	 </td>
+                <td>3</td>
+              </tr>
+              
             </tbody>
           </table>
         </div>
@@ -106,25 +100,30 @@ function BsPhysics() {
                 <td>3</td>
               </tr>
               <tr>
-                <td>PHY-103 </td>
-                <td>Electricity and Magnetism </td>
+                <td>MATH-111	</td>
+                <td>
+                  Elementary Mathematics-I (Algebra)	
+                </td>
                 <td>3</td>
               </tr>
               <tr>
-                <td>PHY-104 </td>
-                <td>Thermodynamics ans Kinetic Theory </td>
+                <td>EDU-106	 </td>
+                <td>
+                  Art, Crafts and Calligraphy	
+                </td>
                 <td>3</td>
               </tr>
               <tr>
-                <td>MATH-123 </td>
-                <td> Calculus-II </td>
+                <td>EDU-107	 </td>
+                <td> Classroom Management	 </td>
                 <td>3</td>
               </tr>
               <tr>
-                <td>ECON-124 </td>
-                <td> Analytical Geometry </td>
+                <td>EDU-108	</td>
+                <td> Methods of Teaching Islamic Studies	 </td>
                 <td>3</td>
               </tr>
+              
             </tbody>
           </table>
         </div>
@@ -146,30 +145,35 @@ function BsPhysics() {
                 <td>3</td>
               </tr>
               <tr>
-                <td>PHY-201 </td>
-                <td>Concepts of Modern Physics </td>
+                <td>EDU-207	 </td>
+                <td>
+                 Teaching of Urdu/Regional Languages	
+                </td>
                 <td>3</td>
               </tr>
               <tr>
-                <td>PHY-202 </td>
-                <td> General Physics Lab-I </td>
+                <td>EDU-208	</td>
+                <td>
+                  Teaching Literacy Skills)	
+                </td>
+                <td>3</td>
+              </tr>
+              <tr>
+                <td>EDU-209	 </td>
+                <td>Teaching of G. Science	 </td>
+                <td>3</td>
+              </tr>
+              <tr>
+                <td>EDU-210	 </td>
+                <td> Instructional and Communication Technology (ICT) in Education	 </td>
                 <td>2</td>
               </tr>
               <tr>
-                <td>MATH-221 </td>
-                <td>Differential Equations-I</td>
+                <td>EDU-211	 </td>
+                <td> Teaching Practice (Short Term)	 </td>
                 <td>3</td>
               </tr>
-              <tr>
-                <td>MATH-222 </td>
-                <td> Pure Mathematics </td>
-                <td>3</td>
-              </tr>
-              <tr>
-                <td>COMP-211 </td>
-                <td> Computer Science </td>
-                <td>4</td>
-              </tr>
+             
             </tbody>
           </table>
         </div>
@@ -189,30 +193,33 @@ function BsPhysics() {
                 <td>3</td>
               </tr>
               <tr>
-                <td>PHY-203 </td>
-                <td>Basic Electronics </td>
+                <td>GS-211	 </td>
+                <td>General Science	</td>
                 <td>3</td>
               </tr>
               <tr>
-                <td>PHY-204 </td>
-                <td>General Physics Lab-II</td>
-                <td>2</td>
-              </tr>
-              <tr>
-                <td>MATH-223 </td>
-                <td>Differential Equation-II</td>
+                <td>EDU-203	 </td>
+                <td>
+                  Classroom Assessment	
+                </td>
                 <td>3</td>
               </tr>
               <tr>
-                <td>MATH-224 </td>
-                <td>Linear Algebra </td>
+                <td>EDU-212	 </td>
+                <td>Teaching of English	 </td>
                 <td>3</td>
               </tr>
               <tr>
-                <td>COMP-212 </td>
-                <td>Computer Science-II </td>
-                <td>4</td>
+                <td>EDU-213	 </td>
+                <td>Teaching of Mathematics	 </td>
+                <td>3</td>
               </tr>
+              <tr>
+                <td>EDU-214	 </td>
+                <td>Teaching of Social Studies	 </td>
+                <td>3</td>
+              </tr>
+             
             </tbody>
           </table>
         </div>
@@ -229,35 +236,26 @@ function BsPhysics() {
                 <th>Course ID</th>
               </tr>
               <tr>
-                <td>PHY-301 </td>
-                <td>Classical Mechanics </td>
+                <td>EDU-301		 </td>
+                <td>School, Community and Teacher		 </td>
                 <td>3</td>
               </tr>
               <tr>
-                <td>PHY-302 </td>
-                <td>Mathematical Method of Physics-I </td>
+                <td>EDU-312		 </td>
+                <td>Teaching Practice		 </td>
                 <td>3</td>
               </tr>
               <tr>
-                <td>PHY-303 </td>
-                <td> Solid State Physics-I </td>
+                <td>EDU-313		 </td>
+                <td>Curriculum Development	 </td>
                 <td>3</td>
               </tr>
               <tr>
-                <td>PHY-304 </td>
-                <td>Electronic Device and Circuits </td>
-                <td>4</td>
+                <td>EDU-314		 </td>
+                <td>Educational Psychology	 </td>
+                <td>3</td>
               </tr>
-              <tr>
-                <td>PHY-305 </td>
-                <td> Quantum Mechanics-I </td>
-                <td>4</td>
-              </tr>
-              <tr>
-                <td>PHY-306 </td>
-                <td> Physics Lab-III(Modern Physics) </td>
-                <td>4</td>
-              </tr>
+             
             </tbody>
           </table>
         </div>
@@ -272,35 +270,26 @@ function BsPhysics() {
                 <th>Course ID</th>
               </tr>
               <tr>
-                <td>PHY-307 </td>
-                <td>Mathematical Method of Physics-II </td>
+                <td>EDU-315		</td>
+                <td>Contemporary Issues and Trends in Education		 </td>
                 <td>3</td>
               </tr>
               <tr>
-                <td>PHY-308 </td>
-                <td>Solid State Physics-II </td>
+                <td>EDU-316		 </td>
+                <td>Comparative Education		 </td>
                 <td>3</td>
               </tr>
               <tr>
-                <td>PHY-309 </td>
-                <td> Quantum Mechanics-II </td>
+                <td>BBA-205		 </td>
+                <td> Financial Accounting (Advance)		 </td>
                 <td>3</td>
               </tr>
               <tr>
-                <td>PHY-310 </td>
-                <td>Digital Electronics </td>
+                <td>EDU-317		 </td>
+                <td>Introduction to Guidance and Counseling	</td>
                 <td>3</td>
               </tr>
-              <tr>
-                <td>PHY-311 </td>
-                <td>Computational Physics-I </td>
-                <td>3</td>
-              </tr>
-              <tr>
-                <td>PHY-312 </td>
-                <td> Physics Lab-IV </td>
-                <td>4</td>
-              </tr>
+             
             </tbody>
           </table>
         </div>
@@ -309,4 +298,4 @@ function BsPhysics() {
   );
 }
 
-export default BsPhysics;
+export default BsEducation;

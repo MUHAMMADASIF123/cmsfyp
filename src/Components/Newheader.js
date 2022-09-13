@@ -76,8 +76,8 @@ const Newheader = () => {
       <div className='menu'>
         <nav>
           <a href='/'>Home</a>
-          <a href='#'>Programs</a>
-          <a href='#'>Departements</a>
+          <a href='#Programs'>Programs</a>
+          <a href='#Departments'>Departements</a>
           <a href='/contactUs'>Contact Us</a>
           <a href='#'>About Us</a>
         </nav>

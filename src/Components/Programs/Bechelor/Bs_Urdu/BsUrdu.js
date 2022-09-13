@@ -1,27 +1,23 @@
 import React from 'react';
-import './BsPhysics.css';
+import './BsUrdu.css';
 
-function BsPhysics() {
+function BsUrdu() {
   return (
     <div>
       <div className='d-flex justify-content-center mt-5 me-5 ms-5 p-5'>
         <div className='shadow p-5 w-100 rounded-top ms-5 me-5 bg-white '>
-          <h2>Bachelor of Science In Physics (Hons)</h2>
+          <h2>Bachelor of Science In Urdu (Hons)</h2>
           <hr />
           <h4 className='paragraph'>Course Object</h4>
           <hr />
           <p className='paragraph'>
-            Physics is the scientific basis for technologies that
-            continue to have a profound influence on almost all
-            aspects of modern life. Applied Physics seeks to
-            develop new technologies and practical applications
-            through the use and improvement of our understanding
-            of physical systems. Physics has been invaluable in
-            the development of technologies such as the
-            microchip, information technology, data storage,
-            fibre optic communications, satellite navigation and
-            mobile phones which are transforming the
-            infrastructure of society.
+            Bs in Urdu- Under this course, one requires to learn
+            the various aspects of the language. This includes
+            the way of writing, reading as well use and meaning
+            of various words. One is also taught the various ways
+            of constructing sentences and use of words in the
+            language. The course also includes study of the
+            grammar in the subject.
           </p>
         </div>
         <div className='shadow p-5 w-100 rounded-top ms-5 me-5 bg-white'>
@@ -58,30 +54,25 @@ function BsPhysics() {
                 <td>3</td>
               </tr>
               <tr>
-                <td>PHY-101 </td>
-                <td>Elementary Mechanics </td>
+                <td>COMP-111 </td>
+                <td>Computer (Intro & App) </td>
                 <td>3</td>
               </tr>
               <tr>
-                <td>PHY-102 </td>
-                <td>Waves, Oscillations and Optics </td>
-                <td>4</td>
-              </tr>
-              <tr>
-                <td>MATH-121 </td>
-                <td>Calculus-I </td>
+                <td>ECON-111 </td>
+                <td>Fundamental of Economics </td>
                 <td>3</td>
               </tr>
               <tr>
-                <td>MATH-122 </td>
-                <td>Applied Mathematics </td>
+                <td>Urdu-101 </td>
+                <td>Urdu Zuban - Tashkel o Irtaka </td>
                 <td>3</td>
               </tr>
               <tr>
-                <td>CHM-111 </td>
-                <td>Fundamentals of Chemistry </td>
+                <td>Udru-102 </td>
+                <td>Urdu Zuban - Qaweed o Imla </td>
                 <td>3</td>
-              </tr>
+              </tr>{' '}
             </tbody>
           </table>
         </div>
@@ -101,28 +92,28 @@ function BsPhysics() {
                 <td>2</td>
               </tr>
               <tr>
+                <td>APSY-111 </td>
+                <td>Fundamentals of Psychology </td>
+                <td>3</td>
+              </tr>
+              <tr>
                 <td>ENG-112 </td>
-                <td>English II (Acadenic R & W) </td>
+                <td>English II </td>
                 <td>3</td>
               </tr>
               <tr>
-                <td>PHY-103 </td>
-                <td>Electricity and Magnetism </td>
+                <td>MATH-111 </td>
+                <td>Elementary Math </td>
                 <td>3</td>
               </tr>
               <tr>
-                <td>PHY-104 </td>
-                <td>Thermodynamics ans Kinetic Theory </td>
+                <td>URDU-103 </td>
+                <td>Shairi Insaaf - Taruf o Tahfeem-1 </td>
                 <td>3</td>
               </tr>
               <tr>
-                <td>MATH-123 </td>
-                <td> Calculus-II </td>
-                <td>3</td>
-              </tr>
-              <tr>
-                <td>ECON-124 </td>
-                <td> Analytical Geometry </td>
+                <td>URDU-203 </td>
+                <td>Bayan o Badi o Arooz </td>
                 <td>3</td>
               </tr>
             </tbody>
@@ -141,34 +132,34 @@ function BsPhysics() {
                 <th>Course ID</th>
               </tr>
               <tr>
-                <td>ENG-211 </td>
-                <td>English III (Communication Skills) </td>
+                <td>ENG-221 </td>
+                <td>English III (Bus. Communication I) </td>
                 <td>3</td>
               </tr>
               <tr>
-                <td>PHY-201 </td>
-                <td>Concepts of Modern Physics </td>
+                <td>PHIL-211 </td>
+                <td>Introduction to Philosophy </td>
                 <td>3</td>
               </tr>
               <tr>
-                <td>PHY-202 </td>
-                <td> General Physics Lab-I </td>
-                <td>2</td>
-              </tr>
-              <tr>
-                <td>MATH-221 </td>
-                <td>Differential Equations-I</td>
+                <td>STAT-211 </td>
+                <td> Elementary Satatistics </td>
                 <td>3</td>
               </tr>
               <tr>
-                <td>MATH-222 </td>
-                <td> Pure Mathematics </td>
+                <td>URDU-201 </td>
+                <td>Shairi Insaaf - Taruf o Tahfeem II </td>
                 <td>3</td>
               </tr>
               <tr>
-                <td>COMP-211 </td>
-                <td> Computer Science </td>
-                <td>4</td>
+                <td>URDU-202 </td>
+                <td> Adabi Istalahaat </td>
+                <td>3</td>
+              </tr>
+              <tr>
+                <td>URDU-203 </td>
+                <td>Nasri Insaaf - Taruf o Tafheem I </td>
+                <td>3</td>
               </tr>
             </tbody>
           </table>
@@ -185,33 +176,33 @@ function BsPhysics() {
               </tr>
               <tr>
                 <td>ENG-212 </td>
-                <td>English-IV (English for Practical Aims) </td>
+                <td>English IV (Eng for Pract. Aims) </td>
                 <td>3</td>
               </tr>
               <tr>
-                <td>PHY-203 </td>
-                <td>Basic Electronics </td>
+                <td>GS-211 </td>
+                <td>General Science </td>
                 <td>3</td>
               </tr>
               <tr>
-                <td>PHY-204 </td>
-                <td>General Physics Lab-II</td>
-                <td>2</td>
-              </tr>
-              <tr>
-                <td>MATH-223 </td>
-                <td>Differential Equation-II</td>
+                <td>SOC-211 </td>
+                <td>Introduction to Sociology </td>
                 <td>3</td>
               </tr>
               <tr>
-                <td>MATH-224 </td>
-                <td>Linear Algebra </td>
+                <td>URDU-204 </td>
+                <td>Nasari Insaaf - Taruf o Tahfeem II </td>
                 <td>3</td>
               </tr>
               <tr>
-                <td>COMP-212 </td>
-                <td>Computer Science-II </td>
-                <td>4</td>
+                <td>URDU-205 </td>
+                <td>Tahqeeq o Tanqeed </td>
+                <td>3</td>
+              </tr>
+              <tr>
+                <td>URDU-206 </td>
+                <td>Tahreer O Insha (Practice) </td>
+                <td>3</td>
               </tr>
             </tbody>
           </table>
@@ -229,34 +220,29 @@ function BsPhysics() {
                 <th>Course ID</th>
               </tr>
               <tr>
-                <td>PHY-301 </td>
-                <td>Classical Mechanics </td>
+                <td>BSCS-301 </td>
+                <td>News Reporting & Writing </td>
                 <td>3</td>
               </tr>
               <tr>
-                <td>PHY-302 </td>
-                <td>Mathematical Method of Physics-I </td>
+                <td>BSCS-302 </td>
+                <td>Broadcast Journalism </td>
                 <td>3</td>
               </tr>
               <tr>
-                <td>PHY-303 </td>
-                <td> Solid State Physics-I </td>
+                <td>BSCS-303 </td>
+                <td> Online Journalism </td>
                 <td>3</td>
               </tr>
               <tr>
-                <td>PHY-304 </td>
-                <td>Electronic Device and Circuits </td>
-                <td>4</td>
+                <td>BSCS-304 </td>
+                <td>Media Seminar </td>
+                <td>3</td>
               </tr>
               <tr>
-                <td>PHY-305 </td>
-                <td> Quantum Mechanics-I </td>
-                <td>4</td>
-              </tr>
-              <tr>
-                <td>PHY-306 </td>
-                <td> Physics Lab-III(Modern Physics) </td>
-                <td>4</td>
+                <td>BSCS-305 </td>
+                <td>Theories of Communication-I </td>
+                <td>3</td>
               </tr>
             </tbody>
           </table>
@@ -272,34 +258,38 @@ function BsPhysics() {
                 <th>Course ID</th>
               </tr>
               <tr>
-                <td>PHY-307 </td>
-                <td>Mathematical Method of Physics-II </td>
+                <td>BSCS-306 </td>
+                <td>
+                  Sub Editing & Page Designing (Theory &
+                  Practice){' '}
+                </td>
                 <td>3</td>
               </tr>
               <tr>
-                <td>PHY-308 </td>
-                <td>Solid State Physics-II </td>
+                <td>BSCS-307 </td>
+                <td>
+                  Feature, Column & Editorial Writing (Theory &
+                  Practice){' '}
+                </td>
                 <td>3</td>
               </tr>
               <tr>
-                <td>PHY-309 </td>
-                <td> Quantum Mechanics-II </td>
+                <td>BSCS-308 </td>
+                <td> Research Methods-I </td>
                 <td>3</td>
               </tr>
               <tr>
-                <td>PHY-310 </td>
-                <td>Digital Electronics </td>
+                <td>BSCS-309 </td>
+                <td>Theories of Communication-II </td>
                 <td>3</td>
               </tr>
               <tr>
-                <td>PHY-311 </td>
-                <td>Computational Physics-I </td>
+                <td>BSCS-310 </td>
+                <td>
+                  {' '}
+                  Introduction to Advertising & Public Relations{' '}
+                </td>
                 <td>3</td>
-              </tr>
-              <tr>
-                <td>PHY-312 </td>
-                <td> Physics Lab-IV </td>
-                <td>4</td>
               </tr>
             </tbody>
           </table>
@@ -309,4 +299,4 @@ function BsPhysics() {
   );
 }
 
-export default BsPhysics;
+export default BsUrdu;
