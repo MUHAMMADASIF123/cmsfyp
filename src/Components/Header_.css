@@ -72,7 +72,7 @@
 
   font-size: larger;
 }
-/* .menu a:hover {  */
-/* color: yellow; */
-/* border-bottom: 4px solid yellow; */
-/* } */
+.menu a:hover {
+  color: yellow;
+  border-bottom: 4px solid yellow;
+}

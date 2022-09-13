@@ -7,8 +7,8 @@ import './Home.css';
 function Home() {
   const settings = {
     dots: true,
-    infinite: true,
     autoplay: true,
+    infinite: true,
     speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
