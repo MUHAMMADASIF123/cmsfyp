@@ -1,27 +1,28 @@
 import React from 'react';
-import './BsPhysics.css';
+import './BsPoliticalScience.css';
 
-function BsPhysics() {
+function BsPoliticalScience() {
   return (
     <div>
       <div className='d-flex justify-content-center mt-5 me-5 ms-5 p-5'>
         <div className='shadow p-5 w-100 rounded-top ms-5 me-5 bg-white '>
-          <h2>Bachelor of Science In Physics (Hons)</h2>
+          <h2>Bachelor of Science In Political Science (Hons)
+
+</h2>
           <hr />
           <h4 className='paragraph'>Course Object</h4>
           <hr />
           <p className='paragraph'>
-            Physics is the scientific basis for technologies that
-            continue to have a profound influence on almost all
-            aspects of modern life. Applied Physics seeks to
-            develop new technologies and practical applications
-            through the use and improvement of our understanding
-            of physical systems. Physics has been invaluable in
-            the development of technologies such as the
-            microchip, information technology, data storage,
-            fibre optic communications, satellite navigation and
-            mobile phones which are transforming the
-            infrastructure of society.
+          The major in Political Science is designed to educate citizens and promote
+           their active interest in public affairs; prepare students for teaching and 
+           research in political science; provide a broad background for careers in
+            public administration and other forms of government service and for careers 
+            in politics; offer pre-professional curriculum in foreign affairs and 
+            international relations; and provide a pre-law curriculum. The Political 
+            Science major offers coursework in the general areas of comparative political
+             science, international relations, American government and politics, public policy,
+              and public administration. Students are required to take at least two courses 
+              (or 6 credit hours) from each of three of these areas.
           </p>
         </div>
         <div className='shadow p-5 w-100 rounded-top ms-5 me-5 bg-white'>
@@ -58,30 +59,26 @@ function BsPhysics() {
                 <td>3</td>
               </tr>
               <tr>
-                <td>PHY-101 </td>
-                <td>Elementary Mechanics </td>
+                <td>CMP-111	 </td>
+                <td>Computer (Intro & App)	 </td>
                 <td>3</td>
               </tr>
               <tr>
-                <td>PHY-102 </td>
-                <td>Waves, Oscillations and Optics </td>
-                <td>4</td>
-              </tr>
-              <tr>
-                <td>MATH-121 </td>
-                <td>Calculus-I </td>
+                <td>APSY-111		 </td>
+                <td>Fundamentals of Psychology		</td>
                 <td>3</td>
               </tr>
               <tr>
-                <td>MATH-122 </td>
-                <td>Applied Mathematics </td>
+                <td>POL-101		 </td>
+                <td>Political Science-I		 </td>
                 <td>3</td>
               </tr>
               <tr>
-                <td>CHM-111 </td>
-                <td>Fundamentals of Chemistry </td>
+                <td>SOC-102		 </td>
+                <td>Logic and Critical Thinking		 </td>
                 <td>3</td>
               </tr>
+              
             </tbody>
           </table>
         </div>
@@ -106,25 +103,26 @@ function BsPhysics() {
                 <td>3</td>
               </tr>
               <tr>
-                <td>PHY-103 </td>
-                <td>Electricity and Magnetism </td>
+                <td>MATH-111		</td>
+                <td>Social Anthropology		 </td>
                 <td>3</td>
               </tr>
               <tr>
-                <td>PHY-104 </td>
-                <td>Thermodynamics ans Kinetic Theory </td>
+                <td>POL-102		 </td>
+                <td>Political Science-II		 </td>
                 <td>3</td>
               </tr>
               <tr>
-                <td>MATH-123 </td>
-                <td> Calculus-II </td>
+                <td>ECNO-111		 </td>
+                <td> Fundamentals of Economics		</td>
                 <td>3</td>
               </tr>
               <tr>
-                <td>ECON-124 </td>
-                <td> Analytical Geometry </td>
+                <td>IR-111		 </td>
+                <td>International Relations	</td>
                 <td>3</td>
               </tr>
+              
             </tbody>
           </table>
         </div>
@@ -141,35 +139,31 @@ function BsPhysics() {
                 <th>Course ID</th>
               </tr>
               <tr>
-                <td>ENG-211 </td>
+                <td>ENG-221 </td>
                 <td>English III (Communication Skills) </td>
                 <td>3</td>
               </tr>
               <tr>
-                <td>PHY-201 </td>
-                <td>Concepts of Modern Physics </td>
+                <td>MATH-211		 </td>
+                <td>Elementary Mathematics-II (Calculus)		 </td>
                 <td>3</td>
               </tr>
               <tr>
-                <td>PHY-202 </td>
-                <td> General Physics Lab-I </td>
-                <td>2</td>
+                <td>POL-201		 </td>
+                <td>Political Systems (Developed)	 </td>
+                <td>3</td>
               </tr>
               <tr>
-                <td>MATH-221 </td>
+                <td>GEOG-211	</td>
                 <td>Differential Equations-I</td>
                 <td>3</td>
               </tr>
               <tr>
-                <td>MATH-222 </td>
-                <td> Pure Mathematics </td>
+                <td>PHIL-211	 </td>
+                <td> Introduction to Philosophy		 </td>
                 <td>3</td>
               </tr>
-              <tr>
-                <td>COMP-211 </td>
-                <td> Computer Science </td>
-                <td>4</td>
-              </tr>
+              
             </tbody>
           </table>
         </div>
@@ -189,30 +183,26 @@ function BsPhysics() {
                 <td>3</td>
               </tr>
               <tr>
-                <td>PHY-203 </td>
-                <td>Basic Electronics </td>
+                <td>POL-202		 </td>
+                <td>Political Systems (Developing)		 </td>
                 <td>3</td>
               </tr>
               <tr>
-                <td>PHY-204 </td>
-                <td>General Physics Lab-II</td>
-                <td>2</td>
-              </tr>
-              <tr>
-                <td>MATH-223 </td>
-                <td>Differential Equation-II</td>
+                <td>POL-203		 </td>
+                <td>Pakistan Movement		</td>
                 <td>3</td>
               </tr>
               <tr>
-                <td>MATH-224 </td>
-                <td>Linear Algebra </td>
+                <td>GS-211		 </td>
+                <td>General Science		</td>
                 <td>3</td>
               </tr>
               <tr>
-                <td>COMP-212 </td>
-                <td>Computer Science-II </td>
-                <td>4</td>
+                <td>SOC-211		 </td>
+                <td>Introduction to Sociology		 </td>
+                <td>3</td>
               </tr>
+              
             </tbody>
           </table>
         </div>
@@ -229,35 +219,31 @@ function BsPhysics() {
                 <th>Course ID</th>
               </tr>
               <tr>
-                <td>PHY-301 </td>
-                <td>Classical Mechanics </td>
-                <td>3</td>
-              </tr>
-              <tr>
-                <td>PHY-302 </td>
-                <td>Mathematical Method of Physics-I </td>
-                <td>3</td>
-              </tr>
-              <tr>
-                <td>PHY-303 </td>
-                <td> Solid State Physics-I </td>
-                <td>3</td>
-              </tr>
-              <tr>
-                <td>PHY-304 </td>
-                <td>Electronic Device and Circuits </td>
+                <td>POL-301		</td>
+                <td>Western Political Philosophy-I		</td>
                 <td>4</td>
               </tr>
               <tr>
-                <td>PHY-305 </td>
-                <td> Quantum Mechanics-I </td>
+                <td>POL-302		</td>
+                <td>Muslim Political Philosophy-I	 </td>
+                <td>3</td>
+              </tr>
+              <tr>
+                <td>POL-303		 </td>
+                <td> Comparative and Developmental Politics-I		 </td>
                 <td>4</td>
               </tr>
               <tr>
-                <td>PHY-306 </td>
-                <td> Physics Lab-III(Modern Physics) </td>
+                <td>POL-304	 </td>
+                <td>Political Ideologies	</td>
+                <td>3</td>
+              </tr>
+              <tr>
+                <td>POL-305		</td>
+                <td>Public Administration		 </td>
                 <td>4</td>
               </tr>
+            
             </tbody>
           </table>
         </div>
@@ -272,35 +258,31 @@ function BsPhysics() {
                 <th>Course ID</th>
               </tr>
               <tr>
-                <td>PHY-307 </td>
-                <td>Mathematical Method of Physics-II </td>
-                <td>3</td>
-              </tr>
-              <tr>
-                <td>PHY-308 </td>
-                <td>Solid State Physics-II </td>
-                <td>3</td>
-              </tr>
-              <tr>
-                <td>PHY-309 </td>
-                <td> Quantum Mechanics-II </td>
-                <td>3</td>
-              </tr>
-              <tr>
-                <td>PHY-310 </td>
-                <td>Digital Electronics </td>
-                <td>3</td>
-              </tr>
-              <tr>
-                <td>PHY-311 </td>
-                <td>Computational Physics-I </td>
-                <td>3</td>
-              </tr>
-              <tr>
-                <td>PHY-312 </td>
-                <td> Physics Lab-IV </td>
+                <td>POL-306		 </td>
+                <td>Western Political Philosophy-II		</td>
                 <td>4</td>
               </tr>
+              <tr>
+                <td>POL-307		</td>
+                <td>Muslim Political Philosophy-II		 </td>
+                <td>3</td>
+              </tr>
+              <tr>
+                <td>POL-308		</td>
+                <td> Comparative and Developmental Politics-II		</td>
+                <td>3</td>
+              </tr>
+              <tr>
+                <td>POL-309		 </td>
+                <td>History of International Relations		</td>
+                <td>4 </td>
+              </tr>
+              <tr>
+                <td>POL-310		 </td>
+                <td>Introduction to Local Government	 </td>
+                <td>3</td>
+              </tr>
+              
             </tbody>
           </table>
         </div>
@@ -309,4 +291,4 @@ function BsPhysics() {
   );
 }
 
-export default BsPhysics;
+export default BsPoliticalScience;

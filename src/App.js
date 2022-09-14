@@ -7,6 +7,7 @@ import './App.css';
 import RegisterUser from './Components/RegisterUser';
 import Login from './Components/Login';
 import ContactUs from './Components/ContactUs';
+import Administration from './Components/Administration';
 import Newheader from './Components/Newheader';
 import RegistrationForm from './Components/RegistrationForm';
 import Home from './Components/Home';
@@ -15,7 +16,10 @@ import Intermediate from './Components/Programs/Intermediate_Programs/Intermedia
 import Bscs from './Components/Programs/Bechelor/BsCS/Bscs';
 import Bschemistry from './Components/Programs/Bechelor/BsChemistry/Bschemistry';
 import BsPhysics from './Components/Programs/Bechelor/Bs_Physics/BsPhysics';
+import BsStatistic from './Components/Programs/Bechelor/Bs_Statistic/BsStatistic';
+import BsIslamiat from './Components/Programs/Bechelor/Bs_Islamiat/BsIslamiat';
 import Bacholer_programs_list from './Components/Programs/Bechelor/Bacholer_programs_list';
+import BsPoliticalScience from './Components/Programs/Bechelor/Bs_PoliticalScience/BsPoliticalScience';
 
 function App() {
   return (
@@ -35,6 +39,7 @@ function App() {
         ></Route>
         <Route path='/login' element={<Login />}></Route>
         <Route path='/contactUs' element={<ContactUs />}></Route>
+        <Route path='/Administration' element={<Administration />}></Route>
         <Route
           path='/apply'
           element={<RegistrationForm />}
@@ -53,6 +58,9 @@ function App() {
           element={<Bacholer_programs_list />}
         ></Route>
         <Route path='/BsPhysics' element={<BsPhysics />}></Route>
+        <Route path='/BsStatistic' element={<BsStatistic />}></Route>
+        <Route path='/BsPoliticalScience' element={<BsPoliticalScience />}></Route>
+        <Route path='/BsIslamiat' element={<BsIslamiat />}></Route>
         {/* <Route path='/footer' element={<Footer/>}></Route> */}
       </Routes>
 
