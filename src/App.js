@@ -27,6 +27,7 @@ import BsMass_Communication from './Components/Programs/Bechelor/Bs_Mass_Communi
 import BsUrdu from './Components/Programs/Bechelor/Bs_Urdu/BsUrdu';
 import ComputerScience from './Components/Departments/Computer_Science/ComputerScience';
 import Chemistry_ from './Components/Departments/Chemistry/Chemistry_';
+import Zoology_ from './Components/Departments/Zoology/Zoology_';
 
 function App() {
   return (
@@ -93,6 +94,7 @@ function App() {
           path='/Chemistry_'
           element={<Chemistry_ />}
         ></Route>
+        <Route path='/Zoology_' element={<Zoology_ />}></Route>
 
         {/* <Route path='/footer' element={<Footer/>}></Route> */}
       </Routes>
