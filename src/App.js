@@ -26,6 +26,7 @@ import BsEconomics from './Components/Programs/Bechelor/Bs_Economics/BsEconomics
 import BsMass_Communication from './Components/Programs/Bechelor/Bs_Mass_Communication/BsMass_Communication';
 import BsUrdu from './Components/Programs/Bechelor/Bs_Urdu/BsUrdu';
 import ComputerScience from './Components/Departments/Computer_Science/ComputerScience';
+import Chemistry_ from './Components/Departments/Chemistry/Chemistry_';
 
 function App() {
   return (
@@ -87,6 +88,10 @@ function App() {
         <Route
           path='/ComputerScience'
           element={<ComputerScience />}
+        ></Route>
+        <Route
+          path='/Chemistry_'
+          element={<Chemistry_ />}
         ></Route>
 
         {/* <Route path='/footer' element={<Footer/>}></Route> */}

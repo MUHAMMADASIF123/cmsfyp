@@ -125,7 +125,7 @@ function Home() {
               </div>
 
               <div class='col-md-2 mt-3 bsdept col-lg-3'>
-                <a className='' href='/'>
+                <a className='' href='/Chemistry_'>
                   Chemistry
                 </a>
               </div>
