@@ -68,7 +68,7 @@ function Bacholer_programs_list() {
         <hr />
         <br />
         <li>
-          <a href='/bscs'> BS Islamiat Program</a>
+          <a href='/BsIslamiat'> BS Islamiat Program</a>
         </li>
         <hr />
         <br />
@@ -86,12 +86,12 @@ function Bacholer_programs_list() {
         <hr />
         <li>
           <br />
-          <a href='/bscs'> BS Political Science Program</a>
+          <a href='/BsPoliticalScience'> BS Political Science Program</a>
         </li>
         <hr />
         <br />
         <li>
-          <a href='/bscs'> BS Statistics Program</a>
+          <a href='/BsStatistic'> BS Statistics Program</a>
         </li>
         <hr />
         <br />
