@@ -20,7 +20,7 @@ function Footer() {
             </p>
           </div>
           <div className='col-md-4 text-white '>
-            <h1 className='info'> Information</h1>
+            <h2 className='info'>Information</h2>
             <div className='address'>
               {/* GCS Wahdat Road,Lahore  */}
               <h6 class='align-baseline me-4'>
