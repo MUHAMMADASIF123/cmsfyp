@@ -29,6 +29,13 @@
 }
 .hbtn {
   text-decoration: none;
+<<<<<<< HEAD
+=======
+  color: aliceblue;
+}
+.hbtn:hover {
+  color: #172540;
+>>>>>>> 7900b73e8769086aa454039291140beef0c83958
 }
 .newbtn {
   margin-right: 50px;
@@ -68,6 +75,10 @@
 
   font-size: larger;
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> 7900b73e8769086aa454039291140beef0c83958
 .menu a:hover {
   color: yellow;
   border-bottom: 4px solid yellow;
