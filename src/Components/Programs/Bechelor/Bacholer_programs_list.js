@@ -3,7 +3,7 @@ import './Becholer_programs_list.css';
 
 function Bacholer_programs_list() {
   return (
-    <div className='justify-content-center align-item-center shadow mb-5 mt-5 w-50 me-5 ms-5 p-5'>
+    <div className='justify-content-center align-item-center  mb-5 mt-5 me-5 ms-5 p-5'>
       <h1>Bacholer Programs List</h1>
       <hr />
       <br />

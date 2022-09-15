@@ -125,12 +125,12 @@ function Home() {
               </div>
 
               <div class='col-md-2 mt-3 bsdept col-lg-3'>
-                <a className='' href='/'>
+                <a className='' href='/Chemistry_'>
                   Chemistry
                 </a>
               </div>
               <div class='col-md-2 mt-3 bsdept col-lg-3'>
-                <a className='' href='/'>
+                <a className='' href='/Zoology_'>
                   Physics
                 </a>
               </div>
@@ -176,7 +176,7 @@ function Home() {
                 </a>
               </div>
               <div class='col-md-2 mt-3 bsdept col-lg-3'>
-                <a className='' href='/'>
+                <a className='' href='/Zoology_'>
                   Zoology
                 </a>
               </div>

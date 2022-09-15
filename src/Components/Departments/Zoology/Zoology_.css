@@ -1,14 +1,15 @@
 .head_p {
   height: 380px;
 
-  text-align: left;
+  text-align: justify;
 }
 .heading {
   /* margin-right: 250px; */
-  height: 150px;
+  height: 270px;
   width: 800px;
   align-items: center;
   justify-content: center;
+  /* text-align: center; */
   text-align: left;
 }
 .image {
