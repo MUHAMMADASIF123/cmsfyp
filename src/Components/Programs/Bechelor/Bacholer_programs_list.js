@@ -3,7 +3,7 @@ import './Becholer_programs_list.css';
 
 function Bacholer_programs_list() {
   return (
-    <div className='justify-content-center align-item-center shadow mb-5 mt-5 w-50 me-5 ms-5 p-5'>
+    <div className='justify-content-center align-item-center  mb-5 mt-5 me-5 ms-5 p-5'>
       <h1>Bacholer Programs List</h1>
       <hr />
       <br />
@@ -34,34 +34,36 @@ function Bacholer_programs_list() {
         <hr />
         <br />
         <li>
-          <a href='/bscs'> BS Education Program</a>
+          <a href='/BsEducation'> BS Education Program</a>
         </li>
         <hr />
         <br />
         <li>
-          <a href='/bscs'> BS Mathematics Program</a>
+          <a href='/bsMath'> BS Mathematics Program</a>
         </li>
         <hr />
         <br />
         <li>
-          <a href='/bscs'>
+          <a href='/BBA_'>
             BBA (Bechelor in Business Administration) Program
           </a>
         </li>
         <hr />
         <br />
         <li>
-          <a href='/bscs'> BS English Program</a>
+          <a href='/bsEnglish'> BS English Program</a>
         </li>
         <hr />
         <br />
         <li>
-          <a href='/bscs'> BS Sociology Program</a>
+          <a href='/bsSociology'> BS Sociology Program</a>
         </li>
         <hr />
         <br />
         <li>
-          <a href='/bscs'> BS Economics Program</a>
+          <a href='/BsMass_Communication'>
+            BS Economics Program
+          </a>
         </li>
         <hr />
         <br />
@@ -71,12 +73,15 @@ function Bacholer_programs_list() {
         <hr />
         <br />
         <li>
-          <a href='/bscs'> BS Mass Communication Program</a>
+          <a href='/BsMass_Communication'>
+            {' '}
+            BS Mass Communication Program
+          </a>
         </li>
         <hr />
         <br />
         <li>
-          <a href='/bscs'> BS Urdu Program</a>
+          <a href='/BsUrdu'> BS Urdu Program</a>
         </li>
         <hr />
         <li>

@@ -1,6 +1,10 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { useNavigate } from 'react-router-dom';
+<<<<<<< HEAD
+=======
+
+>>>>>>> master
 import './Header_.css';
 const Newheader = () => {
   const history = useNavigate();
@@ -75,8 +79,13 @@ const Newheader = () => {
       <div className='menu'>
         <nav>
           <a href='/'>Home</a>
+<<<<<<< HEAD
           <a href='Administration'>Administration</a>
           
+=======
+          <a href='#Programs'>Programs</a>
+          <a href='#Departments'>Departements</a>
+>>>>>>> master
           <a href='/contactUs'>Contact Us</a>
           <a href='#'>About Us</a>
           

@@ -7,8 +7,8 @@ import './Home.css';
 function Home() {
   const settings = {
     dots: true,
-    infinite: true,
     autoplay: true,
+    infinite: true,
     speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
@@ -36,7 +36,7 @@ function Home() {
           </Slider>
         </div>
       </div>
-      <div className='shadow rounded '>
+      <div id='Programs' className='shadow rounded '>
         <section>
           <h1 className='container program_border'>Programs</h1>
           {/* <hr className='mr-25 ml-25' /> */}
@@ -110,48 +110,105 @@ function Home() {
           </div>
         </section>
 
-        <section>
-          <h1>Bs Departements</h1>
-          <div className='d-flex'>
-            <div className='col-md-3 bg-primary h-75'>
-              Intermediate Programs
+        <section id='Departments'>
+          <div class='container mt-3 dept_container rounded shadow mb-5'>
+            <h1 className='custom_head mt-1 '>
+              {' '}
+              BS Departments
+            </h1>
+
+            <div class='row'>
+              <div className='col-md-2  bsdept mt-3 col-lg-3'>
+                <a className='' href='/ComputerScience'>
+                  Computer Science
+                </a>
+              </div>
+
+              <div class='col-md-2 mt-3 bsdept col-lg-3'>
+                <a className='' href='/Chemistry_'>
+                  Chemistry
+                </a>
+              </div>
+              <div class='col-md-2 mt-3 bsdept col-lg-3'>
+                <a className='' href='/Zoology_'>
+                  Physics
+                </a>
+              </div>
+              <div class='col-md-2 mt-3 bsdept col-lg-3'>
+                <a className='' href='/'>
+                  Mathematics
+                </a>
+              </div>
             </div>
-            <div className='col-md-3 bg-success h-75'>
-              BS Programs
+            <div class='row'>
+              <div className='col-md-2 bsdept mt-3 col-lg-3'>
+                <a className='' href='/'>
+                  Economics
+                </a>
+              </div>
+
+              <div class='col-md-2 mt-3 bsdept col-lg-3'>
+                <a className='' href='/'>
+                  Islamiyat
+                </a>
+              </div>
+              <div class='col-md-2 mt-3 bsdept col-lg-3'>
+                <a className='' href='/'>
+                  BBA
+                </a>
+              </div>
+              <div class='col-md-2 mt-3 bsdept col-lg-3'>
+                <a className='' href='/'>
+                  Mass Communication
+                </a>
+              </div>
             </div>
-            <div className='col-md-3 bg-warning h-75'>
-              master Programs
+            <div class='row'>
+              <div className='col-md-2 bsdept mt-3 col-lg-3'>
+                <a className='' href='/'>
+                  Sociology
+                </a>
+              </div>
+
+              <div class='col-md-2 mt-3 bsdept col-lg-3'>
+                <a className='' href='/'>
+                  Botany
+                </a>
+              </div>
+              <div class='col-md-2 mt-3 bsdept col-lg-3'>
+                <a className='' href='/Zoology_'>
+                  Zoology
+                </a>
+              </div>
+              <div class='col-md-2 mt-3 bsdept col-lg-3'>
+                <a className='' href='/'>
+                  Education
+                </a>
+              </div>
             </div>
-            <div className='col-md-3 bg-warning h-75'>
-              master Programs
-            </div>
-          </div>
-          <div className='d-flex'>
-            <div className='col-md-3 bg-primary h-75'>
-              Intermediate Programs
-            </div>
-            <div className='col-md-3 bg-success h-75'>
-              BS Programs
-            </div>
-            <div className='col-md-3 bg-warning h-75'>
-              master Programs
-            </div>
-            <div className='col-md-3 bg-warning h-75'>
-              master Programs
-            </div>
-          </div>
-          <div className='d-flex'>
-            <div className='col-md-3 bg-primary h-75'>
-              Intermediate Programs
-            </div>
-            <div className='col-md-3 bg-success h-75'>
-              BS Programs
-            </div>
-            <div className='col-md-3 bg-warning h-75'>
-              master Programs
-            </div>
-            <div className='col-md-3 bg-warning h-75'>
-              master Programs
+            <div class='row'>
+              <div className='col-md-2 bsdept mt-3 col-lg-3'>
+                <a className='' href='/'>
+                  {' '}
+                  English
+                </a>
+              </div>
+
+              <div class='col-md-2 mt-3 bsdept col-lg-3'>
+                <a className='' href='/'>
+                  Urdu
+                </a>
+              </div>
+              <div class='col-md-2 mt-3 bsdept col-lg-3'>
+                <a className='' href='/'>
+                  Political Science
+                </a>
+              </div>
+              <div class='col-md-2 mt-3 bsdept col-lg-3'>
+                <a className='' href='/'>
+                  Statistics
+                </a>
+              </div>
             </div>
           </div>
         </section>

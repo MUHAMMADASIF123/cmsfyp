@@ -19,7 +19,22 @@ import BsPhysics from './Components/Programs/Bechelor/Bs_Physics/BsPhysics';
 import BsStatistic from './Components/Programs/Bechelor/Bs_Statistic/BsStatistic';
 import BsIslamiat from './Components/Programs/Bechelor/Bs_Islamiat/BsIslamiat';
 import Bacholer_programs_list from './Components/Programs/Bechelor/Bacholer_programs_list';
+<<<<<<< HEAD
 import BsPoliticalScience from './Components/Programs/Bechelor/Bs_PoliticalScience/BsPoliticalScience';
+=======
+import BsZoology from './Components/Programs/Bechelor/Bs_Zoology/BsZoology';
+import BsEducation from './Components/Programs/Bechelor/Bs_Education/BsEducation';
+import BsMath from './Components/Programs/Bechelor/Bs_Math/BsMath';
+import BBA_ from './Components/Programs/Bechelor/BBA/BBA_';
+import BsEnglish from './Components/Programs/Bechelor/Bs_English/BsEnglish';
+import BsSociology from './Components/Programs/Bechelor/Bs_Sociology/BsSociology';
+import BsEconomics from './Components/Programs/Bechelor/Bs_Economics/BsEconomics';
+import BsMass_Communication from './Components/Programs/Bechelor/Bs_Mass_Communication/BsMass_Communication';
+import BsUrdu from './Components/Programs/Bechelor/Bs_Urdu/BsUrdu';
+import ComputerScience from './Components/Departments/Computer_Science/ComputerScience';
+import Chemistry_ from './Components/Departments/Chemistry/Chemistry_';
+import Zoology_ from './Components/Departments/Zoology/Zoology_';
+>>>>>>> master
 
 function App() {
   return (
@@ -58,9 +73,43 @@ function App() {
           element={<Bacholer_programs_list />}
         ></Route>
         <Route path='/BsPhysics' element={<BsPhysics />}></Route>
+<<<<<<< HEAD
         <Route path='/BsStatistic' element={<BsStatistic />}></Route>
         <Route path='/BsPoliticalScience' element={<BsPoliticalScience />}></Route>
         <Route path='/BsIslamiat' element={<BsIslamiat />}></Route>
+=======
+        <Route path='/BsZoology' element={<BsZoology />}></Route>
+        <Route
+          path='/BsEducation'
+          element={<BsEducation />}
+        ></Route>
+        <Route path='/BsMath' element={<BsMath />}></Route>
+        <Route path='/BsEnglish' element={<BsEnglish />}></Route>
+        <Route
+          path='/BsSociology'
+          element={<BsSociology />}
+        ></Route>
+        <Route path='/BBA_' element={<BBA_ />}></Route>
+        <Route
+          path='/BsEconomics'
+          element={<BsEconomics />}
+        ></Route>
+        <Route
+          path='/BsMass_Communication'
+          element={<BsMass_Communication />}
+        ></Route>
+        <Route path='/BsUrdu' element={<BsUrdu />}></Route>
+        <Route
+          path='/ComputerScience'
+          element={<ComputerScience />}
+        ></Route>
+        <Route
+          path='/Chemistry_'
+          element={<Chemistry_ />}
+        ></Route>
+        <Route path='/Zoology_' element={<Zoology_ />}></Route>
+
+>>>>>>> master
         {/* <Route path='/footer' element={<Footer/>}></Route> */}
       </Routes>
 
