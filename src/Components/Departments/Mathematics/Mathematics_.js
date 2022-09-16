@@ -1,10 +1,10 @@
 import React from 'react';
-import './Zoology_.css';
-function Zoology_() {
+import './Mathematics_.css';
+function Mathematics_() {
   return (
     <div>
       <h2 className=' container mb-5 rounded mt-3'>
-        Department Of Zoology
+        Mathematics Department
       </h2>
 
       {/* <div className=' head_p rounded shadow mb-5'> */}
@@ -14,19 +14,13 @@ function Zoology_() {
             Introduction of Department
           </h4>
           <p className=' head_p ms-3'>
-            The Department of Zoology, a discipline of natural
-            sciences, meets the need of training persons in a
-            vast basic and interdisciplinary framework concerning
-            Animal Sciences. The Department has earned
-            international recognition for academic excellence and
-            prominence in various fields of research like Cell,
-            Molecular Biology, Physiology, Developmental Biology,
-            Entomology, Palaeontology, Parasitology and
-            Fisheries, etc. A Zoology graduate after Master’s
-            degree or B.Sc. (Hons.) 4 years has a diverse
-            experience and competence to serve or learn further
-            in education, health, agriculture, industry and
-            environment sectors.&nbsp; <br />
+            Welcome to the Department of Mathematical Sciences.
+            We provide an international research, teaching and
+            learning environment. Our courses are tailored to
+            meet both your needs and those of your potential
+            employers, whilst our staff are strongly committed to
+            research and to the promotion of graduate
+            activities.&nbsp; <br />
             <a className='anchor_tag' href='Bschemistry'>
               See Programe Detail
             </a>
@@ -45,38 +39,38 @@ function Zoology_() {
           <div className='col-6'>
             <ul>
               <li>
-                <b> Dr. Zahid Hussain Siddiqui</b>
+                <b> Mr. Mudassar Ahmad Qureshi</b>
                 <br />
-                Professor/ Head of Department Ph.D.{' '}
+                Associate Professor/ Head of department M.Phil.{' '}
               </li>
               <hr />
               <li>
-                <b>Dr. Asma Karim</b> <br />
-                Associate Professor Ph.D.{' '}
+                <b>Mirza Amanat Ali Baig</b> <br />
+                Associate Professor M.Sc.{' '}
               </li>
               <hr />
               <li>
-                <b>Mr. Aftab Iqbal</b>
+                <b>Dr. Qaisar Mehmood</b>
+                <br />
+                Assistant Professor Ph.D.{' '}
+              </li>
+              <hr />
+              <li>
+                <b>Mr. Tariq Sharif</b>
                 <br />
                 Assistant Professor M.Phil{' '}
               </li>
               <hr />
               <li>
-                <b>Dr. Saghir Ahmad</b>
+                <b>Mr. Muhammad Ikram</b>
                 <br />
-                Associate Professor Ph.D.{' '}
+                Assistant Professor M.Phil.{' '}
               </li>
               <hr />
               <li>
-                <b>Dr. Syed Shahid Imran Bukhari</b>
+                <b>Dr. Imran Nadeem</b>
                 <br />
-                Associate Professor Ph.D.{' '}
-              </li>
-              <hr />
-              <li>
-                <b>Mrs. Mariam Zaheer</b>
-                <br />
-                Associate Professor M.Phil.{' '}
+                Lecturer Ph.D{' '}
               </li>
               <hr />
             </ul>
@@ -84,33 +78,39 @@ function Zoology_() {
           <div className='col-6'>
             <ul>
               <li>
-                <b>Dr. Muhammad Tariq</b>
-                <br />
-                Lecturer Ph.D.{' '}
-              </li>
-              <hr />
-              <li>
-                <b>Mr. Sabir Javed</b>
+                <b>Mr. Abdul Aziz</b>
                 <br />
                 Lecturer M.Phil.{' '}
               </li>
               <hr />
               <li>
-                <b>Ms. Qurat Ul Ain</b>
+                <b>Ms. Ayesha Liaqat</b>
                 <br />
                 Lecturer M.Phil.{' '}
               </li>
               <hr />
               <li>
-                <b>Ms. Bushra Younas</b>
+                <b>Ms. Imama Zahra</b>
                 <br />
                 Lecturer M.Phil.{' '}
               </li>
               <hr />
               <li>
-                <b>Mr. Fazal Elahi Butt</b>
+                <b>Mrs. Tanzeela Afzal</b>
                 <br />
-                Assistant Professor M. Phil{' '}
+                Lecturer M.Phil.{' '}
+              </li>
+              <hr />
+              <li>
+                <b>Mr. Javed Ali</b>
+                <br />
+                Lecturer M.Sc.{' '}
+              </li>
+              <hr />
+              <li>
+                <b>Mrs. Malka Shah Bano</b>
+                <br />
+                Lecturer M.Phil.{' '}
               </li>
               <hr />
             </ul>
@@ -121,4 +121,4 @@ function Zoology_() {
   );
 }
 
-export default Zoology_;
+export default Mathematics_;
