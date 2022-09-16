@@ -5,7 +5,7 @@
 }
 .heading {
   /* margin-right: 250px; */
-  height: 70px;
+  height: 270px;
   width: 800px;
   align-items: center;
   justify-content: center;
@@ -33,11 +33,4 @@
 .head {
   width: 310px;
   height: 35px;
-}
-.head_p {
-  text-align: justify;
-  margin-right: 40px;
-}
-.waddi_div {
-  height: 475px;
 }

@@ -1,10 +1,10 @@
 import React from 'react';
-import './Zoology_.css';
-function Zoology_() {
+import './Physics_.css';
+function Physics_() {
   return (
     <div>
       <h2 className=' container mb-5 rounded mt-3'>
-        Department Of Zoology
+        Physics Department
       </h2>
 
       {/* <div className=' head_p rounded shadow mb-5'> */}
@@ -14,19 +14,9 @@ function Zoology_() {
             Introduction of Department
           </h4>
           <p className=' head_p ms-3'>
-            The Department of Zoology, a discipline of natural
-            sciences, meets the need of training persons in a
-            vast basic and interdisciplinary framework concerning
-            Animal Sciences. The Department has earned
-            international recognition for academic excellence and
-            prominence in various fields of research like Cell,
-            Molecular Biology, Physiology, Developmental Biology,
-            Entomology, Palaeontology, Parasitology and
-            Fisheries, etc. A Zoology graduate after Master’s
-            degree or B.Sc. (Hons.) 4 years has a diverse
-            experience and competence to serve or learn further
-            in education, health, agriculture, industry and
-            environment sectors.&nbsp; <br />
+            The Department of Physics offers a full program of
+            courses and research leading to the BS and M.Sc.
+            degrees.&nbsp; <br />
             <a className='anchor_tag' href='Bschemistry'>
               See Programe Detail
             </a>
@@ -45,72 +35,97 @@ function Zoology_() {
           <div className='col-6'>
             <ul>
               <li>
-                <b> Dr. Zahid Hussain Siddiqui</b>
+                <b> Dr. Ejaz Ahmed</b>
                 <br />
-                Professor/ Head of Department Ph.D.{' '}
+                Professor,/Head of Department Ph.D.{' '}
               </li>
               <hr />
               <li>
-                <b>Dr. Asma Karim</b> <br />
+                <b>Dr. Abdul Rashid</b> <br />
                 Associate Professor Ph.D.{' '}
               </li>
               <hr />
               <li>
-                <b>Mr. Aftab Iqbal</b>
+                <b>Mr. Aslam Pervaiz</b>
                 <br />
-                Assistant Professor M.Phil{' '}
+                Associate Professor M.Sc.{' '}
               </li>
               <hr />
               <li>
-                <b>Dr. Saghir Ahmad</b>
-                <br />
-                Associate Professor Ph.D.{' '}
-              </li>
-              <hr />
-              <li>
-                <b>Dr. Syed Shahid Imran Bukhari</b>
-                <br />
-                Associate Professor Ph.D.{' '}
-              </li>
-              <hr />
-              <li>
-                <b>Mrs. Mariam Zaheer</b>
+                <b>Mrs. Noureen Azam</b>
                 <br />
                 Associate Professor M.Phil.{' '}
               </li>
+              <hr />
+              <li>
+                <b>Mr. Muhammad Tariq</b>
+                <br />
+                Associate Professor M.Phil.{' '}
+              </li>
+              <hr />
+              <li>
+                <b>Mr. Jamil Ahmad</b>
+                <br />
+                Assistant Professor M.Phil.{' '}
+              </li>
+              <hr />
               <hr />
             </ul>
           </div>
           <div className='col-6'>
             <ul>
               <li>
-                <b>Dr. Muhammad Tariq</b>
+                <b>Mr. Saeed Ahmad Pal</b>
                 <br />
-                Lecturer Ph.D.{' '}
+                Assistant Professor M.Sc.{' '}
               </li>
               <hr />
               <li>
-                <b>Mr. Sabir Javed</b>
+                <b>Dr. JAmil Ahmad Siddiqui</b>
+                <br />
+                Assistant Professor Ph.D.{' '}
+              </li>
+              <hr />
+              <li>
+                <b>Mr. Nadeem Ahmad Ashrafi</b>
+                <br />
+                Assistant Professor M.Phil{' '}
+              </li>
+              <hr />
+              <li>
+                <b>Mr. Zahid khan</b>
+                <br />
+                Assistant Professor M.Phil.{' '}
+              </li>
+              <hr />
+              <li>
+                <b>Mr. Abid Hussain</b>
+                <br />
+                Assistant Professor M.Phil.{' '}
+              </li>
+              <hr />
+              <li>
+                <b>Mr. Muhammad Asghar</b>
+                <br />
+                Lecturer M.Sc.{' '}
+              </li>
+              <hr />
+              <li>
+                <b>Mr. Muhammad Salman Azhar</b>
                 <br />
                 Lecturer M.Phil.{' '}
               </li>
               <hr />
               <li>
-                <b>Ms. Qurat Ul Ain</b>
+                <b>Mr. Muhammad Ismail</b>
                 <br />
                 Lecturer M.Phil.{' '}
               </li>
               <hr />
               <li>
-                <b>Ms. Bushra Younas</b>
+                <b>Ms. Saba Maqsood</b>
                 <br />
                 Lecturer M.Phil.{' '}
-              </li>
-              <hr />
-              <li>
-                <b>Mr. Fazal Elahi Butt</b>
-                <br />
-                Assistant Professor M. Phil{' '}
               </li>
               <hr />
             </ul>
@@ -121,4 +136,4 @@ function Zoology_() {
   );
 }
 
-export default Zoology_;
+export default Physics_;

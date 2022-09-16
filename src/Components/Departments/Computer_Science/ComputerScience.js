@@ -8,7 +8,7 @@ function ComputerScience() {
       </h2>
 
       {/* <div className=' head_p rounded shadow mb-5'> */}
-      <div className='d-flex justify-content-center me-5 ms-5'>
+      <div className='d-flex justify-content-center me-5 ms-5 mb-5'>
         <div className=' heading mb-5'>
           <h4 className='head ms-3 me-3 rounded'>
             Introduction of Department
@@ -56,8 +56,6 @@ function ComputerScience() {
           />
         </div>
       </div>
-
-      <div className='ms-5 teacher_info'></div>
     </div>
   );
 }
