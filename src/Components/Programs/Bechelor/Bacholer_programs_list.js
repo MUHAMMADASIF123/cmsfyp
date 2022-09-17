@@ -86,7 +86,10 @@ function Bacholer_programs_list() {
         <hr />
         <li>
           <br />
-          <a href='/BsPoliticalScience'> BS Political Science Program</a>
+          <a href='/BsPoliticalScience'>
+            {' '}
+            BS Political Science Program
+          </a>
         </li>
         <hr />
         <br />

@@ -14,6 +14,7 @@ import Home from './Components/Home';
 import Footer from './Components/Footer';
 import Intermediate from './Components/Programs/Intermediate_Programs/Intermediate';
 import Bscs from './Components/Programs/Bechelor/BsCS/Bscs';
+import BsBotany from './Components/Programs/Bechelor/Bs_Botany/BsBotany';
 import Bschemistry from './Components/Programs/Bechelor/BsChemistry/Bschemistry';
 import BsPhysics from './Components/Programs/Bechelor/Bs_Physics/BsPhysics';
 import BsStatistic from './Components/Programs/Bechelor/Bs_Statistic/BsStatistic';
@@ -81,6 +82,7 @@ function App() {
           path='/Bschemistry'
           element={<Bschemistry />}
         ></Route>
+        <Route path='/BsBotany' element={<BsBotany />}></Route>
         <Route
           path='/Bacholer_programs_list'
           element={<Bacholer_programs_list />}
