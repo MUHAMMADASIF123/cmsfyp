@@ -25,3 +25,8 @@ h4 {
   background-color: #172540;
   color: aliceblue;
 }
+.option_css {
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+}

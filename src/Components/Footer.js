@@ -2,7 +2,7 @@ import React from 'react';
 import './Footer.css';
 function Footer() {
   return (
-    <>
+    <footer>
       <div className='d-flex footer2'>
         <div className='row'>
           <div className='text-white col-md-4'>
@@ -60,7 +60,7 @@ function Footer() {
           <i class='fa-brands fa-twitter'></i>
         </div>
       </div>
-    </>
+    </footer>
   );
 }
 

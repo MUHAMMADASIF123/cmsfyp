@@ -305,6 +305,94 @@ function BsPhysics() {
           </table>
         </div>
       </div>
+      <div className='d-flex justify-content-center me-5 ms-5 p-5'>
+        <div className='shadow p-5 w-100 rounded-top ms-5 me-5 bg-white'>
+          <h2>7th Semester</h2>
+          <hr />
+          <table className='table'>
+            <tbody>
+              <tr>
+                <th>Course Code</th>
+                <th>Course Tital</th>
+                <th>Course ID</th>
+              </tr>
+              <tr>
+                <td>Phys 4302 </td>
+                <td>Quantum Mechanics-II </td>
+                <td>3</td>
+              </tr>
+              <tr>
+                <td>Phys 4403</td>
+                <td>Statistical Physics</td>
+                <td>3</td>
+              </tr>
+              <tr>
+                <td>Phys 4201 </td>
+                <td> Classical Electrodynamics-I </td>
+                <td>3</td>
+              </tr>
+              <tr>
+                <td>Phys 4303 </td>
+                <td>Nuclear Physics-I </td>
+                <td>3</td>
+              </tr>
+              <tr>
+                <td>Phys xxxx </td>
+                <td> Elective-I</td>
+                <td>3</td>
+              </tr>
+              <tr>
+                <td>Phys xxxx </td>
+                <td> Elective-II </td>
+                <td>3</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div className='shadow p-5 w-100 rounded-top ms-5 me-5 bg-white'>
+          <h2>8th Semester</h2>
+          <hr />
+          <table className='table'>
+            <tbody>
+              <tr>
+                <th>Course Code</th>
+                <th>Course Tital</th>
+                <th>Course ID</th>
+              </tr>
+              <tr>
+                <td>Phys 4404 </td>
+                <td>Solid State Physics-III</td>
+                <td>3</td>
+              </tr>
+              <tr>
+                <td>Phys 4202 </td>
+                <td>Classical Electrodynamics-II </td>
+                <td>3</td>
+              </tr>
+              <tr>
+                <td>Phys 4304 </td>
+                <td> Nuclear Physics-II </td>
+                <td>3</td>
+              </tr>
+              <tr>
+                <td>Phys 4102 </td>
+                <td>Relativity and Cosmology </td>
+                <td>3</td>
+              </tr>
+              <tr>
+                <td>Phys xxxx </td>
+                <td>Elective-III </td>
+                <td>3</td>
+              </tr>
+              <tr>
+                <td>Phys xxxx </td>
+                <td> Elective-IV </td>
+                <td>4</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
     </div>
   );
 }

@@ -220,28 +220,25 @@ function BsUrdu() {
                 <th>Course ID</th>
               </tr>
               <tr>
-                <td>BSCS-301 </td>
-                <td>News Reporting & Writing </td>
+                <td>URDU-301 </td>
+                <td>
+                  Urdu dasstan aur naawal: faqri o funny mubahas
+                </td>
                 <td>3</td>
               </tr>
               <tr>
-                <td>BSCS-302 </td>
-                <td>Broadcast Journalism </td>
+                <td>URDU-302 </td>
+                <td>Urdu Gazal ka fiqri o funny mutaila </td>
                 <td>3</td>
               </tr>
               <tr>
-                <td>BSCS-303 </td>
-                <td> Online Journalism </td>
+                <td>URDU-303</td>
+                <td> Tarikh adab urdu aur adbi tehrikaay </td>
                 <td>3</td>
               </tr>
               <tr>
-                <td>BSCS-304 </td>
-                <td>Media Seminar </td>
-                <td>3</td>
-              </tr>
-              <tr>
-                <td>BSCS-305 </td>
-                <td>Theories of Communication-I </td>
+                <td>URDU-307 </td>
+                <td>Urdu fkshan may tariki o tehzibi shaur </td>
                 <td>3</td>
               </tr>
             </tbody>
@@ -258,37 +255,123 @@ function BsUrdu() {
                 <th>Course ID</th>
               </tr>
               <tr>
-                <td>BSCS-306 </td>
+                <td>URDU-304 </td>
                 <td>
-                  Sub Editing & Page Designing (Theory &
-                  Practice){' '}
+                  Urdu afsaana aur drama: fiqri o funny mutaila
                 </td>
                 <td>3</td>
               </tr>
               <tr>
-                <td>BSCS-307 </td>
+                <td>URDU-305 </td>
                 <td>
-                  Feature, Column & Editorial Writing (Theory &
-                  Practice){' '}
+                  Bisvey saadi may nawal ka irtaka aur es kay
+                  fiqri o funny mubahas
                 </td>
                 <td>3</td>
               </tr>
               <tr>
-                <td>BSCS-308 </td>
-                <td> Research Methods-I </td>
+                <td>URDU-306 </td>
+                <td> Urdu nazam: fiqri o funny mutaila </td>
                 <td>3</td>
               </tr>
               <tr>
-                <td>BSCS-309 </td>
-                <td>Theories of Communication-II </td>
+                <td>URDU-308 </td>
+                <td>
+                  Pakistan may farogh urdu kay aham adaray{' '}
+                </td>
+                <td>3</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+      <div className='d-flex justify-content-center me-5 ms-5 p-5'>
+        <div className='shadow p-5 w-100 rounded-top ms-5 me-5 bg-white'>
+          <h2>7th Semester</h2>
+          <hr />
+          <table className='table'>
+            <tbody>
+              <tr>
+                <th>Course Code</th>
+                <th>Course Tital</th>
+                <th>Course ID</th>
+              </tr>
+              <tr>
+                <td>URDU-401 </td>
+                <td>Lasaniyaat </td>
                 <td>3</td>
               </tr>
               <tr>
-                <td>BSCS-310 </td>
+                <td>URDU-402 </td>
+                <td>Asoolay Tehqiqu o Tadveen </td>
+                <td>3</td>
+              </tr>
+              <tr>
+                <td>URDU-403</td>
+                <td> Research work </td>
+                <td>3</td>
+              </tr>
+              <tr>
+                <td>URDU-409 </td>
+                <td>Urdu adab ka ta niysi mutila </td>
+                <td>3</td>
+              </tr>
+              <tr>
+                <td>URDU-410 </td>
+                <td>
+                  Urdu adab kay muntakhib komi o byno ul aqwami
+                  marakaz
+                </td>
+                <td>3</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div className='shadow p-5 w-100 rounded-top ms-5 me-5 bg-white'>
+          <h2>8th Semester</h2>
+          <hr />
+          <table className='table'>
+            <tbody>
+              <tr>
+                <th>Course Code</th>
+                <th>Course Tital</th>
+                <th>Course ID</th>
+              </tr>
+              <tr>
+                <td>URDU-405 </td>
+                <td>Research work </td>
+                <td>3</td>
+              </tr>
+              <tr>
+                <td>URDU-406 </td>
+                <td>Naayay tanqidi mubahas</td>
+                <td>3</td>
+              </tr>
+              <tr>
+                <td>URDU-407 </td>
                 <td>
                   {' '}
-                  Introduction to Advertising & Public Relations{' '}
+                  Iabal ka ka hsoosi mutaila (fiqri o funny
+                  mutaila aur tashrey maton){' '}
                 </td>
+                <td>3</td>
+              </tr>
+              <tr>
+                <td>URDU-408 </td>
+                <td>
+                  Urdu nasar kay asaliyab: mazah safar nama aap
+                  biyti
+                </td>
+                <td>3</td>
+              </tr>
+              <tr>
+                <td>URDU-411 </td>
+                <td>Urdu adab ki tawarikh ka mutiala</td>
+                <td>3</td>
+              </tr>
+              <tr>
+                <td>URDU-412 </td>
+                <td>Urdu adab ka mabed no aabdyati mutila</td>
                 <td>3</td>
               </tr>
             </tbody>

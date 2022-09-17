@@ -1,23 +1,23 @@
-import axios from "axios";
-import React from "react";
-import { useParams,useNavigate } from "react-router-dom";
-import { useEffect, useState } from "react";
+import axios from 'axios';
+import React from 'react';
+import { useParams, useNavigate } from 'react-router-dom';
+import { useEffect, useState } from 'react';
 
 function Editpost() {
   const params = useParams();
   const [post, setPost] = useState({
-    title: "",
-    imgurl: "",
-    description: "",
+    title: '',
+    imgurl: '',
+    description: '',
   });
-  const { title, imgurl, description} = post;
+  const { title, imgurl, description } = post;
   // const onInputChange = (e) => {
   //   setPost({ ...post, [e.target.name]: e.target.value });
   // }
-  const history=useNavigate();
+  const history = useNavigate();
   useEffect(() => {
     axios
-      .post("/api/post/getpostdata", { postid: params.postid })
+      .post('/api/post/getpostdata', { postid: params.postid })
       .then((res) => {
         // res.send(res.data)\\
         const postdata = res.data[0];
@@ -41,52 +41,51 @@ function Editpost() {
       postid: params.postid,
     };
     axios
-      .post("/api/post/updatepost", updatedpost)
+      .post('/api/post/updatepost', updatedpost)
       .then((res) => {
         // setPost(res.data[0])
         console.log(res.data);
         alert(res.data);
-        history('/')
+        history('/');
       })
       .catch((err) => {
         console.log(err);
       });
   }
   return (
-    <div className="row justify-content-center">
-      <div className="col-md-6">
+    <div className='row justify-content-center'>
+      <div className='col-md-6'>
         <div>
           <input
-            type="text"
-            placeholder="title"
-            name="title"
+            type='text'
+            placeholder='title'
+            name='title'
             value={title}
             onChange={onInputChange}
-            className="form-control mt-2"
+            className='form-control mt-2'
           />
           <input
-            type="text"
-            placeholder="imgurl"
-            name="imgurl"
+            type='text'
+            placeholder='imgurl'
+            name='imgurl'
             value={imgurl}
             onChange={onInputChange}
-            className="form-control mt-2"
+            className='form-control mt-2'
           />
           <textarea
-            rows="10"
-            cols="30"
-            placeholder="descripion"
-            name="description"
+            rows='10'
+            cols='30'
+            placeholder='descripion'
+            name='description'
             value={description}
             onChange={onInputChange}
-            className="form-control mt-2"
+            className='form-control mt-2'
           ></textarea>
           <button
-            type="submit"
+            type='submit'
             onClick={editpost}
-            className="mt-2  btn btn-success"
+            className='mt-2  btn btn-success'
           >
-            {" "}
             save post
           </button>
         </div>
