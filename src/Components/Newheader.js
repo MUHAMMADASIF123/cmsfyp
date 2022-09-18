@@ -63,7 +63,7 @@ const Newheader = () => {
               <button>
                 <Link to={'/apply'} className='hbtn w-100 apply'>
                   {' '}
-                  Apply
+                  Apply Now
                 </Link>
               </button>
             </>

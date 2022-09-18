@@ -36,7 +36,7 @@ const ContactUs = () => {
         >
           {/* <h1 className=''>Name</h1> */}
           <div className='w-75  '>
-            <h1 className='custom_heading text-white'>
+            <h1 className='custom_heading text-white rounded'>
               Get in Touch !
             </h1>
             <input

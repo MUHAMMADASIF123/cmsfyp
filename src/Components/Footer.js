@@ -3,24 +3,24 @@ import './Footer.css';
 function Footer() {
   return (
     <>
-      <div className='d-flex footer2'>
+      <div className='d-flex body footer2'>
         <div className='row'>
-          <div className='text-white col-md-4'>
+          <div className='text-white col-md-4 sm-col-12'>
             <a>
               <img
-                className='logimg d-flex mt-2 ms-2 mb-2'
+                className='logimg d-flex mt-2  mb-2'
                 src='/images/colglogo.png'
               ></img>
             </a>
-            <p className='text-align w-50 text_space'>
+            <p className='text-align  text_space'>
               Our has built a level of trust and confidence among
               its existing and aspiring students due to the
               launch of innovative but effective study and work
               plans.
             </p>
           </div>
-          <div className='col-md-4 text-white '>
-            <h2 className='info'>Information</h2>
+          <div className='col-md-4 address1 text-white sm-col-12 '>
+            <p className='info'>Information</p>
             <div className='address'>
               {/* GCS Wahdat Road,Lahore  */}
               <h6 class='align-baseline me-4'>
@@ -37,7 +37,7 @@ function Footer() {
               </h6>
             </div>
           </div>
-          <div className='col-md-4 '>
+          <div className='col-md-4  sm-col-12 '>
             {/* <h6 className='text-white '>Map</h6> */}
             <a href='https://bit.ly/3RdWnox' target='_blank'>
               {' '}
@@ -54,11 +54,11 @@ function Footer() {
           All &copy; Right Reserved By Government Graduate
           college Science | GCS
         </div>
-        <div className='icons'>
+        {/* <div className='icons'>
           <i class='fa-brands fa-facebook'></i>
           <i class='fa-brands fa-instagram'></i>
           <i class='fa-brands fa-twitter'></i>
-        </div>
+        </div> */}
       </div>
     </>
   );

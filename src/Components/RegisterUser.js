@@ -50,7 +50,7 @@ function RegisterUser() {
               class=' shadow p-5 w-100 mt-5'
               style={{ backgroundColor: 'white' }}
             >
-              <h1 className='mb-2 text-warning '>
+              <h1 className='mb-2 text-white rounded   '>
                 Register Here !
               </h1>
 
