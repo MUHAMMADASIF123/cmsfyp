@@ -1,7 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { useNavigate } from 'react-router-dom';
-
 import './Header_.css';
 const Newheader = () => {
   const history = useNavigate();
@@ -49,14 +48,17 @@ const Newheader = () => {
           ) : (
             <>
               <button>
-                <Link to={'/login'} className='hbtn '>
+                <Link to={'/login'} className='hbtn bg-warning'>
                   {' '}
                   Login{' '}
                 </Link>
               </button>
               <button>
                 {' '}
-                <Link to={'/registeruser'} className='hbtn me-3'>
+                <Link
+                  to={'/registeruser'}
+                  className='hbtn bg-warning me-3'
+                >
                   SignUp
                 </Link>
               </button>
@@ -76,10 +78,10 @@ const Newheader = () => {
       <div className='menu'>
         <nav>
           <a href='/'>Home</a>
-          <a href='#Programs'>Programs</a>
-          <a href='#Departments'>Departements</a>
+          <a href='/Programs'>Programs</a>
+          <a href='/Departments'>Departements</a>
           <a href='/contactUs'>Contact Us</a>
-          <a href='#'>About Us</a>
+          <a href='AboutUs'>About Us</a>
         </nav>
       </div>
     </div>

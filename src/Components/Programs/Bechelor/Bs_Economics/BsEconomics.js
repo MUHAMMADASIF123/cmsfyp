@@ -308,6 +308,79 @@ function BsEconomics() {
           </table>
         </div>
       </div>
+      <div className='d-flex justify-content-center me-5 ms-5 p-5'>
+        <div className='shadow p-5 w-100 rounded-top ms-5 me-5 bg-white'>
+          <h2>7th Semester</h2>
+          <hr />
+          <table className='table'>
+            <tbody>
+              <tr>
+                <th>Course Code</th>
+                <th>Course Tital</th>
+                <th>Course ID</th>
+              </tr>
+              <tr>
+                <td>ECON-401</td>
+                <td>International Trade Theory </td>
+                <td>3</td>
+              </tr>
+              <tr>
+                <td>ECON-402 </td>
+                <td>Research Methodology </td>
+                <td>3</td>
+              </tr>
+              <tr>
+                <td>ECON-403 </td>
+                <td> Public Finance </td>
+                <td>3</td>
+              </tr>
+              <tr>
+                <td>ECON-404 </td>
+                <td>History of Economics Thoughts </td>
+                <td>3</td>
+              </tr>
+              <tr>
+                <td>ECON-405 </td>
+                <td>Monetary Economics </td>
+                <td>3</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div className='shadow p-5 w-100 rounded-top ms-5 me-5 bg-white'>
+          <h2>8th Semester</h2>
+          <hr />
+          <table className='table'>
+            <tbody>
+              <tr>
+                <th>Course Code</th>
+                <th>Course Tital</th>
+                <th>Course ID</th>
+              </tr>
+              <tr>
+                <td>ECON-406 </td>
+                <td>Applied Economics </td>
+                <td>3</td>
+              </tr>
+              <tr>
+                <td>ECON-407 </td>
+                <td>Islamic Economics </td>
+                <td>3</td>
+              </tr>
+              <tr>
+                <td>ECON-408 </td>
+                <td>Research Paper </td>
+                <td>3</td>
+              </tr>
+              <tr>
+                <td>ECON-409 </td>
+                <td>Fiscal Policy </td>
+                <td>3</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
     </div>
   );
 }

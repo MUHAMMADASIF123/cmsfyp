@@ -298,6 +298,81 @@ function BsSociology() {
           </table>
         </div>
       </div>
+      <div className='d-flex justify-content-center me-5 ms-5 p-5'>
+        <div className='shadow p-5 w-100 rounded-top ms-5 me-5 bg-white'>
+          <h2>7th Semester</h2>
+          <hr />
+          <table className='table'>
+            <tbody>
+              <tr>
+                <th>Course Code</th>
+                <th>Course Tital</th>
+                <th>Course ID</th>
+              </tr>
+              <tr>
+                <td>SOC-401</td>
+                <td>Sociology of Health & Illness </td>
+                <td>3</td>
+              </tr>
+              <tr>
+                <td>SOC-402</td>
+                <td>Web Survey & SPSS </td>
+                <td>3</td>
+              </tr>
+              <tr>
+                <td>SOC-403 </td>
+                <td> Electronic Media and Virtual Society </td>
+                <td>3</td>
+              </tr>
+              <tr>
+                <td>SOC-404 </td>
+                <td>
+                  Conflict And Alternative Dispute Resolution{' '}
+                </td>
+                <td>3</td>
+              </tr>
+              <tr>
+                <td>SOC-405 </td>
+                <td>Internship </td>
+                <td>3</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div className='shadow p-5 w-100 rounded-top ms-5 me-5 bg-white'>
+          <h2>8th Semester</h2>
+          <hr />
+          <table className='table'>
+            <tbody>
+              <tr>
+                <th>Course Code</th>
+                <th>Course Tital</th>
+                <th>Course ID</th>
+              </tr>
+              <tr>
+                <td>SOC-406 </td>
+                <td>Social Transformation </td>
+                <td>3</td>
+              </tr>
+              <tr>
+                <td>SOC-407 </td>
+                <td>Clinical Sociology </td>
+                <td>3</td>
+              </tr>
+              <tr>
+                <td>SOC-408 </td>
+                <td>Governance & Social policy </td>
+                <td>3</td>
+              </tr>
+              <tr>
+                <td>SOC-409 </td>
+                <td>Thesis</td>
+                <td>6</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
     </div>
   );
 }

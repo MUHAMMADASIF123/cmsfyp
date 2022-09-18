@@ -160,87 +160,87 @@ function Home() {
               </div>
 
               <div class='col-md-2 mt-3 bsdept col-lg-3'>
-                <a className='' href='/'>
+                <a className='' href='/Chemistry_'>
                   Chemistry
                 </a>
               </div>
               <div class='col-md-2 mt-3 bsdept col-lg-3'>
-                <a className='' href='/'>
+                <a className='' href='/Physics_'>
                   Physics
                 </a>
               </div>
               <div class='col-md-2 mt-3 bsdept col-lg-3'>
-                <a className='' href='/'>
+                <a className='' href='/Mathematics_'>
                   Mathematics
                 </a>
               </div>
             </div>
             <div class='row'>
               <div className='col-md-2 bsdept mt-3 col-lg-3'>
-                <a className='' href='/'>
+                <a className='' href='/Economics_'>
                   Economics
                 </a>
               </div>
 
               <div class='col-md-2 mt-3 bsdept col-lg-3'>
-                <a className='' href='/'>
+                <a className='' href='/Islamiyat_'>
                   Islamiyat
                 </a>
               </div>
               <div class='col-md-2 mt-3 bsdept col-lg-3'>
-                <a className='' href='/'>
+                <a className='' href='/BBA'>
                   BBA
                 </a>
               </div>
               <div class='col-md-2 mt-3 bsdept col-lg-3'>
-                <a className='' href='/'>
+                <a className='' href='/MassCom'>
                   Mass Communication
                 </a>
               </div>
             </div>
             <div class='row'>
               <div className='col-md-2 bsdept mt-3 col-lg-3'>
-                <a className='' href='/'>
+                <a className='' href='/Sociology'>
                   Sociology
                 </a>
               </div>
 
               <div class='col-md-2 mt-3 bsdept col-lg-3'>
-                <a className='' href='/'>
+                <a className='' href='/Botany'>
                   Botany
                 </a>
               </div>
               <div class='col-md-2 mt-3 bsdept col-lg-3'>
-                <a className='' href='/'>
+                <a className='' href='/Zoology_'>
                   Zoology
                 </a>
               </div>
               <div class='col-md-2 mt-3 bsdept col-lg-3'>
-                <a className='' href='/'>
+                <a className='' href='/Education'>
                   Education
                 </a>
               </div>
             </div>
             <div class='row'>
               <div className='col-md-2 bsdept mt-3 col-lg-3'>
-                <a className='' href='/'>
+                <a className='' href='/English'>
                   {' '}
                   English
                 </a>
               </div>
 
               <div class='col-md-2 mt-3 bsdept col-lg-3'>
-                <a className='' href='/'>
+                <a className='' href='/Urdu'>
                   Urdu
                 </a>
               </div>
               <div class='col-md-2 mt-3 bsdept col-lg-3'>
-                <a className='' href='/'>
+                <a className='' href='/PoliticalScience'>
                   Political Science
                 </a>
               </div>
               <div class='col-md-2 mt-3 bsdept col-lg-3'>
-                <a className='' href='/'>
+                <a className='' href='/Statistics'>
                   Statistics
                 </a>
               </div>

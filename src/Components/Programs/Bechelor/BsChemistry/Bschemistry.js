@@ -346,6 +346,304 @@ function Bschemistry() {
           </table>
         </div>
       </div>
+      <div className='d-flex justify-content-center me-5 ms-5 p-5'>
+        <div className='shadow p-5 w-100 rounded-top ms-5 me-5 bg-white'>
+          <h2>7th Semester</h2>
+          <hr />
+          <table className='table'>
+            <tbody>
+              <tr>
+                <th>Course Code</th>
+                <th>Course Tital</th>
+                <th>Course ID</th>
+              </tr>
+              <tr>
+                <td>THESIS-400</td>
+                <td>
+                  Thesis or Any Paper (Sp. Theory-I) except
+                  Specialization{' '}
+                </td>
+                <td>4</td>
+              </tr>
+              <tr>
+                <td>CHEM-401</td>
+                <td>Environmental Chemistry</td>
+                <td>1</td>
+              </tr>
+              <tr className='option_css'>
+                <td>-</td>
+                <td>
+                  ONE GROUP OF THE FOLLOWING THREE (OPTIONAL)
+                </td>
+                <td>-</td>
+              </tr>
+              <tr>
+                <td>CHEM-403 </td>
+                <td>Physical Chemistry (Sp. Theory-I) </td>
+                <td>4</td>
+              </tr>
+              <tr>
+                <td>CHEM-404</td>
+                <td>Physical Chemistry (Sp. Theory-II)</td>
+                <td>4</td>
+              </tr>{' '}
+              <tr>
+                <td>CHEM-405 </td>
+                <td>Physical Chemistry (Sp. Practical) </td>
+                <td>2</td>
+              </tr>
+              <tr className='option_css'>
+                <td>-</td>
+                <td>OR </td>
+                <td>-</td>
+              </tr>
+              <tr>
+                <td>CHEM-408 </td>
+                <td>Inorganic Chemistry (Sp. Practical) </td>
+                <td>2</td>
+              </tr>
+              <tr>
+                <td>CHEM-406 </td>
+                <td>Inorganic Chemistry (Sp. Theory-I) </td>
+                <td>4</td>
+              </tr>{' '}
+              <tr>
+                <td>CHEM-407</td>
+                <td>Inorganic Chemistry (Sp. Theory-II) </td>
+                <td>4</td>
+              </tr>
+              <tr className='option_css'>
+                <td>-</td>
+                <td>OR </td>
+                <td>-</td>
+              </tr>{' '}
+              <tr>
+                <td>CHEM-409 </td>
+                <td>Organic Chemistry (Sp. Theory-I) </td>
+                <td>4</td>
+              </tr>
+              <tr>
+                <td>CHEM-410</td>
+                <td>Organic Chemistry (Sp. Theory-II)</td>
+                <td>4</td>
+              </tr>{' '}
+              <tr>
+                <td>CHEM-411</td>
+                <td>Organic Chemistry (Sp. Practical) </td>
+                <td>2</td>
+              </tr>
+              <tr className='option_css'>
+                <td>-</td>
+                <td>OR </td>
+                <td>-</td>
+              </tr>{' '}
+              <tr>
+                <td>CHEM-412 </td>
+                <td>Analytical Chemistry (Sp. Theory-I) </td>
+                <td>4</td>
+              </tr>
+              <tr>
+                <td>CHEM-413</td>
+                <td>Analytical Chemistry (Sp. Theory-II) </td>
+                <td>4</td>
+              </tr>{' '}
+              <tr>
+                <td>CHEM-414</td>
+                <td>Analytical Chemistry (Sp. Practical) </td>
+                <td>2</td>
+              </tr>
+              <tr className='option_css'>
+                <td>-</td>
+                <td>OR </td>
+                <td>-</td>
+              </tr>{' '}
+              <tr>
+                <td>CHEM-415</td>
+                <td>Applied Chemistry (Sp. Theory-I) </td>
+                <td>4</td>
+              </tr>
+              <tr>
+                <td>CHEM-416</td>
+                <td>Applied Chemistry (Sp. Theory-II)</td>
+                <td>4</td>
+              </tr>{' '}
+              <tr>
+                <td>CHEM-417</td>
+                <td>Applied Chemistry (Sp. Practical) </td>
+                <td>2</td>
+              </tr>
+              <tr className='option_css'>
+                <td>-</td>
+                <td>OR </td>
+                <td>-</td>
+              </tr>{' '}
+              <tr>
+                <td>CHEM-418 </td>
+                <td>Bio Chemistry (Sp. Theory-I)</td>
+                <td>4</td>
+              </tr>
+              <tr>
+                <td>CHEM-419</td>
+                <td>Bio Chemistry (Sp. Theory-II)</td>
+                <td>4</td>
+              </tr>{' '}
+              <tr>
+                <td>CHEM-421</td>
+                <td>Bio Chemistry (Sp. Practical) </td>
+                <td>2</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div className='shadow p-5 w-100 rounded-top ms-5 me-5 bg-white'>
+          <h2>8th Semester</h2>
+          <hr />
+          <table className='table'>
+            <tbody>
+              <tr>
+                <th>Course Code</th>
+                <th>Course Tital</th>
+                <th>Course ID</th>
+              </tr>
+              <tr>
+                <td>THESIS-400</td>
+                <td>
+                  Thesis or Any Paper (Sp. Theory-I) except
+                  Specialization{' '}
+                </td>
+                <td>4</td>
+              </tr>
+              <tr>
+                <td>CHEM-402</td>
+                <td>Environmental Chemistry</td>
+                <td>2</td>
+              </tr>
+              <tr className='option_css'>
+                <td>-</td>
+                <td>
+                  ONE GROUP OF THE FOLLOWING THREE (OPTIONAL)
+                </td>
+                <td>-</td>
+              </tr>
+              <tr>
+                <td>CHEM-422</td>
+                <td>Physical Chemistry (Sp. Theory-I) </td>
+                <td>4</td>
+              </tr>
+              <tr>
+                <td>CHEM-423</td>
+                <td>Physical Chemistry (Sp. Theory-II)</td>
+                <td>4</td>
+              </tr>{' '}
+              <tr>
+                <td>CHEM-424</td>
+                <td>Physical Chemistry (Sp. Practical) </td>
+                <td>2</td>
+              </tr>
+              <tr className='option_css'>
+                <td>-</td>
+                <td>OR </td>
+                <td>-</td>
+              </tr>
+              <tr>
+                <td>CHEM-425 </td>
+                <td>Inorganic Chemistry (Sp. Practical) </td>
+                <td>2</td>
+              </tr>
+              <tr>
+                <td>CHEM-426 </td>
+                <td>Inorganic Chemistry (Sp. Theory-I) </td>
+                <td>4</td>
+              </tr>{' '}
+              <tr>
+                <td>CHEM-427</td>
+                <td>Inorganic Chemistry (Sp. Theory-II) </td>
+                <td>4</td>
+              </tr>
+              <tr className='option_css'>
+                <td>-</td>
+                <td>OR </td>
+                <td>-</td>
+              </tr>{' '}
+              <tr>
+                <td>CHEM-428 </td>
+                <td>Organic Chemistry (Sp. Theory-I) </td>
+                <td>4</td>
+              </tr>
+              <tr>
+                <td>CHEM-429</td>
+                <td>Organic Chemistry (Sp. Theory-II)</td>
+                <td>4</td>
+              </tr>{' '}
+              <tr>
+                <td>CHEM-430</td>
+                <td>Organic Chemistry (Sp. Practical) </td>
+                <td>2</td>
+              </tr>
+              <tr className='option_css'>
+                <td>-</td>
+                <td>OR </td>
+                <td>-</td>
+              </tr>{' '}
+              <tr>
+                <td>CHEM-431 </td>
+                <td>Analytical Chemistry (Sp. Theory-I) </td>
+                <td>4</td>
+              </tr>
+              <tr>
+                <td>CHEM-432</td>
+                <td>Analytical Chemistry (Sp. Theory-II) </td>
+                <td>4</td>
+              </tr>{' '}
+              <tr>
+                <td>CHEM-433</td>
+                <td>Analytical Chemistry (Sp. Practical) </td>
+                <td>2</td>
+              </tr>
+              <tr className='option_css'>
+                <td>-</td>
+                <td>OR </td>
+                <td>-</td>
+              </tr>{' '}
+              <tr>
+                <td>CHEM-434</td>
+                <td>Applied Chemistry (Sp. Theory-I) </td>
+                <td>4</td>
+              </tr>
+              <tr>
+                <td>CHEM-435</td>
+                <td>Applied Chemistry (Sp. Theory-II)</td>
+                <td>4</td>
+              </tr>{' '}
+              <tr>
+                <td>CHEM-436</td>
+                <td>Applied Chemistry (Sp. Practical) </td>
+                <td>2</td>
+              </tr>
+              <tr className='option_css'>
+                <td>-</td>
+                <td>OR </td>
+                <td>-</td>
+              </tr>{' '}
+              <tr>
+                <td>CHEM-437 </td>
+                <td>Bio Chemistry (Sp. Theory-I)</td>
+                <td>4</td>
+              </tr>
+              <tr>
+                <td>CHEM-438</td>
+                <td>Bio Chemistry (Sp. Theory-II)</td>
+                <td>4</td>
+              </tr>{' '}
+              <tr>
+                <td>CHEM-439</td>
+                <td>Bio Chemistry (Sp. Practical) </td>
+                <td>2</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
     </div>
   );
 }

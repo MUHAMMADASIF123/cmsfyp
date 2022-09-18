@@ -3,7 +3,7 @@ import './Becholer_programs_list.css';
 
 function Bacholer_programs_list() {
   return (
-    <div className='justify-content-center align-item-center shadow mb-5 mt-5 w-50 me-5 ms-5 p-5'>
+    <div className='justify-content-center align-item-center  mb-5 mt-5 me-5 ms-5 p-5'>
       <h1>Bacholer Programs List</h1>
       <hr />
       <br />
@@ -61,14 +61,12 @@ function Bacholer_programs_list() {
         <hr />
         <br />
         <li>
-          <a href='/BsMass_Communication'>
-            BS Economics Program
-          </a>
+          <a href='/BsEconomics'>BS Economics Program</a>
         </li>
         <hr />
         <br />
         <li>
-          <a href='/bscs'> BS Islamiat Program</a>
+          <a href='/BsIslamiat'> BS Islamiat Program</a>
         </li>
         <hr />
         <br />
@@ -86,12 +84,15 @@ function Bacholer_programs_list() {
         <hr />
         <li>
           <br />
-          <a href='/bscs'> BS Political Science Program</a>
+          <a href='/BsPoliticalScience'>
+            {' '}
+            BS Political Science Program
+          </a>
         </li>
         <hr />
         <br />
         <li>
-          <a href='/bscs'> BS Statistics Program</a>
+          <a href='/BsStatistic'> BS Statistics Program</a>
         </li>
         <hr />
         <br />

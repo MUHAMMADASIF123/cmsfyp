@@ -4,6 +4,8 @@ function Footer() {
   return (
     <>
       <div className='d-flex body footer2'>
+    <footer>
+      <div className='d-flex footer2'>
         <div className='row'>
           <div className='text-white col-md-4 sm-col-12'>
             <a>
@@ -60,7 +62,7 @@ function Footer() {
           <i class='fa-brands fa-twitter'></i>
         </div> */}
       </div>
-    </>
+    </footer>
   );
 }
 
