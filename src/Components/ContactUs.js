@@ -35,8 +35,10 @@ const ContactUs = () => {
           className=' shadow d-flex justify-content-center rounded mt-5 mb-5 h-75 '
         >
           {/* <h1 className=''>Name</h1> */}
+          <div className='w-75  '>
+            <h1 className='custom_heading text-white rounded'>
           <div className='w-50 mb-5 rounded'>
-            <h1 className='custom_heading rounded'>
+            <h1 className='custom_heading rounded'
               Get in Touch !
             </h1>
             <input
