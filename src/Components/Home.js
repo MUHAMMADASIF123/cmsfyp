@@ -13,9 +13,44 @@ function Home() {
     slidesToShow: 1,
     slidesToScroll: 1,
   };
+  var settings1 = {
+    infinite: true,
+    autoplay: true,
+    dots: true,
+    speed: 400,
+    slidesToShow: 2,
+    slidesToScroll: 2,
+    initialSlide: 0,
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 2,
+          infinite: true,
+          // dots: true,
+        },
+      },
+      {
+        breakpoint: 820,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 2,
+          initialSlide: 2,
+        },
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 4,
+          slidesToScroll: 4,
+        },
+      },
+    ],
+  };
   return (
-    <>
-      <div className='conatiner'>
+    <div>
+      <div className=''>
         <div className='slider'>
           <Slider {...settings}>
             <div>
@@ -36,8 +71,8 @@ function Home() {
           </Slider>
         </div>
       </div>
-      <div id='Programs' className='shadow rounded '>
-        <section>
+      <div id='Programs' className=' '>
+        <section className='shadow container rounded'>
           <h1 className='container program_border'>Programs</h1>
           {/* <hr className='mr-25 ml-25' /> */}
           <div className='d-flex justify-content-center  '>
@@ -212,70 +247,69 @@ function Home() {
             </div>
           </div>
         </section>
-        <section>
-          <div class='container mb-5'>
-            <div class='row'>
-              <div class='col-md-4 mt-3 col-lg-3'>
-                <img
-                  src='https://source.unsplash.com/collection/190727/1500x900'
-                  class='img-fluid'
-                  alt='image'
-                />
-              </div>
-              <div class='col-md-4 mt-3 col-lg-3'>
-                <img
-                  src='https://source.unsplash.com/collection/190727/1500x900'
-                  class='img-fluid'
-                  alt='image'
-                />
-              </div>
-              <div class='col-md-4 mt-3 col-lg-3'>
-                <img
-                  src='https://source.unsplash.com/collection/190727/1500x900'
-                  class='img-fluid'
-                  alt='image'
-                />
-              </div>
-              <div class='col-md-4 mt-3 col-lg-3'>
-                <img
-                  src='https://source.unsplash.com/collection/190727/1500x900'
-                  class='img-fluid'
-                  alt='image'
-                />
-              </div>
-              <div class='col-md-4 mt-3 col-lg-3'>
-                <img
-                  src='https://source.unsplash.com/collection/190727/1500x900'
-                  class='img-fluid'
-                  alt='image'
-                />
-              </div>
-              <div class='col-md-4 mt-3 col-lg-3'>
-                <img
-                  src='https://source.unsplash.com/collection/190727/1500x900'
-                  class='img-fluid'
-                  alt='image'
-                />
-              </div>
-              <div class='col-md-4 mt-3 col-lg-3'>
-                <img
-                  src='https://source.unsplash.com/collection/190727/1500x900'
-                  class='img-fluid'
-                  alt='image'
-                />
-              </div>
-              <div class='col-md-4 mt-3 col-lg-3'>
-                <img
-                  src='https://source.unsplash.com/collection/190727/1500x900'
-                  class='img-fluid'
-                  alt='image'
-                />
-              </div>
-            </div>
-          </div>
-        </section>
       </div>
-    </>
+      <div className=' container shadow rounded mb-5 '>
+        <h2 className='mb-5 h2_border'> Gallary </h2>
+        <Slider {...settings1} className='slide mb-5'>
+          <div className='w-75'>
+            {/* <h3>1</h3> */}
+            <img
+              className='justify'
+              src='./images/hajverihall.jpg'
+            />
+          </div>
+          <div className='w-75'>
+            {/* <h3>2</h3> */}
+            <img
+              className='justify'
+              src='./images/hajverihall.jpg'
+            />
+          </div>
+          <div className='w-75'>
+            {/* <h3>3</h3> */}
+            <img
+              className='justify'
+              src='./images/hajverihall.jpg'
+            />
+          </div>
+          <div className='w-75'>
+            {/* <h3>4</h3> */}
+            <img
+              className='justify'
+              src='./images/hajverihall.jpg'
+            />
+          </div>
+          <div className='w-75'>
+            {/* <h3>5</h3> */}
+            <img
+              className='justify'
+              src='./images/hajverihall.jpg'
+            />
+          </div>
+          <div className='w-75'>
+            {/* <h3>6</h3> */}
+            <img
+              className='justify'
+              src='./images/hajverihall.jpg'
+            />
+          </div>
+          <div className='w-75'>
+            {/* <h3>7</h3> */}
+            <img
+              className='justify'
+              src='./images/hajverihall.jpg'
+            />
+          </div>
+          <div className='w-75'>
+            {/* <h3>8</h3> */}
+            <img
+              className='justify'
+              src='./images/hajverihall.jpg'
+            />
+          </div>
+        </Slider>
+      </div>
+    </div>
   );
 }
 

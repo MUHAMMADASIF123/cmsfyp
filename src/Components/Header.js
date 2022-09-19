@@ -92,7 +92,7 @@ function Header() {
                   className='hbtn w-100 apply text-white '
                 >
                   {' '}
-                  Apply
+                  Apply Now
                 </Link>
               </button>
             </>

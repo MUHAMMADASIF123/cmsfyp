@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 // import uniqid from "uniqid";
 import axios from 'axios';
+import './Login.css';
 // import { Link } from "react-router-dom";
 import { useNavigate } from 'react-router-dom';
 function Login() {
@@ -10,7 +11,6 @@ function Login() {
     password: '',
   });
 
-  // const history = useNavigate();
   const { email, password } = user;
   const onInputChange = (e) => {
     setUser({ ...user, [e.target.name]: e.target.value });
@@ -27,65 +27,23 @@ function Login() {
       .post('/api/post/login', user)
       .then((res) => {
         localStorage.setItem('token-info', JSON.stringify(user));
-        alert(res.data);
+        alert(JSON.stringify(res.data));
         history('/');
       })
       .catch((err) => {
         console.log(err);
       });
-    // history.push("/");
-
-    // </style>
   };
   return (
     <div>
-      {/* <div className="row justify-content-center">
-      <div className="col-md-6">
-        <div>
-         
-          <input
-            type="email"
-            placeholder="email"
-            name="email"
-            value={email}
-            onChange={onInputChange}
-            className="form-control mt-2"
-          />
-          <input
-            type="password"
-            placeholder="password"
-            name="password"
-            value={password}
-            onChange={onInputChange}
-            className="form-control mt-2"
-          />
-         
-          <button
-            type="submit"
-            onClick={handleuser}
-            className="mt-2  btn btn-success"
-          >
-            {" "}
-            Login
-          </button>
-        </div>
-      </div>
-    </div> */}
-      <section class='Wraper  '>
+      <section class='Wraper  sm-mt-5 '>
         <div class='container '>
           <div class='col-sm-8 offset-sm-2  col-lg-6 offset-lg-3 text-center mt-5 vh-100'>
-            <div class='logo'>
-              {/* <img
-              class="w-25 h-25"
-              src="/images/1218776_company_logo_apple_ipad_iphone_icon.png"
-              alt="image"
-            /> */}
-            </div>
             <form
               class='shadow p-5 mt-5 w-100 rounded-top'
               style={{ backgroundColor: 'white' }}
             >
-              <h3 class='text-white fw-bolder fs-4 mb-2'>
+              <h3 class='text-white fw-bolder fs-4 rounded  w-100 mb-2'>
                 Login to Here !
               </h3>
               <div class='fw-normal text-warning fw-bold mb-4'>

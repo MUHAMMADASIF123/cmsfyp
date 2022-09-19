@@ -65,7 +65,7 @@ const Newheader = () => {
               <button>
                 <Link to={'/apply'} className='hbtn w-100 apply'>
                   {' '}
-                  Apply
+                  Apply Now
                 </Link>
               </button>
             </>
@@ -78,11 +78,10 @@ const Newheader = () => {
       <div className='menu'>
         <nav>
           <a href='/'>Home</a>
-          <a href='/Administration'>Administration</a>
-          <a href='#Programs'>Programs</a>
-          <a href='#Departments'>Departements</a>
+          <a href='/Programs'>Programs</a>
+          <a href='/Departments'>Departements</a>
           <a href='/contactUs'>Contact Us</a>
-          <a href='#'>About Us</a>
+          <a href='AboutUs'>About Us</a>
         </nav>
       </div>
     </div>

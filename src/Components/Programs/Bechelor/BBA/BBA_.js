@@ -318,8 +318,12 @@ function BBA_() {
                 <td> Mathematics (Advanced) </td>
                 <td>3</td>
               </tr>
-              <tr>
-                One Group of the following Three (Optional)
+              <tr className='option_css'>
+                <td>-</td>
+                <td>
+                  ONE GROUP OF THE FOLLOWING THREE (OPTIONAL)
+                </td>
+                <td>-</td>
               </tr>
               <tr>
                 <td>BBA-404 </td>
@@ -331,23 +335,26 @@ function BBA_() {
                 <td>Financial Analysis </td>
                 <td>3</td>
               </tr>
-              <tr>
+              <tr className='option_css'>
+                <td>-</td>
                 <td>OR </td>
-              </tr>
+                <td>-</td>
+              </tr>{' '}
               <tr>
                 <td>BBA-406 </td>
                 <td>Sales Management </td>
                 <td>3</td>
               </tr>
-
               <tr>
                 <td>BBA-407 </td>
                 <td>Marketing Research </td>
                 <td>3</td>
               </tr>
-              <tr>
-                <td>OR</td>
-              </tr>
+              <tr className='option_css'>
+                <td>-</td>
+                <td>OR </td>
+                <td>-</td>
+              </tr>{' '}
               <tr>
                 <td>BBA-408 </td>
                 <td>Strategic HRM </td>
@@ -386,10 +393,12 @@ function BBA_() {
                 <td> Financial Institutions & Services </td>
                 <td>3</td>
               </tr>
-              <tr>
+              <tr className='option_css'>
+                <td>-</td>
                 <td>
-                  One Group of the following Three (Optional)
+                  ONE GROUP OF THE FOLLOWING THREE (OPTIONAL)
                 </td>
+                <td>-</td>
               </tr>
               <tr>
                 <td>BBA-413 </td>
@@ -401,9 +410,11 @@ function BBA_() {
                 <td> Taxation Management </td>
                 <td>3</td>
               </tr>
-              <tr>
-                <td>OR</td>
-              </tr>
+              <tr className='option_css'>
+                <td>-</td>
+                <td>OR </td>
+                <td>-</td>
+              </tr>{' '}
               <tr>
                 <td>BBA-415 </td>
                 <td>Advertising </td>
@@ -414,9 +425,11 @@ function BBA_() {
                 <td> Consumer Behavour </td>
                 <td>3</td>
               </tr>
-              <tr>
-                <td>OR</td>
-              </tr>
+              <tr className='option_css'>
+                <td>-</td>
+                <td>OR </td>
+                <td>-</td>
+              </tr>{' '}
               <tr>
                 <td>BBA-417 </td>
                 <td>Labour Laws in Pakistan </td>

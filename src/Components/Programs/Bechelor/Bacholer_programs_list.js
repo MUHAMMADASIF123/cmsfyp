@@ -61,9 +61,7 @@ function Bacholer_programs_list() {
         <hr />
         <br />
         <li>
-          <a href='/BsMass_Communication'>
-            BS Economics Program
-          </a>
+          <a href='/BsEconomics'>BS Economics Program</a>
         </li>
         <hr />
         <br />
