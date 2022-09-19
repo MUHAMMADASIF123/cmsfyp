@@ -1,5 +1,5 @@
 import React from 'react';
-import { Route, Routes } from 'react-router-dom';
+import { Route, Routes, Redirect } from 'react-router-dom';
 import Addpost from './Components/Addpost';
 import Editpost from './Components/Editpost';
 import Postlist from './Components/Postlist';
@@ -117,7 +117,7 @@ function App() {
         <Route path='/Statistics' element={<Statistics />} />
         {/* <Route path='/footer' element={<Footer/>}/> */}
       </Routes>
-
+      {/* <Redirect to='/' /> */}
       <Footer />
     </div>
   );
