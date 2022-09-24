@@ -48,17 +48,14 @@ const Newheader = () => {
           ) : (
             <>
               <button>
-                <Link to={'/login'} className='hbtn bg-warning'>
+                <Link to={'/login'} className='hbtn '>
                   {' '}
                   Login{' '}
                 </Link>
               </button>
               <button>
                 {' '}
-                <Link
-                  to={'/registeruser'}
-                  className='hbtn bg-warning me-3'
-                >
+                <Link to={'/registeruser'} className='hbtn me-3'>
                   SignUp
                 </Link>
               </button>
@@ -78,9 +75,16 @@ const Newheader = () => {
       <div className='menu'>
         <nav>
           <a href='/'>Home</a>
+
+          <a href='Administration'>Administration</a>
+          <a href='#Programs'>Programs</a>
+          <a href='#Departments'>Departements</a>
           <a href='/Administration'>Administration</a>
           <a href='/contactUs'>Contact Us</a>
           <a href='AboutUs'>About Us</a>
+          <a href='Admin'>Admin</a>
+          <a href='StudentView'>StudentView</a>
+          <a href='StudentProfile'>StudentProfile</a>
         </nav>
       </div>
     </div>

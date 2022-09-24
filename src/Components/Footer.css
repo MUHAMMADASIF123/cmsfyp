@@ -2,6 +2,7 @@
   display: flex;
   justify-content: space-between;
   background-color: #172540;
+
   height: 60px;
   align-items: center;
   /* justify-content: center; */
@@ -37,9 +38,10 @@
 
   /* margin-left: ; */
 }
-.footer2 {
+.footer22 {
   background-color: #172540;
   border-bottom: 4px solid yellow;
+
   /* width: 1024px; */
 }
 .text-align {
@@ -57,11 +59,14 @@
   width: 400px;
   /* margin-top: 70px; */
   margin-left: -200px;
-  margin-top: 30px;
+  /* margin-top: 60px; */
+}
+.address1 .address {
+  margin-top: 120px;
 }
 .info {
   margin-left: -480px;
-  margin-top: 40px;
+  margin-top: 0px;
   /* z-index: -1; */
 }
 .info {
@@ -75,6 +80,9 @@
 }
 
 @media screen and (min-width: 375px) {
+  /* .addree1 .info span {
+    margin-top: 120px;
+  } */
   .txt {
     font-size: 11px;
     font-weight: bolder;
@@ -84,15 +92,15 @@
   .IMG {
     width: 95%;
     height: 200px;
-    margin-left: 15px;
+    margin-left: 2px;
   }
   .address1 {
     /* width: 95%; */
     margin-left: 130px;
+    margin-top: -100px;
+    /* margin-top: 120px; */
   }
-  .info {
-    margin-right: -150px;
-  }
+
   .logimg {
     /* text-align: center; */
     margin-left: 125px;
@@ -112,7 +120,7 @@
     width: 400px;
     /* margin-top: 70px; */
     margin-left: -61px;
-    margin-top: 46px;
+    margin-top: 4px;
   }
   .info {
     /* width: 100%; */
