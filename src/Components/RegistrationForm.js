@@ -54,89 +54,143 @@ function RegistrationForm() {
             </h1>
 
             <form class='rounded shadow p-5 mt-5 h-100 w-100 bg-white'>
-              <div className='row'>
+              <div class='input-group mb-3 d-flex justify-content-end'>
+                <h6 className='me-3 mt-2'>Shift</h6>
+                <select
+                  class='custom-select me-5'
+                  id='inputGroupSelect01'
+                  style={{ width: 220 }}
+                >
+                  <option selected>Morning</option>
+
+                  <option value='1'>Evening</option>
+                </select>
+              </div>
+
+              <div className='row '>
                 <div className='col-md-4'>
-                  <div class='input-group mb-3'>
-                    <div class='input-group-prepend'>
-                      {/* <label class="input-group-text" for="inputGroupSelect01">Options</label> */}
-                      <h6>Group For Intermediate</h6>
-                    </div>
-                    <select
-                      class='custom-select'
-                      id='inputGroupSelect01'
-                      style={{ width: 220 }}
+                  <div class='form-check'>
+                    <input
+                      class='form-check-input'
+                      type='radio'
+                      name='flexRadioDefault'
+                      id='flexRadioDefault1'
+                    />
+                    <label
+                      class='form-check-label'
+                      for='flexRadioDefault1'
                     >
-                      <option selected>F.Sc(Pre-Medical)</option>
-                      <option value='1'>
-                        F.Sc(Pre-Engineering)
-                      </option>
-                      <option value='2'>F.A</option>
-                      <option value='2'>I.Com</option>
-                      <option value='2'>I.C.S</option>
-                      <option value='3'>G.Sc</option>
-                    </select>
+                      <div class='input-group mb-3'>
+                        <div class='input-group-prepend'>
+                          {/* <label class="input-group-text" for="inputGroupSelect01">Options</label> */}
+                          <h6>Group For Intermediate</h6>
+                        </div>
+                        <select
+                          class='custom-select'
+                          id='inputGroupSelect01'
+                          style={{ width: 220 }}
+                        >
+                          <option selected>
+                            F.Sc(Pre-Medical)
+                          </option>
+                          <option value='1'>
+                            F.Sc(Pre-Engineering)
+                          </option>
+                          <option value='2'>F.A</option>
+                          <option value='2'>I.Com</option>
+                          <option value='2'>I.C.S</option>
+                          <option value='3'>G.Sc</option>
+                        </select>
+                      </div>
+                    </label>
                   </div>
                 </div>
                 <div className='col-md-4'>
-                  <div class='input-group mb-3'>
-                    <div class='input-group-prepend'>
-                      {/* <label class="input-group-text" for="inputGroupSelect01">Options</label> */}
-                      <h6>Major discipline for BS 4 year</h6>
-                    </div>
-                    <select
-                      class='custom-select'
-                      id='inputGroupSelect01'
-                      style={{ width: 214 }}
+                  <div class='form-check'>
+                    <input
+                      class='form-check-input'
+                      type='radio'
+                      name='flexRadioDefault'
+                      id='flexRadioDefault2'
+                    />
+                    <label
+                      class='form-check-label'
+                      for='flexRadioDefault2'
                     >
-                      <option selected>BSIT</option>
-                      <option selected>BSCS</option>
-                      <option value='1'>BBA</option>
-                      <option value='2'>Botany</option>
-                      <option value='3'>Chemistry</option>
-                      <option value='3'>
-                        Communication Studies
-                      </option>
-                      <option value='3'>Economics</option>
-                      <option value='3'>Education</option>
-                      <option value='3'>English</option>
-                      <option value='3'>
-                        Political Science
-                      </option>
-                      <option value='3'>Mathematics</option>
-                      <option value='3'>Sociology</option>
-                      <option value='3'>Staistics</option>
-                      <option value='3'>Urdu</option>
-                      <option value='3'>Zoology</option>
-                      <option value='3'>Physics</option>
-                    </select>
+                      <div class='input-group mb-3'>
+                        <div class='input-group-prepend'>
+                          {/* <label class="input-group-text" for="inputGroupSelect01">Options</label> */}
+                          <h6>Major discipline for BS 4 year</h6>
+                        </div>
+                        <select
+                          class='custom-select'
+                          id='inputGroupSelect01'
+                          style={{ width: 214 }}
+                        >
+                          <option selected>BSIT</option>
+                          <option selected>BSCS</option>
+                          <option value='1'>BBA</option>
+                          <option value='2'>Botany</option>
+                          <option value='3'>Chemistry</option>
+                          <option value='3'>
+                            Communication Studies
+                          </option>
+                          <option value='3'>Economics</option>
+                          <option value='3'>Education</option>
+                          <option value='3'>English</option>
+                          <option value='3'>
+                            Political Science
+                          </option>
+                          <option value='3'>Mathematics</option>
+                          <option value='3'>Sociology</option>
+                          <option value='3'>Staistics</option>
+                          <option value='3'>Urdu</option>
+                          <option value='3'>Zoology</option>
+                          <option value='3'>Physics</option>
+                        </select>
+                      </div>
+                    </label>
                   </div>
                 </div>
                 <div className='col-md-4'>
-                  <div class='input-group mb-3 '>
-                    <div class='input-group-prepend'>
-                      {/* <label class="input-group-text" for="inputGroupSelect01">Options</label> */}
-
-                      <h6>Departments For M.A/M.Sc</h6>
-                    </div>
-                    <select
-                      className='custom-select '
-                      id='inputGroupSelect01'
-                      style={{ width: 214 }}
+                  <div class='form-check'>
+                    <input
+                      class='form-check-input'
+                      type='radio'
+                      name='flexRadioDefault'
+                      id='flexRadioDefault3'
+                    />
+                    <label
+                      class='form-check-label'
+                      for='flexRadioDefault3'
                     >
-                      <option selected>Chemistry</option>
+                      <div class='input-group mb-3 '>
+                        <div class='input-group-prepend'>
+                          {/* <label class="input-group-text" for="inputGroupSelect01">Options</label> */}
 
-                      <option value='3'>Economics</option>
+                          <h6>Departments For M.A/M.Sc</h6>
+                        </div>
+                        <select
+                          className='custom-select '
+                          id='inputGroupSelect03'
+                          style={{ width: 214 }}
+                        >
+                          <option selected>Chemistry</option>
 
-                      <option value='3'>English</option>
+                          <option value='3'>Economics</option>
 
-                      <option value='3'>Mathematics</option>
-                      <option value='3'>Physics</option>
-                      <option value='3'>
-                        B.Com(Information Technology)
-                      </option>
-                      <option value='3'>Urdu</option>
-                      <option value='3'>Zoology</option>
-                    </select>
+                          <option value='3'>English</option>
+
+                          <option value='3'>Mathematics</option>
+                          <option value='3'>Physics</option>
+                          <option value='3'>
+                            B.Com(Information Technology)
+                          </option>
+                          <option value='3'>Urdu</option>
+                          <option value='3'>Zoology</option>
+                        </select>
+                      </div>
+                    </label>
                   </div>
                 </div>
               </div>
