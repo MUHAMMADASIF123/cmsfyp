@@ -30,30 +30,44 @@ function Home() {
               {/* <h3>1</h3> */}
 
               <img
-                className='justify'
-                src='./images/hajverihall.jpg'
+                className='justify sliderimg'
+                src='https://res.cloudinary.com/azeem413/image/upload/v1664035583/images/hajverihall_yulqk4.jpg'
               />
             </div>
             <div>
               {/* <h3>2</h3> */}
               <img
-                className='justify'
-                src='./images/clgentrance.jpg'
+                className='justify sliderimg'
+                src='./images/Slider/galary_2.jpeg'
+              />
+            </div>{' '}
+            <div>
+              {/* <h3>2</h3> */}
+              <img
+                className='justify sliderimg'
+                src='./images/Slider/gallary_1.jpeg'
+              />
+            </div>{' '}
+            <div>
+              {/* <h3>2</h3> */}
+              <img
+                className='justify sliderimg'
+                src='./images/Slider/education_dptcrop.jpeg'
               />
             </div>
           </Slider>
         </div>
       </div>
-      <div id='Programs' className=' '>
-        <section className='shadow container rounded'>
+      <div id='Programs' className=''>
+        <section className='shadow container rounded prg-container'>
           <h1 className='container program_border'>Programs</h1>
           {/* <hr className='mr-25 ml-25' /> */}
           <div className='d-flex justify-content-center  '>
             <div className='col-md-4 h-25 w-25 ms-4 me-4 mt-4 mb-4 '>
               <div class='card '>
                 <img
-                  src='/images/interstdnt.jpg'
-                  class='card-img-top'
+                  src='https://res.cloudinary.com/azeem413/image/upload/v1664035583/images/interstdnt_jcsrv3.jpg'
+                  className='card-img-top programimage'
                   alt='...'
                 />
                 <div class='card-body programs '>
@@ -64,7 +78,7 @@ function Home() {
                   </p>
                   <a
                     href='/Intermediate'
-                    class='button_programs bg-warning'
+                    class='button_programs'
                   >
                     All Courses
                   </a>
@@ -73,22 +87,22 @@ function Home() {
             </div>
 
             <div className='col-md-4 h-25 w-25 ms-4 me-4 mt-4 mb-4 '>
-              <div class='card'>
+              <div class='card '>
                 <img
-                  src='/images/bechlorimg.jpg'
-                  class='card-img-top'
+                  src='https://res.cloudinary.com/azeem413/image/upload/v1664035545/images/bechlorimggirl_lfiell.jpg'
+                  className='card-img-top programimage'
                   alt='...'
                 />
                 <div class='card-body programs'>
                   <h5 class='card_title'>Bechelors</h5>
                   <p class='textp'>
-                    Now its all upto you to choose wisely, which
-                    field you have most interest and harn your
-                    specifical skills.
+                    Now its all upto you to choose wisely in
+                    which field you have most interest and want
+                    to harn your specifical skills.
                   </p>
                   <a
                     href='/Bacholer_programs_list'
-                    class='button_programs bg-warning'
+                    class='button_programs'
                   >
                     All Courses
                   </a>
@@ -99,8 +113,8 @@ function Home() {
             <div className='col-md-4 h-25 w-25 ms-4 me-4 mt-4 mb-4'>
               <div class='card'>
                 <img
-                  src='/images/interstdnt.jpg'
-                  class='card-img-top'
+                  src='https://res.cloudinary.com/azeem413/image/upload/v1664035586/images/postgraduatepics_popj9n.jpg'
+                  className='card-img-top programimage'
                   alt='...'
                 />
                 <div class='card-body programs'>
@@ -109,7 +123,7 @@ function Home() {
                     You are going to enter in the phase where you
                     will master those specific skills.
                   </p>
-                  <a href='#' class='button_programs bg-warning'>
+                  <a href='PostGraduate' class='button_programs'>
                     All Courses
                   </a>
                 </div>
@@ -120,7 +134,7 @@ function Home() {
 
         <section id='Departments'>
           <div class='container mt-3 dept_container rounded shadow mb-5'>
-            <h1 className='custom_head mt-1 '>
+            <h1 className='custom_head mt-5 '>
               {' '}
               BS Departments
             </h1>
@@ -221,7 +235,7 @@ function Home() {
           </div>
         </section>
       </div>
-      <div className=' container shadow rounded mb-5 '>
+      <div className=' container shadow rounded mb-5 gallary-container '>
         <h2 className='mb-5 h2_border'> Gallary </h2>
         <Slider {...settings1}>
           <div>

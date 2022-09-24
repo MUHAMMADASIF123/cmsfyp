@@ -8,7 +8,7 @@ function AboutUs() {
       <div className='d-flex justify-content-center mt-5 mb-5 me-5 ms-5'>
         <div>
           <img
-            src='./images/principlepic.jpg'
+            src='https://res.cloudinary.com/azeem413/image/upload/v1664035586/images/principlepic_ahfbtm.jpg'
             width='300px'
             height='300px'
           />
@@ -76,7 +76,7 @@ function AboutUs() {
 
         <div>
           <img
-            src='./images/clgentrance.jpg'
+            src='https://res.cloudinary.com/azeem413/image/upload/v1664035542/images/clgentrance_p7viwo.jpg'
             width='600px'
             height='400px'
           />
@@ -131,7 +131,7 @@ function AboutUs() {
         <hr />
         <img
           className='mb-5 mt-5 rounded'
-          src='./images/clgMap.jpg'
+          src='https://res.cloudinary.com/azeem413/image/upload/v1664035547/images/clgMap_cwqug0.jpg'
           width='80%'
           height='450px'
         />

@@ -1,9 +1,15 @@
 import React, { useState } from 'react';
 // import uniqid from "uniqid";
+
 import axios from 'axios';
 import './Login.css';
 // import { Link } from "react-router-dom";
 import { useNavigate } from 'react-router-dom';
+
+//config
+import BASE_URL from '../config/url';
+//
+
 function Login() {
   const history = useNavigate();
   const [user, setUser] = useState({
@@ -17,21 +23,27 @@ function Login() {
   };
 
   const handleuser = async (e) => {
-    var user = {
-      email: email,
-      password: password,
-    };
+    // const user = {
+    //   email: email,
+    //   password: password,
+    // };
     // console.log(users);
     e.preventDefault();
     await axios
-      .post('/api/post/login', user)
+      .post(`${BASE_URL}/api/student/login`, user)
       .then((res) => {
-        localStorage.setItem('token-info', JSON.stringify(user));
-        alert(JSON.stringify(res.data));
+        localStorage.setItem(
+          'token-info',
+          JSON.stringify(res?.data?.result)
+        );
+        // console.log(res.data.result);
+        // alert(JSON.stringify(res.data))
+        alert(res.data.message);
         history('/');
       })
       .catch((err) => {
         console.log(err);
+        alert(err.response.data.message);
       });
   };
   return (

@@ -1,4 +1,5 @@
 import React from 'react';
+
 import { Route, Routes, Redirect } from 'react-router-dom';
 import Addpost from './Components/Addpost';
 import Editpost from './Components/Editpost';
@@ -20,6 +21,7 @@ import BsPhysics from './Components/Programs/Bechelor/Bs_Physics/BsPhysics';
 import BsStatistic from './Components/Programs/Bechelor/Bs_Statistic/BsStatistic';
 import BsIslamiat from './Components/Programs/Bechelor/Bs_Islamiat/BsIslamiat';
 import Bacholer_programs_list from './Components/Programs/Bechelor/Bacholer_programs_list';
+import PostGraduate from './Components/Programs/Post_Graduate/PostGraduate';
 import BsPoliticalScience from './Components/Programs/Bechelor/Bs_PoliticalScience/BsPoliticalScience';
 import BsZoology from './Components/Programs/Bechelor/Bs_Zoology/BsZoology';
 import BsEducation from './Components/Programs/Bechelor/Bs_Education/BsEducation';
@@ -57,6 +59,7 @@ function App() {
     <div className='App'>
       <Newheader />
       <Routes>
+        {/* //laskdlk /asdjhkasx ,asldkh */}
         {/* <Route path="/" element={<Newheader/>}/> */}
         <Route path='/' element={<Home />} />
         <Route path='/addpost' element={<Addpost />} />
@@ -71,6 +74,7 @@ function App() {
         />
         <Route path='/apply' element={<RegistrationForm />} />
         <Route path='/intermediate' element={<Intermediate />} />
+        <Route path='/PostGraduate' element={<PostGraduate />} />
         <Route path='/bscs' element={<Bscs />} />
         <Route path='/Bschemistry' element={<Bschemistry />} />
         <Route

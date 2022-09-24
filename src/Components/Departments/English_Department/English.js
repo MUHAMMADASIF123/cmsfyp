@@ -39,7 +39,7 @@ function English() {
         </div>
         <div>
           <img
-            src='./images/clgentrance.jpg'
+            src='./images/Departments/english_dpt.jpeg'
             width='600px'
             height='400px'
           />

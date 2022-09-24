@@ -10,12 +10,13 @@
   /* overflow-x: hidden; */
   /* width: 1000px; */
 }
+
 .foter p {
   align-items: center;
 }
 .txt {
   color: white;
-  margin-left: 20px;
+  margin-left: -20px;
   /* width: 1000px; */
 }
 .icons {
@@ -123,8 +124,8 @@
     margin-top: 4px;
   }
   .info {
-    /* width: 100%; */
-    /* margin-right: -400px; */
+    width: 100%;
+    margin-right: -400px;
   }
   .IMG {
     /* width: 95%; */
@@ -136,14 +137,14 @@
     margin-left: 20px;
   }
   .txt {
-    margin: auto;
+    margin-left: 10px;
   }
 }
 
 /* On screens that are 600px or less, set the background color to olive */
-/*
-@media screen and (max-width: 600px) {
-  body {
-    background-color: olive;
+
+@media screen and (min-width: 480px) {
+  #footerf {
+    background-color: white;
   }
-} */
+}

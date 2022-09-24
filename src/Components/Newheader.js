@@ -11,7 +11,7 @@ const Newheader = () => {
   };
   // const auth= localStorage.getItem("token-info")
   var auth = JSON.parse(localStorage.getItem('token-info'));
-  console.log(auth);
+  // console.log(auth);
 
   return (
     <div>

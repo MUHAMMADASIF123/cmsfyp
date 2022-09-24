@@ -42,7 +42,7 @@ function Urdu() {
         </div>
         <div>
           <img
-            src='./images/clgentrance.jpg'
+            src='./images/Departments/urdu_dpt.jpeg'
             width='600px'
             height='400px'
           />

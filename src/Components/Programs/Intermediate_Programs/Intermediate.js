@@ -27,10 +27,19 @@ function Intermediate() {
           </a>
         </div>
       </div> */}
+      <h1 className='mt-5 rounded container'>
+        {' '}
+        InterMediate Programs{' '}
+      </h1>
+      <div>
+        <img
+          src='images/Others/inter_dpt.jpeg'
+          width='90%'
+          height='650px'
+        />
+      </div>
       <div className='d-flex justify-content-center p-5 '>
         <div className='shadow p-5 rounded-top ms-5 me-5 fsc_engg align-baseline'>
-          <h1> InterMediate Programs </h1>
-
           <h2> F.Sc (Pre-Engineering) </h2>
           <h2>Introduction</h2>
           <p className='para'>
@@ -94,7 +103,7 @@ function Intermediate() {
             <li> Islamic Studies </li>
           </ul>
         </div>
-        <div className='shadow p-5 w-100 rounded-top border-5 bg-warning ms-5 me-5 '>
+        <div className='shadow p-5 w-100 rounded-top border-5 ms-5 me-5 '>
           <h2> F.A (Arts) </h2>
           <ul>
             <li>

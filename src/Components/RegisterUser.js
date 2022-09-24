@@ -2,6 +2,10 @@ import React, { useState } from 'react';
 import uniqid from 'uniqid';
 import axios from 'axios';
 import { useNavigate } from 'react-router-dom';
+
+//config
+import BASE_URL from '../config/url';
+
 function RegisterUser() {
   const [user, setUser] = useState({
     name: '',
@@ -22,12 +26,11 @@ function RegisterUser() {
       email: email,
       password: password,
       cpassword: cpassword,
-      userid: uniqid(),
     };
     console.log(users);
     e.preventDefault();
     await axios
-      .post('/api/post/registeruser', users)
+      .post(`${BASE_URL}/api/student/register`, users)
       .then((res) => {
         alert(res.data);
         // console.log(res.data)
@@ -35,6 +38,7 @@ function RegisterUser() {
       })
       .catch((err) => {
         console.log(err);
+        alert(err.response.data.message);
       });
   };
 

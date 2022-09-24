@@ -45,7 +45,7 @@ function BBA() {
         </div>
         <div>
           <img
-            src='./images/clgentrance.jpg'
+            src='./images/Departments/bba_dpt.jpeg'
             width='600px'
             height='400px'
           />

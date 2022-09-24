@@ -28,7 +28,7 @@ function Mathematics_() {
         </div>
         <div>
           <img
-            src='./images/clgentrance.jpg'
+            src='./images/Departments/math_dpt.jpeg'
             width='600px'
             height='400px'
           />
