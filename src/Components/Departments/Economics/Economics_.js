@@ -41,7 +41,7 @@ function Economics_() {
         </div>
         <div>
           <img
-            src='./images/clgentrance.jpg'
+            src='./images/Departments/economic_dpt.jpeg'
             width='600px'
             height='400px'
           />

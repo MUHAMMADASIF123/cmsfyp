@@ -40,7 +40,7 @@ function Chemistry_() {
         </div>
         <div>
           <img
-            src='./images/clgentrance.jpg'
+            src='./images/Departments/chemistry_dpt.jpeg'
             width='600px'
             height='400px'
           />
@@ -109,7 +109,6 @@ function Chemistry_() {
                 Assistant Professor M.Phil.{' '}
               </li>
               <hr />
-              <hr />
             </ul>
           </div>
           <div className='col-6'>
@@ -125,7 +124,6 @@ function Chemistry_() {
                 <br />
                 Lecturer M.Phil.{' '}
               </li>
-
               <hr />
               <li>
                 <b>Ms. Qurat Ul Ain</b>

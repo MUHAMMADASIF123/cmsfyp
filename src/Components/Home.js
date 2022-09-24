@@ -57,22 +57,36 @@ function Home() {
               {/* <h3>1</h3> */}
 
               <img
-                className='justify'
-                src='./images/hajverihall.jpg'
+                className='justify sliderimg'
+                src='./images/Slider/hajvery_hall.jpeg'
               />
             </div>
             <div>
               {/* <h3>2</h3> */}
               <img
-                className='justify'
-                src='./images/clgentrance.jpg'
+                className='justify sliderimg'
+                src='./images/Slider/galary_2.jpeg'
+              />
+            </div>{' '}
+            <div>
+              {/* <h3>2</h3> */}
+              <img
+                className='justify sliderimg'
+                src='./images/Slider/gallary_1.jpeg'
+              />
+            </div>{' '}
+            <div>
+              {/* <h3>2</h3> */}
+              <img
+                className='justify sliderimg'
+                src='./images/Slider/education_dptcrop.jpeg'
               />
             </div>
           </Slider>
         </div>
       </div>
-      <div id='Programs' className=' '>
-        <section className='shadow container rounded'>
+      <div id='Programs' className=''>
+        <section className='shadow container rounded prg-container'>
           <h1 className='container program_border'>Programs</h1>
           {/* <hr className='mr-25 ml-25' /> */}
           <div className='d-flex justify-content-center  '>
@@ -80,7 +94,7 @@ function Home() {
               <div class='card '>
                 <img
                   src='/images/interstdnt.jpg'
-                  class='card-img-top'
+                  className='card-img-top programimage'
                   alt='...'
                 />
                 <div class='card-body programs '>
@@ -91,7 +105,7 @@ function Home() {
                   </p>
                   <a
                     href='/Intermediate'
-                    class='button_programs bg-warning'
+                    class='button_programs'
                   >
                     All Courses
                   </a>
@@ -100,22 +114,22 @@ function Home() {
             </div>
 
             <div className='col-md-4 h-25 w-25 ms-4 me-4 mt-4 mb-4 '>
-              <div class='card'>
+              <div class='card '>
                 <img
-                  src='/images/bechlorimg.jpg'
-                  class='card-img-top'
+                  src='/images/bechlorimggirl.jpg'
+                  className='card-img-top programimage'
                   alt='...'
                 />
                 <div class='card-body programs'>
                   <h5 class='card_title'>Bechelors</h5>
                   <p class='textp'>
-                    Now its all upto you to choose wisely, which
-                    field you have most interest and harn your
-                    specifical skills.
+                    Now its all upto you to choose wisely in
+                    which field you have most interest and want
+                    to harn your specifical skills.
                   </p>
                   <a
                     href='/Bacholer_programs_list'
-                    class='button_programs bg-warning'
+                    class='button_programs'
                   >
                     All Courses
                   </a>
@@ -126,8 +140,8 @@ function Home() {
             <div className='col-md-4 h-25 w-25 ms-4 me-4 mt-4 mb-4'>
               <div class='card'>
                 <img
-                  src='/images/interstdnt.jpg'
-                  class='card-img-top'
+                  src='/images/postgraduatepics.jpg'
+                  className='card-img-top programimage'
                   alt='...'
                 />
                 <div class='card-body programs'>
@@ -136,7 +150,7 @@ function Home() {
                     You are going to enter in the phase where you
                     will master those specific skills.
                   </p>
-                  <a href='#' class='button_programs bg-warning'>
+                  <a href='PostGraduate' class='button_programs'>
                     All Courses
                   </a>
                 </div>
@@ -147,7 +161,7 @@ function Home() {
 
         <section id='Departments'>
           <div class='container mt-3 dept_container rounded shadow mb-5'>
-            <h1 className='custom_head mt-1 '>
+            <h1 className='custom_head mt-5 '>
               {' '}
               BS Departments
             </h1>
@@ -248,63 +262,71 @@ function Home() {
           </div>
         </section>
       </div>
-      <div className=' container shadow rounded mb-5 '>
+      <div className=' container shadow rounded mb-5 gallary-container '>
         <h2 className='mb-5 h2_border'> Gallary </h2>
         <Slider {...settings1} className='slide mb-5'>
-          <div className='w-75'>
+          <div className=''>
             {/* <h3>1</h3> */}
             <img
-              className='justify'
-              src='./images/hajverihall.jpg'
+              className='justify gallary'
+              src='./images/Gallary/gallary_3.png'
+              alt='...'
             />
           </div>
-          <div className='w-75'>
-            {/* <h3>2</h3> */}
+          <div className=''>
+            {/* <h3>1</h3> */}
             <img
-              className='justify'
-              src='./images/hajverihall.jpg'
+              className='justify '
+              src='./images/Gallary/gallary_4.png'
+              alt='...'
             />
           </div>
-          <div className='w-75'>
-            {/* <h3>3</h3> */}
+          <div className=''>
+            {/* <h3>1</h3> */}
             <img
-              className='justify'
-              src='./images/hajverihall.jpg'
+              className='justify '
+              src='./images/Gallary/gallary_5.png'
+              alt='...'
             />
           </div>
-          <div className='w-75'>
-            {/* <h3>4</h3> */}
+          <div className=''>
+            {/* <h3>1</h3> */}
             <img
-              className='justify'
-              src='./images/hajverihall.jpg'
+              className='justify '
+              src='./images/Gallary/gallary_6.png'
+              alt='...'
             />
           </div>
-          <div className='w-75'>
-            {/* <h3>5</h3> */}
+          <div className=''>
+            {/* <h3>1</h3> */}
             <img
-              className='justify'
-              src='./images/hajverihall.jpg'
+              className='justify '
+              src='./images/Gallary/gallary_7.png'
+              alt='...'
             />
           </div>
-          <div className='w-75'>
-            {/* <h3>6</h3> */}
+          <div className=''>
+            {/* <h3>1</h3> */}
             <img
-              className='justify'
-              src='./images/hajverihall.jpg'
+              className='justify '
+              src='./images/Gallary/gallary_8.png'
+              alt='...'
             />
           </div>
-          <div className='w-75'>
-            {/* <h3>7</h3> */}
+          <div className=''>
+            {/* <h3>1</h3> */}
             <img
-              className='justify'
-              src='./images/hajverihall.jpg'
+              className='justify '
+              src='./images/Gallary/canteen.jpeg'
+              alt='...'
             />
           </div>
-          <div className='w-75'>
-            {/* <h3>8</h3> */}
+          <div className=''>
+            {/* <h3>1</h3> */}
             <img
-              className='justify'
-              src='./images/hajverihall.jpg'
+              className='justify '
+              src='./images/Gallary/cricket_Ground.jpeg'
+              alt='...'
             />
           </div>
         </Slider>

@@ -51,7 +51,7 @@ function Botany() {
         </div>
         <div>
           <img
-            src='./images/clgentrance.jpg'
+            src='./images/Departments/botany_dpt.jpeg'
             width='600px'
             height='400px'
           />

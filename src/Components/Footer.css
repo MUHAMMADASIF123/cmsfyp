@@ -1,7 +1,11 @@
 .foter {
   display: flex;
   justify-content: space-between;
-  background-color: #172540;
+  background-image: linear-gradient(
+    to bottom left,
+    #172540,
+    lightblue
+  );
   height: 60px;
   align-items: center;
   /* justify-content: center; */
@@ -9,12 +13,13 @@
   /* overflow-x: hidden; */
   /* width: 1000px; */
 }
+
 .foter p {
   align-items: center;
 }
 .txt {
   color: white;
-  margin-left: 20px;
+  margin-left: -20px;
   /* width: 1000px; */
 }
 .icons {
@@ -38,8 +43,12 @@
   /* margin-left: ; */
 }
 .footer2 {
-  background-color: #172540;
-  border-bottom: 4px solid yellow;
+  background-image: linear-gradient(
+    to bottom left,
+    #172540,
+    lightblue
+  );
+  /* border-bottom: 4px solid yellow; */
   /* width: 1024px; */
 }
 .text-align {
@@ -60,7 +69,7 @@
   margin-top: 30px;
 }
 .info {
-  margin-left: -480px;
+  margin-left: -100px;
   margin-top: 40px;
   /* z-index: -1; */
 }
@@ -115,8 +124,8 @@
     margin-top: 46px;
   }
   .info {
-    /* width: 100%; */
-    /* margin-right: -400px; */
+    width: 100%;
+    margin-right: -400px;
   }
   .IMG {
     /* width: 95%; */
@@ -128,14 +137,14 @@
     margin-left: 20px;
   }
   .txt {
-    margin: auto;
+    margin-left: 10px;
   }
 }
 
 /* On screens that are 600px or less, set the background color to olive */
-/*
-@media screen and (max-width: 600px) {
-  body {
-    background-color: olive;
+
+@media screen and (min-width: 480px) {
+  #footerf {
+    background-color: white;
   }
-} */
+}

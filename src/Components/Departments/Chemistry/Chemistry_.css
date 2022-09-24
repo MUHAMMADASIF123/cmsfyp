@@ -1,5 +1,5 @@
 .head_p {
-  height: 380px;
+  height: 380vh;
 
   text-align: justify;
 }
@@ -34,10 +34,7 @@
   width: 310px;
   height: 35px;
 }
-.head_p {
-  text-align: justify;
-  margin-right: 40px;
-}
+
 .waddi_div {
   height: 475px;
 }

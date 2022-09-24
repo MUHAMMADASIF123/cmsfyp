@@ -54,7 +54,7 @@ function Islamiyat_() {
         </div>
         <div>
           <img
-            src='./images/clgentrance.jpg'
+            src='./images/Departments/islamiyat_dpt.jpeg'
             width='600px'
             height='400px'
           />

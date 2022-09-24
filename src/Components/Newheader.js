@@ -11,7 +11,7 @@ const Newheader = () => {
   };
   // const auth= localStorage.getItem("token-info")
   var auth = JSON.parse(localStorage.getItem('token-info'));
-  console.log(auth);
+  // console.log(auth);
 
   return (
     <div>
@@ -48,7 +48,7 @@ const Newheader = () => {
           ) : (
             <>
               <button>
-                <Link to={'/login'} className='hbtn bg-warning'>
+                <Link to={'/login'} className='hbtn '>
                   {' '}
                   Login{' '}
                 </Link>
@@ -57,7 +57,7 @@ const Newheader = () => {
                 {' '}
                 <Link
                   to={'/registeruser'}
-                  className='hbtn bg-warning me-3'
+                  className='hbtn  me-3'
                 >
                   SignUp
                 </Link>

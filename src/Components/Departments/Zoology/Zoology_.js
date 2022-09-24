@@ -34,7 +34,7 @@ function Zoology_() {
         </div>
         <div>
           <img
-            src='./images/clgentrance.jpg'
+            src='./images/Departments/zoology_dpt.jpeg'
             width='600px'
             height='400px'
           />

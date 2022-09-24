@@ -1,5 +1,12 @@
 .main {
-  background-color: #172540;
+  /* background-color: #172540; */
+  /* background-image: linear-gradient(#172540, aliceblue); */
+  background-image: linear-gradient(
+    to bottom left,
+    #172540,
+    lightblue
+  );
+
   display: flex;
   justify-content: space-between;
   /* justify-content: center; */
@@ -9,7 +16,7 @@
   /* border-radius: 222px; */
 }
 button {
-  background-color: ;
+  background-color: cadetblue;
 }
 .logo img {
   height: 110px;
@@ -58,9 +65,14 @@ button {
   padding: 4px 20px;
   border: none;
   font-weight: bold;
-  background-color: #172540;
+  /* background-color: lightblue; */
+  background-image: linear-gradient(
+    to bottom left,
+    #172540,
+    lightblue
+  );
   color: aliceblue;
-  border-top: 4px solid yellow;
+  /* border-top: 4px solid #172540; */
   height: 60px;
   line-height: 40px;
 }
