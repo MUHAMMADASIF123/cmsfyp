@@ -13,41 +13,14 @@ function Home() {
     slidesToShow: 1,
     slidesToScroll: 1,
   };
-  var settings1 = {
-    infinite: true,
-    autoplay: true,
+  const settings1 = {
     dots: true,
-    speed: 400,
+    autoplay: true,
+    infinite: true,
     slidesToShow: 2,
-    slidesToScroll: 2,
-    initialSlide: 0,
-    responsive: [
-      {
-        breakpoint: 1024,
-        settings: {
-          slidesToShow: 2,
-          slidesToScroll: 2,
-          infinite: true,
-          // dots: true,
-        },
-      },
-      {
-        breakpoint: 820,
-        settings: {
-          slidesToShow: 2,
-          slidesToScroll: 2,
-          initialSlide: 2,
-        },
-      },
-      {
-        breakpoint: 480,
-        settings: {
-          slidesToShow: 4,
-          slidesToScroll: 4,
-        },
-      },
-    ],
+    slidesToScroll: 1,
   };
+
   return (
     <div>
       <div className=''>
@@ -264,69 +237,42 @@ function Home() {
       </div>
       <div className=' container shadow rounded mb-5 gallary-container '>
         <h2 className='mb-5 h2_border'> Gallary </h2>
-        <Slider {...settings1} className='slide mb-5'>
-          <div className=''>
-            {/* <h3>1</h3> */}
+        <Slider {...settings1}>
+          <div>
             <img
-              className='justify gallary'
-              src='./images/Gallary/gallary_3.png'
-              alt='...'
+              className='Img'
+              src='./images/hajverihall.jpg'
+              alt='Credit to Joshua Earle on Unsplash'
             />
           </div>
-          <div className=''>
-            {/* <h3>1</h3> */}
+          <div>
             <img
-              className='justify '
-              src='./images/Gallary/gallary_4.png'
-              alt='...'
+              src='./images/hajverihall.jpg'
+              alt='Credit to Alisa Anton on Unsplash'
             />
           </div>
-          <div className=''>
-            {/* <h3>1</h3> */}
+          <div>
             <img
-              className='justify '
-              src='./images/Gallary/gallary_5.png'
-              alt='...'
+              src='./images/hajverihall.jpg'
+              alt='Credit to Igor Ovsyannykov on Unsplash'
             />
           </div>
-          <div className=''>
-            {/* <h3>1</h3> */}
+          <div>
             <img
-              className='justify '
-              src='./images/Gallary/gallary_6.png'
-              alt='...'
+              src='./images/hajverihall.jpg'
+              alt='Credit to Pierre Châtel-Innocenti on Unsplash'
             />
           </div>
-          <div className=''>
-            {/* <h3>1</h3> */}
+          <div>
             <img
-              className='justify '
-              src='./images/Gallary/gallary_7.png'
-              alt='...'
+              src='./images/hajverihall.jpg'
+              alt='Credit to Richard Nolan on Unsplash'
             />
           </div>
-          <div className=''>
-            {/* <h3>1</h3> */}
+          <div>
             <img
-              className='justify '
-              src='./images/Gallary/gallary_8.png'
-              alt='...'
-            />
-          </div>
-          <div className=''>
-            {/* <h3>1</h3> */}
-            <img
-              className='justify '
-              src='./images/Gallary/canteen.jpeg'
-              alt='...'
-            />
-          </div>
-          <div className=''>
-            {/* <h3>1</h3> */}
-            <img
-              className='justify '
-              src='./images/Gallary/cricket_Ground.jpeg'
-              alt='...'
+              src='./images/hajverihall.jpg'
+              alt='Credit to Cristina Gottardi on Unsplash'
             />
           </div>
         </Slider>

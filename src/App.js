@@ -49,6 +49,10 @@ import English from './Components/Departments/English_Department/English';
 import Urdu from './Components/Departments/Urdu_Department/Urdu';
 import Statistics from './Components/Departments/Statistics_Department/Statistics';
 import PoliticalScience from './Components/Departments/PoliticalScience_Department/PoliticalScience';
+import Admin from './Components/Admin_side/Admin';
+
+import StudentView from './Components/Student/StudentView';
+import Studentprofile from './Components/Student/StudentProfile';
 
 function App() {
   return (
@@ -114,6 +118,12 @@ function App() {
         <Route path='/Education' element={<Education />} />
         <Route path='/Urdu' element={<Urdu />} />
         <Route path='/English' element={<English />} />
+        <Route path='/Admin' element={<Admin />} />
+        <Route path='/StudentView' element={<StudentView />} />
+        <Route
+          path='/Studentprofile'
+          element={<Studentprofile />}
+        />
         <Route
           path='/PoliticalScience'
           element={<PoliticalScience />}

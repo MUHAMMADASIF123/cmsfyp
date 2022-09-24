@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import uniqid from 'uniqid';
 import axios from 'axios';
 import { useNavigate } from 'react-router-dom';
-function RegistrationForm() {
+function Studentprofile() {
   const [user, setUser] = useState({
     name: '',
     email: '',
@@ -15,9 +15,6 @@ function RegistrationForm() {
   const onInputChange = (e) => {
     setUser({ ...user, [e.target.name]: e.target.value });
   };
-
-  const [program, setProgram] = useState('intermediate');
-  const [programList, setProgramList] = useState('preEng');
 
   const handleuser = async (e) => {
     var users = {
@@ -48,7 +45,7 @@ function RegistrationForm() {
       <div class='mt-5  wraper  '>
         <div class='container '>
           <div class=' text-center '>
-            <h1>
+            <h1 className='rounded'>
               Government Graduate Science College Wahdat Road
               Lahore
             </h1>
@@ -57,122 +54,25 @@ function RegistrationForm() {
             </h1>
 
             <form class='rounded shadow p-5 mt-5 h-100 w-100 bg-white'>
-              <div class='input-group mb-3 d-flex justify-content-end'>
-                <h6 className='me-3 mt-2'>Shift</h6>
-                <select
-                  class='custom-select me-5'
-                  id='inputGroupSelect01'
-                  style={{ width: 220 }}
-                >
-                  <option selected value='morning'>
-                    Morning
-                  </option>
-
-                  <option value='evening'>Evening</option>
-                </select>
-              </div>
-
-              <div className='row '>
+              <div className='row'>
                 <div className='col-md-4'>
-                  <div class='form-check'>
-                    <div class='input-group mb-3'>
-                      <select
-                        class='custom-select'
-                        id='inputGroupSelect01'
-                        style={{ width: 220 }}
-                        onChange={(e) =>
-                          setProgram(e.target.value)
-                        }
-                      >
-                        <option selected value='intermediate'>
-                          Intermediate
-                        </option>
-                        <option value='graduate'>
-                          Graduate
-                        </option>
-                        <option value='postGraduate'>
-                          Post Graduate
-                        </option>
-                      </select>
+                  <div class='input-group mb-3'>
+                    <div class='input-group-prepend'>
+                      {/* <label class="input-group-text" for="inputGroupSelect01">Options</label> */}
+                      <h6>
+                        applied for:<span>BSCS</span>
+                      </h6>
                     </div>
                   </div>
                 </div>
-                <div className='col-md-4'>
-                  <div class='form-check'>
-                    <div class='input-group mb-3'>
-                      <div>
-                        {program === 'graduate' ? (
-                          <select
-                            class='custom-select'
-                            id='inputGroupSelect01'
-                            style={{ width: 214 }}
-                            onChange={(e) =>
-                              console.log(e.target.value)
-                            }
-                          >
-                            <option selected>BSIT</option>
-                            <option selected>BSCS</option>
-                            <option value='1'>BBA</option>
-                            <option value='2'>Botany</option>
-                            <option value='3'>Chemistry</option>
-                            <option value='3'>
-                              Communication Studies
-                            </option>
-                            <option value='3'>Economics</option>
-                            <option value='3'>Education</option>
-                            <option value='3'>English</option>
-                            <option value='3'>
-                              Political Science
-                            </option>
-                            <option value='3'>
-                              Mathematics
-                            </option>
-                            <option value='3'>Sociology</option>
-                            <option value='3'>Staistics</option>
-                            <option value='3'>Urdu</option>
-                            <option value='3'>Zoology</option>
-                            <option value='3'>Physics</option>
-                          </select>
-                        ) : program === 'intermediate' ? (
-                          <select
-                            class='custom-select'
-                            id='inputGroupSelect01'
-                            style={{ width: 214 }}
-                            onChange={(e) =>
-                              setProgramList(e.target.value)
-                            }
-                          >
-                            <option value='i.com'>I.Com</option>
-                            <option value='i.c.s'>I.C.S</option>
-                            <option value='general science'>
-                              General Science
-                            </option>
-                          </select>
-                        ) : (
-                          <select
-                            className='custom-select '
-                            id='inputGroupSelect03'
-                            style={{ width: 214 }}
-                          >
-                            <option selected value='chemistry'>
-                              Chemistry
-                            </option>
-                            <option value='3'>Economics</option>
+                <div className='col-md-4 ms-5'>
+                  <div class='input-group mb-3 '>
+                    <div class='input-group-prepend'>
+                      {/* <label class="input-group-text" for="inputGroupSelect01">Options</label> */}
 
-                            <option value='3'>English</option>
-
-                            <option value='3'>
-                              Mathematics
-                            </option>
-                            <option value='3'>Physics</option>
-                            <option value='3'>
-                              B.Com(Information Technology)
-                            </option>
-                            <option value='3'>Urdu</option>
-                            <option value='3'>Zoology</option>
-                          </select>
-                        )}
-                      </div>
+                      <h6>
+                        Shift : <span>morning</span>
+                      </h6>
                     </div>
                   </div>
                 </div>
@@ -521,116 +421,122 @@ function RegistrationForm() {
                           ></input>
                         </td>
                       </tr>
-                      {program === 'graduate' ||
-                      program === 'postGraduate' ? (
-                        <tr>
-                          <th scope='row'>Intermediate</th>
-                          <td>
-                            <input
-                              type='number'
-                              style={{ width: 80 }}
-                            ></input>
-                          </td>
-                          <td>
-                            <input
-                              type='number'
-                              style={{ width: 80 }}
-                            ></input>
-                          </td>
-                          <td>
-                            <input
-                              type='number'
-                              style={{ width: 80 }}
-                            ></input>
-                          </td>
-                          <td>
-                            <input
-                              type='number'
-                              style={{ width: 80 }}
-                            ></input>
-                          </td>
-                          <td>
-                            <input
-                              type='text'
-                              style={{ width: 156 }}
-                            ></input>
-                          </td>
-                          <td>
-                            <input
-                              type='text '
-                              style={{ width: 156 }}
-                            ></input>
-                          </td>
-                          <td>
-                            <input
-                              type='text'
-                              style={{ width: 156 }}
-                            ></input>
-                          </td>
-                        </tr>
-                      ) : (
-                        <></>
-                      )}
-                      {program === 'postGraduate' ? (
-                        <tr>
-                          <th scope='row'>BA/B.SC</th>
-                          <td>
-                            <input
-                              type='number'
-                              style={{ width: 80 }}
-                            ></input>
-                          </td>
-                          <td>
-                            <input
-                              type='number'
-                              style={{ width: 80 }}
-                            ></input>
-                          </td>
-                          <td>
-                            <input
-                              type='number'
-                              style={{ width: 80 }}
-                            ></input>
-                          </td>
-                          <td>
-                            <input
-                              type='number'
-                              style={{ width: 80 }}
-                            ></input>
-                          </td>
-                          <td>
-                            <input
-                              type='text'
-                              style={{ width: 156 }}
-                            ></input>
-                          </td>
-                          <td>
-                            <input
-                              type='text'
-                              style={{ width: 156 }}
-                            ></input>
-                          </td>
-                          <td>
-                            <input
-                              type='text'
-                              style={{ width: 156 }}
-                            ></input>
-                          </td>
-                        </tr>
-                      ) : (
-                        <></>
-                      )}
+                      <tr>
+                        <th scope='row'>Intermediate</th>
+                        <td>
+                          <input
+                            type='number'
+                            style={{ width: 80 }}
+                          ></input>
+                        </td>
+                        <td>
+                          <input
+                            type='number'
+                            style={{ width: 80 }}
+                          ></input>
+                        </td>
+                        <td>
+                          <input
+                            type='number'
+                            style={{ width: 80 }}
+                          ></input>
+                        </td>
+                        <td>
+                          <input
+                            type='number'
+                            style={{ width: 80 }}
+                          ></input>
+                        </td>
+                        <td>
+                          <input
+                            type='text'
+                            style={{ width: 156 }}
+                          ></input>
+                        </td>
+                        <td>
+                          <input
+                            type='text '
+                            style={{ width: 156 }}
+                          ></input>
+                        </td>
+                        <td>
+                          <input
+                            type='text'
+                            style={{ width: 156 }}
+                          ></input>
+                        </td>
+                      </tr>
+                      <tr>
+                        <th scope='row'>BA/B.SC</th>
+                        <td>
+                          <input
+                            type='number'
+                            style={{ width: 80 }}
+                          ></input>
+                        </td>
+                        <td>
+                          <input
+                            type='number'
+                            style={{ width: 80 }}
+                          ></input>
+                        </td>
+                        <td>
+                          <input
+                            type='number'
+                            style={{ width: 80 }}
+                          ></input>
+                        </td>
+                        <td>
+                          <input
+                            type='number'
+                            style={{ width: 80 }}
+                          ></input>
+                        </td>
+                        <td>
+                          <input
+                            type='text'
+                            style={{ width: 156 }}
+                          ></input>
+                        </td>
+                        <td>
+                          <input
+                            type='text'
+                            style={{ width: 156 }}
+                          ></input>
+                        </td>
+                        <td>
+                          <input
+                            type='text'
+                            style={{ width: 156 }}
+                          ></input>
+                        </td>
+                      </tr>
                     </tbody>
                   </table>
                 </div>
               </div>
-              <button
-                type='submit'
-                onClick={handleuser}
-                className='mt-4 font-weight-bold text-uppercase text-bold shadow w-75 border-0 rounded-pill'
-              >
-                Submit
-              </button>
+              <div className='d-flex justify-content-center'>
+                <div className=' w-50'>
+                  <button
+                    type='submit'
+                    onClick={handleuser}
+                    className='mt-4 font-weight-bold text-uppercase text-bold w-50 shadow border-0 rounded-pill'
+                  >
+                    {' '}
+                    Save
+                  </button>
+                </div>
+                <div className='me-5 w-50'>
+                  <button
+                    type='reset'
+                    onClick={handleuser}
+                    className='mt-4 font-weight-bold text-uppercase text-bold w-50 shadow border-0 rounded-pill'
+                  >
+                    {' '}
+                    Edit
+                  </button>
+                </div>
+              </div>
             </form>
           </div>
         </div>
@@ -639,4 +545,4 @@ function RegistrationForm() {
   );
 }
 
-export default RegistrationForm;
+export default Studentprofile;
