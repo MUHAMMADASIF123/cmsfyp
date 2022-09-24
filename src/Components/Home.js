@@ -58,7 +58,7 @@ function Home() {
 
               <img
                 className='justify sliderimg'
-                src='./images/Slider/hajvery_hall.jpeg'
+                src='https://res.cloudinary.com/azeem413/image/upload/v1664035583/images/hajverihall_yulqk4.jpg'
               />
             </div>
             <div>
@@ -93,7 +93,7 @@ function Home() {
             <div className='col-md-4 h-25 w-25 ms-4 me-4 mt-4 mb-4 '>
               <div class='card '>
                 <img
-                  src='/images/interstdnt.jpg'
+                  src='https://res.cloudinary.com/azeem413/image/upload/v1664035583/images/interstdnt_jcsrv3.jpg'
                   className='card-img-top programimage'
                   alt='...'
                 />
@@ -116,7 +116,7 @@ function Home() {
             <div className='col-md-4 h-25 w-25 ms-4 me-4 mt-4 mb-4 '>
               <div class='card '>
                 <img
-                  src='/images/bechlorimggirl.jpg'
+                  src='https://res.cloudinary.com/azeem413/image/upload/v1664035545/images/bechlorimggirl_lfiell.jpg'
                   className='card-img-top programimage'
                   alt='...'
                 />
@@ -140,7 +140,7 @@ function Home() {
             <div className='col-md-4 h-25 w-25 ms-4 me-4 mt-4 mb-4'>
               <div class='card'>
                 <img
-                  src='/images/postgraduatepics.jpg'
+                  src='https://res.cloudinary.com/azeem413/image/upload/v1664035586/images/postgraduatepics_popj9n.jpg'
                   className='card-img-top programimage'
                   alt='...'
                 />

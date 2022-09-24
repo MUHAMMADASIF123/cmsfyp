@@ -43,7 +43,7 @@ function Footer() {
               {' '}
               <img
                 className='IMG'
-                src='./images/gcsMap.PNG'
+                src='https://res.cloudinary.com/azeem413/image/upload/v1664035583/images/gcsMap_kzu92e.png'
               />{' '}
             </a>
           </div>
