@@ -13,41 +13,14 @@ function Home() {
     slidesToShow: 1,
     slidesToScroll: 1,
   };
-  var settings1 = {
-    infinite: true,
-    autoplay: true,
+  const settings1 = {
     dots: true,
-    speed: 400,
+    autoplay: true,
+    infinite: true,
     slidesToShow: 2,
-    slidesToScroll: 2,
-    initialSlide: 0,
-    responsive: [
-      {
-        breakpoint: 1024,
-        settings: {
-          slidesToShow: 2,
-          slidesToScroll: 2,
-          infinite: true,
-          // dots: true,
-        },
-      },
-      {
-        breakpoint: 820,
-        settings: {
-          slidesToShow: 2,
-          slidesToScroll: 2,
-          initialSlide: 2,
-        },
-      },
-      {
-        breakpoint: 480,
-        settings: {
-          slidesToShow: 4,
-          slidesToScroll: 4,
-        },
-      },
-    ],
+    slidesToScroll: 1,
   };
+
   return (
     <div>
       <div className=''>
@@ -250,61 +223,42 @@ function Home() {
       </div>
       <div className=' container shadow rounded mb-5 '>
         <h2 className='mb-5 h2_border'> Gallary </h2>
-        <Slider {...settings1} className='slide mb-5'>
-          <div className='w-75'>
-            {/* <h3>1</h3> */}
+        <Slider {...settings1}>
+          <div>
             <img
-              className='justify'
+              className='Img'
               src='./images/hajverihall.jpg'
+              alt='Credit to Joshua Earle on Unsplash'
             />
           </div>
-          <div className='w-75'>
-            {/* <h3>2</h3> */}
+          <div>
             <img
-              className='justify'
               src='./images/hajverihall.jpg'
+              alt='Credit to Alisa Anton on Unsplash'
             />
           </div>
-          <div className='w-75'>
-            {/* <h3>3</h3> */}
+          <div>
             <img
-              className='justify'
               src='./images/hajverihall.jpg'
+              alt='Credit to Igor Ovsyannykov on Unsplash'
             />
           </div>
-          <div className='w-75'>
-            {/* <h3>4</h3> */}
+          <div>
             <img
-              className='justify'
               src='./images/hajverihall.jpg'
+              alt='Credit to Pierre Châtel-Innocenti on Unsplash'
             />
           </div>
-          <div className='w-75'>
-            {/* <h3>5</h3> */}
+          <div>
             <img
-              className='justify'
               src='./images/hajverihall.jpg'
+              alt='Credit to Richard Nolan on Unsplash'
             />
           </div>
-          <div className='w-75'>
-            {/* <h3>6</h3> */}
+          <div>
             <img
-              className='justify'
               src='./images/hajverihall.jpg'
-            />
-          </div>
-          <div className='w-75'>
-            {/* <h3>7</h3> */}
-            <img
-              className='justify'
-              src='./images/hajverihall.jpg'
-            />
-          </div>
-          <div className='w-75'>
-            {/* <h3>8</h3> */}
-            <img
-              className='justify'
-              src='./images/hajverihall.jpg'
+              alt='Credit to Cristina Gottardi on Unsplash'
             />
           </div>
         </Slider>
