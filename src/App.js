@@ -55,6 +55,7 @@ function App() {
     <div className='App'>
       <Newheader />
       <Routes>
+        {/* //laskdlk /asdjhkasx ,asldkh */}
         {/* <Route path="/" element={<Newheader/>}/> */}
         <Route path='/' element={<Home />} />
         <Route path='/addpost' element={<Addpost />} />
