@@ -72,7 +72,7 @@ function Home() {
         </div>
       </div>
       <div id='Programs' className=' '>
-        <section className='shadow container rounded'>
+        <section className='shadow container rounded bg-white'>
           <h1 className='container program_border'>Programs</h1>
           {/* <hr className='mr-25 ml-25' /> */}
           <div className='d-flex justify-content-center  '>
@@ -146,7 +146,7 @@ function Home() {
         </section>
 
         <section id='Departments'>
-          <div class='container mt-3 dept_container rounded shadow mb-5'>
+          <div class='container mt-3 dept_container rounded shadow mb-5 bg-white'>
             <h1 className='custom_head mt-1 '>
               {' '}
               BS Departments
@@ -248,7 +248,7 @@ function Home() {
           </div>
         </section>
       </div>
-      <div className=' container shadow rounded mb-5 '>
+      <div className=' container shadow rounded mb-5 bg-white '>
         <h2 className='mb-5 h2_border'> Gallary </h2>
         <Slider {...settings1} className='slide mb-5'>
           <div className='w-75'>

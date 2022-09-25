@@ -41,8 +41,8 @@ function Chemistry_() {
         <div>
           <img
             src='./images/clgentrance.jpg'
-            width='600px'
-            height='400px'
+            max-width='600px'
+            max-height='400px'
           />
         </div>
       </div>

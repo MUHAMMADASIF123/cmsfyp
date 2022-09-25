@@ -79,3 +79,9 @@ button {
   color: yellow;
   border-bottom: 4px solid yellow;
 }
+.dropdown {
+  background-color: #172540;
+  color: aliceblue;
+  border: none;
+  font-weight: bold;
+}

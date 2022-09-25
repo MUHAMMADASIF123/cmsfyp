@@ -12,6 +12,7 @@ import Administration from './Components/Administration';
 import Newheader from './Components/Newheader';
 import RegistrationForm from './Components/RegistrationForm';
 import Home from './Components/Home';
+import Admin from './Components/AdminSide/Admin';
 import Footer from './Components/Footer';
 import Intermediate from './Components/Programs/Intermediate_Programs/Intermediate';
 import Bscs from './Components/Programs/Bechelor/BsCS/Bscs';
@@ -62,6 +63,7 @@ function App() {
         <Route path='/login' element={<Login />} />
         <Route path='/contactUs' element={<ContactUs />} />
         <Route path='/AboutUs' element={<AboutUs />} />
+        <Route path='/Admin' element={<Admin />} />
         <Route
           path='/Administration'
           element={<Administration />}

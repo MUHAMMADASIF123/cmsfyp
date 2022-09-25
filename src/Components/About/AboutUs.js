@@ -2,10 +2,10 @@ import React from 'react';
 
 function AboutUs() {
   return (
-    <div className=' container vh-100 mb-5 mt-5 incHeight'>
-      <h1 className='container rounded'>About Us</h1>
+    <div className=' container vh-100 mb-5 mt-5 incHeight '>
+      <h1 className=' rounded'>About Us</h1>
       <hr />
-      <div className='d-flex justify-content-center mt-5 mb-5 me-5 ms-5'>
+      <div className='d-flex justify-content-center mt-5 mb-5 me-5 ms-5 bg-white '>
         <div>
           <img
             src='./images/principlepic.jpg'
@@ -14,7 +14,7 @@ function AboutUs() {
           />
         </div>
         <div className='ms-5 me-5 '>
-          <h3 className='container rounded'>
+          <h3 className='container rounded mt-2'>
             Peinciple's Message
           </h3>
           <hr />
@@ -43,9 +43,11 @@ function AboutUs() {
         </div>
       </div>
       <hr />
-      <div className=' d-flex justify-content-center me-5 ms-5 mb-5 mt-5'>
+      <div className=' d-flex justify-content-center me-5 ms-5 mb-5 mt-5 bg-white'>
         <div className=' heading  mb-5'>
-          <h3 className='rounded me-5'>Development Phase</h3>
+          <h3 className='rounded me-5 mt-2'>
+            Development Phase
+          </h3>
           <hr />
           <p className=' paragraph me-5 mb-5'>
             Situated well away from the din of the city life and
@@ -83,7 +85,7 @@ function AboutUs() {
         </div>
       </div>
       <hr />
-      <div className=' d-flex justify-content-center me-5 ms-5 mb-5 mt-5'>
+      <div className=' d-flex justify-content-center me-5 ms-5 mb-5 mt-5 bg-white'>
         <div className=' heading mb-5'>
           <h3 className='rounded me-5'>Aims And Objectives</h3>
           <hr />

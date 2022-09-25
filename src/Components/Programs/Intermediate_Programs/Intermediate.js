@@ -28,7 +28,7 @@ function Intermediate() {
         </div>
       </div> */}
       <div className='d-flex justify-content-center p-5 '>
-        <div className='shadow p-5 rounded-top ms-5 me-5 fsc_engg align-baseline'>
+        <div className='shadow p-5 rounded-top ms-5 me-5 fsc_engg align-baseline bg-white'>
           <h1> InterMediate Programs </h1>
 
           <h2> F.Sc (Pre-Engineering) </h2>
@@ -53,7 +53,7 @@ function Intermediate() {
             <li> Islamic Studies </li>
           </ul>
         </div>
-        <div className='shadow p-5 rounded-top ms-5 me-5'>
+        <div className='shadow p-5 rounded-top ms-5 me-5 bg-white'>
           <h2> F.Sc (Pre-Medical) </h2>
           <h2>Introduction</h2>
           <p>
@@ -78,8 +78,8 @@ function Intermediate() {
           </ul>
         </div>
       </div>
-      <div className='d-flex  justify-content-center p-5'>
-        <div className='shadow p-5 w-100 rounded-top ms-5 me-5 '>
+      <div className='d-flex  justify-content-center p-5 '>
+        <div className='shadow p-5 w-100 rounded-top ms-5 me-5 bg-white'>
           <h2> ICS (Information Computer Science) </h2>
           <ul>
             <li>
@@ -94,7 +94,7 @@ function Intermediate() {
             <li> Islamic Studies </li>
           </ul>
         </div>
-        <div className='shadow p-5 w-100 rounded-top border-5 bg-warning ms-5 me-5 '>
+        <div className='shadow p-5 w-100 rounded-top border-5 bg-white ms-5 me-5 '>
           <h2> F.A (Arts) </h2>
           <ul>
             <li>
@@ -117,7 +117,7 @@ function Intermediate() {
         </div>
       </div>
       <div className='d-flex justify-content-center mb-5 p-5'>
-        <div className='shadow p-5 w-100 rounded-top ms-5 me-5'>
+        <div className='shadow p-5 w-100 rounded-top ms-5 me-5 bg-white'>
           <h2> I.COM </h2>
           <h5>Introduction</h5>
           <p>
@@ -143,7 +143,7 @@ function Intermediate() {
             <li>Pakistan Studies </li>
           </ul>
         </div>
-        <div className='shadow p-5 w-100 rounded-top ms-5 me-5'>
+        <div className='shadow p-5 w-100 rounded-top ms-5 me-5 bg-white'>
           <h2> General Science </h2>
           <ul>
             <li>
