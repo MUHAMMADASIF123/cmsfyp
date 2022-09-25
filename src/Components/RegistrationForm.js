@@ -16,8 +16,60 @@ function RegistrationForm() {
     setUser({ ...user, [e.target.name]: e.target.value });
   };
 
-  const [program, setProgram] = useState('intermediate');
-  const [programList, setProgramList] = useState('preEng');
+  const [intermediate, setIntermediate] = useState({
+    year: '',
+    roll_number: 0,
+    obtain_marks: 0,
+    total_marks: 0,
+    percentage: 0,
+    subject: '',
+    board: '',
+    institute: '',
+  });
+  const [graduate, setGraduate] = useState({
+    year: '',
+    roll_number: 0,
+    obtain_marks: 0,
+    total_marks: 0,
+    percentage: 0,
+    subject: '',
+    board: '',
+    institute: '',
+  });
+  const [metric, setMetric] = useState({
+    year: '',
+    roll_number: 0,
+    obtain_marks: 0,
+    total_marks: 0,
+    percentage: 0,
+    subject: '',
+    board: '',
+    institute: '',
+  });
+  const [form, setForm] = useState({
+    shift: 'Morning',
+    program: 'intermediate',
+    programList: 'Pre Engg',
+    student_name: '',
+    student_phone_number: '',
+    father_name: '',
+    father_phone_number: '',
+    cnic: '',
+    religion: 'islam',
+    domicile: '',
+    dob: '',
+    email: '',
+    father_occupation: '',
+    father_cnic: '',
+    guardian_name: '',
+    guardian_occupation: '',
+    guardian_phone_number: '',
+    current_address: '',
+    permanent_address: '',
+    city: '',
+    state: 'punjab',
+    zip_code: '',
+  });
 
   const handleuser = async (e) => {
     var users = {
@@ -43,6 +95,29 @@ function RegistrationForm() {
       });
   };
 
+  //submit
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    console.log(form);
+    metric.percentage =
+      (metric.obtain_marks / metric.total_marks) * 100;
+
+    //
+    intermediate.percentage =
+      (intermediate.obtain_marks / intermediate.total_marks) *
+      100;
+
+    //
+    graduate.percentage =
+      (graduate.obtain_marks / graduate.total_marks) * 100;
+
+    //
+    console.log(metric);
+    console.log(intermediate);
+    console.log(graduate);
+  };
+
+  ///
   return (
     <div>
       <div class='mt-5  wraper  '>
@@ -81,7 +156,10 @@ function RegistrationForm() {
                         id='inputGroupSelect01'
                         style={{ width: 220 }}
                         onChange={(e) =>
-                          setProgram(e.target.value)
+                          setForm({
+                            ...form,
+                            program: e.target.value,
+                          })
                         }
                       >
                         <option selected value='intermediate'>
@@ -101,7 +179,7 @@ function RegistrationForm() {
                   <div class='form-check'>
                     <div class='input-group mb-3'>
                       <div>
-                        {program === 'graduate' ? (
+                        {form.program === 'graduate' ? (
                           <select
                             class='custom-select'
                             id='inputGroupSelect01'
@@ -110,37 +188,57 @@ function RegistrationForm() {
                               console.log(e.target.value)
                             }
                           >
-                            <option selected>BSIT</option>
+                            <option selected value='bsit'>
+                              BSIT
+                            </option>
                             <option selected>BSCS</option>
-                            <option value='1'>BBA</option>
-                            <option value='2'>Botany</option>
-                            <option value='3'>Chemistry</option>
-                            <option value='3'>
+                            <option value='bba'>BBA</option>
+                            <option value='botany'>
+                              Botany
+                            </option>
+                            <option value='chemistry'>
+                              Chemistry
+                            </option>
+                            <option value='communication-studies'>
                               Communication Studies
                             </option>
-                            <option value='3'>Economics</option>
-                            <option value='3'>Education</option>
-                            <option value='3'>English</option>
-                            <option value='3'>
+                            <option value='conomics'>
+                              Economics
+                            </option>
+                            <option value='ducation'>
+                              Education
+                            </option>
+                            <option value='english'>
+                              English
+                            </option>
+                            <option value='political-science'>
                               Political Science
                             </option>
-                            <option value='3'>
+                            <option value='mathematics'>
                               Mathematics
                             </option>
-                            <option value='3'>Sociology</option>
-                            <option value='3'>Staistics</option>
-                            <option value='3'>Urdu</option>
-                            <option value='3'>Zoology</option>
-                            <option value='3'>Physics</option>
+                            <option value='sociology'>
+                              Sociology
+                            </option>
+                            <option value='statistics'>
+                              Statistics
+                            </option>
+                            <option value='urdu'>Urdu</option>
+                            <option value='zoology'>
+                              Zoology
+                            </option>
+                            <option value='physics'>
+                              Physics
+                            </option>
                           </select>
-                        ) : program === 'intermediate' ? (
+                        ) : form.program === 'intermediate' ? (
                           <select
                             class='custom-select'
                             id='inputGroupSelect01'
                             style={{ width: 214 }}
-                            onChange={(e) =>
-                              setProgramList(e.target.value)
-                            }
+                            // onChange={(e) =>
+
+                            // }
                           >
                             <option value='i.com'>I.Com</option>
                             <option value='i.c.s'>I.C.S</option>
@@ -157,19 +255,27 @@ function RegistrationForm() {
                             <option selected value='chemistry'>
                               Chemistry
                             </option>
-                            <option value='3'>Economics</option>
+                            <option value='economics'>
+                              Economics
+                            </option>
 
-                            <option value='3'>English</option>
+                            <option value='english'>
+                              English
+                            </option>
 
-                            <option value='3'>
+                            <option value='mathematics'>
                               Mathematics
                             </option>
-                            <option value='3'>Physics</option>
-                            <option value='3'>
+                            <option value='physics'>
+                              Physics
+                            </option>
+                            <option value='b-com-it'>
                               B.Com(Information Technology)
                             </option>
-                            <option value='3'>Urdu</option>
-                            <option value='3'>Zoology</option>
+                            <option value='urdu'>Urdu</option>
+                            <option value='zoology'>
+                              Zoology
+                            </option>
                           </select>
                         )}
                       </div>
@@ -192,6 +298,12 @@ function RegistrationForm() {
                     id='exampleInputName'
                     placeholder='Enter Your Name'
                     aria-label='First name'
+                    onChange={(e) =>
+                      setForm({
+                        ...form,
+                        student_name: e.target.value,
+                      })
+                    }
                   />
                 </div>
                 <div className='col'>
@@ -207,6 +319,12 @@ function RegistrationForm() {
                     id='exampleInputPhone'
                     placeholder='Enter Your Phone Number'
                     aria-label='Last name'
+                    onChange={(e) =>
+                      setForm({
+                        ...form,
+                        student_phone_number: e.target.value,
+                      })
+                    }
                   />
                 </div>
               </div>
@@ -224,6 +342,12 @@ function RegistrationForm() {
                     placeholder='Enter Your Father Name'
                     id='exampleInputName'
                     aria-label='First name'
+                    onChange={(e) =>
+                      setForm({
+                        ...form,
+                        father_name: e.target.value,
+                      })
+                    }
                   />
                 </div>
                 <div className='col'>
@@ -239,6 +363,12 @@ function RegistrationForm() {
                     id='exampleInputPhone'
                     placeholder='Phone'
                     aria-label='Last name'
+                    onChange={(e) =>
+                      setForm({
+                        ...form,
+                        father_phone_number: e.target.value,
+                      })
+                    }
                   />
                 </div>
               </div>
@@ -254,6 +384,12 @@ function RegistrationForm() {
                     type='number'
                     class='form-control'
                     id='exampleInputCnic'
+                    onChange={(e) =>
+                      setForm({
+                        ...form,
+                        cnic: e.target.value,
+                      })
+                    }
                   />
                 </div>
                 <div className='col-md-4'>
@@ -263,9 +399,21 @@ function RegistrationForm() {
                   >
                     Religion
                   </label>
-                  <select id='inputState' class='form-select '>
-                    <option selected>Islam</option>
-                    <option>Chrision</option>
+                  <select
+                    onChange={(e) =>
+                      setForm({
+                        ...form,
+                        religion: e.target.value,
+                      })
+                    }
+                    id='inputState'
+                    class='form-select '
+                  >
+                    <option selected value='islam'>
+                      Islam
+                    </option>
+                    <option value='christian'>Christian</option>
+                    <option value='other'>Other</option>
                   </select>
                 </div>
                 <div className='col-md-4'>
@@ -279,6 +427,12 @@ function RegistrationForm() {
                     type='text'
                     class='form-control'
                     id='inputZip'
+                    onChange={(e) =>
+                      setForm({
+                        ...form,
+                        domicile: e.target.value,
+                      })
+                    }
                   />
                 </div>
               </div>
@@ -295,6 +449,12 @@ function RegistrationForm() {
                     type='date'
                     class='form-control'
                     id='inputEmail4'
+                    onChange={(e) =>
+                      setForm({
+                        ...form,
+                        dob: e.target.value,
+                      })
+                    }
                   />
                 </div>
                 <div class='col-md-6'>
@@ -308,6 +468,12 @@ function RegistrationForm() {
                     type='email'
                     class='form-control'
                     id='inputPassword4'
+                    onChange={(e) =>
+                      setForm({
+                        ...form,
+                        email: e.target.value,
+                      })
+                    }
                   />
                 </div>
                 <div className='row'>
@@ -324,6 +490,12 @@ function RegistrationForm() {
                       id='inputOccupation4'
                       placeholder='Enter Father Occupation'
                       aria-label='First name'
+                      onChange={(e) =>
+                        setForm({
+                          ...form,
+                          father_occupation: e.target.value,
+                        })
+                      }
                     />
                   </div>
 
@@ -341,6 +513,12 @@ function RegistrationForm() {
                       id='inputCnic'
                       placeholder="Enter Father's Cnic Number"
                       aria-label='First name'
+                      onChange={(e) =>
+                        setForm({
+                          ...form,
+                          father_cnic: e.target.value,
+                        })
+                      }
                     />
                   </div>
                 </div>
@@ -358,6 +536,12 @@ function RegistrationForm() {
                       id='inputOccupation4'
                       placeholder="Enter Gradian's Name"
                       aria-label='First name'
+                      onChange={(e) =>
+                        setForm({
+                          ...form,
+                          guardian_name: e.target.value,
+                        })
+                      }
                     />
                   </div>
 
@@ -373,6 +557,12 @@ function RegistrationForm() {
                       class='form-control'
                       placeholder="Enter gardian's Occupation"
                       aria-label=' First name'
+                      onChange={(e) =>
+                        setForm({
+                          ...form,
+                          guardian_occupation: e.target.value,
+                        })
+                      }
                     />
                   </div>
                   <div className='col-md-4'>
@@ -387,6 +577,12 @@ function RegistrationForm() {
                       class='form-control'
                       placeholder="Enter Gradian's phone Number"
                       aria-label='First name'
+                      onChange={(e) =>
+                        setForm({
+                          ...form,
+                          guardian_phone_number: e.target.value,
+                        })
+                      }
                     />
                   </div>
                 </div>
@@ -395,13 +591,19 @@ function RegistrationForm() {
                     for='inputAddress'
                     className='form-label d-flex justify-content-start'
                   >
-                    Address
+                    Current Address
                   </label>
                   <input
                     type='text'
                     class='form-control'
                     id='inputAddress'
                     placeholder='1234 Main St'
+                    onChange={(e) =>
+                      setForm({
+                        ...form,
+                        current_address: e.target.value,
+                      })
+                    }
                   />
                 </div>
                 <div class='col-12'>
@@ -409,13 +611,19 @@ function RegistrationForm() {
                     for='inputAddress2'
                     className='d-flex justify-content-start form-label'
                   >
-                    Address 2
+                    permanent address
                   </label>
                   <input
                     type='text'
                     class='form-control'
                     id='inputAddress2'
                     placeholder='Apartment, studio, or floor'
+                    onChange={(e) =>
+                      setForm({
+                        ...form,
+                        permanent_address: e.target.value,
+                      })
+                    }
                   />
                 </div>
                 <div class='col-md-6'>
@@ -429,6 +637,12 @@ function RegistrationForm() {
                     type='text'
                     class='form-control'
                     id='inputCity'
+                    onChange={(e) =>
+                      setForm({
+                        ...form,
+                        city: e.target.value,
+                      })
+                    }
                   />
                 </div>
                 <div class='col-md-4'>
@@ -438,12 +652,29 @@ function RegistrationForm() {
                   >
                     State
                   </label>
-                  <select id='inputState' class='form-select'>
-                    <option selected>Punjab</option>
-                    <option>Balochistan</option>
-                    <option>Sindh</option>
-                    <option>Khyber Pakhtunkhwa</option>
-                    <option>Gilgit-Baltistan</option>
+                  <select
+                    id='inputState'
+                    class='form-select'
+                    onChange={(e) =>
+                      setForm({
+                        ...form,
+                        state: e.target.value,
+                      })
+                    }
+                  >
+                    <option selected value='punjab'>
+                      Punjab
+                    </option>
+                    <option value='balochistan'>
+                      Balochistan
+                    </option>
+                    <option value='sindh'>Sindh</option>
+                    <option value='khyber pakhtunkhwa'>
+                      Khyber Pakhtunkhwa
+                    </option>
+                    <option value='gilgit baltistan'>
+                      Gilgit-Baltistan
+                    </option>
                   </select>
                 </div>
                 <div class='col-md-2'>
@@ -457,18 +688,23 @@ function RegistrationForm() {
                     type='text'
                     class='form-control'
                     id='inputZip'
+                    onChange={(e) =>
+                      setForm({
+                        ...form,
+                        zip_code: e.target.value,
+                      })
+                    }
                   />
                 </div>
                 <div className='container mt-5 ml-75'>
-                  {' '}
-                  {/* table for qualifications */}
                   <table className='table border w-25'>
                     <thead>
                       <tr>
                         <th scope='col'>Examination</th>
                         <th scope='col'>Year</th>
                         <th scope='col'>Roll No</th>
-                        <th scope='col'>Marks</th>
+                        <th scope='col'>Obtain Marks</th>
+                        <th scope='col'>Total Marks</th>
                         <th scope='col'>%age</th>
                         <th scope='col'>Subject</th>
                         <th scope='col'>Board</th>
@@ -481,139 +717,335 @@ function RegistrationForm() {
                         <td>
                           <input
                             type='number'
+                            placeholder='year'
                             style={{ width: 80 }}
+                            onChange={(e) =>
+                              setMetric({
+                                ...metric,
+                                year: e.target.value,
+                              })
+                            }
+                          ></input>
+                        </td>
+                        <td>
+                          <input
+                            type='number'
+                            placeholder='roll'
+                            style={{ width: 80 }}
+                            onChange={(e) =>
+                              setMetric({
+                                ...metric,
+                                roll_number: e.target.value,
+                              })
+                            }
                           ></input>
                         </td>
                         <td>
                           <input
                             type='number'
                             style={{ width: 80 }}
+                            placeholder='obt'
+                            onChange={(e) =>
+                              setMetric({
+                                ...metric,
+                                obtain_marks: e.target.value,
+                              })
+                            }
                           ></input>
                         </td>
                         <td>
                           <input
                             type='number'
                             style={{ width: 80 }}
+                            placeholder='tot'
+                            onChange={(e) =>
+                              setMetric({
+                                ...metric,
+                                total_marks: e.target.value,
+                              })
+                            }
                           ></input>
                         </td>
                         <td>
-                          <input
+                          <div
                             type='number'
-                            style={{ width: 80 }}
+                            style={{ width: 156 }}
+                            placeholder='%'
+                          >
+                            {metric.obtain_marks &&
+                            metric.total_marks &&
+                            metric.total_marks >=
+                              metric.obtain_marks
+                              ? (metric.obtain_marks /
+                                  metric.total_marks) *
+                                100
+                              : 0}
+                          </div>
+                        </td>
+                        <td>
+                          <input
+                            type='text'
+                            style={{ width: 156 }}
+                            placeholder='sub'
                           ></input>
                         </td>
                         <td>
                           <input
                             type='text'
                             style={{ width: 156 }}
+                            placeholder='board'
+                            onChange={(e) => {
+                              setMetric({
+                                ...metric,
+                                board: e.target.value,
+                              });
+                              console.log(form);
+                            }}
                           ></input>
                         </td>
                         <td>
                           <input
                             type='text'
                             style={{ width: 156 }}
-                          ></input>
-                        </td>
-                        <td>
-                          <input
-                            type='text'
-                            style={{ width: 156 }}
+                            placeholder='instasd'
+                            onChange={(e) => {
+                              setMetric({
+                                ...metric,
+                                institute: e.target.value,
+                              });
+                              console.log(form);
+                            }}
                           ></input>
                         </td>
                       </tr>
-                      {program === 'graduate' ||
-                      program === 'postGraduate' ? (
+
+                      {/* inter mediate table */}
+
+                      {form.program === 'graduate' ||
+                      form.program === 'postGraduate' ? (
                         <tr>
                           <th scope='row'>Intermediate</th>
                           <td>
                             <input
                               type='number'
                               style={{ width: 80 }}
+                              placeholder='year'
+                              onChange={(e) =>
+                                setIntermediate({
+                                  ...intermediate,
+                                  year: e.target.value,
+                                })
+                              }
                             ></input>
                           </td>
                           <td>
                             <input
                               type='number'
                               style={{ width: 80 }}
+                              placeholder='roll number'
+                              onChange={(e) =>
+                                setIntermediate({
+                                  ...intermediate,
+                                  roll_number: e.target.value,
+                                })
+                              }
                             ></input>
                           </td>
                           <td>
                             <input
                               type='number'
                               style={{ width: 80 }}
+                              placeholder='obt'
+                              onChange={(e) =>
+                                setIntermediate({
+                                  ...intermediate,
+                                  obtain_marks: e.target.value,
+                                })
+                              }
                             ></input>
                           </td>
                           <td>
                             <input
                               type='number'
                               style={{ width: 80 }}
+                              placeholder='totl'
+                              onChange={(e) =>
+                                setIntermediate({
+                                  ...intermediate,
+                                  total_marks: e.target.value,
+                                })
+                              }
                             ></input>
                           </td>
                           <td>
-                            <input
-                              type='text'
+                            <div
+                              type='number'
                               style={{ width: 156 }}
-                            ></input>
+                              placeholder='%'
+                            >
+                              {intermediate.obtain_marks &&
+                              intermediate.total_marks &&
+                              intermediate.total_marks >=
+                                intermediate.obtain_marks
+                                ? (intermediate.obtain_marks /
+                                    intermediate.total_marks) *
+                                  100
+                                : 0}
+                            </div>
                           </td>
                           <td>
                             <input
                               type='text '
                               style={{ width: 156 }}
+                              placeholder='sub'
+                              onChange={(e) =>
+                                setIntermediate({
+                                  ...intermediate,
+                                  subject: e.target.value,
+                                })
+                              }
                             ></input>
                           </td>
                           <td>
                             <input
                               type='text'
                               style={{ width: 156 }}
+                              placeholder='board'
+                              onChange={(e) =>
+                                setIntermediate({
+                                  ...intermediate,
+                                  board: e.target.value,
+                                })
+                              }
+                            ></input>
+                          </td>
+                          <td>
+                            <input
+                              type='text'
+                              style={{ width: 156 }}
+                              placeholder='inst'
+                              onChange={(e) =>
+                                setIntermediate({
+                                  ...intermediate,
+                                  institute: e.target.value,
+                                })
+                              }
                             ></input>
                           </td>
                         </tr>
                       ) : (
                         <></>
                       )}
-                      {program === 'postGraduate' ? (
+
+                      {/* graduate */}
+                      {form.program === 'postGraduate' ? (
                         <tr>
                           <th scope='row'>BA/B.SC</th>
                           <td>
                             <input
                               type='number'
                               style={{ width: 80 }}
+                              placeholder='year'
+                              onChange={(e) =>
+                                setGraduate({
+                                  ...graduate,
+                                  year: e.target.value,
+                                })
+                              }
                             ></input>
                           </td>
                           <td>
                             <input
                               type='number'
                               style={{ width: 80 }}
+                              placeholder='roll'
+                              onChange={(e) =>
+                                setGraduate({
+                                  ...graduate,
+                                  roll_number: e.target.value,
+                                })
+                              }
                             ></input>
                           </td>
                           <td>
                             <input
                               type='number'
                               style={{ width: 80 }}
+                              placeholder='obt'
+                              onChange={(e) =>
+                                setGraduate({
+                                  ...graduate,
+                                  obtain_marks: e.target.value,
+                                })
+                              }
                             ></input>
                           </td>
                           <td>
                             <input
                               type='number'
                               style={{ width: 80 }}
+                              placeholder='tot'
+                              onChange={(e) =>
+                                setGraduate({
+                                  ...graduate,
+                                  total_marks: e.target.value,
+                                })
+                              }
+                            ></input>
+                          </td>
+                          <td>
+                            <div
+                              type='number'
+                              style={{ width: 156 }}
+                              placeholder='%'
+                            >
+                              {graduate.obtain_marks &&
+                              graduate.total_marks &&
+                              graduate.total_marks >=
+                                graduate.obtain_marks
+                                ? (graduate.obtain_marks /
+                                    graduate.total_marks) *
+                                  100
+                                : 0}
+                            </div>
+                          </td>
+                          <td>
+                            <input
+                              type='text'
+                              style={{ width: 156 }}
+                              placeholder='sub'
+                              onChange={(e) =>
+                                setGraduate({
+                                  ...graduate,
+                                  subject: e.target.value,
+                                })
+                              }
                             ></input>
                           </td>
                           <td>
                             <input
                               type='text'
                               style={{ width: 156 }}
+                              placeholder='board'
+                              onChange={(e) =>
+                                setGraduate({
+                                  ...graduate,
+                                  total_marks: e.target.value,
+                                })
+                              }
                             ></input>
                           </td>
                           <td>
                             <input
                               type='text'
                               style={{ width: 156 }}
-                            ></input>
-                          </td>
-                          <td>
-                            <input
-                              type='text'
-                              style={{ width: 156 }}
+                              placeholder='inst'
+                              onChange={(e) => {
+                                setGraduate({
+                                  ...graduate,
+                                  institute: e.target.value,
+                                });
+                              }}
                             ></input>
                           </td>
                         </tr>
@@ -626,7 +1058,7 @@ function RegistrationForm() {
               </div>
               <button
                 type='submit'
-                onClick={handleuser}
+                onClick={handleSubmit}
                 className='mt-4 font-weight-bold text-uppercase text-bold shadow w-75 border-0 rounded-pill'
               >
                 Submit
