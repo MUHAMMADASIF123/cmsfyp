@@ -11,7 +11,7 @@ function Footer() {
                 <a>
                   <img
                     className='logimg d-flex mt-2  mb-2'
-                    src='/images/colglogo.png'
+                    src='https://res.cloudinary.com/azeem413/image/upload/v1664276146/images/Others/colglogo_aahu5f.png'
                   ></img>
                 </a>
                 <p className='text-align  text_space'>
@@ -45,7 +45,7 @@ function Footer() {
                   {' '}
                   <img
                     className='IMG'
-                    src='./images/gcsMap.PNG'
+                    src='https://res.cloudinary.com/azeem413/image/upload/v1664276029/images/Others/gcs_map_ruanqs.png'
                   />{' '}
                 </a>
               </div>

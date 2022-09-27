@@ -50,7 +50,7 @@ function ComputerScience() {
         </div>
         <div>
           <img
-            src='./images/Departments/bscs_dpt.jpeg'
+            src='https://res.cloudinary.com/azeem413/image/upload/v1664035565/images/Departments/bscs_dpt_qxil9g.jpg'
             width='600px'
             height='400px'
           />

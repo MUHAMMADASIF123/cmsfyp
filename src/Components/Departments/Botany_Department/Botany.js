@@ -51,7 +51,7 @@ function Botany() {
         </div>
         <div>
           <img
-            src='./images/Departments/botany_dpt.jpeg'
+            src='https://res.cloudinary.com/azeem413/image/upload/v1664035579/images/Departments/botany_dpt_nutz64.jpg'
             width='600px'
             height='400px'
           />

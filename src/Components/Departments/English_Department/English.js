@@ -39,7 +39,7 @@ function English() {
         </div>
         <div>
           <img
-            src='./images/Departments/english_dpt.jpeg'
+            src='https://res.cloudinary.com/azeem413/image/upload/v1664035571/images/Departments/english_dpt_xuh4fl.jpg'
             width='600px'
             height='400px'
           />

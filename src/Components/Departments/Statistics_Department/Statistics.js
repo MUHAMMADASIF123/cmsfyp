@@ -26,7 +26,7 @@ function Statistics() {
         </div>
         <div>
           <img
-            src='./images/Departments/statistic_dpt.jpeg'
+            src='https://res.cloudinary.com/azeem413/image/upload/v1664035574/images/Departments/statistic_dpt_xlsbgy.jpg'
             width='600px'
             height='400px'
           />

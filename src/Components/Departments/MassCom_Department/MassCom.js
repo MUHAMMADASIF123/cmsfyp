@@ -44,7 +44,7 @@ function MassCom() {
         </div>
         <div>
           <img
-            src='./images/Departments/ms_dpt.jpeg'
+            src='https://res.cloudinary.com/azeem413/image/upload/v1664035549/images/Departments/ms_dpt_r0imnf.jpg'
             width='600px'
             height='400px'
           />

@@ -27,12 +27,12 @@
 }
 
 .programs {
-  /* background-color: #172540; */
-  background-image: linear-gradient(
+  background-color: #172540;
+  /* background-image: linear-gradient(
     to bottom left,
     #172540,
     lightblue
-  );
+  ); */
   color: white;
 }
 .textp {
@@ -55,7 +55,7 @@
   background-color: cadetblue;
 }
 .button_programs:hover {
-  color: #172540;
+  color: brown;
 }
 .programs1 {
   border-radius: 100px;
@@ -65,12 +65,12 @@
   border-radius: 4px;
   color: aliceblue;
   height: 55px;
-  /* background-color: #172540; */
-  background-image: linear-gradient(
+  background-color: #172540;
+  /* background-image: linear-gradient(
     to bottom left,
     #172540,
     lightblue
-  );
+  ); */
 }
 /* departments */
 .bsdept a {
@@ -78,7 +78,7 @@
   /* width: 200px; */
 }
 .bsdept {
-  /* background-color: green; */
+  /* background-color: cadetblue; */
 
   justify-content: center;
   align-items: center;
@@ -95,18 +95,18 @@
   color: aliceblue;
 }
 .custom_head {
-  /* background-color: #172540; */
-  background-image: linear-gradient(
+  background-color: #172540;
+  /* background-image: linear-gradient(
     to bottom left,
     #172540,
     lightblue
-  );
+  ); */
   color: aliceblue;
   /* border-bottom: 5px solid #ffc137; */
   /* margin-bottom: 2px solid #ffc137; */
 }
 .bsdept a:hover {
-  color: #172540;
+  color: brown;
 }
 
 .dept_container {
@@ -123,11 +123,12 @@
 } */
 .h2_border {
   /* border-bottom: 5px solid yellow; */
-  background-image: linear-gradient(
+  background-color: #172540;
+  /* background-image: linear-gradient(
     to bottom left,
     #172540,
     lightblue
-  );
+  ); */
 }
 .slick-next:before {
   content: '→';
