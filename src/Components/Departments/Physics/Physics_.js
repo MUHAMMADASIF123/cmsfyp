@@ -24,7 +24,7 @@ function Physics_() {
         </div>
         <div>
           <img
-            src='./images/Departments/physics_dpt.jpeg'
+            src='https://res.cloudinary.com/azeem413/image/upload/v1664035557/images/Departments/physics_dpt_e5cy22.jpg'
             width='600px'
             height='400px'
           />
@@ -68,7 +68,6 @@ function Physics_() {
                 <br />
                 Assistant Professor M.Phil.{' '}
               </li>
-              <hr />
               <hr />
             </ul>
           </div>

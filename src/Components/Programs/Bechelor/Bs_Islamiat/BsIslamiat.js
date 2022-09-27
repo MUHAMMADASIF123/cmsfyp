@@ -6,9 +6,11 @@ function BsIslamiat() {
     <div>
       <div className='d-flex justify-content-center mt-5 me-5 ms-5 p-5'>
         <div className='shadow p-5 w-100 rounded-top ms-5 me-5 bg-white '>
-          <h2>Bachelor of Science In Islamiat (Hons)</h2>
+          <h2 className='rounded'>
+            Bachelor of Science In Islamiat (Hons)
+          </h2>
           <hr />
-          <h4 className='paragraph'>Course Object</h4>
+          <h4 className='paragraph rounded'>Course Object</h4>
           <hr />
           <p className='paragraph'>
             BS Islamic Sciences is a program developed for the
@@ -25,20 +27,20 @@ function BsIslamiat() {
           </p>
         </div>
         <div className='shadow p-5 w-100 rounded-top ms-5 me-5 bg-white'>
-          <h3>Eligibility Criteria</h3>
+          <h3 className='rounded'>Eligibility Criteria</h3>
           <hr />
           <ul>
             <li>Intermediate</li>
             <li>A level or Equivalent</li>
           </ul>
-          <h4 className='paragraph '>Available Seats </h4>
+          <h4 className='paragraph rounded'>Available Seats </h4>
           <hr />
           Only 50 seats are Available for this Program.
         </div>
       </div>
       <div className='d-flex justify-content-center me-5 ms-5 p-5'>
         <div className='shadow p-5 w-100 rounded-top ms-5 me-5 bg-white'>
-          <h2>1st Semester</h2>
+          <h2 className='rounded'>1st Semester</h2>
           <hr />
           <table className='table'>
             <tbody>
@@ -76,7 +78,7 @@ function BsIslamiat() {
           </table>
         </div>
         <div className='shadow p-5 w-100 rounded-top ms-5 me-5 bg-white'>
-          <h2>2nd Semester</h2>
+          <h2 className='rounded'>2nd Semester</h2>
           <hr />
           <table className='table'>
             <tbody>
@@ -128,7 +130,7 @@ function BsIslamiat() {
       </div>
       <div className='d-flex justify-content-center me-5 ms-5 p-5'>
         <div className='shadow p-5 w-100 rounded-top ms-5 me-5 bg-white'>
-          <h2>3rd Semester</h2>
+          <h2 className='rounded'>3rd Semester</h2>
           <hr />
           <table className='table'>
             <tbody>
@@ -171,7 +173,7 @@ function BsIslamiat() {
           </table>
         </div>
         <div className='shadow p-5 w-100 rounded-top ms-5 me-5 bg-white'>
-          <h2>4th Semester</h2>
+          <h2 className='rounded'>4th Semester</h2>
           <hr />
           <table className='table'>
             <tbody>
@@ -216,7 +218,7 @@ function BsIslamiat() {
       </div>
       <div className='d-flex justify-content-center me-5 ms-5 p-5'>
         <div className='shadow p-5 w-100 rounded-top ms-5 me-5 bg-white'>
-          <h2>5th Semester</h2>
+          <h2 className='rounded'>5th Semester</h2>
           <hr />
           <table className='table'>
             <tbody>
@@ -259,7 +261,7 @@ function BsIslamiat() {
           </table>
         </div>
         <div className='shadow p-5 w-100 rounded-top ms-5 me-5 bg-white'>
-          <h2>6th Semester</h2>
+          <h2 className='rounded'>6th Semester</h2>
           <hr />
           <table className='table'>
             <tbody>
@@ -299,7 +301,7 @@ function BsIslamiat() {
       </div>
       <div className='d-flex justify-content-center me-5 ms-5 p-5'>
         <div className='shadow p-5 w-100 rounded-top ms-5 me-5 bg-white'>
-          <h2>7th Semester</h2>
+          <h2 className='rounded'>7th Semester</h2>
           <hr />
           <table className='table'>
             <tbody>
@@ -337,7 +339,7 @@ function BsIslamiat() {
           </table>
         </div>
         <div className='shadow p-5 w-100 rounded-top ms-5 me-5 bg-white'>
-          <h2>8th Semester</h2>
+          <h2 className='rounded'>8th Semester</h2>
           <hr />
           <table className='table'>
             <tbody>

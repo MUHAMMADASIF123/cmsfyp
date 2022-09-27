@@ -28,7 +28,7 @@ function Mathematics_() {
         </div>
         <div>
           <img
-            src='./images/Departments/math_dpt.jpeg'
+            src='https://res.cloudinary.com/azeem413/image/upload/v1664035550/images/Departments/math_dpt_rvjtdl.jpg'
             width='600px'
             height='400px'
           />

@@ -41,7 +41,7 @@ function Economics_() {
         </div>
         <div>
           <img
-            src='./images/Departments/economic_dpt.jpeg'
+            src='https://res.cloudinary.com/azeem413/image/upload/v1664035547/images/Departments/economic_dpt_beebk0.jpg'
             width='600px'
             height='400px'
           />

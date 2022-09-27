@@ -17,7 +17,7 @@ const Newheader = () => {
     <div>
       <div className='main'>
         <div className='logo'>
-          <img src='/images/colglogo.png' />
+          <img src='https://res.cloudinary.com/azeem413/image/upload/v1664276146/images/Others/colglogo_aahu5f.png' />
           <a href='/'>
             GOVERNMENT GRADUATE COLLEGE OF SCIENCE | GCS
           </a>
@@ -76,9 +76,8 @@ const Newheader = () => {
         <nav>
           <a href='/'>Home</a>
 
-          <a href='Administration'>Administration</a>
-          <a href='#Programs'>Programs</a>
-          <a href='#Departments'>Departements</a>
+          {/* <a href='#Programs'>Programs</a>
+          <a href='#Departments'>Departements</a> */}
           <a href='/Administration'>Administration</a>
           <a href='/contactUs'>Contact Us</a>
           <a href='AboutUs'>About Us</a>

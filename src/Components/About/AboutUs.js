@@ -76,7 +76,7 @@ function AboutUs() {
 
         <div>
           <img
-            src='https://res.cloudinary.com/azeem413/image/upload/v1664035542/images/clgentrance_p7viwo.jpg'
+            src='https://res.cloudinary.com/azeem413/image/upload/v1664035580/images/Gallary/gallary_7_xtvup8.png'
             width='600px'
             height='400px'
           />
@@ -119,7 +119,7 @@ function AboutUs() {
 
         <div>
           <img
-            src='./images/clgentrance.jpg'
+            src='https://res.cloudinary.com/azeem413/image/upload/v1664035583/images/Gallary/library_jf2ldg.jpg'
             width='600px'
             height='400px'
           />

@@ -9,5 +9,5 @@
 }
 .para {
   display: flex;
-  align-content: center;
+  text-align: justify;
 }

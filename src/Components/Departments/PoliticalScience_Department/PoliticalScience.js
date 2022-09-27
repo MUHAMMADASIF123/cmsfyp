@@ -34,7 +34,7 @@ function PoliticalScience() {
         </div>
         <div>
           <img
-            src='./images/Departments/politicalScience_dpt.jpeg'
+            src='https://res.cloudinary.com/azeem413/image/upload/v1664035561/images/Departments/politicalScience_dpt_uaghyx.jpg'
             width='600px'
             height='400px'
           />
