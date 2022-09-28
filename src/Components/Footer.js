@@ -7,7 +7,7 @@ function Footer() {
         <footer>
           <div className='d-flex footer22'>
             <div className='row'>
-              <div className='text-white col-md-4 sm-col-12'>
+              <div className='text-white col-md-4 col-sm-6'>
                 <a>
                   <img
                     className='logimg d-flex mt-2  mb-2'
@@ -21,7 +21,7 @@ function Footer() {
                   and work plans.
                 </p>
               </div>
-              <div className='col-md-4 address1 text-white sm-col-12 '>
+              <div className='col-md-4 address1 text-white sm-col-6 '>
                 <span className='info'>Information</span>
                 <div className='address'>
                   {/* GCS Wahdat Road,Lahore  */}
@@ -39,7 +39,7 @@ function Footer() {
                   </h6>
                 </div>
               </div>
-              <div className='col-md-4  sm-col-12 '>
+              <div className='col-md-4  sm-col-6 '>
                 {/* <h6 className='text-white '>Map</h6> */}
                 <a href='https://bit.ly/3RdWnox' target='_blank'>
                   {' '}
