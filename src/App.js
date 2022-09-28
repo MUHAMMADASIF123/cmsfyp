@@ -1,5 +1,6 @@
 import React from 'react';
-import { Route, Routes } from 'react-router-dom';
+
+import { Route, Routes, Redirect } from 'react-router-dom';
 import Addpost from './Components/Addpost';
 import Editpost from './Components/Editpost';
 import Postlist from './Components/Postlist';
@@ -12,7 +13,7 @@ import Administration from './Components/Administration';
 import Newheader from './Components/Newheader';
 import RegistrationForm from './Components/RegistrationForm';
 import Home from './Components/Home';
-import Admin from './Components/AdminSide/Admin';
+
 import Footer from './Components/Footer';
 import Intermediate from './Components/Programs/Intermediate_Programs/Intermediate';
 import Bscs from './Components/Programs/Bechelor/BsCS/Bscs';
@@ -22,6 +23,7 @@ import BsPhysics from './Components/Programs/Bechelor/Bs_Physics/BsPhysics';
 import BsStatistic from './Components/Programs/Bechelor/Bs_Statistic/BsStatistic';
 import BsIslamiat from './Components/Programs/Bechelor/Bs_Islamiat/BsIslamiat';
 import Bacholer_programs_list from './Components/Programs/Bechelor/Bacholer_programs_list';
+import PostGraduate from './Components/Programs/Post_Graduate/PostGraduate';
 import BsPoliticalScience from './Components/Programs/Bechelor/Bs_PoliticalScience/BsPoliticalScience';
 import BsZoology from './Components/Programs/Bechelor/Bs_Zoology/BsZoology';
 import BsEducation from './Components/Programs/Bechelor/Bs_Education/BsEducation';
@@ -49,12 +51,17 @@ import English from './Components/Departments/English_Department/English';
 import Urdu from './Components/Departments/Urdu_Department/Urdu';
 import Statistics from './Components/Departments/Statistics_Department/Statistics';
 import PoliticalScience from './Components/Departments/PoliticalScience_Department/PoliticalScience';
+import Admin from './Components/Admin_side/Admin';
+
+import StudentView from './Components/Student/StudentView';
+import Studentprofile from './Components/Student/StudentProfile';
 
 function App() {
   return (
     <div className='App'>
       <Newheader />
       <Routes>
+        {/* //laskdlk /asdjhkasx ,asldkh */}
         {/* <Route path="/" element={<Newheader/>}/> */}
         <Route path='/' element={<Home />} />
         <Route path='/addpost' element={<Addpost />} />
@@ -70,6 +77,7 @@ function App() {
         />
         <Route path='/apply' element={<RegistrationForm />} />
         <Route path='/intermediate' element={<Intermediate />} />
+        <Route path='/PostGraduate' element={<PostGraduate />} />
         <Route path='/bscs' element={<Bscs />} />
         <Route path='/Bschemistry' element={<Bschemistry />} />
         <Route
@@ -113,6 +121,12 @@ function App() {
         <Route path='/Education' element={<Education />} />
         <Route path='/Urdu' element={<Urdu />} />
         <Route path='/English' element={<English />} />
+        <Route path='/Admin' element={<Admin />} />
+        <Route path='/StudentView' element={<StudentView />} />
+        <Route
+          path='/Studentprofile'
+          element={<Studentprofile />}
+        />
         <Route
           path='/PoliticalScience'
           element={<PoliticalScience />}
@@ -120,7 +134,7 @@ function App() {
         <Route path='/Statistics' element={<Statistics />} />
         {/* <Route path='/footer' element={<Footer/>}/> */}
       </Routes>
-
+      {/* <Redirect to='/' /> */}
       <Footer />
     </div>
   );

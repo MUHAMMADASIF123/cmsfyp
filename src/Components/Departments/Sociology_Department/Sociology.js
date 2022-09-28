@@ -60,7 +60,7 @@ function Sociology() {
         </div>
         <div>
           <img
-            src='./images/clgentrance.jpg'
+            src='./images/Departments/sociology_dpt.jpeg'
             width='600px'
             height='400px'
           />

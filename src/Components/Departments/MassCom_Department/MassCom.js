@@ -44,7 +44,7 @@ function MassCom() {
         </div>
         <div>
           <img
-            src='./images/clgentrance.jpg'
+            src='./images/Departments/ms_dpt.jpeg'
             width='600px'
             height='400px'
           />

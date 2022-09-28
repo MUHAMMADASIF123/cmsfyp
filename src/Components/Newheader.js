@@ -11,7 +11,7 @@ const Newheader = () => {
   };
   // const auth= localStorage.getItem("token-info")
   var auth = JSON.parse(localStorage.getItem('token-info'));
-  console.log(auth);
+  // console.log(auth);
 
   return (
     <div>
@@ -48,17 +48,14 @@ const Newheader = () => {
           ) : (
             <>
               <button>
-                <Link to={'/login'} className='hbtn bg-warning'>
+                <Link to={'/login'} className='hbtn '>
                   {' '}
                   Login{' '}
                 </Link>
               </button>
               <button>
                 {' '}
-                <Link
-                  to={'/registeruser'}
-                  className='hbtn bg-warning me-3'
-                >
+                <Link to={'/registeruser'} className='hbtn me-3'>
                   SignUp
                 </Link>
               </button>
@@ -78,38 +75,16 @@ const Newheader = () => {
       <div className='menu'>
         <nav>
           <a href='/'>Home</a>
-          <a href='#Programs'>Programs</a>
-          <a>
-            <select
-              className='dropdown'
-              id='inputGroupSelect01'
-              style={{ width: 214 }}
-            >
-              <option selected>Departments</option>
 
-              <option value='1'>BBA</option>
-              <option value='2'>Botany</option>
-              <option value='3'>Chemistry</option>
-              <option value='4'>Islamiat</option>
-              <option value='5'>Communication Studies</option>
-              <option value='6'>Economics</option>
-              <option value='7'>Education</option>
-              <option value='8'>English</option>
-              <option value='9'>Political Science</option>
-              <option value='10'>Mathematics</option>
-              <option value='11'>Sociology</option>
-              <option value='12'>Staistics</option>
-              <option value='13'>Urdu</option>
-              <option value='14'>Zoology</option>
-              <option value='15'>Physics</option>
-              <option value='./Components/Departments/Computer_Science/ComputerScience'>
-                BSCS
-              </option>
-            </select>
-          </a>
+          <a href='Administration'>Administration</a>
+          <a href='#Programs'>Programs</a>
+          <a href='#Departments'>Departements</a>
+          <a href='/Administration'>Administration</a>
           <a href='/contactUs'>Contact Us</a>
           <a href='AboutUs'>About Us</a>
           <a href='Admin'>Admin</a>
+          <a href='StudentView'>StudentView</a>
+          <a href='StudentProfile'>StudentProfile</a>
         </nav>
       </div>
     </div>
