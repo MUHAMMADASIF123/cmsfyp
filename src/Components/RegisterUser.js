@@ -44,22 +44,22 @@ function RegisterUser() {
 
   return (
     <div>
-      <section class='mt-5 wraper '>
-        <div class='container vh-100'>
-          <div class='col-sm-8 offset-sm-2  col-lg-6 offset-lg-3 text-center'>
-            <div class='logo '>
-              {/* <img class="w-25 h-25" src="/images/1218776_company_logo_apple_ipad_iphone_icon.png"/> */}
+      <section className='mt-5 wraper '>
+        <div className='container vh-100'>
+          <div className='col-sm-8 offset-sm-2  col-lg-6 offset-lg-3 text-center'>
+            <div className='logo '>
+              {/* <img className="w-25 h-25" src="/images/1218776_company_logo_apple_ipad_iphone_icon.png"/> */}
             </div>
             <form
-              class=' shadow p-5 w-100 mt-5'
+              className=' shadow p-5 w-100 mt-5'
               style={{ backgroundColor: 'white' }}
             >
               <h1 className='mb-2 text-white rounded   '>
                 Register Here !
               </h1>
 
-              <div class='form-floating d-flex justify-content-center'>
-                {/* <input type="text" class="form-control" id="floatingPassword" placeholder="Last Name"/> */}
+              <div className='form-floating d-flex justify-content-center'>
+                {/* <input type="text" className="form-control" id="floatingPassword" placeholder="Last Name"/> */}
                 <input
                   type='text'
                   id='floatingPassword'
@@ -70,10 +70,12 @@ function RegisterUser() {
                   className='form-control mt-2 w-75 border-warning '
                   style={{ height: '40px' }}
                 />
-                <label for='floatingPassword'>Your Name</label>
+                <label htmlFor='floatingPassword'>
+                  Your Name
+                </label>
               </div>
-              <div class='form-floating  d-flex justify-content-center mt-2 mb-3'>
-                {/* <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com"/> */}
+              <div className='form-floating  d-flex justify-content-center mt-2 mb-3'>
+                {/* <input type="email" className="form-control" id="floatingInput" placeholder="name@example.com"/> */}
                 <input
                   type='email'
                   id='floatingInput'
@@ -84,9 +86,11 @@ function RegisterUser() {
                   className='form-control mt-2 w-75 border-warning'
                   style={{ height: '40px' }}
                 />
-                <label for='floatingInput'>Email address</label>
+                <label htmlFor='floatingInput'>
+                  Email address
+                </label>
               </div>
-              <div class='form-floating d-flex justify-content-center'>
+              <div className='form-floating d-flex justify-content-center'>
                 <input
                   type='password'
                   id='floatingPassword'
@@ -97,17 +101,19 @@ function RegisterUser() {
                   className='form-control w-75 mt-2 border-warning'
                   style={{ height: '40px' }}
                 />
-                {/* <input type="password" class="form-control" id="floatingPassword" placeholder="Password"/> */}
-                <label for='floatingPassword'>Password</label>
+                {/* <input type="password" className="form-control" id="floatingPassword" placeholder="Password"/> */}
+                <label htmlFor='floatingPassword'>
+                  Password
+                </label>
               </div>
-              <div class='information mt-1 text-warning d-inline-block '>
+              <div className='information mt-1 text-warning d-inline-block '>
                 <p>
                   Use 0 or more characters with a mix of
                   letters,numbers{' '}
                 </p>
               </div>
-              <div class='form-floating d-flex justify-content-center'>
-                {/* <input type="password" class="form-control" id="floatingPassword" placeholder="Password"/> */}
+              <div className='form-floating d-flex justify-content-center'>
+                {/* <input type="password" className="form-control" id="floatingPassword" placeholder="Password"/> */}
                 <input
                   type='password'
                   id='floatingPassword'
@@ -118,13 +124,13 @@ function RegisterUser() {
                   className='form-control mt-2 w-75 border-warning'
                   style={{ height: '40px' }}
                 />
-                <label for='floatingPassword'>
+                <label htmlFor='floatingPassword'>
                   {' '}
                   Conform Password
                 </label>
               </div>
 
-              {/* <button type="submit" class="btn btn-primary w-100 my-4">Continue</button>
+              {/* <button type="submit" className="btn btn-primary w-100 my-4">Continue</button>
                */}
               <button
                 type='submit'

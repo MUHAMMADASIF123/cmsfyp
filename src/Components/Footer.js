@@ -25,15 +25,15 @@ function Footer() {
                 <span className='info'>Information</span>
                 <div className='address'>
                   {/* GCS Wahdat Road,Lahore  */}
-                  <h6 class='align-baseline me-4'>
-                    <i class='fa-solid fa-location-dot text-warning me-2'></i>
+                  <h6 className='align-baseline me-4'>
+                    <i className='fa-solid fa-location-dot text-warning me-2'></i>
                     GCS Wahdat Road,Lahore{' '}
                   </h6>
-                  <h6 class='align-baseline'>
+                  <h6 className='align-baseline'>
                     <i className='fa-solid fa-phone text-warning me-2'></i>
                     Phone No +42-99260039-40{' '}
                   </h6>
-                  <h6 class='align-baseline me-5'>
+                  <h6 className='align-baseline me-5'>
                     <i className='fa-solid fa-envelope text-warning me-2'></i>{' '}
                     Email:abc@gmail.com
                   </h6>
@@ -57,9 +57,9 @@ function Footer() {
               college Science | GCS
             </div>
             {/* <div className='icons'>
-          <i class='fa-brands fa-facebook'></i>
-          <i class='fa-brands fa-instagram'></i>
-          <i class='fa-brands fa-twitter'></i>
+          <i className='fa-brands fa-facebook'></i>
+          <i className='fa-brands fa-instagram'></i>
+          <i className='fa-brands fa-twitter'></i>
         </div> */}
           </div>
         </footer>

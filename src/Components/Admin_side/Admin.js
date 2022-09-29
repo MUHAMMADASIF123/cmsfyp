@@ -8,15 +8,15 @@ function Admin() {
       <div className='container shadow rounded vh-100'>
         <div className='row mt-5'>
           <div className='col-3  mt-5 d-flex flex-column '>
-            <div class='card'>
-              <div class='card-body text-white rounded shadow'>
-                <h5 class='card-title textLeft'>
+            <div className='card'>
+              <div className='card-body text-white rounded shadow'>
+                <h5 className='card-title textLeft'>
                   Student Id: 55813t5487t
                 </h5>
-                <h5 class='card-title  textLeft'>
+                <h5 className='card-title  textLeft'>
                   Student Name: ali
                 </h5>
-                <h5 class='card-title textLeft'>
+                <h5 className='card-title textLeft'>
                   Father Name: asif
                 </h5>
 
@@ -31,15 +31,15 @@ function Admin() {
             </div>
           </div>
           <div className='col-3 mt-5 d-flex flex-column '>
-            <div class='card'>
-              <div class='card-body text-white rounded shadow'>
-                <h5 class='card-title textLeft'>
+            <div className='card'>
+              <div className='card-body text-white rounded shadow'>
+                <h5 className='card-title textLeft'>
                   Student Id: 55813t5487t
                 </h5>
-                <h5 class='card-title  textLeft'>
+                <h5 className='card-title  textLeft'>
                   Student Name: ali
                 </h5>
-                <h5 class='card-title textLeft'>
+                <h5 className='card-title textLeft'>
                   Father Name: asif
                 </h5>
                 <Link
@@ -53,15 +53,15 @@ function Admin() {
             </div>
           </div>
           <div className='col-3 col-md-3  mt-5 d-flex flex-column '>
-            <div class='card'>
-              <div class='card-body text-white rounded shadow'>
-                <h5 class='card-title textLeft'>
+            <div className='card'>
+              <div className='card-body text-white rounded shadow'>
+                <h5 className='card-title textLeft'>
                   Student Id: 55813t5487t
                 </h5>
-                <h5 class='card-title  textLeft'>
+                <h5 className='card-title  textLeft'>
                   Student Name: ali
                 </h5>
-                <h5 class='card-title textLeft'>
+                <h5 className='card-title textLeft'>
                   Father Name: asif
                 </h5>
                 <Link
@@ -75,15 +75,15 @@ function Admin() {
             </div>
           </div>
           <div className='col-3 mt-5 d-flex flex-column '>
-            <div class='card'>
-              <div class='card-body text-white rounded shadow'>
-                <h5 class='card-title textLeft'>
+            <div className='card'>
+              <div className='card-body text-white rounded shadow'>
+                <h5 className='card-title textLeft'>
                   Student Id: 55813t5487t
                 </h5>
-                <h5 class='card-title  textLeft'>
+                <h5 className='card-title  textLeft'>
                   Student Name: ali
                 </h5>
-                <h5 class='card-title textLeft'>
+                <h5 className='card-title textLeft'>
                   Father Name: asif
                 </h5>
                 <Link

@@ -5,19 +5,19 @@ function StudentView() {
   return (
     // <div>StudentView</div>
     <div>
-      <div class='mt-5  wraper  '>
-        <div class='container '>
-          <div class=' text-center '>
+      <div className='mt-5  wraper  '>
+        <div className='container '>
+          <div className=' text-center '>
             <h1 className='border rounded-pill h-25 w-75 d-inline-block'>
               Student Detail
             </h1>
 
-            <form class='rounded shadow p-5 mt-5 h-100 w-100 bg-white'>
+            <form className='rounded shadow p-5 mt-5 h-100 w-100 bg-white'>
               <div className='row'>
                 <div className='col-md-4'>
-                  <div class='input-group mb-3'>
-                    <div class='input-group-prepend'>
-                      {/* <label class="input-group-text" for="inputGroupSelect01">Options</label> */}
+                  <div className='input-group mb-3'>
+                    <div className='input-group-prepend'>
+                      {/* <label className="input-group-text" htmlFor="inputGroupSelect01">Options</label> */}
                       <h6>
                         applied for:<span>BSCS</span>
                       </h6>
@@ -25,9 +25,9 @@ function StudentView() {
                   </div>
                 </div>
                 <div className='col-md-4 ms-5'>
-                  <div class='input-group mb-3 '>
-                    <div class='input-group-prepend'>
-                      {/* <label class="input-group-text" for="inputGroupSelect01">Options</label> */}
+                  <div className='input-group mb-3 '>
+                    <div className='input-group-prepend'>
+                      {/* <label className="input-group-text" htmlFor="inputGroupSelect01">Options</label> */}
 
                       <h6>
                         Shift : <span>morning</span>
@@ -36,11 +36,11 @@ function StudentView() {
                   </div>
                 </div>
               </div>
-              <div class='row g-3'>
+              <div className='row g-3'>
                 <div className='col'>
                   <label
                     className='d-flex justify-content-start'
-                    for='exampleInputName'
+                    htmlFor='exampleInputName'
                   >
                     Student Name:
                   </label>
@@ -50,7 +50,7 @@ function StudentView() {
                 <div className='col'>
                   <label
                     className='d-flex justify-content-start'
-                    for='exampleInputPhone'
+                    htmlFor='exampleInputPhone'
                   >
                     Student's Phone Number:
                   </label>
@@ -59,11 +59,11 @@ function StudentView() {
                   </h5>
                 </div>
               </div>
-              <div class='row g-3 mt-2'>
+              <div className='row g-3 mt-2'>
                 <div className='col'>
                   <label
                     className='d-flex justify-content-start'
-                    for='exampleInputName'
+                    htmlFor='exampleInputName'
                   >
                     Student's Father Name:
                   </label>
@@ -72,7 +72,7 @@ function StudentView() {
                 <div className='col'>
                   <label
                     className='d-flex justify-content-start'
-                    for='exampleInputPhone'
+                    htmlFor='exampleInputPhone'
                   >
                     Student's Father Phone Number:
                   </label>
@@ -85,7 +85,7 @@ function StudentView() {
                 <div className='col-md-4'>
                   <label
                     className='d-flex justify-content-start'
-                    for='exampleInputCnic'
+                    htmlFor='exampleInputCnic'
                   >
                     Student's Cnic Number:
                   </label>
@@ -95,7 +95,7 @@ function StudentView() {
                 </div>
                 <div className='col-md-4'>
                   <label
-                    for='inputState'
+                    htmlFor='inputState'
                     className='form-label d-flex justify-content-start mb-0'
                   >
                     Religion
@@ -104,7 +104,7 @@ function StudentView() {
                 </div>
                 <div className='col-md-4'>
                   <label
-                    for='inputZip'
+                    htmlFor='inputZip'
                     className='form-label d-flex justify-content-start mb-0'
                   >
                     Domicile
@@ -115,19 +115,19 @@ function StudentView() {
                 </div>
               </div>
               {/* address section */}
-              <div class='row g-3'>
-                <div class='col-md-6'>
+              <div className='row g-3'>
+                <div className='col-md-6'>
                   <label
-                    for='inputEmail4'
+                    htmlFor='inputEmail4'
                     className='form-label d-flex justify-content-start'
                   >
                     Date Of Birth
                   </label>
                   <h5 className='border textleft'>1-1-2000</h5>
                 </div>
-                <div class='col-md-6'>
+                <div className='col-md-6'>
                   <label
-                    for='inputPassword4'
+                    htmlFor='inputPassword4'
                     className='form-label d-flex justify-content-start'
                   >
                     Email
@@ -139,7 +139,7 @@ function StudentView() {
                 <div className='row'>
                   <div className='col-md-6'>
                     <label
-                      for='inputOccupation4'
+                      htmlFor='inputOccupation4'
                       className='form-label d-flex justify-content-start'
                     >
                       Father Occupation
@@ -149,7 +149,7 @@ function StudentView() {
 
                   <div className='col-md-6'>
                     <label
-                      for='inputCnic'
+                      htmlFor='inputCnic'
                       className='form-label d-flex justify-content-start'
                     >
                       {' '}
@@ -161,7 +161,7 @@ function StudentView() {
                 <div className='row'>
                   <div className='col-md-4'>
                     <label
-                      for='inputOccupation4'
+                      htmlFor='inputOccupation4'
                       className='form-label d-flex justify-content-start'
                     >
                       Gradian's Name
@@ -173,7 +173,7 @@ function StudentView() {
 
                   <div className='col-md-4'>
                     <label
-                      for='inputOccupation4'
+                      htmlFor='inputOccupation4'
                       className='form-label d-flex justify-content-start'
                     >
                       Gradian's Occupation
@@ -182,7 +182,7 @@ function StudentView() {
                   </div>
                   <div className='col-md-4'>
                     <label
-                      for='inputOccupation4'
+                      htmlFor='inputOccupation4'
                       className='form-label d-flex justify-content-start'
                     >
                       Gardian's Phone Number
@@ -192,9 +192,9 @@ function StudentView() {
                     </h5>
                   </div>
                 </div>
-                <div class='col-12'>
+                <div className='col-12'>
                   <label
-                    for='inputAddress'
+                    htmlFor='inputAddress'
                     className='form-label d-flex justify-content-start'
                   >
                     Address
@@ -203,9 +203,9 @@ function StudentView() {
                     baba bulle shah kahna nu lahore
                   </h5>
                 </div>
-                <div class='col-12'>
+                <div className='col-12'>
                   <label
-                    for='inputAddress2'
+                    htmlFor='inputAddress2'
                     className='d-flex justify-content-start form-label'
                   >
                     Address 2
@@ -214,27 +214,27 @@ function StudentView() {
                     baba bulle shah kahna nu lahore
                   </h5>
                 </div>
-                <div class='col-md-6'>
+                <div className='col-md-6'>
                   <label
-                    for='inputCity'
+                    htmlFor='inputCity'
                     className=' d-flex justify-content-start form-label'
                   >
                     City
                   </label>
                   <h5 className='border textleft'>lahore</h5>
                 </div>
-                <div class='col-md-4'>
+                <div className='col-md-4'>
                   <label
-                    for='inputState'
+                    htmlFor='inputState'
                     className=' d-flex justify-content-start form-label'
                   >
                     State
                   </label>
                   <h5 className='border textleft'>punjab</h5>
                 </div>
-                <div class='col-md-2'>
+                <div className='col-md-2'>
                   <label
-                    for='inputZip'
+                    htmlFor='inputZip'
                     className='form-label d-flex justify-content-start '
                   >
                     Zip

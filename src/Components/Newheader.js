@@ -82,7 +82,7 @@ const Newheader = () => {
           <a href='/contactUs'>Contact Us</a>
           <a href='AboutUs'>About Us</a>
           <a href='Admin'>Admin</a>
-          <a href='StudentView'>StudentView</a>
+          <a href='StudentView'>Student View</a>
           <a href='StudentProfile'>StudentProfile</a>
         </nav>
       </div>

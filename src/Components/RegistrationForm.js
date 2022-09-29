@@ -120,10 +120,10 @@ function RegistrationForm() {
   ///
   return (
     <div>
-      <div class='mt-5  wraper  '>
-        <div class='container '>
-          <div class=' text-center '>
-            <h1>
+      <div className='mt-5  wraper  '>
+        <div className='container '>
+          <div className=' text-center '>
+            <h1 className='rounded'>
               Government Graduate Science College Wahdat Road
               Lahore
             </h1>
@@ -131,17 +131,16 @@ function RegistrationForm() {
               Application For Addmission-2022
             </h1>
 
-            <form class='rounded shadow p-5 mt-5 h-100 w-100 bg-white'>
-              <div class='input-group mb-3 d-flex justify-content-end'>
+            <form className='rounded shadow p-5 mt-5 h-100 w-100 bg-white'>
+              <div className='input-group mb-3 d-flex justify-content-end'>
                 <h6 className='me-3 mt-2'>Shift</h6>
                 <select
-                  class='custom-select me-5'
+                  defaultValue='morning'
+                  className='custom-select me-5'
                   id='inputGroupSelect01'
                   style={{ width: 220 }}
                 >
-                  <option selected value='morning'>
-                    Morning
-                  </option>
+                  <option value='morning'>Morning</option>
 
                   <option value='evening'>Evening</option>
                 </select>
@@ -149,11 +148,12 @@ function RegistrationForm() {
 
               <div className='row '>
                 <div className='col-md-4'>
-                  <div class='form-check'>
-                    <div class='input-group mb-3'>
+                  <div className='form-check'>
+                    <div className='input-group mb-3'>
                       <select
-                        class='custom-select'
+                        className='custom-select'
                         id='inputGroupSelect01'
+                        defaultValue='intermediate'
                         style={{ width: 220 }}
                         onChange={(e) =>
                           setForm({
@@ -162,7 +162,7 @@ function RegistrationForm() {
                           })
                         }
                       >
-                        <option selected value='intermediate'>
+                        <option value='intermediate'>
                           Intermediate
                         </option>
                         <option value='graduate'>
@@ -176,22 +176,22 @@ function RegistrationForm() {
                   </div>
                 </div>
                 <div className='col-md-4'>
-                  <div class='form-check'>
-                    <div class='input-group mb-3'>
+                  <div className='form-check'>
+                    <div className='input-group mb-3'>
                       <div>
                         {form.program === 'graduate' ? (
                           <select
-                            class='custom-select'
+                            className='custom-select'
                             id='inputGroupSelect01'
                             style={{ width: 214 }}
                             onChange={(e) =>
                               console.log(e.target.value)
                             }
                           >
-                            <option selected value='bsit'>
+                            <option defaultValue value='bsit'>
                               BSIT
                             </option>
-                            <option selected>BSCS</option>
+                            <option defaultValue>BSCS</option>
                             <option value='bba'>BBA</option>
                             <option value='botany'>
                               Botany
@@ -233,7 +233,7 @@ function RegistrationForm() {
                           </select>
                         ) : form.program === 'intermediate' ? (
                           <select
-                            class='custom-select'
+                            className='custom-select'
                             id='inputGroupSelect01'
                             style={{ width: 214 }}
                             // onChange={(e) =>
@@ -252,7 +252,10 @@ function RegistrationForm() {
                             id='inputGroupSelect03'
                             style={{ width: 214 }}
                           >
-                            <option selected value='chemistry'>
+                            <option
+                              defaultValue
+                              value='chemistry'
+                            >
                               Chemistry
                             </option>
                             <option value='economics'>
@@ -283,18 +286,18 @@ function RegistrationForm() {
                   </div>
                 </div>
               </div>
-              <div class='row g-3'>
+              <div className='row g-3'>
                 <div className='col'>
                   <label
                     className='d-flex justify-content-start'
-                    for='exampleInputName'
+                    htmlFor='exampleInputName'
                   >
                     Student Name:
                   </label>
                   {/* <h6 className="ms-0">name</h6> */}
                   <input
                     type='text'
-                    class='form-control'
+                    className='form-control'
                     id='exampleInputName'
                     placeholder='Enter Your Name'
                     aria-label='First name'
@@ -309,13 +312,13 @@ function RegistrationForm() {
                 <div className='col'>
                   <label
                     className='d-flex justify-content-start'
-                    for='exampleInputPhone'
+                    htmlFor='exampleInputPhone'
                   >
                     Student's Phone Number:
                   </label>
                   <input
                     type='number'
-                    class='form-control'
+                    className='form-control'
                     id='exampleInputPhone'
                     placeholder='Enter Your Phone Number'
                     aria-label='Last name'
@@ -328,19 +331,19 @@ function RegistrationForm() {
                   />
                 </div>
               </div>
-              <div class='row g-3 mt-2'>
+              <div className='row g-3 mt-2'>
                 <div className='col'>
                   <label
                     className='d-flex justify-content-start'
-                    for='exampleInputName'
+                    htmlFor='fatherName'
                   >
                     Student's Father Name:
                   </label>
                   <input
                     type='text'
-                    class='form-control'
+                    className='form-control'
                     placeholder='Enter Your Father Name'
-                    id='exampleInputName'
+                    id='fatherName'
                     aria-label='First name'
                     onChange={(e) =>
                       setForm({
@@ -353,14 +356,14 @@ function RegistrationForm() {
                 <div className='col'>
                   <label
                     className='d-flex justify-content-start'
-                    for='exampleInputPhone'
+                    htmlFor='fatherPhone'
                   >
                     Student's Father Phone Number:
                   </label>
                   <input
                     type='text'
-                    class='form-control'
-                    id='exampleInputPhone'
+                    className='form-control'
+                    id='fatherPhone'
                     placeholder='Phone'
                     aria-label='Last name'
                     onChange={(e) =>
@@ -376,13 +379,13 @@ function RegistrationForm() {
                 <div className='col-md-4'>
                   <label
                     className='d-flex justify-content-start'
-                    for='exampleInputCnic'
+                    htmlFor='exampleInputCnic'
                   >
                     Student's Cnic Number:
                   </label>
                   <input
                     type='number'
-                    class='form-control'
+                    className='form-control'
                     id='exampleInputCnic'
                     onChange={(e) =>
                       setForm({
@@ -394,7 +397,7 @@ function RegistrationForm() {
                 </div>
                 <div className='col-md-4'>
                   <label
-                    for='inputState'
+                    htmlFor='inputState'
                     className='form-label d-flex justify-content-start mb-0'
                   >
                     Religion
@@ -407,9 +410,9 @@ function RegistrationForm() {
                       })
                     }
                     id='inputState'
-                    class='form-select '
+                    className='form-select '
                   >
-                    <option selected value='islam'>
+                    <option defaultValue value='islam'>
                       Islam
                     </option>
                     <option value='christian'>Christian</option>
@@ -418,14 +421,14 @@ function RegistrationForm() {
                 </div>
                 <div className='col-md-4'>
                   <label
-                    for='inputZip'
+                    htmlFor='inputZip'
                     className='form-label d-flex justify-content-start mb-0'
                   >
                     Domicile
                   </label>
                   <input
                     type='text'
-                    class='form-control'
+                    className='form-control'
                     id='inputZip'
                     onChange={(e) =>
                       setForm({
@@ -437,17 +440,17 @@ function RegistrationForm() {
                 </div>
               </div>
               {/* address section */}
-              <div class='row g-3'>
-                <div class='col-md-6'>
+              <div className='row g-3'>
+                <div className='col-md-6'>
                   <label
-                    for='inputEmail4'
+                    htmlFor='inputEmail4'
                     className='form-label d-flex justify-content-start'
                   >
                     Date Of Birth
                   </label>
                   <input
                     type='date'
-                    class='form-control'
+                    className='form-control'
                     id='inputEmail4'
                     onChange={(e) =>
                       setForm({
@@ -457,16 +460,16 @@ function RegistrationForm() {
                     }
                   />
                 </div>
-                <div class='col-md-6'>
+                <div className='col-md-6'>
                   <label
-                    for='inputPassword4'
+                    htmlFor='inputPassword4'
                     className='form-label d-flex justify-content-start'
                   >
                     Email
                   </label>
                   <input
                     type='email'
-                    class='form-control'
+                    className='form-control'
                     id='inputPassword4'
                     onChange={(e) =>
                       setForm({
@@ -479,14 +482,14 @@ function RegistrationForm() {
                 <div className='row'>
                   <div className='col-md-6'>
                     <label
-                      for='inputOccupation4'
+                      htmlFor='inputOccupation4'
                       className='form-label d-flex justify-content-start'
                     >
                       Father Occupation
                     </label>
                     <input
                       type='text'
-                      class='form-control'
+                      className='form-control'
                       id='inputOccupation4'
                       placeholder='Enter Father Occupation'
                       aria-label='First name'
@@ -501,7 +504,7 @@ function RegistrationForm() {
 
                   <div className='col-md-6'>
                     <label
-                      for='inputCnic'
+                      htmlFor='inputCnic'
                       className='form-label d-flex justify-content-start'
                     >
                       {' '}
@@ -509,7 +512,7 @@ function RegistrationForm() {
                     </label>
                     <input
                       type='number'
-                      class='form-control'
+                      className='form-control'
                       id='inputCnic'
                       placeholder="Enter Father's Cnic Number"
                       aria-label='First name'
@@ -525,15 +528,15 @@ function RegistrationForm() {
                 <div className='row'>
                   <div className='col-md-4'>
                     <label
-                      for='inputOccupation4'
+                      htmlFor='guardianName'
                       className='form-label d-flex justify-content-start'
                     >
-                      Gradian's Name
+                      Guardian's Name
                     </label>
                     <input
                       type='text'
-                      class='form-control'
-                      id='inputOccupation4'
+                      className='form-control'
+                      id='guardianName'
                       placeholder="Enter Gradian's Name"
                       aria-label='First name'
                       onChange={(e) =>
@@ -547,16 +550,17 @@ function RegistrationForm() {
 
                   <div className='col-md-4'>
                     <label
-                      for='inputOccupation4'
+                      htmlFor='guardianOcupation'
                       className='form-label d-flex justify-content-start'
                     >
-                      Gradian's Occupation
+                      Guardian's Occupation
                     </label>
                     <input
                       type='number'
-                      class='form-control'
+                      className='form-control'
                       placeholder="Enter gardian's Occupation"
                       aria-label=' First name'
+                      id='guardianOcupation'
                       onChange={(e) =>
                         setForm({
                           ...form,
@@ -567,15 +571,16 @@ function RegistrationForm() {
                   </div>
                   <div className='col-md-4'>
                     <label
-                      for='inputOccupation4'
+                      htmlFor='guardianPhone'
                       className='form-label d-flex justify-content-start'
                     >
-                      Gardian's Phone Number
+                      Guardian's Phone Number
                     </label>
                     <input
                       type='number'
-                      class='form-control'
+                      className='form-control'
                       placeholder="Enter Gradian's phone Number"
+                      id='guardianPhone'
                       aria-label='First name'
                       onChange={(e) =>
                         setForm({
@@ -586,16 +591,16 @@ function RegistrationForm() {
                     />
                   </div>
                 </div>
-                <div class='col-12'>
+                <div className='col-12'>
                   <label
-                    for='inputAddress'
+                    htmlFor='inputAddress'
                     className='form-label d-flex justify-content-start'
                   >
                     Current Address
                   </label>
                   <input
                     type='text'
-                    class='form-control'
+                    className='form-control'
                     id='inputAddress'
                     placeholder='1234 Main St'
                     onChange={(e) =>
@@ -606,16 +611,16 @@ function RegistrationForm() {
                     }
                   />
                 </div>
-                <div class='col-12'>
+                <div className='col-12'>
                   <label
-                    for='inputAddress2'
+                    htmlFor='inputAddress2'
                     className='d-flex justify-content-start form-label'
                   >
-                    permanent address
+                    Permanent Address
                   </label>
                   <input
                     type='text'
-                    class='form-control'
+                    className='form-control'
                     id='inputAddress2'
                     placeholder='Apartment, studio, or floor'
                     onChange={(e) =>
@@ -626,16 +631,16 @@ function RegistrationForm() {
                     }
                   />
                 </div>
-                <div class='col-md-6'>
+                <div className='col-md-6'>
                   <label
-                    for='inputCity'
+                    htmlFor='inputCity'
                     className=' d-flex justify-content-start form-label'
                   >
                     City
                   </label>
                   <input
                     type='text'
-                    class='form-control'
+                    className='form-control'
                     id='inputCity'
                     onChange={(e) =>
                       setForm({
@@ -645,16 +650,17 @@ function RegistrationForm() {
                     }
                   />
                 </div>
-                <div class='col-md-4'>
+                <div className='col-md-4'>
                   <label
-                    for='inputState'
+                    htmlFor='inputState'
                     className=' d-flex justify-content-start form-label'
                   >
                     State
                   </label>
                   <select
                     id='inputState'
-                    class='form-select'
+                    className='form-select'
+                    defaultValue='punjab'
                     onChange={(e) =>
                       setForm({
                         ...form,
@@ -662,9 +668,7 @@ function RegistrationForm() {
                       })
                     }
                   >
-                    <option selected value='punjab'>
-                      Punjab
-                    </option>
+                    <option value='punjab'>Punjab</option>
                     <option value='balochistan'>
                       Balochistan
                     </option>
@@ -677,16 +681,16 @@ function RegistrationForm() {
                     </option>
                   </select>
                 </div>
-                <div class='col-md-2'>
+                <div className='col-md-2'>
                   <label
-                    for='inputZip'
+                    htmlFor='inputZip'
                     className='form-label d-flex justify-content-start '
                   >
                     Zip
                   </label>
                   <input
                     type='text'
-                    class='form-control'
+                    className='form-control'
                     id='inputZip'
                     onChange={(e) =>
                       setForm({
@@ -1056,10 +1060,11 @@ function RegistrationForm() {
                   </table>
                 </div>
               </div>
+              <button></button>
               <button
                 type='submit'
                 onClick={handleSubmit}
-                className='mt-4 font-weight-bold text-uppercase text-bold shadow w-75 border-0 rounded-pill'
+                className='mt-4 font-weight-bold text-uppercase text-bold shadow w-25 border-0 rounded-pill'
               >
                 Submit
               </button>

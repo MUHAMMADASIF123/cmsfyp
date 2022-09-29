@@ -42,9 +42,9 @@ function Studentprofile() {
 
   return (
     <div>
-      <div class='mt-5  wraper  '>
-        <div class='container '>
-          <div class=' text-center '>
+      <div className='mt-5  wraper  '>
+        <div className='container '>
+          <div className=' text-center '>
             <h1 className='rounded'>
               Government Graduate Science College Wahdat Road
               Lahore
@@ -53,12 +53,12 @@ function Studentprofile() {
               Application For Addmission-2022
             </h1>
 
-            <form class='rounded shadow p-5 mt-5 h-100 w-100 bg-white'>
+            <form className='rounded shadow p-5 mt-5 h-100 w-100 bg-white'>
               <div className='row'>
                 <div className='col-md-4'>
-                  <div class='input-group mb-3'>
-                    <div class='input-group-prepend'>
-                      {/* <label class="input-group-text" for="inputGroupSelect01">Options</label> */}
+                  <div className='input-group mb-3'>
+                    <div className='input-group-prepend'>
+                      {/* <label className="input-group-text" htmlFor="inputGroupSelect01">Options</label> */}
                       <h6>
                         applied for:<span>BSCS</span>
                       </h6>
@@ -66,9 +66,9 @@ function Studentprofile() {
                   </div>
                 </div>
                 <div className='col-md-4 ms-5'>
-                  <div class='input-group mb-3 '>
-                    <div class='input-group-prepend'>
-                      {/* <label class="input-group-text" for="inputGroupSelect01">Options</label> */}
+                  <div className='input-group mb-3 '>
+                    <div className='input-group-prepend'>
+                      {/* <label className="input-group-text" htmlFor="inputGroupSelect01">Options</label> */}
 
                       <h6>
                         Shift : <span>morning</span>
@@ -77,18 +77,18 @@ function Studentprofile() {
                   </div>
                 </div>
               </div>
-              <div class='row g-3'>
+              <div className='row g-3'>
                 <div className='col'>
                   <label
                     className='d-flex justify-content-start'
-                    for='exampleInputName'
+                    htmlFor='exampleInputName'
                   >
                     Student Name:
                   </label>
                   {/* <h6 className="ms-0">name</h6> */}
                   <input
                     type='text'
-                    class='form-control'
+                    className='form-control'
                     id='exampleInputName'
                     placeholder='Enter Your Name'
                     aria-label='First name'
@@ -97,30 +97,30 @@ function Studentprofile() {
                 <div className='col'>
                   <label
                     className='d-flex justify-content-start'
-                    for='exampleInputPhone'
+                    htmlFor='exampleInputPhone'
                   >
                     Student's Phone Number:
                   </label>
                   <input
                     type='number'
-                    class='form-control'
+                    className='form-control'
                     id='exampleInputPhone'
                     placeholder='Enter Your Phone Number'
                     aria-label='Last name'
                   />
                 </div>
               </div>
-              <div class='row g-3 mt-2'>
+              <div className='row g-3 mt-2'>
                 <div className='col'>
                   <label
                     className='d-flex justify-content-start'
-                    for='exampleInputName'
+                    htmlFor='exampleInputName'
                   >
                     Student's Father Name:
                   </label>
                   <input
                     type='text'
-                    class='form-control'
+                    className='form-control'
                     placeholder='Enter Your Father Name'
                     id='exampleInputName'
                     aria-label='First name'
@@ -129,13 +129,13 @@ function Studentprofile() {
                 <div className='col'>
                   <label
                     className='d-flex justify-content-start'
-                    for='exampleInputPhone'
+                    htmlFor='exampleInputPhone'
                   >
                     Student's Father Phone Number:
                   </label>
                   <input
                     type='text'
-                    class='form-control'
+                    className='form-control'
                     id='exampleInputPhone'
                     placeholder='Phone'
                     aria-label='Last name'
@@ -146,81 +146,84 @@ function Studentprofile() {
                 <div className='col-md-4'>
                   <label
                     className='d-flex justify-content-start'
-                    for='exampleInputCnic'
+                    htmlFor='exampleInputCnic'
                   >
                     Student's Cnic Number:
                   </label>
                   <input
                     type='number'
-                    class='form-control'
+                    className='form-control'
                     id='exampleInputCnic'
                   />
                 </div>
                 <div className='col-md-4'>
                   <label
-                    for='inputState'
+                    htmlFor='inputState'
                     className='form-label d-flex justify-content-start mb-0'
                   >
                     Religion
                   </label>
-                  <select id='inputState' class='form-select '>
-                    <option selected>Islam</option>
+                  <select
+                    id='inputState'
+                    className='form-select '
+                  >
+                    <option defaultValue>Islam</option>
                     <option>Chrision</option>
                   </select>
                 </div>
                 <div className='col-md-4'>
                   <label
-                    for='inputZip'
+                    htmlFor='inputZip'
                     className='form-label d-flex justify-content-start mb-0'
                   >
                     Domicile
                   </label>
                   <input
                     type='text'
-                    class='form-control'
+                    className='form-control'
                     id='inputZip'
                   />
                 </div>
               </div>
               {/* address section */}
-              <div class='row g-3'>
-                <div class='col-md-6'>
+              <div className='row g-3'>
+                <div className='col-md-6'>
                   <label
-                    for='inputEmail4'
+                    htmlFor='inputEmail4'
                     className='form-label d-flex justify-content-start'
                   >
                     Date Of Birth
                   </label>
                   <input
                     type='date'
-                    class='form-control'
+                    className='form-control'
                     id='inputEmail4'
                   />
                 </div>
-                <div class='col-md-6'>
+                <div className='col-md-6'>
                   <label
-                    for='inputPassword4'
+                    htmlFor='inputPassword4'
                     className='form-label d-flex justify-content-start'
                   >
                     Email
                   </label>
                   <input
                     type='email'
-                    class='form-control'
+                    className='form-control'
                     id='inputPassword4'
                   />
                 </div>
                 <div className='row'>
                   <div className='col-md-6'>
                     <label
-                      for='inputOccupation4'
+                      htmlFor='inputOccupation4'
                       className='form-label d-flex justify-content-start'
                     >
                       Father Occupation
                     </label>
                     <input
                       type='text'
-                      class='form-control'
+                      className='form-control'
                       id='inputOccupation4'
                       placeholder='Enter Father Occupation'
                       aria-label='First name'
@@ -229,7 +232,7 @@ function Studentprofile() {
 
                   <div className='col-md-6'>
                     <label
-                      for='inputCnic'
+                      htmlFor='inputCnic'
                       className='form-label d-flex justify-content-start'
                     >
                       {' '}
@@ -237,7 +240,7 @@ function Studentprofile() {
                     </label>
                     <input
                       type='number'
-                      class='form-control'
+                      className='form-control'
                       id='inputCnic'
                       placeholder="Enter Father's Cnic Number"
                       aria-label='First name'
@@ -247,14 +250,14 @@ function Studentprofile() {
                 <div className='row'>
                   <div className='col-md-4'>
                     <label
-                      for='inputOccupation4'
+                      htmlFor='inputOccupation4'
                       className='form-label d-flex justify-content-start'
                     >
                       Gradian's Name
                     </label>
                     <input
                       type='text'
-                      class='form-control'
+                      className='form-control'
                       id='inputOccupation4'
                       placeholder="Enter Gradian's Name"
                       aria-label='First name'
@@ -263,99 +266,102 @@ function Studentprofile() {
 
                   <div className='col-md-4'>
                     <label
-                      for='inputOccupation4'
+                      htmlFor='inputOccupation4'
                       className='form-label d-flex justify-content-start'
                     >
                       Gradian's Occupation
                     </label>
                     <input
                       type='number'
-                      class='form-control'
+                      className='form-control'
                       placeholder="Enter gardian's Occupation"
                       aria-label=' First name'
                     />
                   </div>
                   <div className='col-md-4'>
                     <label
-                      for='inputOccupation4'
+                      htmlFor='inputOccupation4'
                       className='form-label d-flex justify-content-start'
                     >
                       Gardian's Phone Number
                     </label>
                     <input
                       type='number'
-                      class='form-control'
+                      className='form-control'
                       placeholder="Enter Gradian's phone Number"
                       aria-label='First name'
                     />
                   </div>
                 </div>
-                <div class='col-12'>
+                <div className='col-12'>
                   <label
-                    for='inputAddress'
+                    htmlFor='inputAddress'
                     className='form-label d-flex justify-content-start'
                   >
                     Address
                   </label>
                   <input
                     type='text'
-                    class='form-control'
+                    className='form-control'
                     id='inputAddress'
                     placeholder='1234 Main St'
                   />
                 </div>
-                <div class='col-12'>
+                <div className='col-12'>
                   <label
-                    for='inputAddress2'
+                    htmlFor='inputAddress2'
                     className='d-flex justify-content-start form-label'
                   >
                     Address 2
                   </label>
                   <input
                     type='text'
-                    class='form-control'
+                    className='form-control'
                     id='inputAddress2'
                     placeholder='Apartment, studio, or floor'
                   />
                 </div>
-                <div class='col-md-6'>
+                <div className='col-md-6'>
                   <label
-                    for='inputCity'
+                    htmlFor='inputCity'
                     className=' d-flex justify-content-start form-label'
                   >
                     City
                   </label>
                   <input
                     type='text'
-                    class='form-control'
+                    className='form-control'
                     id='inputCity'
                   />
                 </div>
-                <div class='col-md-4'>
+                <div className='col-md-4'>
                   <label
-                    for='inputState'
+                    htmlFor='inputState'
                     className=' d-flex justify-content-start form-label'
                   >
                     State
                   </label>
-                  <select id='inputState' class='form-select'>
-                    <option selected>Punjab</option>
+                  <select
+                    id='inputState'
+                    className='form-select'
+                  >
+                    <option defaultValue>Punjab</option>
                     <option>Balochistan</option>
                     <option>Sindh</option>
                     <option>Khyber Pakhtunkhwa</option>
                     <option>Gilgit-Baltistan</option>
                   </select>
                 </div>
-                <div class='col-md-2'>
+                <div className='col-md-2'>
                   <label
-                    for='inputZip'
+                    htmlFor='inputZip'
                     className='form-label d-flex justify-content-start '
                   >
                     Zip
                   </label>
                   <input
                     type='text'
-                    class='form-control'
+                    className='form-control'
                     id='inputZip'
                   />
                 </div>

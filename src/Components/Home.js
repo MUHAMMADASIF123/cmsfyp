@@ -71,21 +71,21 @@ function Home() {
           {/* <hr className='mr-25 ml-25' /> */}
           <div className='d-flex justify-content-center  '>
             <div className='col-md-4 h-25 w-25 ms-4 me-4 mt-4 mb-4 '>
-              <div class='card '>
+              <div className='card '>
                 <img
                   src='https://res.cloudinary.com/azeem413/image/upload/v1664035583/images/interstdnt_jcsrv3.jpg'
                   className='card-img-top programimage'
                   alt='...'
                 />
-                <div class='card-body programs '>
-                  <h5 class='card_title'>Intermediate</h5>
-                  <p class='textp'>
+                <div className='card-body programs '>
+                  <h5 className='card_title'>Intermediate</h5>
+                  <p className='textp'>
                     Done with Matrric? Now its time to move on to
                     the next phase of your journey of knowledge.
                   </p>
                   <a
                     href='/Intermediate'
-                    class='button_programs'
+                    className='button_programs'
                   >
                     All Courses
                   </a>
@@ -94,22 +94,22 @@ function Home() {
             </div>
 
             <div className='col-md-4 h-25 w-25 ms-4 me-4 mt-4 mb-4 '>
-              <div class='card '>
+              <div className='card '>
                 <img
                   src='https://res.cloudinary.com/azeem413/image/upload/v1664035545/images/bechlorimggirl_lfiell.jpg'
                   className='card-img-top programimage'
                   alt='...'
                 />
-                <div class='card-body programs'>
-                  <h5 class='card_title'>Bechelors</h5>
-                  <p class='textp'>
+                <div className='card-body programs'>
+                  <h5 className='card_title'>Bechelors</h5>
+                  <p className='textp'>
                     Now its all upto you to choose wisely in
                     which field you have most interest and want
                     to harn your specifical skills.
                   </p>
                   <a
                     href='/Bacholer_programs_list'
-                    class='button_programs'
+                    className='button_programs'
                   >
                     All Courses
                   </a>
@@ -118,19 +118,22 @@ function Home() {
             </div>
 
             <div className='col-md-4 h-25 w-25 ms-4 me-4 mt-4 mb-4'>
-              <div class='card'>
+              <div className='card'>
                 <img
                   src='https://res.cloudinary.com/azeem413/image/upload/v1664035586/images/postgraduatepics_popj9n.jpg'
                   className='card-img-top programimage'
                   alt='...'
                 />
-                <div class='card-body programs'>
-                  <h5 class='card_title'>Post Graduate</h5>
-                  <p class='textp'>
+                <div className='card-body programs'>
+                  <h5 className='card_title'>Post Graduate</h5>
+                  <p className='textp'>
                     You are going to enter in the phase where you
                     will master those specific skills.
                   </p>
-                  <a href='PostGraduate' class='button_programs'>
+                  <a
+                    href='PostGraduate'
+                    className='button_programs'
+                  >
                     All Courses
                   </a>
                 </div>
@@ -140,82 +143,82 @@ function Home() {
         </section>
 
         <section id='Departments'>
-          <div class='container mt-3 dept_container rounded shadow mb-5'>
+          <div className='container mt-3 dept_container rounded shadow mb-5'>
             <h1 className='custom_head rounded mt-5 '>
               {' '}
               BS Departments
             </h1>
 
-            <div class='row'>
+            <div className='row'>
               <div className='col-md-2  bsdept mt-3 col-lg-3'>
                 <a className='' href='/ComputerScience'>
                   Computer Science
                 </a>
               </div>
 
-              <div class='col-md-2 mt-3 bsdept col-lg-3'>
+              <div className='col-md-2 mt-3 bsdept col-lg-3'>
                 <a className='' href='/Chemistry_'>
                   Chemistry
                 </a>
               </div>
-              <div class='col-md-2 mt-3 bsdept col-lg-3'>
+              <div className='col-md-2 mt-3 bsdept col-lg-3'>
                 <a className='' href='/Physics_'>
                   Physics
                 </a>
               </div>
-              <div class='col-md-2 mt-3 bsdept col-lg-3'>
+              <div className='col-md-2 mt-3 bsdept col-lg-3'>
                 <a className='' href='/Mathematics_'>
                   Mathematics
                 </a>
               </div>
             </div>
-            <div class='row'>
+            <div className='row'>
               <div className='col-md-2 bsdept mt-3 col-lg-3'>
                 <a className='' href='/Economics_'>
                   Economics
                 </a>
               </div>
 
-              <div class='col-md-2 mt-3 bsdept col-lg-3'>
+              <div className='col-md-2 mt-3 bsdept col-lg-3'>
                 <a className='' href='/Islamiyat_'>
                   Islamiyat
                 </a>
               </div>
-              <div class='col-md-2 mt-3 bsdept col-lg-3'>
+              <div className='col-md-2 mt-3 bsdept col-lg-3'>
                 <a className='' href='/BBA'>
                   BBA
                 </a>
               </div>
-              <div class='col-md-2 mt-3 bsdept col-lg-3'>
+              <div className='col-md-2 mt-3 bsdept col-lg-3'>
                 <a className='' href='/MassCom'>
                   Mass Comm.
                 </a>
               </div>
             </div>
-            <div class='row'>
+            <div className='row'>
               <div className='col-md-2 bsdept mt-3 col-lg-3'>
                 <a className='' href='/Sociology'>
                   Sociology
                 </a>
               </div>
 
-              <div class='col-md-2 mt-3 bsdept col-lg-3'>
+              <div className='col-md-2 mt-3 bsdept col-lg-3'>
                 <a className='' href='/Botany'>
                   Botany
                 </a>
               </div>
-              <div class='col-md-2 mt-3 bsdept col-lg-3'>
+              <div className='col-md-2 mt-3 bsdept col-lg-3'>
                 <a className='' href='/Zoology_'>
                   Zoology
                 </a>
               </div>
-              <div class='col-md-2 mt-3 bsdept col-lg-3'>
+              <div className='col-md-2 mt-3 bsdept col-lg-3'>
                 <a className='' href='/Education'>
                   Education
                 </a>
               </div>
             </div>
-            <div class='row'>
+            <div className='row'>
               <div className='col-md-2 bsdept mt-3 col-lg-3'>
                 <a className='' href='/English'>
                   {' '}
@@ -223,17 +226,17 @@ function Home() {
                 </a>
               </div>
 
-              <div class='col-md-2 mt-3 bsdept col-lg-3'>
+              <div className='col-md-2 mt-3 bsdept col-lg-3'>
                 <a className='' href='/Urdu'>
                   Urdu
                 </a>
               </div>
-              <div class='col-md-2 mt-3 bsdept col-lg-3'>
+              <div className='col-md-2 mt-3 bsdept col-lg-3'>
                 <a className='' href='/PoliticalScience'>
                   Political Science
                 </a>
               </div>
-              <div class='col-md-2 mt-3 bsdept col-lg-3'>
+              <div className='col-md-2 mt-3 bsdept col-lg-3'>
                 <a className='' href='/Statistics'>
                   Statistics
                 </a>
