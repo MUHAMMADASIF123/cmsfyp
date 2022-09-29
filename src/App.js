@@ -4,6 +4,7 @@ import { Route, Routes, Redirect } from 'react-router-dom';
 import Addpost from './Components/Addpost';
 import Editpost from './Components/Editpost';
 import Postlist from './Components/Postlist';
+import NewFooter from './Components/NewFooter';
 import './App.css';
 import RegisterUser from './Components/RegisterUser';
 import Login from './Components/Login';
@@ -129,10 +130,10 @@ function App() {
           element={<PoliticalScience />}
         />
         <Route path='/Statistics' element={<Statistics />} />
-        {/* <Route path='/footer' element={<Footer/>}/> */}
+        <Route path='/footer' element={<NewFooter/>}></Route>
+      
       </Routes>
-      {/* <Redirect to='/' /> */}
-      <Footer />
+      <NewFooter/>
     </div>
   );
 }

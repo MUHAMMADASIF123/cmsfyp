@@ -6,7 +6,7 @@ li a {
 li a:hover {
   color: #ffc137;
 }
-h1 {
+ h1 .heading {
   background-color: #172540;
   color: aliceblue;
-}
+} 

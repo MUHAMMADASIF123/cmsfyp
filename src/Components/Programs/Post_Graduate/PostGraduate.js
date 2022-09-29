@@ -4,7 +4,7 @@ import './PostGraduate.css';
 function PostGraduate() {
   return (
     <div className='justify-content-center align-item-center  mb-5 mt-5 me-5 ms-5 p-5'>
-      <h1 className='container rounded'>
+      <h1 className='container heading rounded'>
         PostGraduate Programs List
       </h1>
       <hr />
