@@ -123,7 +123,7 @@ function RegistrationForm() {
       <div class='mt-5  wraper  '>
         <div class='container '>
           <div class=' text-center '>
-            <h1>
+            <h1 className='border rounded-pill h-25 w-75 d-inline-block'>
               Government Graduate Science College Wahdat Road
               Lahore
             </h1>
@@ -132,24 +132,10 @@ function RegistrationForm() {
             </h1>
 
             <form class='rounded shadow p-5 mt-5 h-100 w-100 bg-white'>
-              <div class='input-group mb-3 d-flex justify-content-end'>
-                <h6 className='me-3 mt-2'>Shift</h6>
-                <select
-                  class='custom-select me-5'
-                  id='inputGroupSelect01'
-                  style={{ width: 220 }}
-                >
-                  <option selected value='morning'>
-                    Morning
-                  </option>
-
-                  <option value='evening'>Evening</option>
-                </select>
-              </div>
-
-              <div className='row '>
+              <div className='row mb-3'>
                 <div className='col-md-4'>
                   <div class='form-check'>
+                    <h6 className='d-flex'>Programs</h6>
                     <div class='input-group mb-3'>
                       <select
                         class='custom-select'
@@ -177,6 +163,7 @@ function RegistrationForm() {
                 </div>
                 <div className='col-md-4'>
                   <div class='form-check'>
+                    <h6 className='me-3 d-flex'>program List</h6>
                     <div class='input-group mb-3'>
                       <div>
                         {form.program === 'graduate' ? (
@@ -188,9 +175,6 @@ function RegistrationForm() {
                               console.log(e.target.value)
                             }
                           >
-                            <option selected value='bsit'>
-                              BSIT
-                            </option>
                             <option selected>BSCS</option>
                             <option value='bba'>BBA</option>
                             <option value='botany'>
@@ -199,11 +183,14 @@ function RegistrationForm() {
                             <option value='chemistry'>
                               Chemistry
                             </option>
-                            <option value='communication-studies'>
-                              Communication Studies
+                            <option value='mass-communication'>
+                              Mass Communication
                             </option>
                             <option value='conomics'>
                               Economics
+                            </option>
+                            <option value='islamiyat'>
+                              Islamiyat
                             </option>
                             <option value='ducation'>
                               Education
@@ -240,6 +227,12 @@ function RegistrationForm() {
 
                             // }
                           >
+                            <option value='fsc-engg'>
+                              F.Sc (Pre Engineering)
+                            </option>
+                            <option value='fsc-medical'>
+                              F.Sc (Pre Medical)
+                            </option>
                             <option value='i.com'>I.Com</option>
                             <option value='i.c.s'>I.C.S</option>
                             <option value='general science'>
@@ -282,6 +275,24 @@ function RegistrationForm() {
                     </div>
                   </div>
                 </div>
+                <div className='col-md-4'>
+                  <div class='form-check'>
+                    <h6 className='me-3 d-flex'>Shift</h6>
+                    <div class='input-group mb-3'>
+                      <select
+                        class='custom-select'
+                        id='inputGroupSelect01'
+                        style={{ width: 214 }}
+                      >
+                        <option selected value='morning'>
+                          Morning
+                        </option>
+
+                        <option value='evening'>Evening</option>
+                      </select>
+                    </div>
+                  </div>
+                </div>
               </div>
               <div class='row g-3'>
                 <div className='col'>
@@ -314,7 +325,7 @@ function RegistrationForm() {
                     Student's Phone Number:
                   </label>
                   <input
-                    type='number'
+                    type='text'
                     class='form-control'
                     id='exampleInputPhone'
                     placeholder='Enter Your Phone Number'
@@ -381,7 +392,7 @@ function RegistrationForm() {
                     Student's Cnic Number:
                   </label>
                   <input
-                    type='number'
+                    type='text'
                     class='form-control'
                     id='exampleInputCnic'
                     onChange={(e) =>
@@ -508,7 +519,7 @@ function RegistrationForm() {
                       Father's Cnic Number
                     </label>
                     <input
-                      type='number'
+                      type='text'
                       class='form-control'
                       id='inputCnic'
                       placeholder="Enter Father's Cnic Number"
@@ -553,7 +564,7 @@ function RegistrationForm() {
                       Gradian's Occupation
                     </label>
                     <input
-                      type='number'
+                      type='text'
                       class='form-control'
                       placeholder="Enter gardian's Occupation"
                       aria-label=' First name'
@@ -573,7 +584,7 @@ function RegistrationForm() {
                       Gardian's Phone Number
                     </label>
                     <input
-                      type='number'
+                      type='text'
                       class='form-control'
                       placeholder="Enter Gradian's phone Number"
                       aria-label='First name'
@@ -716,7 +727,7 @@ function RegistrationForm() {
                         <th scope='row'>Matric</th>
                         <td>
                           <input
-                            type='number'
+                            type='text'
                             placeholder='year'
                             style={{ width: 80 }}
                             onChange={(e) =>
@@ -729,7 +740,7 @@ function RegistrationForm() {
                         </td>
                         <td>
                           <input
-                            type='number'
+                            type='text'
                             placeholder='roll'
                             style={{ width: 80 }}
                             onChange={(e) =>
@@ -742,7 +753,7 @@ function RegistrationForm() {
                         </td>
                         <td>
                           <input
-                            type='number'
+                            type='text'
                             style={{ width: 80 }}
                             placeholder='obt'
                             onChange={(e) =>
@@ -755,7 +766,7 @@ function RegistrationForm() {
                         </td>
                         <td>
                           <input
-                            type='number'
+                            type='text'
                             style={{ width: 80 }}
                             placeholder='tot'
                             onChange={(e) =>
@@ -768,8 +779,11 @@ function RegistrationForm() {
                         </td>
                         <td>
                           <div
-                            type='number'
-                            style={{ width: 156 }}
+                            className='border'
+                            type='text'
+                            style={{
+                              width: 156,
+                            }}
                             placeholder='%'
                           >
                             {metric.obtain_marks &&
@@ -827,7 +841,7 @@ function RegistrationForm() {
                           <th scope='row'>Intermediate</th>
                           <td>
                             <input
-                              type='number'
+                              type='text'
                               style={{ width: 80 }}
                               placeholder='year'
                               onChange={(e) =>
@@ -840,7 +854,7 @@ function RegistrationForm() {
                           </td>
                           <td>
                             <input
-                              type='number'
+                              type='text'
                               style={{ width: 80 }}
                               placeholder='roll number'
                               onChange={(e) =>
@@ -853,7 +867,7 @@ function RegistrationForm() {
                           </td>
                           <td>
                             <input
-                              type='number'
+                              type='text'
                               style={{ width: 80 }}
                               placeholder='obt'
                               onChange={(e) =>
@@ -866,7 +880,7 @@ function RegistrationForm() {
                           </td>
                           <td>
                             <input
-                              type='number'
+                              type='text'
                               style={{ width: 80 }}
                               placeholder='totl'
                               onChange={(e) =>
@@ -877,21 +891,19 @@ function RegistrationForm() {
                               }
                             ></input>
                           </td>
-                          <td>
-                            <div
-                              type='number'
-                              style={{ width: 156 }}
-                              placeholder='%'
-                            >
-                              {intermediate.obtain_marks &&
-                              intermediate.total_marks &&
-                              intermediate.total_marks >=
-                                intermediate.obtain_marks
-                                ? (intermediate.obtain_marks /
-                                    intermediate.total_marks) *
-                                  100
-                                : 0}
-                            </div>
+                          <td
+                            type='text'
+                            style={{ width: 156 }}
+                            placeholder='%'
+                          >
+                            {intermediate.obtain_marks &&
+                            intermediate.total_marks &&
+                            intermediate.total_marks >=
+                              intermediate.obtain_marks
+                              ? (intermediate.obtain_marks /
+                                  intermediate.total_marks) *
+                                100
+                              : 0}
                           </td>
                           <td>
                             <input
@@ -943,7 +955,7 @@ function RegistrationForm() {
                           <th scope='row'>BA/B.SC</th>
                           <td>
                             <input
-                              type='number'
+                              type='text'
                               style={{ width: 80 }}
                               placeholder='year'
                               onChange={(e) =>
@@ -956,7 +968,7 @@ function RegistrationForm() {
                           </td>
                           <td>
                             <input
-                              type='number'
+                              type='text'
                               style={{ width: 80 }}
                               placeholder='roll'
                               onChange={(e) =>
@@ -969,7 +981,7 @@ function RegistrationForm() {
                           </td>
                           <td>
                             <input
-                              type='number'
+                              type='text'
                               style={{ width: 80 }}
                               placeholder='obt'
                               onChange={(e) =>
@@ -982,7 +994,7 @@ function RegistrationForm() {
                           </td>
                           <td>
                             <input
-                              type='number'
+                              type='text'
                               style={{ width: 80 }}
                               placeholder='tot'
                               onChange={(e) =>
@@ -993,21 +1005,19 @@ function RegistrationForm() {
                               }
                             ></input>
                           </td>
-                          <td>
-                            <div
-                              type='number'
-                              style={{ width: 156 }}
-                              placeholder='%'
-                            >
-                              {graduate.obtain_marks &&
-                              graduate.total_marks &&
-                              graduate.total_marks >=
-                                graduate.obtain_marks
-                                ? (graduate.obtain_marks /
-                                    graduate.total_marks) *
-                                  100
-                                : 0}
-                            </div>
+                          <td
+                            type='text'
+                            style={{ width: 156 }}
+                            placeholder='%'
+                          >
+                            {graduate.obtain_marks &&
+                            graduate.total_marks &&
+                            graduate.total_marks >=
+                              graduate.obtain_marks
+                              ? (graduate.obtain_marks /
+                                  graduate.total_marks) *
+                                100
+                              : 0}
                           </td>
                           <td>
                             <input
@@ -1056,13 +1066,16 @@ function RegistrationForm() {
                   </table>
                 </div>
               </div>
-              <button
-                type='submit'
-                onClick={handleSubmit}
-                className='mt-4 font-weight-bold text-uppercase text-bold shadow w-75 border-0 rounded-pill'
-              >
-                Submit
-              </button>
+              <div>
+                <button
+                  type='submit'
+                  onClick={handleSubmit}
+                  className='mt-4 font-weight-bold text-uppercase text-bold shadow w-75 border-0 rounded-pill'
+                  href='StudentProfile'
+                >
+                  Submit
+                </button>
+              </div>
             </form>
           </div>
         </div>

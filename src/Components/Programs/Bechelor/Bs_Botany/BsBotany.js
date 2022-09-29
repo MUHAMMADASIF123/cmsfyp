@@ -429,6 +429,122 @@ function BsBotany() {
           </table>
         </div>
       </div>
+      <div className='d-flex justify-content-center me-5 ms-5 p-5'>
+        <div className='shadow p-5 w-100 rounded-top ms-5 me-5 bg-white'>
+          <h2>7th Semester</h2>
+          <hr />
+          <table className='table'>
+            <tbody>
+              <tr>
+                <th>Course Code</th>
+                <th>Course Tital</th>
+                <th>Course ID</th>
+              </tr>
+              <tr>
+                <td>BOT-401 </td>
+                <td>Air Pollution, its Impacts and Control </td>
+                <td>3</td>
+              </tr>
+              <tr>
+                <td>BOT-402 </td>
+                <td>
+                  Air Pollution, its Impacts and Control Lab{' '}
+                </td>
+                <td>1</td>
+              </tr>
+              <tr>
+                <td>BOT-403 </td>
+                <td>Biohazards, Biosafety, Bioethics </td>
+                <td>3</td>
+              </tr>
+              <tr>
+                <td>BOT-404 </td>
+                <td>Biohazards, Biosafety, Bioethics Lab </td>
+                <td>1</td>
+              </tr>
+              <tr>
+                <td>BOT-405 </td>
+                <td> Plant Nutrition and Soil Fertility </td>
+                <td>3</td>
+              </tr>
+              <tr>
+                <td>BOT-406 </td>
+                <td>Plant Nutrition and Soil Fertility Lab</td>
+                <td>1</td>
+              </tr>
+              <tr>
+                <td>BOT-407 </td>
+                <td>Biodegradation and Bioremediation</td>
+                <td>3</td>
+              </tr>
+              <tr>
+                <td>BOT-408 </td>
+                <td>Biodegradation and Bioremediation Lab</td>
+                <td>1</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div className='shadow p-5 w-100 rounded-top ms-5 me-5 bg-white'>
+          <h2>8th Semester</h2>
+          <hr />
+          <table className='table'>
+            <tbody>
+              <tr>
+                <th>Course Code</th>
+                <th>Course Tital</th>
+                <th>Course ID</th>
+              </tr>
+              <tr>
+                <td>BOT-409 </td>
+                <td>Microbes, Man and the Environment </td>
+                <td>3</td>
+              </tr>
+              <tr>
+                <td>BOT-410 </td>
+                <td>Microbes, Man and the Environment Lab </td>
+                <td>1</td>
+              </tr>
+              <tr>
+                <td>BOT-411 </td>
+                <td>
+                  {' '}
+                  Water Pollution, its Management and Control{' '}
+                </td>
+                <td>3</td>
+              </tr>
+              <tr>
+                <td>BOT-412 </td>
+                <td>
+                  Water Pollution, its Management and Control Lab{' '}
+                </td>
+                <td>1</td>
+              </tr>
+              <tr>
+                <td>BOT-413 </td>
+                <td>Challenges of a Changing Earth </td>
+                <td>3</td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>BOT-414 </td>
+                <td> Challenges of a Changing Earth Lab </td>
+                <td>1</td>
+              </tr>
+              <tr>
+                <td>BOT-415 </td>
+                <td> Microbiology </td>
+                <td>3</td>
+              </tr>
+              <tr>
+                <td>BOT-416 </td>
+                <td>Microbiology Lab</td>
+                <td>1</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
     </div>
   );
 }
