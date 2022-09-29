@@ -14,9 +14,11 @@ import Administration from './Components/Administration';
 import Newheader from './Components/Newheader';
 import RegistrationForm from './Components/RegistrationForm';
 import Home from './Components/Home';
+
 import Footer from './Components/Footer';
 import Intermediate from './Components/Programs/Intermediate_Programs/Intermediate';
 import Bscs from './Components/Programs/Bechelor/BsCS/Bscs';
+import BsBotany from './Components/Programs/Bechelor/Bs_Botany/BsBotany';
 import Bschemistry from './Components/Programs/Bechelor/BsChemistry/Bschemistry';
 import BsPhysics from './Components/Programs/Bechelor/Bs_Physics/BsPhysics';
 import BsStatistic from './Components/Programs/Bechelor/Bs_Statistic/BsStatistic';
@@ -29,7 +31,7 @@ import BsEducation from './Components/Programs/Bechelor/Bs_Education/BsEducation
 import BsMath from './Components/Programs/Bechelor/Bs_Math/BsMath';
 import BBA_ from './Components/Programs/Bechelor/BBA/BBA_';
 import BsEnglish from './Components/Programs/Bechelor/Bs_English/BsEnglish';
-import BsBotany from './Components/Programs/Bechelor/Bs_Botany/BsBotany';
+
 import BsSociology from './Components/Programs/Bechelor/Bs_Sociology/BsSociology';
 import BsEconomics from './Components/Programs/Bechelor/Bs_Economics/BsEconomics';
 import BsMass_Communication from './Components/Programs/Bechelor/Bs_Mass_Communication/BsMass_Communication';
@@ -69,6 +71,7 @@ function App() {
         <Route path='/login' element={<Login />} />
         <Route path='/contactUs' element={<ContactUs />} />
         <Route path='/AboutUs' element={<AboutUs />} />
+        <Route path='/Admin' element={<Admin />} />
         <Route
           path='/Administration'
           element={<Administration />}

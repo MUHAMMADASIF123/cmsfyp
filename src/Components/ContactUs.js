@@ -28,11 +28,11 @@ const ContactUs = () => {
   };
   return (
     <div className='row d-flex justify-content-center  vh-100  '>
-      <div className='col-md-6  w-50 text-center mb-5 '>
+      <div className='col-md-6 mt-5 text-center mb-5 '>
         <form
           ref={form}
           onSubmit={sendEmail}
-          className=' shadow d-flex justify-content-center rounded mt-5 mb-5 h-75 '
+          className=' shadow d-flex justify-content-center rounded mt-5 mb-5 h-75 bg-white'
         >
           {/* <h1 className=''>Name</h1> */}
           <div className='w-75  '>

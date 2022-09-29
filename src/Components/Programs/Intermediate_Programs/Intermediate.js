@@ -61,6 +61,11 @@ function Intermediate() {
             <li> Islamic Studies </li>
           </ul>
         </div>
+
+        <div className='shadow p-5 rounded-top ms-5 me-5 bg-white'>
+          <h2> F.Sc (Pre-Medical) </h2>
+          <h2>Introduction</h2>
+          <p>
         <div className='shadow p-5 rounded-top ms-5 me-5'>
           <h2 className='rounded'> F.Sc (Pre-Medical) </h2>
           <h5 className='para'>Introduction:</h5>
@@ -85,6 +90,9 @@ function Intermediate() {
           </ul>
         </div>
       </div>
+      <div className='d-flex  justify-content-center p-5 '>
+        <div className='shadow p-5 w-100 rounded-top ms-5 me-5 bg-white'>
+          <h2> ICS (Information Computer Science) </h2>
       <div className='d-flex  justify-content-center p-5'>
         <div className='shadow p-5 w-100 rounded-top ms-5 me-5 '>
           <h2 className='rounded'>
@@ -128,10 +136,17 @@ function Intermediate() {
         </div>
       </div>
       <div className='d-flex justify-content-center mb-5 p-5'>
+
+        <div className='shadow p-5 w-100 rounded-top ms-5 me-5 bg-white'>
+          <h2> I.COM </h2>
+          <h5>Introduction</h5>
+          <p>
+
         <div className='shadow p-5 w-100 rounded-top ms-5 me-5'>
           <h2 className='rounded'> I.COM </h2>
           <h5 className='para'>Introduction</h5>
           <p className='para'>
+
             I.COM program is particularly designed for Commerce
             degree. Basic concepts of commerce are induced in
             students who opt the subject. The subject provides a
@@ -153,6 +168,8 @@ function Intermediate() {
             <li>Pakistan Studies </li>
           </ul>
         </div>
+        <div className='shadow p-5 w-100 rounded-top ms-5 me-5 bg-white'>
+          <h2> General Science </h2>
         <div className='shadow p-5 w-100 rounded-top ms-5 me-5'>
           <h2 className='rounded'> General Science </h2>
           <h5 className='para'>Compulsory Subjects : </h5>
