@@ -5,6 +5,8 @@ function Bacholer_programs_list() {
   return (
     <div className='justify-content-center align-item-center  mb-5 mt-5 me-5 ms-5 p-5 bg-white rounded'>
       <h1>Bacholer Programs List</h1>
+    <div className='justify-content-center align-item-center  mb-5 mt-5 me-5 ms-5 p-5'>
+      <h1 className='rounded'>Bacholer Programs List</h1>
       <hr />
       <br />
       <ul>

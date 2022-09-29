@@ -54,7 +54,7 @@ function Islamiyat_() {
         </div>
         <div>
           <img
-            src='./images/Departments/islamiyat_dpt.jpeg'
+            src='https://res.cloudinary.com/azeem413/image/upload/v1664035550/images/Departments/islamiyat_dpt_awjbdu.jpg'
             width='600px'
             height='400px'
           />

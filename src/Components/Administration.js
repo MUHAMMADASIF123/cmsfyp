@@ -121,7 +121,9 @@ function Administration() {
             </li>
             <hr />
           </ul>
-          <h3>Controller Examination Offfice (BS) </h3>
+          <h3 className='rounded'>
+            Controller Examination Offfice (BS){' '}
+          </h3>
           <hr />
           <ul>
             <li>
@@ -158,7 +160,7 @@ function Administration() {
       <div>
         <div className='d-flex justify-content-center  mt-5 me-5 ms-5 p-5'>
           <div className='shadow p-5 w-100 rounded-top ms-5 me-5 bg-white '>
-            <h3>Registrar Office</h3>
+            <h3 className='rounded'>Registrar Office</h3>
             <hr />
             <ul>
               <li>
@@ -192,7 +194,7 @@ function Administration() {
             </ul>
           </div>
           <div className='shadow p-5 w-100 rounded-top ms-5 me-5 bg-white '>
-            <h3>Admission Board </h3>
+            <h3 className='rounded'>Admission Board </h3>
             <hr />
             <ul>
               <li>
@@ -227,7 +229,7 @@ function Administration() {
       <div>
         <div className='d-flex justify-content-center  mt-5 me-5 ms-5 p-5'>
           <div className='shadow p-5 w-100 rounded-top ms-5 me-5 bg-white '>
-            <h3>
+            <h3 className='rounded'>
               Controller Examination Offfice (Intermediate)
             </h3>
             <hr />
@@ -267,7 +269,7 @@ function Administration() {
             </ul>
           </div>
           <div className='shadow p-5 w-100 rounded-top ms-5 me-5 bg-white '>
-            <h3>Cleanliness Committee: </h3>
+            <h3 className='rounded'>Cleanliness Committee: </h3>
             <hr />
             <ul>
               <li>
@@ -310,7 +312,9 @@ function Administration() {
       <div>
         <div className='d-flex justify-content-center  mt-5 me-5 ms-5 p-5'>
           <div className='shadow p-5 w-100 rounded-top ms-5 me-5 bg-white '>
-            <h3>College Disipline Commottee</h3>
+            <h3 className='rounded'>
+              College Disipline Commottee
+            </h3>
             <hr />
             <ul>
               <li>
@@ -341,7 +345,7 @@ function Administration() {
             </ul>
           </div>
           <div className='shadow p-5 w-100 rounded-top ms-5 me-5 bg-white '>
-            <h3>Proctorial Board: </h3>
+            <h3 className='rounded'>Proctorial Board: </h3>
             <hr />
             <ul>
               <li>

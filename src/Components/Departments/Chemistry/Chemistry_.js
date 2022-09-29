@@ -40,7 +40,7 @@ function Chemistry_() {
         </div>
         <div>
           <img
-            src='./images/Departments/chemistry_dpt.jpeg'
+            src='https://res.cloudinary.com/azeem413/image/upload/v1664035549/images/Departments/chemistry_dpt_v0qkzl.jpg'
             width='600px'
             height='400px'
           />

@@ -33,15 +33,15 @@ function Intermediate() {
       </h1>
       <div>
         <img
-          src='images/Others/inter_dpt.jpeg'
+          src='https://res.cloudinary.com/azeem413/image/upload/v1664035585/images/Others/inter_dpt_bowsu2.jpg'
           width='90%'
           height='650px'
         />
       </div>
       <div className='d-flex justify-content-center p-5 '>
         <div className='shadow p-5 rounded-top ms-5 me-5 fsc_engg align-baseline'>
-          <h2> F.Sc (Pre-Engineering) </h2>
-          <h2>Introduction</h2>
+          <h2 className='rounded'> F.Sc (Pre-Engineering) </h2>
+          <h5 className='para'>Introduction:</h5>
           <p className='para'>
             FSc Pre- Engineering programme is one of the most
             credible programs for students to chieve bright
@@ -49,10 +49,9 @@ function Intermediate() {
             programme serves as a gateway to prepare students to
             pursue their bachelor’s degrees in top universities.
           </p>
+          <h5 className='para'> Subjects : </h5>
+
           <ul>
-            <li>
-              <h4> Subjects : </h4>
-            </li>
             <li> Mathematics </li>
             <li> Physics </li>
             <li> Chemistry </li>
@@ -62,10 +61,15 @@ function Intermediate() {
             <li> Islamic Studies </li>
           </ul>
         </div>
+
         <div className='shadow p-5 rounded-top ms-5 me-5 bg-white'>
           <h2> F.Sc (Pre-Medical) </h2>
           <h2>Introduction</h2>
           <p>
+        <div className='shadow p-5 rounded-top ms-5 me-5'>
+          <h2 className='rounded'> F.Sc (Pre-Medical) </h2>
+          <h5 className='para'>Introduction:</h5>
+          <p className='para'>
             FSc Pre-Medical programme aims to deliver diverse
             knowledge and education related to medical and other
             related fields. After completing this programme
@@ -73,10 +77,9 @@ function Intermediate() {
             careers in the field of medical and other health
             sciences.
           </p>
+          <h5 className='para'> Subjects : </h5>
+
           <ul>
-            <li>
-              <h4> Subjects : </h4>
-            </li>
             <li> Biology </li>
             <li> Physics </li>
             <li> Chemistry </li>
@@ -90,10 +93,15 @@ function Intermediate() {
       <div className='d-flex  justify-content-center p-5 '>
         <div className='shadow p-5 w-100 rounded-top ms-5 me-5 bg-white'>
           <h2> ICS (Information Computer Science) </h2>
+      <div className='d-flex  justify-content-center p-5'>
+        <div className='shadow p-5 w-100 rounded-top ms-5 me-5 '>
+          <h2 className='rounded'>
+            {' '}
+            ICS (Information Computer Science){' '}
+          </h2>
+          <h5 className='para'> Subjects : </h5>
+
           <ul>
-            <li>
-              <h4> Subjects : </h4>
-            </li>
             <li> Mathematics / Economics </li>
             <li> Physics / Statistics </li>
             <li> Computer </li>
@@ -104,16 +112,18 @@ function Intermediate() {
           </ul>
         </div>
         <div className='shadow p-5 w-100 rounded-top border-5 ms-5 me-5 '>
-          <h2> F.A (Arts) </h2>
+          <h2 className='rounded'> F.A (Arts) </h2>
+          <h5 className='para'>Compulsory Subjects : </h5>
+
           <ul>
-            <li>
-              <h4> COMPULSORY SUBJECTS : </h4>
-            </li>
             <li> Urdu </li>
             <li> English </li>
             <li> Pak Studies </li>
             <li> Islamic Studies </li>
-            <h4 className='h4'> ELECTIVE SUBJECTS </h4>
+          </ul>
+          <h5 className='para'>Elective Subjects : </h5>
+          <ul>
+            {' '}
             <li> English </li>
             <li> Civics </li>
             <li> Phy.Education </li>
@@ -126,20 +136,26 @@ function Intermediate() {
         </div>
       </div>
       <div className='d-flex justify-content-center mb-5 p-5'>
+
         <div className='shadow p-5 w-100 rounded-top ms-5 me-5 bg-white'>
           <h2> I.COM </h2>
           <h5>Introduction</h5>
           <p>
+
+        <div className='shadow p-5 w-100 rounded-top ms-5 me-5'>
+          <h2 className='rounded'> I.COM </h2>
+          <h5 className='para'>Introduction</h5>
+          <p className='para'>
+
             I.COM program is particularly designed for Commerce
             degree. Basic concepts of commerce are induced in
             students who opt the subject. The subject provides a
             huge ground for upcoming commerce professionals. We
             offer courses mentioned below:
           </p>
+          <h5 className='para'> Subjects : </h5>
+
           <ul>
-            <li>
-              <h4> Subjects : </h4>
-            </li>
             <li> Urdu </li>
             <li> Islamic Studies</li>
             <li> English </li>
@@ -154,19 +170,20 @@ function Intermediate() {
         </div>
         <div className='shadow p-5 w-100 rounded-top ms-5 me-5 bg-white'>
           <h2> General Science </h2>
+        <div className='shadow p-5 w-100 rounded-top ms-5 me-5'>
+          <h2 className='rounded'> General Science </h2>
+          <h5 className='para'>Compulsory Subjects : </h5>
+
           <ul>
-            <li>
-              {' '}
-              <h4>COMPULSORY SUBJECTS </h4>
-            </li>
             <li> English </li>
             <li> Islamic Studies </li>
             <li> Pakistan Studies </li>
             <li> Urdu </li>
-            <li>
-              {' '}
-              <h4>ELECTIVE SUBJECTS </h4>
-            </li>
+          </ul>
+          <h5 className='para'>Elective Subjects : </h5>
+
+          <ul>
+            {' '}
             <li> Physics </li>
             <li> Mathematics </li>
             <li> Statistics </li>

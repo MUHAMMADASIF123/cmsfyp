@@ -45,7 +45,7 @@ function BBA() {
         </div>
         <div>
           <img
-            src='./images/Departments/bba_dpt.jpeg'
+            src='https://res.cloudinary.com/azeem413/image/upload/v1664035545/images/Departments/bba_dpt_b025lp.jpg'
             width='600px'
             height='400px'
           />

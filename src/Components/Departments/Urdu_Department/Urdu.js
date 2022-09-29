@@ -42,7 +42,7 @@ function Urdu() {
         </div>
         <div>
           <img
-            src='./images/Departments/urdu_dpt.jpeg'
+            src='https://res.cloudinary.com/azeem413/image/upload/v1664035571/images/Departments/urdu_dpt_onjtap.jpg'
             width='600px'
             height='400px'
           />

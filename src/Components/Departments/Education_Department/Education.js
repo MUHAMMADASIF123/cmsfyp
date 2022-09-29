@@ -32,7 +32,7 @@ function Education() {
             See Programe Detail
           </a>
 
-          <ul className='mt-4'>
+          <ul className='mt-4 mb-5'>
             <li>
               <b>Dr. Rana Naveed Ahmad</b> <br />
               Associate Professor Ph.D.{' '}
@@ -60,7 +60,7 @@ function Education() {
         </div>
         <div>
           <img
-            src='./images/Departments/education_dpt.jpeg'
+            src='https://res.cloudinary.com/azeem413/image/upload/v1664035548/images/Departments/education_dpt_cwbwcp.jpg'
             width='600px'
             height='400px'
           />
