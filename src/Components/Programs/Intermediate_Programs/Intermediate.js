@@ -3,30 +3,6 @@ import './Intermediate.css';
 function Intermediate() {
   return (
     <div>
-      {/* <div>
-        <input
-          type='text'
-          id='header-search'
-          placeholder='Search blog posts'
-          name='s'
-        />
-        <button type='submit'>Search</button>
-
-        <div>
-          <a
-            className='nav-link active item'
-            href='/BechelorPrograms'
-          >
-            Bachelor in Science (BS Hons Programs)
-          </a>
-          <a
-            className='nav-link active item'
-            href='/PostGraduatePrograms'
-          >
-            Post-Graduate Programs
-          </a>
-        </div>
-      </div> */}
       <h1 className='mt-5 rounded container'>
         {' '}
         InterMediate Programs{' '}
@@ -65,7 +41,7 @@ function Intermediate() {
         <div className='shadow p-5 rounded-top ms-5 me-5 bg-white'>
           <h2> F.Sc (Pre-Medical) </h2>
           <h2>Introduction</h2>
-          <p>
+          
         <div className='shadow p-5 rounded-top ms-5 me-5'>
           <h2 className='rounded'> F.Sc (Pre-Medical) </h2>
           <h5 className='para'>Introduction:</h5>
@@ -140,7 +116,7 @@ function Intermediate() {
         <div className='shadow p-5 w-100 rounded-top ms-5 me-5 bg-white'>
           <h2> I.COM </h2>
           <h5>Introduction</h5>
-          <p>
+        
 
         <div className='shadow p-5 w-100 rounded-top ms-5 me-5'>
           <h2 className='rounded'> I.COM </h2>
@@ -192,6 +168,11 @@ function Intermediate() {
           </ul>
         </div>
       </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
     </div>
   );
 }

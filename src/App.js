@@ -57,6 +57,9 @@ import Admin from './Components/Admin_side/Admin';
 import StudentView from './Components/Student/StudentView';
 import Studentprofile from './Components/Student/StudentProfile';
 
+
+
+
 function App() {
   return (
     <div className='App'>
@@ -134,7 +137,7 @@ function App() {
         />
         <Route path='/Statistics' element={<Statistics />} />
         <Route path='/footer' element={<NewFooter/>}></Route>
-      
+        {/* <Route path='/test' element={<Headertest/>}></Route> */}
       </Routes>
       <NewFooter/>
     </div>

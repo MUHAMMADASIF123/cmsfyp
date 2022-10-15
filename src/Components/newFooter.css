@@ -4,25 +4,29 @@ footer{
     
     background-color: #172540;
     border-bottom: 5px solid orange;
+    /* height: 240px; */
+    
 }
 
-
+.col-lg-4{
+    height: 240px;
+}
 p{
     text-align: justify;
     margin-left: 10px;
 }
 .icons{
     letter-spacing: 20px;
-    color: white;
+    color: orange;
 
 }
 .IMG{
     width: 90%;
     margin: 5px 5px 5px 5px;
-    height: 90%;
+    height: 70%;
 }
 .copyright{
-    height: 25px;
+    height: 50px;
     width: 100%;
     background-color: #172540;
 }

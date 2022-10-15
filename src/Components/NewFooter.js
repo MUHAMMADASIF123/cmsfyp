@@ -6,10 +6,10 @@ function NewFooter() {
     <>
     <footer>
 <div className='row w-100'>
-    <div className='col-lg-4 m-0 col-md-4 col-sm-12'>
+    <div className='col-lg-4  col-md-4 col-sm-12 '>
     <a>
                   <img
-                    className='w-25 logo h-25 mt-2'
+                    className='w-25 logo d-flex ms-2 h-50 mt-3'
                     src='https://res.cloudinary.com/azeem413/image/upload/v1664276146/images/Others/colglogo_aahu5f.png'
                   ></img>
                 </a>
@@ -22,8 +22,8 @@ function NewFooter() {
     </div>
     <div className='col-lg-4 m-0 col-md-4 col-sm-12 '>
     
-                <div className=''>
-                <h1 className='info mb-3  mt-2 text-white'>Information</h1>
+                <div className='mt-5'>
+                <h1 className='info mb-3   text-white'>Information</h1>
                   {/* GCS Wahdat Road,Lahore  */}
                   <h6 class='align-baseline me-4 text-white'>
                     <i class='fa-solid fa-location-dot text-warning me-2'></i>
@@ -44,21 +44,23 @@ function NewFooter() {
           <i class='fa-brands fa-twitter'></i>
         </div>
     </div>
-    <div className='col-lg-4 m-0 col-md-4 col-sm-12 '>
+    <div className='col-lg-4  col-md-4 col-sm-12 '>
            <a href='https://bit.ly/3RdWnox' target='_blank'>
                   {' '}
                   <img
-                    className='IMG'
+                    className='IMG mt-5'
                     src='https://res.cloudinary.com/azeem413/image/upload/v1664276029/images/Others/gcs_map_ruanqs.png'
                   />{' '}
                 </a>
     </div>
 </div>
+
     </footer>
     <div className='text-white copyright'>
     All &copy; Right Reserved By Government Graduate
     college Science | GCS
 </div>
+   
 </>
 
     

@@ -100,6 +100,7 @@ function Bacholer_programs_list() {
         <br />
       </ul>
     </div>
+    </div>
   );
 }
 
